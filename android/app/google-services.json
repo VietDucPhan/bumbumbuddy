@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "315634877630",
+    "project_id": "bum-buddy"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315634877630:android:8bdbe58617bccfe7",
+        "android_client_info": {
+          "package_name": "com.bumbumbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315634877630-48kg0fub0upb8d7iuonksqe9l0fdpvvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bumbumbuddy",
+            "certificate_hash": "9b472143fbd0cdd469fd754fc527855877656164"
+          }
+        },
+        {
+          "client_id": "315634877630-kj0h51lj0pvgc1re5c77dos978bh647p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bumbumbuddy",
+            "certificate_hash": "84f3e5c3657aa9a9bf92b2ffe7d312ca2ee4c079"
+          }
+        },
+        {
+          "client_id": "315634877630-5furs7lto6t9g99eghlnrv0q0cu61mun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_hOcWYWny3xndDBEk0SrlOcuL_keHVlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315634877630:android:5bf4ef50f71f2863",
+        "android_client_info": {
+          "package_name": "com.bumbumbuddy.bumbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315634877630-m7j6t3b45krgrt5d8pvqer59h5il09nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bumbumbuddy.bumbuddy",
+            "certificate_hash": "535dd7d327d693526dd5ff3218418405cd68fffe"
+          }
+        },
+        {
+          "client_id": "315634877630-5furs7lto6t9g99eghlnrv0q0cu61mun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_hOcWYWny3xndDBEk0SrlOcuL_keHVlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315634877630:android:5965cd3d662a9f1d",
+        "android_client_info": {
+          "package_name": "com.bumbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315634877630-bnejfprvnk6arpf6f9274ejl17ehujh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bumbuddy",
+            "certificate_hash": "535dd7d327d693526dd5ff3218418405cd68fffe"
+          }
+        },
+        {
+          "client_id": "315634877630-5furs7lto6t9g99eghlnrv0q0cu61mun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_hOcWYWny3xndDBEk0SrlOcuL_keHVlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4504ae3ec47953f3d0c324dc66996aecfb7fbb5c">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_4da80e0dbd186ddfdcc56ca68c307fcf8fddf4cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.android/build-cache/404245219614a3bf77c44f89eefd87f1d9645378/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_d782d51372bff6cfc3079034092b7b60d253feee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.android/build-cache/6417a8d1e0262330e6c0417cbd9370b608045b20/output/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_7f175e4864fa8fabe90ac7725ab60cc8198574f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3db33d8c07001f2894650c6d8a811a6ff1e9a1f7">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_0aad1627125c84fa8cabb2e8eea2cbfba8430ca0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.android/build-cache/211e0f7f2bfb0d352038278ae99c660233b46bec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_cd606510222a620ec29a1ae33bf44a5f81e9d980.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.android/build-cache/6417a8d1e0262330e6c0417cbd9370b608045b20/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_39796db38c5f9012a2673eee0de74e4a719e59d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_dcc9e6c7d6bd0d330100193840f52e66079d3f10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="71519d58111acda15d5cb2be4d54674f96cb7ba9">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_4b171253758e121460a395e924996f34bb87c0e8.jar" />
+    </item>
+
+</items>
