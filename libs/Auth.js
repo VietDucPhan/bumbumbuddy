@@ -47,6 +47,7 @@ class Auth {
     AsyncStorage.getItem('user',function(error,result){
       var response = JSON.parse(result)
       if(!error && response && response.type){
+        console.log('Auth.isLogedIn',response);
         return callback(response);
       } else {
         return callback(null);;
@@ -268,6 +269,7 @@ class Auth {
  signOutBoth(){
    this.signOutWithGoogle();
    this.signOutWithFacebook();
+   return callback(true);
  }
 }
 

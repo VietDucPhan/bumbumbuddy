@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, NetInfo } from 'react-native';
 import BumBuddyTabs from './BumBuddyTabs';
 var ScrollableTabView = require('react-native-scrollable-tab-view');
 import UserTab from './tabs/user/user';
+import CommentsTab from './tabs/comments/comments';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -41,10 +42,14 @@ export default class App extends React.Component {
     });
   }
 
+  _goToUserPage(){
+    this.tabView.goToPage(2);
+  }
+
   render() {
     if(!this.state.isConnected){
       return (
-        <View style={{flex:1, alignItems:"center"}}>
+        <View style={{flex:1,paddingTop:15, alignItems:"center"}}>
           <Text>Network is not connected</Text>
         </View>
       );
@@ -54,16 +59,15 @@ export default class App extends React.Component {
           <ScrollableTabView
           initialPage={0}
           renderTabBar={() => <BumBuddyTabs  />}
+          ref={(tabView) => { this.tabView = tabView; }}
           tabBarPosition="bottom"
           scrollWithoutAnimation={true}
           >
             <View tabLabel="ios-pin-outline" style={{flex:1, alignItems:"center"}}>
               <Text>Tab 1</Text>
             </View>
-            <View tabLabel="ios-funnel-outline" style={{flex:1, alignItems:"center"}}>
-              <Text>Tab 2</Text>
-            </View>
-            <UserTab tabLabel="ios-funnel-outline" style={{flex:1, alignItems:"center"}} />
+            <CommentsTab goToUserPage={() => this._goToUserPage()} tabLabel="ios-funnel-outline" style={{flex:1, alignItems:"center"}} />
+            <UserTab tabLabel="ios-person-outline" style={{flex:1, alignItems:"center"}} />
           </ScrollableTabView>
         </View>
 

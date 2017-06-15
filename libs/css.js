@@ -1,9 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  mapViewContainer:{
-    marginTop:64,
-    flex:1
+  viewContainer1st:{
+    flex:1,
+    paddingTop:15
   },
   map: {
     flex: 1

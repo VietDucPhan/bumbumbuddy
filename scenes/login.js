@@ -22,7 +22,7 @@ class LoginView extends Component {
     Auth.signInWithFacebook(function(err,res){
       console.log('error', err);
       if(err){
-        self.props.navigator.pop();
+        console.log('login.facebookLogin', err);
       }
 
     });
@@ -32,7 +32,8 @@ class LoginView extends Component {
 
     Auth.signInWithGoogle(function(err,res){
       if(err){
-        self.props.navigator.pop();
+        console.log('login.googleLogin', err);
+        //self.props.navigator.pop();
       }
 
     });
@@ -44,7 +45,7 @@ class LoginView extends Component {
 
         <TouchableOpacity style={styles.loginBtn} >
           <Icon.Button onPress={this.facebookLogin.bind(this)} name="facebook" backgroundColor="#4267b2">
-            Login with Google
+            Login with Facebook
           </Icon.Button>
         </TouchableOpacity>
 
