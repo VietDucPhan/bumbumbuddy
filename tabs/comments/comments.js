@@ -15,7 +15,6 @@ import {
  } from 'react-native';
 import AuthLib from '../../libs/Auth';
 import BumsLib from '../../libs/Bums';
-import LoginView from '../../scenes/login';
 import Icon from 'react-native-vector-icons/Ionicons';
 var Auth = new AuthLib();
 
@@ -45,7 +44,7 @@ class bums extends Component {
       'Please choose option below',
       [
         {text: 'Report this', onPress: () => console.log('Ask me later pressed')},
-        {text: 'Rate this bum', onPress: () => self.props.goToUserPage()},
+        {text: 'Rate this bum', onPress: () => this.props.goToUserPage()},
 
 
       ],

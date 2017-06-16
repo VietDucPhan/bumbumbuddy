@@ -17,58 +17,36 @@ import {
   Image
  } from 'react-native';
 import AuthLib from '../../libs/Auth';
-import LoginView from '../../scenes/login';
+import LoginView from './tmpl/login';
 import Icon from 'react-native-vector-icons/Ionicons';
 var Auth = new AuthLib();
 
-class user extends Component {
+class profile extends Component {
   constructor(props){
     super(props);
-    this.state = {
-      user:null
-    }
-  }
-
-  signOut(){
-    var self = this;
-    Auth.signOutBoth(function(response){
-      self.setState({user:null});
-    });
-  }
-
-  _debug(){
-    var self = this;
-    Auth.isLogedIn(function(response){
-      console.log('user._debug', response);
-    });
   }
   componentDidMount(){
-    var self = this;
-
-    Auth.isLogedIn(function(response){
-      console.log('user.componentDidMount', response);
-      self.setState({
-        user:response
-      });
-
-    });
   }
 
   render() {
 
-    if(this.state.user == null){
+    if(this.props.user == null){
       return (
-        <LoginView/>
+        <LoginView signIn={this.props.signIn}/>
       )
     } else {
       return (
           <ScrollView style={{backgroundColor:"#e8e8e8"}}>
             <View style={styles.profileContainer}>
-
+              <View>
               <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
          style={{width: 128, height: 128, borderRadius:64}} />
+              </View>
 
-              <Text>{this.state.user.name}</Text>
+              <View style={styles.profileName}>
+                <Text>{this.props.user.name}</Text>
+              </View>
+
             </View>
             <View style={styles.profileNavigatorContainer}>
               <TouchableOpacity style={styles.profileButtonNavigator} >
@@ -100,12 +78,15 @@ class user extends Component {
 
 
             <View style={styles.profileNavigatorContainer}>
-              <TouchableOpacity style={styles.profileButtonNavigator} >
+              <TouchableOpacity style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
                 <Text>Settings</Text>
                 <Icon size={20} name="ios-arrow-forward" backgroundColor="#4267b2"/>
               </TouchableOpacity>
+            </View>
+
+            <View style={styles.profileNavigatorContainer}>
               <TouchableOpacity
-                onPress={this.signOut().bind(this)}
+                onPress={() => this.props.signOut()}
                 style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
                 <Text>Sign Out</Text>
                 <Icon size={20} name="ios-log-out" backgroundColor="#4267b2"/>
@@ -134,6 +115,9 @@ class user extends Component {
       paddingRight:5,
       backgroundColor:"#fff"
     },
+    profileName:{
+      marginTop:10
+    },
     profileButtonNavigator:{
       marginBottom:10,
       flexDirection: 'row',
@@ -149,4 +133,4 @@ class user extends Component {
       borderBottomWidth:0
     }
   });
-module.exports = user;
+module.exports = profile;

@@ -266,7 +266,7 @@ class Auth {
 
 
 
- signOutBoth(){
+ signOutBoth(callback){
    this.signOutWithGoogle();
    this.signOutWithFacebook();
    return callback(true);
