@@ -126,6 +126,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-maps')
     compile project(':react-native-fbsdk')
     compile project(':react-native-google-signin')
     compile project(':react-native-vector-icons')
@@ -134,6 +135,11 @@ dependencies {
     compile(project(":react-native-google-signin")){
         exclude group: "com.google.android.gms" // very important
     }
+    compile(project(':react-native-maps')){
+        exclude group: 'com.google.android.gms', module: 'play-services-base'
+        exclude group: 'com.google.android.gms', module: 'play-services-maps'
+    }
+    compile 'com.google.android.gms:play-services-maps:11.0.0'
     compile 'com.google.android.gms:play-services-auth:11.0.0'
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile 'com.facebook.android:facebook-android-sdk:4.+'

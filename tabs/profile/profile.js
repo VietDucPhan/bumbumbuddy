@@ -33,8 +33,10 @@ class profile extends Component {
   static navigationOptions = {
     tabBarLabel: '',
     tabBarIcon: ({ tintColor, focused }) => (
-      <Icon style={{paddingTop:5}} size={30} name={focused ? 'ios-person' : 'ios-person-outline'} />
-    )
+      <Icon style={{paddingTop:5, paddingBottom:5}} size={30} name={focused ? 'ios-person' : 'ios-person-outline'} />
+    ),
+    headerTitle:'Profile',
+    title:'Profile'
   };
 
   componentDidMount(){

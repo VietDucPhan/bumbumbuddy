@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/android/bumbumbuddy.iml" filepath="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/android/bumbumbuddy.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/react-native-fbsdk.iml" filepath="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/react-native-fbsdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/react-native-google-signin.iml" filepath="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/react-native-google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/react-native-maps.iml" filepath="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/react-native-maps.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
     </modules>
   </component>

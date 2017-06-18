@@ -29,7 +29,7 @@ class comments extends Component {
   static navigationOptions = {
     tabBarLabel: '',
     tabBarIcon: ({ tintColor, focused }) => (
-      <Icon style={{paddingTop:5}} size={30} name={focused ? 'ios-chatbubbles' : 'ios-chatbubbles-outline'} />
+      <Icon style={{paddingTop:5, paddingBottom:5}} size={30} name={focused ? 'ios-chatbubbles' : 'ios-chatbubbles-outline'} />
     ),
     headerTitle:'Comments',
     title:'Comments'

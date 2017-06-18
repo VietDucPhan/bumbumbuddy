@@ -1,43 +1,45 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, NetInfo } from 'react-native';
-import BumBuddyTabs from './BumBuddyTabs';
-var ScrollableTabView = require('react-native-scrollable-tab-view');
 
 import AuthLib from './libs/Auth';
 import { StackNavigator, TabNavigator } from 'react-navigation';
-
+//Tabs
 import ProfileTab from './tabs/profile/profile';
 import CommentsTab from './tabs/comments/comments';
+import MapTab from './tabs/map/map';
+//Stacks
 import CommentDetailStack from './tabs/comments/tmpl/commentdetail';
+const tabBarOptions = {
+  showLabel:false,
+  showIcon:true,
+  style: {
+  backgroundColor:'#fff'
+  },
+  indicatorStyle:{
+    display:'none'
+  }
+}
 
-const TabsNotLogedIn  = TabNavigator({
+const tabsManagement = {
   Comments : { screen: CommentsTab },
   Profile : { screen: ProfileTab },
-},
-{
-  tabBarOptions:{
-    showLabel:false
-  }
-});
+  Map:{screen:MapTab}
+}
 
-const TabsLogedIn  = TabNavigator({
-  Home : { screen: CommentsTab },
-  Profile : { screen: ProfileTab },
-},
-{
-  tabBarOptions:{
-    showLabel:false
+const Tabs = TabNavigator(
+  tabsManagement,
+  {
+    tabBarOptions:tabBarOptions,
+    tabBarPosition:'bottom'
   }
-});
+);
 
-const StackNotLogedIn = StackNavigator({
-  Main:{screen:TabsNotLogedIn},
+const stackMangement = {
+  Main:{screen:Tabs},
   CommentDetail:{screen:CommentDetailStack}
-});
-const StackLogedIn = StackNavigator({
-  Main:{screen:TabsNotLogedIn},
-  CommentDetail:{screen:CommentDetailStack}
-});
+}
+const StackNotLogedIn = StackNavigator(stackMangement);
+const StackLogedIn = StackNavigator(stackMangement);
 
 var Auth = new AuthLib();
 

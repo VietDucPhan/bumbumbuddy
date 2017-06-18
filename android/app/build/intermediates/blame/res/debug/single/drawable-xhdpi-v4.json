@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
         "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",

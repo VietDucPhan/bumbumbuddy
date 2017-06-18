@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/android/app" />
             <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android" />
             <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android" />
+            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android" />
             <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android" />
           </set>
         </option>
