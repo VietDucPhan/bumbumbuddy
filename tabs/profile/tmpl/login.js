@@ -62,7 +62,7 @@ class LoginView extends Component {
       return (
         <View style={styles.container}>
           <TouchableOpacity style={styles.loginBtn} >
-            <Icon.Button onPress={this.facebookLogin.bind(this)} name="facebook" backgroundColor="#4267b2">
+            <Icon.Button onPress={()=>this.props.signOut()} name="facebook" backgroundColor="#4267b2">
               Login with Facebook
             </Icon.Button>
           </TouchableOpacity>

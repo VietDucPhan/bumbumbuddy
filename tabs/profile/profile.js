@@ -24,15 +24,28 @@ var Auth = new AuthLib();
 class profile extends Component {
   constructor(props){
     super(props);
+    var self = this;
+    this.state = {
+      user:this.props.screenProps.user
+    };
   }
+
+  static navigationOptions = {
+    tabBarLabel: '',
+    tabBarIcon: ({ tintColor, focused }) => (
+      <Icon style={{paddingTop:5}} size={30} name={focused ? 'ios-person' : 'ios-person-outline'} />
+    )
+  };
+
   componentDidMount(){
+
   }
-
+  //
   render() {
-
-    if(this.props.user == null){
+    if(this.state.user == null){
       return (
-        <LoginView signIn={this.props.signIn}/>
+        <LoginView signOut={this.props.screenProps.signOut} signIn={this.props.screenProps.signIn}/>
+
       )
     } else {
       return (
@@ -44,7 +57,7 @@ class profile extends Component {
               </View>
 
               <View style={styles.profileName}>
-                <Text>{this.props.user.name}</Text>
+                <Text>{this.state.user.name}</Text>
               </View>
 
             </View>
@@ -86,7 +99,7 @@ class profile extends Component {
 
             <View style={styles.profileNavigatorContainer}>
               <TouchableOpacity
-                onPress={() => this.props.signOut()}
+                onPress={() => this.props.screenProps.signOut()}
                 style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
                 <Text>Sign Out</Text>
                 <Icon size={20} name="ios-log-out" backgroundColor="#4267b2"/>

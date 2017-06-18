@@ -1,12 +1,46 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, NetInfo } from 'react-native';
 import BumBuddyTabs from './BumBuddyTabs';
 var ScrollableTabView = require('react-native-scrollable-tab-view');
+
+import AuthLib from './libs/Auth';
+import { StackNavigator, TabNavigator } from 'react-navigation';
+
 import ProfileTab from './tabs/profile/profile';
 import CommentsTab from './tabs/comments/comments';
-import AuthLib from './libs/Auth';
+import CommentDetailStack from './tabs/comments/tmpl/commentdetail';
+
+const TabsNotLogedIn  = TabNavigator({
+  Comments : { screen: CommentsTab },
+  Profile : { screen: ProfileTab },
+},
+{
+  tabBarOptions:{
+    showLabel:false
+  }
+});
+
+const TabsLogedIn  = TabNavigator({
+  Home : { screen: CommentsTab },
+  Profile : { screen: ProfileTab },
+},
+{
+  tabBarOptions:{
+    showLabel:false
+  }
+});
+
+const StackNotLogedIn = StackNavigator({
+  Main:{screen:TabsNotLogedIn},
+  CommentDetail:{screen:CommentDetailStack}
+});
+const StackLogedIn = StackNavigator({
+  Main:{screen:TabsNotLogedIn},
+  CommentDetail:{screen:CommentDetailStack}
+});
 
 var Auth = new AuthLib();
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -16,10 +50,12 @@ export default class App extends React.Component {
       user:null
     };
     this._handleConnectivityChange = this._handleConnectivityChange.bind(this);
+    //this._signIn = this._signIn.bind(this)
   }
 
   _signOut(){
     var self = this;
+    console.log('App._signOut',this.state);
     Auth.signOutBoth(function(response){
       self.setState({user:null});
     });
@@ -28,7 +64,7 @@ export default class App extends React.Component {
   _signIn(){
     var self = this;
     Auth.isLogedIn(function(response){
-      //console.log('user.componentDidMount', response);
+      console.log('App._signIn');
       self.setState({
         user:response
       });
@@ -37,6 +73,10 @@ export default class App extends React.Component {
 
   componentWillMount(){
 
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return true;
   }
   componentDidMount() {
     var self = this;
@@ -68,46 +108,33 @@ export default class App extends React.Component {
     });
   }
 
-  _goToUserPage(){
-    this.tabView.goToPage(2);
-  }
-
   render() {
+    var self = this;
     if(!this.state.isConnected){
       return (
-        <View style={{flex:1,paddingTop:15, alignItems:"center"}}>
+        <View style={{flex:1,paddingTop:25,alignItems:"center", flexDirection:'column'}}>
           <Text>Network is not connected</Text>
         </View>
       );
     } else {
-      return (
-        <View style={{flex:1,paddingTop:15,backgroundColor:'#fafafa'}}>
-          <ScrollableTabView
-          initialPage={0}
-          renderTabBar={() => <BumBuddyTabs  />}
-          ref={(tabView) => { this.tabView = tabView; }}
-          tabBarPosition="bottom"
-          scrollWithoutAnimation={true}
-          >
-            <View tabLabel="ios-pin-outline" style={{flex:1, alignItems:"center"}}>
-              <Text>Tab 1</Text>
-            </View>
-            <CommentsTab
-              goToUserPage={this._goToUserPage.bind(this)}
-              user={this.state.user}
-              tabLabel="ios-funnel-outline"
-              style={{flex:1, alignItems:"center"}}
-            />
-            <ProfileTab
-              signIn={this._signIn.bind(this)}
-              signOut={this._signOut.bind(this)}
-              user={this.state.user}
-              tabLabel="ios-person-outline"
-              style={{flex:1, alignItems:"center"}} />
-          </ScrollableTabView>
-        </View>
+      if(this.state.user == null){
+        return (
+          <StackNotLogedIn screenProps={{
+            user:self.state.user,
+            signIn:self._signIn.bind(this),
+            signOut:self._signOut.bind(this)
+          }} />
+        );
+      } else {
+        return (
+          <StackLogedIn screenProps={{
+            user:self.state.user,
+            signIn:self._signIn.bind(this),
+            signOut:self._signOut.bind(this)
+          }} />
+        );
+      }
 
-      );
     }
   }
 }

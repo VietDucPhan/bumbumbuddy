@@ -1,0 +1,36 @@
+dependencies: \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCViewController.m \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCViewController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCNavigationController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCTabBarController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCDrawerController/RCCTheSideBarManagerViewController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCManager.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCExternalViewControllerProtocol.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/Helpers/RCCTitleViewHelper.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-navigation/ios/RCCCustomTitleView.h

@@ -24,7 +24,7 @@ MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/ducphan/.android/bu
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.44.3] /Users/ducphan/.android/build-cache/6417a8d1e0262330e6c0417cbd9370b608045b20/output/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
@@ -35,7 +35,7 @@ MERGED from [bumbumbuddy:react-native-vector-icons:unspecified] /Applications/XA
 MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/ducphan/.android/build-cache/5b8dcff0924bf10957b771491eae13ecf24ce332/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-auth-base:11.0.0] /Users/ducphan/.android/build-cache/dcd0bdc5dce6cb8167f12800f379010a50d63d59/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/AndroidManifest.xml:17:5-43
-MERGED from [com.facebook.react:react-native:0.44.3] /Users/ducphan/.android/build-cache/6417a8d1e0262330e6c0417cbd9370b608045b20/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ducphan/.android/build-cache/4f0b789cacd1555743aca8beb66a1ed4ccf1ce63/output/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/ducphan/.android/build-cache/f5b4c2431b642076dd98f1b528324afd4109c9d5/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/ducphan/.android/build-cache/b989072f89e03c7a7569afe23b0716b01fe3fb62/output/AndroidManifest.xml:5:5-7:41
@@ -78,7 +78,7 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/mai
 MERGED from [bumbumbuddy:react-native-fbsdk:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/AndroidManifest.xml:28:5-20
 MERGED from [com.google.android.gms:play-services-auth:11.0.0] /Users/ducphan/.android/build-cache/5b8dcff0924bf10957b771491eae13ecf24ce332/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.facebook.react:react-native:0.44.3] /Users/ducphan/.android/build-cache/6417a8d1e0262330e6c0417cbd9370b608045b20/output/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.android/build-cache/124a69603bb7dc8080b28760c076160f52280a4d/output/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/ducphan/.android/build-cache/397593b8cf1e4168cc56ad483f700ac519e43180/output/AndroidManifest.xml:2:3-17
 MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:28:5-48:19
