@@ -24,10 +24,6 @@ var Auth = new AuthLib();
 class profile extends Component {
   constructor(props){
     super(props);
-    var self = this;
-    this.state = {
-      user:this.props.screenProps.user
-    };
   }
 
   static navigationOptions = {
@@ -44,7 +40,7 @@ class profile extends Component {
   }
   //
   render() {
-    if(this.state.user == null){
+    if(this.props.screenProps.user == null){
       return (
         <LoginView signOut={this.props.screenProps.signOut} signIn={this.props.screenProps.signIn}/>
 
@@ -59,7 +55,7 @@ class profile extends Component {
               </View>
 
               <View style={styles.profileName}>
-                <Text>{this.state.user.name}</Text>
+                <Text>{this.props.screenProps.user.name}</Text>
               </View>
 
             </View>

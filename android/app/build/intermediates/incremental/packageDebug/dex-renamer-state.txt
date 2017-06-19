@@ -1,4 +1,4 @@
-#Sun Jun 18 19:35:47 ICT 2017
+#Mon Jun 19 22:25:38 ICT 2017
 base.0=/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

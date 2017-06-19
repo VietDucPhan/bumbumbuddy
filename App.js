@@ -38,8 +38,7 @@ const stackMangement = {
   Main:{screen:Tabs},
   CommentDetail:{screen:CommentDetailStack}
 }
-const StackNotLogedIn = StackNavigator(stackMangement);
-const StackLogedIn = StackNavigator(stackMangement);
+const StackPage = StackNavigator(stackMangement);
 
 var Auth = new AuthLib();
 
@@ -119,23 +118,13 @@ export default class App extends React.Component {
         </View>
       );
     } else {
-      if(this.state.user == null){
-        return (
-          <StackNotLogedIn screenProps={{
-            user:self.state.user,
-            signIn:self._signIn.bind(this),
-            signOut:self._signOut.bind(this)
-          }} />
-        );
-      } else {
-        return (
-          <StackLogedIn screenProps={{
-            user:self.state.user,
-            signIn:self._signIn.bind(this),
-            signOut:self._signOut.bind(this)
-          }} />
-        );
-      }
+      return (
+        <StackPage screenProps={{
+          user:self.state.user,
+          signIn:self._signIn.bind(this),
+          signOut:self._signOut.bind(this)
+        }} />
+      );
 
     }
   }

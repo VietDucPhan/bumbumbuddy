@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jun 18 19:35:48 ICT 2017
+#Mon Jun 19 22:25:39 ICT 2017
 20.base=/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/resources-debug.ap_
 143.base=/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/resources-debug.ap_
 493.base=/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/resources-debug.ap_
