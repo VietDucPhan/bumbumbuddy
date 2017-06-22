@@ -9,7 +9,8 @@ import {
   Navigator,
   Text,
   ScrollView,
-  Image
+  Image,
+  Button
  } from 'react-native';
 import Bums from '../../libs/Bums';
 import Callout from './tmpl/callout';
@@ -43,13 +44,19 @@ class Map extends Component {
     this.goToBumDetail.bind(this);
   }
 
-  static navigationOptions = {
-    tabBarLabel: '',
+  static navigationOptions = ({navigation}) => {
+    console.log('Map.navigationOptions',navigation);
+    return {tabBarLabel: '',
     tabBarIcon: ({ tintColor, focused }) => (
       <Icon style={{paddingTop:5, paddingBottom:5}} size={30} name={focused ? 'ios-pin' : 'ios-pin-outline'} />
     ),
     headerTitle:'Map',
-    title:'Map'
+    title:'Create Bums',
+    headerRight:(
+      <TouchableOpacity onPress={()=>alert('message')} >
+        <Icon style={{padding:10,marginTop:5}} size={22} name="ios-add-circle-outline"/>
+      </TouchableOpacity>
+    ),}
   };
 
   _getBums(){
@@ -72,7 +79,7 @@ class Map extends Component {
     var self = this;
     navigator.geolocation.watchPosition (
       (position) => {
-        console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
+        //console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
         self.setState({region:{
           longitude:position.coords.longitude,
           latitude:position.coords.latitude,
@@ -126,6 +133,7 @@ class Map extends Component {
   //
   render() {
     var self = this;
+    console.log(this.props.screenProps.user);
     return(
       <View style={[styles.mapContainer,{paddingTop: this.state.statusBarHeight }]}>
         <MapView
@@ -162,6 +170,9 @@ class Map extends Component {
       flex:1,
       width:width,
       paddingTop:100
+    },
+    headerRight:{
+      padding:5
     }
   });
 module.exports = Map;

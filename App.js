@@ -13,10 +13,10 @@ import BumDetailStack from './tabs/bums/tmpl/bumdetail';
 
 
 const tabBarOptions = {
-  showLabel:false,
+  showLabel:true,
   showIcon:true,
   style: {
-  backgroundColor:'#fff'
+    backgroundColor:'#fff'
   },
   indicatorStyle:{
     display:'none'
