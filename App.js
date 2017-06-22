@@ -10,10 +10,11 @@ import MapTab from './tabs/map/map';
 //Stacks
 import CommentDetailStack from './tabs/comments/tmpl/commentdetail';
 import BumDetailStack from './tabs/bums/tmpl/bumdetail';
+import CreateBumStack from './tabs/bums/tmpl/createbumform';
 
 
 const tabBarOptions = {
-  showLabel:true,
+  showLabel:false,
   showIcon:true,
   style: {
     backgroundColor:'#fff'
@@ -40,7 +41,8 @@ const Tabs = TabNavigator(
 const stackMangement = {
   Main:{screen:Tabs},
   CommentDetail:{screen:CommentDetailStack},
-  BumDetail:{screen:BumDetailStack}
+  BumDetail:{screen:BumDetailStack},
+  CreateBumForm:{screen:CreateBumStack}
 }
 const StackPage = StackNavigator(stackMangement);
 

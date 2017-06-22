@@ -27,6 +27,7 @@ const SPACE = 0.01;
 
 
 class Map extends Component {
+
   constructor(props){
     super(props);
     this.state = {
@@ -53,7 +54,7 @@ class Map extends Component {
     headerTitle:'Map',
     title:'Create Bums',
     headerRight:(
-      <TouchableOpacity onPress={()=>alert('message')} >
+      <TouchableOpacity onPress={()=>navigation.navigate('CreateBumForm')} >
         <Icon style={{padding:10,marginTop:5}} size={22} name="ios-add-circle-outline"/>
       </TouchableOpacity>
     ),}

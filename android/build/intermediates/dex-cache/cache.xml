@@ -21,6 +21,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/ducphan/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.9.1/53fdf22be10c9d426ec63431c7342895bc642261/metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.9.1_3b4ce22da6a97dc0371245dca7289d7b5a5d399e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_e5ec05fb95549a3002d043d9f87c08a012a137de.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,12 +84,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/ducphan/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2_72e589d9cc44e56cda941d3885f0db7fcb631237.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="71519d58111acda15d5cb2be4d54674f96cb7ba9">
         <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_4b171253758e121460a395e924996f34bb87c0e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="981235c69c4e2cecde2d943078619379d95d15f1">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_9a000a7be1d4c2bda2b9eeaf45638fd89a9574ee.jar" />
     </item>
     <item
         is-multidex="false"

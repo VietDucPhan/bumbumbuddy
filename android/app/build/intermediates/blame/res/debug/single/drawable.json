@@ -8,12 +8,12 @@
         "source": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/drawable/com_facebook_button_background.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -48,12 +48,12 @@
         "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
         "source": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
