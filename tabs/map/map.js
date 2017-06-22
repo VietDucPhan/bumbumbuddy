@@ -11,10 +11,11 @@ import {
   ScrollView,
   Image
  } from 'react-native';
-import AuthLib from '../../libs/Auth';
+import Bums from '../../libs/Bums';
+import Callout from './tmpl/callout';
 import Icon from 'react-native-vector-icons/Ionicons';
 var { width, height } = Dimensions.get('window');
-var Auth = new AuthLib();
+var BumsModel = new Bums();
 
 const ASPECT_RATIO = width / height;
 var LATITUDE = 37.78825;
@@ -34,9 +35,12 @@ class Map extends Component {
         latitudeDelta: LATITUDE_DELTA,
         longitudeDelta: LONGITUDE_DELTA
       },
-      mapViewHeight:300
+      mapViewHeight:300,
+      bums:[]
     }
     this._locatorOnPress.bind(this);
+    this.moveToThisRegion.bind(this);
+    this.goToBumDetail.bind(this);
   }
 
   static navigationOptions = {
@@ -48,11 +52,27 @@ class Map extends Component {
     title:'Map'
   };
 
+  _getBums(){
+    var self = this;
+    BumsModel.getBums_dev(function(response){
+      if(response != null){
+        //console.log('maps._getBums',response);
+        self.setState({
+          bums:response
+        });
+      }
+    });
+  }
+
+  goToBumDetail(bumID){
+    this.props.navigation.navigate('BumDetail',{bumID:bumID});
+  }
+
   _locatorOnPress(){
     var self = this;
     navigator.geolocation.watchPosition (
       (position) => {
-        //alert("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
+        console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
         self.setState({region:{
           longitude:position.coords.longitude,
           latitude:position.coords.latitude,
@@ -62,8 +82,8 @@ class Map extends Component {
         statusBarHeight:0
       });
       },
-      (error) => alert(error.message),
-      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
+      function(error){console.log('map._locatorOnPress',error)},
+      {enableHighAccuracy: true, timeout: 2000, maximumAge: 1000}
     );
   }
 
@@ -78,16 +98,28 @@ class Map extends Component {
   }
 
   onRegionChangeComplete(region){
+    //console.log('map.componentWillMount',width);
     LATITUDE_DELTA = region.latitudeDelta;
     LONGITUDE_DELTA = region.longitudeDelta;
   }
 
+  moveToThisRegion(region){
+    this.setState({region:{
+      longitude:region.longitude,
+      latitude:region.latitude,
+      latitudeDelta: LATITUDE_DELTA,
+      longitudeDelta: LONGITUDE_DELTA
+    }});
+  }
+
   componentDidMount(){
     this._locatorOnPress();
+    this._getBums();
 
   }
 
   componentWillMount() {
+
      //Hack to ensure the showsMyLocationButton is shown initially. Idea is to force a repaint
     setTimeout(()=>this.setState({statusBarHeight: 1}),500);
   }
@@ -107,7 +139,13 @@ class Map extends Component {
           showsBuildings={true}
           region={this.state.region}
           initialRegion={this.state.region}
-        />
+        >
+        {self.state.bums.map(function(obj, i){
+            return (
+              <Callout goToBumDetail={()=>self.goToBumDetail(obj._id)} key={obj._id} bum={obj} />
+            );
+          })}
+        </MapView>
       </View>
 
     );

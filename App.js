@@ -9,6 +9,9 @@ import CommentsTab from './tabs/comments/comments';
 import MapTab from './tabs/map/map';
 //Stacks
 import CommentDetailStack from './tabs/comments/tmpl/commentdetail';
+import BumDetailStack from './tabs/bums/tmpl/bumdetail';
+
+
 const tabBarOptions = {
   showLabel:false,
   showIcon:true,
@@ -22,8 +25,8 @@ const tabBarOptions = {
 
 const tabsManagement = {
   Comments : { screen: CommentsTab },
+  Map:{screen:MapTab},
   Profile : { screen: ProfileTab },
-  Map:{screen:MapTab}
 }
 
 const Tabs = TabNavigator(
@@ -36,7 +39,8 @@ const Tabs = TabNavigator(
 
 const stackMangement = {
   Main:{screen:Tabs},
-  CommentDetail:{screen:CommentDetailStack}
+  CommentDetail:{screen:CommentDetailStack},
+  BumDetail:{screen:BumDetailStack}
 }
 const StackPage = StackNavigator(stackMangement);
 

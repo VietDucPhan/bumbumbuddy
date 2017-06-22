@@ -38,6 +38,11 @@ class comments extends Component {
   componentDidMount(){
   }
 
+  _calculateImageHeight(imageWidth,dimensionWidth,imageHeight){
+    var height = dimensionWidth/imageWidth*imageHeight;
+    return {height:height,width:dimensionWidth};
+  }
+
   _getBums(){
     var self = this;
     BumsLib.getBums(function(response){
@@ -63,6 +68,7 @@ class comments extends Component {
   }
 
   render() {
+    const {navigate} = this.props.navigation;
     return(
       <ScrollView>
         {/* Start a comment */}
@@ -82,13 +88,13 @@ class comments extends Component {
                 </TouchableOpacity>
               </View>
               <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" backgroundColor="#4267b2"/>
+                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" />
               </TouchableOpacity>
             </View>
           </View>
           <View>
             <Image resizeMode="contain" source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-       style={{width: Dimensions.get('window').width, height: 128}} />
+       style={this._calculateImageHeight(975,Dimensions.get('window').width,512)} />
           </View>
           <View style={styles.commentorCommentContainer}>
             <View>
@@ -97,24 +103,20 @@ class comments extends Component {
                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
                essentially unchanged.</Text>
             </View>
+             <View style={styles.commentPointsAndResponseContainer}>
+               <View style={styles.commentPointsAndResponseButtonsContainer}>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
+                 </TouchableOpacity>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
+                 </TouchableOpacity>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
+                 </TouchableOpacity>
+               </View>
 
-             <View >
-              <TouchableOpacity style={styles.commentPointsAndResponse} onPress={()=> this.props.navigation.navigate('CommentDetail')}>
-                <Text style={styles.commentPointsAndResponseText}>1200 points</Text>
-               <Text style={styles.commentPointsAndResponseText}>-</Text>
-                <Text style={styles.commentPointsAndResponseText}>600 comments</Text>
-               </TouchableOpacity>
-             </View>
-             <View style={styles.commentPointsAndResponseButtonsContainer}>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-              </TouchableOpacity>
+               <Text style={styles.commentPointsAndResponseText}>13 points - 25 replies</Text>
              </View>
           </View>
         </View>
@@ -136,7 +138,7 @@ class comments extends Component {
                 </TouchableOpacity>
               </View>
               <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" backgroundColor="#4267b2"/>
+                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" />
               </TouchableOpacity>
             </View>
           </View>
@@ -151,24 +153,20 @@ class comments extends Component {
                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
                essentially unchanged.</Text>
             </View>
+             <View style={styles.commentPointsAndResponseContainer}>
+               <View style={styles.commentPointsAndResponseButtonsContainer}>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
+                 </TouchableOpacity>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
+                 </TouchableOpacity>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
+                 </TouchableOpacity>
+               </View>
 
-             <View >
-              <TouchableOpacity style={styles.commentPointsAndResponse} onPress={()=> this.props.navigation.navigate('CommentDetail')}>
-                <Text style={styles.commentPointsAndResponseText}>1200 points</Text>
-               <Text style={styles.commentPointsAndResponseText}>-</Text>
-                <Text style={styles.commentPointsAndResponseText}>600 comments</Text>
-               </TouchableOpacity>
-             </View>
-             <View style={styles.commentPointsAndResponseButtonsContainer}>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-              </TouchableOpacity>
+               <Text style={styles.commentPointsAndResponseText}>13 points - 25 replies</Text>
              </View>
           </View>
         </View>
@@ -190,7 +188,7 @@ class comments extends Component {
                 </TouchableOpacity>
               </View>
               <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" backgroundColor="#4267b2"/>
+                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" />
               </TouchableOpacity>
             </View>
           </View>
@@ -205,24 +203,20 @@ class comments extends Component {
                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
                essentially unchanged.</Text>
             </View>
+             <View style={styles.commentPointsAndResponseContainer}>
+               <View style={styles.commentPointsAndResponseButtonsContainer}>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
+                 </TouchableOpacity>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
+                 </TouchableOpacity>
+                 <TouchableOpacity>
+                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
+                 </TouchableOpacity>
+               </View>
 
-             <View >
-              <TouchableOpacity style={styles.commentPointsAndResponse} onPress={()=> this.props.navigation.navigate('CommentDetail')}>
-                <Text style={styles.commentPointsAndResponseText}>1200 points</Text>
-               <Text style={styles.commentPointsAndResponseText}>-</Text>
-                <Text style={styles.commentPointsAndResponseText}>600 comments</Text>
-               </TouchableOpacity>
-             </View>
-             <View style={styles.commentPointsAndResponseButtonsContainer}>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-              </TouchableOpacity>
+               <Text style={styles.commentPointsAndResponseText}>13 points - 25 replies</Text>
              </View>
           </View>
         </View>
@@ -264,19 +258,17 @@ class comments extends Component {
       backgroundColor:"#fff",
       padding:10
     },
-    commentPointsAndResponse:{
-      flex:1,
+    commentPointsAndResponseContainer:{
       flexDirection:'row',
-      marginTop:5
-    },
-    commentPointsAndResponseText:{
-      marginRight:2,
-      color:"#888"
+      alignItems:'center',
+      justifyContent:'space-between',
+      paddingTop:5,
+      paddingBottom:5
     },
     commentPointsAndResponseButtonsContainer:{
       flex:1,
       flexDirection:'row',
-      marginTop:10
+      alignItems:'center',
     },
     commentPointsAndResponseButton:{
       borderWidth:StyleSheet.hairlineWidth,
@@ -287,6 +279,9 @@ class comments extends Component {
       paddingBottom:5,
       paddingLeft:10,
       marginRight:5
+    },
+    commentPointsAndResponseText:{
+      color:'#888'
     }
   });
 module.exports = comments;
