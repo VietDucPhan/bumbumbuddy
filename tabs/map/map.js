@@ -15,6 +15,7 @@ import {
 import Bums from '../../libs/Bums';
 import Callout from './tmpl/callout';
 import Icon from 'react-native-vector-icons/Ionicons';
+var ImagePicker = require('react-native-image-picker');
 var { width, height } = Dimensions.get('window');
 var BumsModel = new Bums();
 
@@ -24,6 +25,17 @@ var LONGITUDE = -122.4324;
 var LATITUDE_DELTA = 0.0922;
 var LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const SPACE = 0.01;
+
+const options = {
+  title: 'Select Avatar',
+  customButtons: [
+    {name: 'fb', title: 'Choose Photo from Facebook'},
+  ],
+  storageOptions: {
+    skipBackup: true,
+    path: 'images'
+  }
+};
 
 
 class Map extends Component {
@@ -54,7 +66,7 @@ class Map extends Component {
     headerTitle:'Map',
     title:'Create Bums',
     headerRight:(
-      <TouchableOpacity onPress={()=>navigation.navigate('CreateBumForm')} >
+      <TouchableOpacity onPress={()=>navigation.navigate("SearchPage")} >
         <Icon style={{padding:10,marginTop:5}} size={22} name="ios-add-circle-outline"/>
       </TouchableOpacity>
     ),}

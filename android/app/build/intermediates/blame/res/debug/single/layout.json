@@ -52,6 +52,10 @@
         "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/res/layout/list_item.xml"
+    },
+    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_large.xml",
         "source": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/layout/messenger_button_send_blue_large.xml"
     },

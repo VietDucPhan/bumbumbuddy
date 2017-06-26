@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="185debb713f05e6ae262b4167d7645dce64ca4cb">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_dd505c64a3c4c505325eafe2a6184c6a366a47c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -84,15 +93,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ducphan/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="55615fa2582424e38705487d1d3969af8554f637">
-        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2_72e589d9cc44e56cda941d3885f0db7fcb631237.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -108,6 +108,15 @@
         revision="25.0.0"
         sha1="981235c69c4e2cecde2d943078619379d95d15f1">
         <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/classes_9a000a7be1d4c2bda2b9eeaf45638fd89a9574ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ducphan/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2_72e589d9cc44e56cda941d3885f0db7fcb631237.jar" />
     </item>
     <item
         is-multidex="false"

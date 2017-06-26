@@ -9,15 +9,25 @@ import {
   Navigator,
   Text,
   ScrollView,
-  Image
+  TextInput,
+  Image,
+  ListView
  } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Camera from 'react-native-camera';
+var { width, height } = Dimensions.get('window');
 
 
 class CreateBumForm extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      bumNameText:"",
+      bumStreetAddressText:"",
+      bums:[]
+    };
+    this._bumNameChangeText.bind(this);
+    this._bumStreetAddressChangeText.bind(this);
   }
 
   takePicture() {
@@ -26,6 +36,20 @@ class CreateBumForm extends Component {
     this.camera.capture({metadata: options})
       .then((data) => console.log(data))
       .catch(err => console.error(err));
+  }
+
+  _bumNameChangeText(text){
+    var self = this;
+    self.setState({
+      bumNameText:text
+    });
+  }
+
+  _bumStreetAddressChangeText(text){
+    var self = this;
+    self.setState({
+      bumStreetAddressText:text
+    });
   }
 
   componentDidMount(){
@@ -38,29 +62,47 @@ class CreateBumForm extends Component {
     var self = this;
 
     return(
-      <View style={styles.container}>
-        <Camera
-          ref={(cam) => {
-            this.camera = cam;
-          }}
-          style={styles.preview}
-          aspect={Camera.constants.Aspect.fill}>
-          <Text style={styles.capture} onPress={this.takePicture.bind(this)}>[CAPTURE]</Text>
-        </Camera>
-      </View>
+      <ScrollView>
+        <View style={styles.container}>
+          <View style={[styles.bumCreateInputContainer,{borderBottomWidth:StyleSheet.hairlineWidth}]}>
+            <TextInput
+              multiline = {false}
+              style={styles.bumCreateInput}
+              onChangeText={(text) => this._bumNameChangeText(text)}
+              placeholder={'Name'}
+              value={this.state.bumNameText}
+            />
+          </View>
+          <View style={styles.bumCreateInputContainer}>
+            <TextInput
+              multiline = {false}
+              style={styles.bumCreateInput}
+              onChangeText={(text) => this._bumStreetAddressChangeText(text)}
+              placeholder={'Street Address'}
+              value={this.state.bumStreetAddressText}
+            />
+          </View>
+        </View>
+      </ScrollView>
     );
 
   }
 }
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    flexDirection: 'row',
+    padding:5,
+    flexDirection:'column',
+    flex:1
   },
-  preview: {
-    flex: 1,
-    justifyContent: 'flex-end',
-    alignItems: 'center'
+  bumCreateInputContainer:{
+    paddingTop:5,
+    paddingBottom:5,
+    borderBottomColor:'#ccc',
+  },
+  bumCreateInput: {
+    height: 30,
+    paddingLeft:5,
+    paddingRight:5,
   },
   capture: {
     flex: 0,

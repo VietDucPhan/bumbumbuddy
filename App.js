@@ -11,6 +11,7 @@ import MapTab from './tabs/map/map';
 import CommentDetailStack from './tabs/comments/tmpl/commentdetail';
 import BumDetailStack from './tabs/bums/tmpl/bumdetail';
 import CreateBumStack from './tabs/bums/tmpl/createbumform';
+import SearchStack from './tabs/search/search';
 
 
 const tabBarOptions = {
@@ -42,7 +43,8 @@ const stackMangement = {
   Main:{screen:Tabs},
   CommentDetail:{screen:CommentDetailStack},
   BumDetail:{screen:BumDetailStack},
-  CreateBumForm:{screen:CreateBumStack}
+  CreateBumForm:{screen:CreateBumStack},
+  SearchPage:{screen:SearchStack}
 }
 const StackPage = StackNavigator(stackMangement);
 

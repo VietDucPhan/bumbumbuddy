@@ -9609,9 +9609,30 @@
                     "startLine": 1612,
                     "startColumn": 4,
                     "startOffset": 120700,
-                    "endLine": 1615,
+                    "endLine": 1619,
+                    "endColumn": 12,
+                    "endOffset": 121106
+                },
+                "from": {
+                    "file": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1620,
+                    "startColumn": 4,
+                    "startOffset": 121111,
+                    "endLine": 1623,
                     "endColumn": 10,
-                    "endOffset": 120879
+                    "endOffset": 121290
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -9627,12 +9648,12 @@
             },
             {
                 "to": {
-                    "startLine": 1616,
+                    "startLine": 1624,
                     "startColumn": 4,
-                    "startOffset": 120884,
-                    "endLine": 1619,
+                    "startOffset": 121295,
+                    "endLine": 1627,
                     "endColumn": 10,
-                    "endOffset": 121067
+                    "endOffset": 121478
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -9648,12 +9669,12 @@
             },
             {
                 "to": {
-                    "startLine": 1620,
+                    "startLine": 1628,
                     "startColumn": 4,
-                    "startOffset": 121072,
-                    "endLine": 1622,
+                    "startOffset": 121483,
+                    "endLine": 1630,
                     "endColumn": 10,
-                    "endOffset": 121160
+                    "endOffset": 121571
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9669,12 +9690,12 @@
             },
             {
                 "to": {
-                    "startLine": 1623,
+                    "startLine": 1631,
                     "startColumn": 4,
-                    "startOffset": 121165,
-                    "endLine": 1625,
+                    "startOffset": 121576,
+                    "endLine": 1633,
                     "endColumn": 10,
-                    "endOffset": 121298
+                    "endOffset": 121709
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9690,12 +9711,12 @@
             },
             {
                 "to": {
-                    "startLine": 1626,
+                    "startLine": 1634,
                     "startColumn": 4,
-                    "startOffset": 121303,
-                    "endLine": 1631,
+                    "startOffset": 121714,
+                    "endLine": 1639,
                     "endColumn": 10,
-                    "endOffset": 121575
+                    "endOffset": 121986
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9711,12 +9732,12 @@
             },
             {
                 "to": {
-                    "startLine": 1632,
+                    "startLine": 1640,
                     "startColumn": 4,
-                    "startOffset": 121580,
-                    "endLine": 1635,
+                    "startOffset": 121991,
+                    "endLine": 1643,
                     "endColumn": 10,
-                    "endOffset": 121734
+                    "endOffset": 122145
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9732,12 +9753,12 @@
             },
             {
                 "to": {
-                    "startLine": 1636,
+                    "startLine": 1644,
                     "startColumn": 4,
-                    "startOffset": 121739,
-                    "endLine": 1638,
+                    "startOffset": 122150,
+                    "endLine": 1646,
                     "endColumn": 10,
-                    "endOffset": 121874
+                    "endOffset": 122285
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9753,12 +9774,12 @@
             },
             {
                 "to": {
-                    "startLine": 1639,
+                    "startLine": 1647,
                     "startColumn": 4,
-                    "startOffset": 121879,
-                    "endLine": 1644,
+                    "startOffset": 122290,
+                    "endLine": 1652,
                     "endColumn": 10,
-                    "endOffset": 122152
+                    "endOffset": 122563
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9774,12 +9795,12 @@
             },
             {
                 "to": {
-                    "startLine": 1645,
+                    "startLine": 1653,
                     "startColumn": 4,
-                    "startOffset": 122157,
-                    "endLine": 1648,
+                    "startOffset": 122568,
+                    "endLine": 1656,
                     "endColumn": 10,
-                    "endOffset": 122312
+                    "endOffset": 122723
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9795,12 +9816,12 @@
             },
             {
                 "to": {
-                    "startLine": 1649,
+                    "startLine": 1657,
                     "startColumn": 4,
-                    "startOffset": 122317,
-                    "endLine": 1659,
+                    "startOffset": 122728,
+                    "endLine": 1667,
                     "endColumn": 10,
-                    "endOffset": 122802
+                    "endOffset": 123213
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9816,12 +9837,12 @@
             },
             {
                 "to": {
-                    "startLine": 1660,
+                    "startLine": 1668,
                     "startColumn": 4,
-                    "startOffset": 122807,
-                    "endLine": 1662,
+                    "startOffset": 123218,
+                    "endLine": 1670,
                     "endColumn": 10,
-                    "endOffset": 122907
+                    "endOffset": 123318
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9837,12 +9858,12 @@
             },
             {
                 "to": {
-                    "startLine": 1663,
+                    "startLine": 1671,
                     "startColumn": 4,
-                    "startOffset": 122912,
-                    "endLine": 1665,
+                    "startOffset": 123323,
+                    "endLine": 1673,
                     "endColumn": 10,
-                    "endOffset": 123052
+                    "endOffset": 123463
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9858,12 +9879,12 @@
             },
             {
                 "to": {
-                    "startLine": 1666,
+                    "startLine": 1674,
                     "startColumn": 4,
-                    "startOffset": 123057,
-                    "endLine": 1668,
+                    "startOffset": 123468,
+                    "endLine": 1676,
                     "endColumn": 10,
-                    "endOffset": 123197
+                    "endOffset": 123608
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9879,12 +9900,12 @@
             },
             {
                 "to": {
-                    "startLine": 1669,
+                    "startLine": 1677,
                     "startColumn": 4,
-                    "startOffset": 123202,
-                    "endLine": 1671,
+                    "startOffset": 123613,
+                    "endLine": 1679,
                     "endColumn": 10,
-                    "endOffset": 123303
+                    "endOffset": 123714
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9900,12 +9921,12 @@
             },
             {
                 "to": {
-                    "startLine": 1672,
+                    "startLine": 1680,
                     "startColumn": 4,
-                    "startOffset": 123308,
-                    "endLine": 1674,
+                    "startOffset": 123719,
+                    "endLine": 1682,
                     "endColumn": 10,
-                    "endOffset": 123448
+                    "endOffset": 123859
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9921,12 +9942,12 @@
             },
             {
                 "to": {
-                    "startLine": 1675,
+                    "startLine": 1683,
                     "startColumn": 4,
-                    "startOffset": 123453,
-                    "endLine": 1677,
+                    "startOffset": 123864,
+                    "endLine": 1685,
                     "endColumn": 10,
-                    "endOffset": 123593
+                    "endOffset": 124004
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -9942,12 +9963,12 @@
             },
             {
                 "to": {
-                    "startLine": 1678,
+                    "startLine": 1686,
                     "startColumn": 4,
-                    "startOffset": 123598,
-                    "endLine": 1719,
+                    "startOffset": 124009,
+                    "endLine": 1727,
                     "endColumn": 12,
-                    "endOffset": 126779
+                    "endOffset": 127190
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -9963,12 +9984,12 @@
             },
             {
                 "to": {
-                    "startLine": 1720,
+                    "startLine": 1728,
                     "startColumn": 4,
-                    "startOffset": 126784,
-                    "endLine": 1762,
+                    "startOffset": 127195,
+                    "endLine": 1770,
                     "endColumn": 12,
-                    "endOffset": 130108
+                    "endOffset": 130519
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -9984,11 +10005,11 @@
             },
             {
                 "to": {
-                    "startLine": 1763,
+                    "startLine": 1771,
                     "startColumn": 4,
-                    "startOffset": 130113,
+                    "startOffset": 130524,
                     "endColumn": 61,
-                    "endOffset": 130170
+                    "endOffset": 130581
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10003,12 +10024,12 @@
             },
             {
                 "to": {
-                    "startLine": 1764,
+                    "startLine": 1772,
                     "startColumn": 4,
-                    "startOffset": 130175,
-                    "endLine": 1773,
+                    "startOffset": 130586,
+                    "endLine": 1781,
                     "endColumn": 12,
-                    "endOffset": 130800
+                    "endOffset": 131211
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10024,12 +10045,12 @@
             },
             {
                 "to": {
-                    "startLine": 1774,
+                    "startLine": 1782,
                     "startColumn": 4,
-                    "startOffset": 130805,
-                    "endLine": 1782,
+                    "startOffset": 131216,
+                    "endLine": 1790,
                     "endColumn": 12,
-                    "endOffset": 131414
+                    "endOffset": 131825
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10045,11 +10066,11 @@
             },
             {
                 "to": {
-                    "startLine": 1783,
+                    "startLine": 1791,
                     "startColumn": 4,
-                    "startOffset": 131419,
+                    "startOffset": 131830,
                     "endColumn": 85,
-                    "endOffset": 131500
+                    "endOffset": 131911
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10064,12 +10085,12 @@
             },
             {
                 "to": {
-                    "startLine": 1784,
+                    "startLine": 1792,
                     "startColumn": 4,
-                    "startOffset": 131505,
-                    "endLine": 1785,
+                    "startOffset": 131916,
+                    "endLine": 1793,
                     "endColumn": 12,
-                    "endOffset": 131613
+                    "endOffset": 132024
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10085,12 +10106,12 @@
             },
             {
                 "to": {
-                    "startLine": 1786,
+                    "startLine": 1794,
                     "startColumn": 4,
-                    "startOffset": 131618,
-                    "endLine": 1789,
+                    "startOffset": 132029,
+                    "endLine": 1797,
                     "endColumn": 12,
-                    "endOffset": 131842
+                    "endOffset": 132253
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10106,12 +10127,12 @@
             },
             {
                 "to": {
-                    "startLine": 1790,
+                    "startLine": 1798,
                     "startColumn": 4,
-                    "startOffset": 131847,
-                    "endLine": 1792,
+                    "startOffset": 132258,
+                    "endLine": 1800,
                     "endColumn": 12,
-                    "endOffset": 132002
+                    "endOffset": 132413
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10127,12 +10148,12 @@
             },
             {
                 "to": {
-                    "startLine": 1793,
+                    "startLine": 1801,
                     "startColumn": 4,
-                    "startOffset": 132007,
-                    "endLine": 1795,
+                    "startOffset": 132418,
+                    "endLine": 1803,
                     "endColumn": 12,
-                    "endOffset": 132154
+                    "endOffset": 132565
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10148,12 +10169,12 @@
             },
             {
                 "to": {
-                    "startLine": 1796,
+                    "startLine": 1804,
                     "startColumn": 4,
-                    "startOffset": 132159,
-                    "endLine": 1798,
+                    "startOffset": 132570,
+                    "endLine": 1806,
                     "endColumn": 12,
-                    "endOffset": 132325
+                    "endOffset": 132736
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10169,12 +10190,12 @@
             },
             {
                 "to": {
-                    "startLine": 1799,
+                    "startLine": 1807,
                     "startColumn": 4,
-                    "startOffset": 132330,
-                    "endLine": 1801,
+                    "startOffset": 132741,
+                    "endLine": 1809,
                     "endColumn": 12,
-                    "endOffset": 132492
+                    "endOffset": 132903
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10190,12 +10211,12 @@
             },
             {
                 "to": {
-                    "startLine": 1802,
+                    "startLine": 1810,
                     "startColumn": 4,
-                    "startOffset": 132497,
-                    "endLine": 1805,
+                    "startOffset": 132908,
+                    "endLine": 1813,
                     "endColumn": 12,
-                    "endOffset": 132735
+                    "endOffset": 133146
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10211,12 +10232,12 @@
             },
             {
                 "to": {
-                    "startLine": 1806,
+                    "startLine": 1814,
                     "startColumn": 4,
-                    "startOffset": 132740,
-                    "endLine": 1808,
+                    "startOffset": 133151,
+                    "endLine": 1816,
                     "endColumn": 12,
-                    "endOffset": 132905
+                    "endOffset": 133316
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10232,12 +10253,12 @@
             },
             {
                 "to": {
-                    "startLine": 1809,
+                    "startLine": 1817,
                     "startColumn": 4,
-                    "startOffset": 132910,
-                    "endLine": 1811,
+                    "startOffset": 133321,
+                    "endLine": 1819,
                     "endColumn": 12,
-                    "endOffset": 133078
+                    "endOffset": 133489
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10253,12 +10274,12 @@
             },
             {
                 "to": {
-                    "startLine": 1812,
+                    "startLine": 1820,
                     "startColumn": 4,
-                    "startOffset": 133083,
-                    "endLine": 1814,
+                    "startOffset": 133494,
+                    "endLine": 1822,
                     "endColumn": 12,
-                    "endOffset": 133249
+                    "endOffset": 133660
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10274,12 +10295,12 @@
             },
             {
                 "to": {
-                    "startLine": 1815,
+                    "startLine": 1823,
                     "startColumn": 4,
-                    "startOffset": 133254,
-                    "endLine": 1818,
+                    "startOffset": 133665,
+                    "endLine": 1826,
                     "endColumn": 12,
-                    "endOffset": 133523
+                    "endOffset": 133934
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10295,12 +10316,12 @@
             },
             {
                 "to": {
-                    "startLine": 1819,
+                    "startLine": 1827,
                     "startColumn": 4,
-                    "startOffset": 133528,
-                    "endLine": 1821,
+                    "startOffset": 133939,
+                    "endLine": 1829,
                     "endColumn": 12,
-                    "endOffset": 133722
+                    "endOffset": 134133
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10316,12 +10337,12 @@
             },
             {
                 "to": {
-                    "startLine": 1822,
+                    "startLine": 1830,
                     "startColumn": 4,
-                    "startOffset": 133727,
-                    "endLine": 1825,
+                    "startOffset": 134138,
+                    "endLine": 1833,
                     "endColumn": 12,
-                    "endOffset": 133927
+                    "endOffset": 134338
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10337,12 +10358,12 @@
             },
             {
                 "to": {
-                    "startLine": 1826,
+                    "startLine": 1834,
                     "startColumn": 4,
-                    "startOffset": 133932,
-                    "endLine": 1829,
+                    "startOffset": 134343,
+                    "endLine": 1837,
                     "endColumn": 12,
-                    "endOffset": 134257
+                    "endOffset": 134668
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10358,12 +10379,12 @@
             },
             {
                 "to": {
-                    "startLine": 1830,
+                    "startLine": 1838,
                     "startColumn": 4,
-                    "startOffset": 134262,
-                    "endLine": 1832,
+                    "startOffset": 134673,
+                    "endLine": 1840,
                     "endColumn": 12,
-                    "endOffset": 134458
+                    "endOffset": 134869
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -10379,12 +10400,12 @@
             },
             {
                 "to": {
-                    "startLine": 1833,
+                    "startLine": 1841,
                     "startColumn": 4,
-                    "startOffset": 134463,
-                    "endLine": 1835,
+                    "startOffset": 134874,
+                    "endLine": 1843,
                     "endColumn": 12,
-                    "endOffset": 134647
+                    "endOffset": 135058
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -10400,11 +10421,11 @@
             },
             {
                 "to": {
-                    "startLine": 1836,
+                    "startLine": 1844,
                     "startColumn": 4,
-                    "startOffset": 134652,
+                    "startOffset": 135063,
                     "endColumn": 83,
-                    "endOffset": 134731
+                    "endOffset": 135142
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10419,11 +10440,11 @@
             },
             {
                 "to": {
-                    "startLine": 1837,
+                    "startLine": 1845,
                     "startColumn": 4,
-                    "startOffset": 134736,
+                    "startOffset": 135147,
                     "endColumn": 95,
-                    "endOffset": 134827
+                    "endOffset": 135238
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10438,11 +10459,11 @@
             },
             {
                 "to": {
-                    "startLine": 1838,
+                    "startLine": 1846,
                     "startColumn": 4,
-                    "startOffset": 134832,
+                    "startOffset": 135243,
                     "endColumn": 95,
-                    "endOffset": 134923
+                    "endOffset": 135334
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10457,11 +10478,11 @@
             },
             {
                 "to": {
-                    "startLine": 1839,
+                    "startLine": 1847,
                     "startColumn": 4,
-                    "startOffset": 134928,
+                    "startOffset": 135339,
                     "endColumn": 97,
-                    "endOffset": 135021
+                    "endOffset": 135432
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10476,11 +10497,11 @@
             },
             {
                 "to": {
-                    "startLine": 1840,
+                    "startLine": 1848,
                     "startColumn": 4,
-                    "startOffset": 135026,
+                    "startOffset": 135437,
                     "endColumn": 99,
-                    "endOffset": 135121
+                    "endOffset": 135532
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10495,11 +10516,11 @@
             },
             {
                 "to": {
-                    "startLine": 1841,
+                    "startLine": 1849,
                     "startColumn": 4,
-                    "startOffset": 135126,
+                    "startOffset": 135537,
                     "endColumn": 101,
-                    "endOffset": 135223
+                    "endOffset": 135634
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10514,11 +10535,11 @@
             },
             {
                 "to": {
-                    "startLine": 1842,
+                    "startLine": 1850,
                     "startColumn": 4,
-                    "startOffset": 135228,
+                    "startOffset": 135639,
                     "endColumn": 101,
-                    "endOffset": 135325
+                    "endOffset": 135736
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10533,11 +10554,11 @@
             },
             {
                 "to": {
-                    "startLine": 1843,
+                    "startLine": 1851,
                     "startColumn": 4,
-                    "startOffset": 135330,
+                    "startOffset": 135741,
                     "endColumn": 101,
-                    "endOffset": 135427
+                    "endOffset": 135838
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10552,11 +10573,11 @@
             },
             {
                 "to": {
-                    "startLine": 1844,
+                    "startLine": 1852,
                     "startColumn": 4,
-                    "startOffset": 135432,
+                    "startOffset": 135843,
                     "endColumn": 101,
-                    "endOffset": 135529
+                    "endOffset": 135940
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10571,11 +10592,11 @@
             },
             {
                 "to": {
-                    "startLine": 1845,
+                    "startLine": 1853,
                     "startColumn": 4,
-                    "startOffset": 135534,
+                    "startOffset": 135945,
                     "endColumn": 101,
-                    "endOffset": 135631
+                    "endOffset": 136042
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10590,11 +10611,11 @@
             },
             {
                 "to": {
-                    "startLine": 1846,
+                    "startLine": 1854,
                     "startColumn": 4,
-                    "startOffset": 135636,
+                    "startOffset": 136047,
                     "endColumn": 99,
-                    "endOffset": 135731
+                    "endOffset": 136142
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10609,11 +10630,11 @@
             },
             {
                 "to": {
-                    "startLine": 1847,
+                    "startLine": 1855,
                     "startColumn": 4,
-                    "startOffset": 135736,
+                    "startOffset": 136147,
                     "endColumn": 95,
-                    "endOffset": 135827
+                    "endOffset": 136238
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10628,11 +10649,11 @@
             },
             {
                 "to": {
-                    "startLine": 1848,
+                    "startLine": 1856,
                     "startColumn": 4,
-                    "startOffset": 135832,
+                    "startOffset": 136243,
                     "endColumn": 111,
-                    "endOffset": 135939
+                    "endOffset": 136350
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10647,11 +10668,11 @@
             },
             {
                 "to": {
-                    "startLine": 1849,
+                    "startLine": 1857,
                     "startColumn": 4,
-                    "startOffset": 135944,
+                    "startOffset": 136355,
                     "endColumn": 128,
-                    "endOffset": 136068
+                    "endOffset": 136479
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10666,11 +10687,11 @@
             },
             {
                 "to": {
-                    "startLine": 1850,
+                    "startLine": 1858,
                     "startColumn": 4,
-                    "startOffset": 136073,
+                    "startOffset": 136484,
                     "endColumn": 122,
-                    "endOffset": 136191
+                    "endOffset": 136602
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10685,11 +10706,11 @@
             },
             {
                 "to": {
-                    "startLine": 1851,
+                    "startLine": 1859,
                     "startColumn": 4,
-                    "startOffset": 136196,
+                    "startOffset": 136607,
                     "endColumn": 130,
-                    "endOffset": 136322
+                    "endOffset": 136733
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10704,11 +10725,11 @@
             },
             {
                 "to": {
-                    "startLine": 1852,
+                    "startLine": 1860,
                     "startColumn": 4,
-                    "startOffset": 136327,
+                    "startOffset": 136738,
                     "endColumn": 130,
-                    "endOffset": 136453
+                    "endOffset": 136864
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10723,11 +10744,11 @@
             },
             {
                 "to": {
-                    "startLine": 1853,
+                    "startLine": 1861,
                     "startColumn": 4,
-                    "startOffset": 136458,
+                    "startOffset": 136869,
                     "endColumn": 97,
-                    "endOffset": 136551
+                    "endOffset": 136962
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10742,11 +10763,11 @@
             },
             {
                 "to": {
-                    "startLine": 1854,
+                    "startLine": 1862,
                     "startColumn": 4,
-                    "startOffset": 136556,
+                    "startOffset": 136967,
                     "endColumn": 113,
-                    "endOffset": 136665
+                    "endOffset": 137076
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10761,11 +10782,11 @@
             },
             {
                 "to": {
-                    "startLine": 1855,
+                    "startLine": 1863,
                     "startColumn": 4,
-                    "startOffset": 136670,
+                    "startOffset": 137081,
                     "endColumn": 93,
-                    "endOffset": 136759
+                    "endOffset": 137170
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10780,12 +10801,12 @@
             },
             {
                 "to": {
-                    "startLine": 1856,
+                    "startLine": 1864,
                     "startColumn": 4,
-                    "startOffset": 136764,
-                    "endLine": 1859,
+                    "startOffset": 137175,
+                    "endLine": 1867,
                     "endColumn": 12,
-                    "endOffset": 136958
+                    "endOffset": 137369
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10801,12 +10822,12 @@
             },
             {
                 "to": {
-                    "startLine": 1860,
+                    "startLine": 1868,
                     "startColumn": 4,
-                    "startOffset": 136963,
-                    "endLine": 1863,
+                    "startOffset": 137374,
+                    "endLine": 1871,
                     "endColumn": 12,
-                    "endOffset": 137162
+                    "endOffset": 137573
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10822,11 +10843,11 @@
             },
             {
                 "to": {
-                    "startLine": 1864,
+                    "startLine": 1872,
                     "startColumn": 4,
-                    "startOffset": 137167,
+                    "startOffset": 137578,
                     "endColumn": 68,
-                    "endOffset": 137231
+                    "endOffset": 137642
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10841,11 +10862,11 @@
             },
             {
                 "to": {
-                    "startLine": 1865,
+                    "startLine": 1873,
                     "startColumn": 4,
-                    "startOffset": 137236,
+                    "startOffset": 137647,
                     "endColumn": 115,
-                    "endOffset": 137347
+                    "endOffset": 137758
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10860,11 +10881,11 @@
             },
             {
                 "to": {
-                    "startLine": 1866,
+                    "startLine": 1874,
                     "startColumn": 4,
-                    "startOffset": 137352,
+                    "startOffset": 137763,
                     "endColumn": 127,
-                    "endOffset": 137475
+                    "endOffset": 137886
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10879,11 +10900,11 @@
             },
             {
                 "to": {
-                    "startLine": 1867,
+                    "startLine": 1875,
                     "startColumn": 4,
-                    "startOffset": 137480,
+                    "startOffset": 137891,
                     "endColumn": 63,
-                    "endOffset": 137539
+                    "endOffset": 137950
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10898,12 +10919,12 @@
             },
             {
                 "to": {
-                    "startLine": 1868,
+                    "startLine": 1876,
                     "startColumn": 4,
-                    "startOffset": 137544,
-                    "endLine": 1871,
+                    "startOffset": 137955,
+                    "endLine": 1879,
                     "endColumn": 12,
-                    "endOffset": 137743
+                    "endOffset": 138154
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10919,11 +10940,11 @@
             },
             {
                 "to": {
-                    "startLine": 1872,
+                    "startLine": 1880,
                     "startColumn": 4,
-                    "startOffset": 137748,
+                    "startOffset": 138159,
                     "endColumn": 68,
-                    "endOffset": 137812
+                    "endOffset": 138223
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10938,12 +10959,12 @@
             },
             {
                 "to": {
-                    "startLine": 1873,
+                    "startLine": 1881,
                     "startColumn": 4,
-                    "startOffset": 137817,
-                    "endLine": 1876,
+                    "startOffset": 138228,
+                    "endLine": 1884,
                     "endColumn": 12,
-                    "endOffset": 138015
+                    "endOffset": 138426
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10959,11 +10980,11 @@
             },
             {
                 "to": {
-                    "startLine": 1877,
+                    "startLine": 1885,
                     "startColumn": 4,
-                    "startOffset": 138020,
+                    "startOffset": 138431,
                     "endColumn": 69,
-                    "endOffset": 138085
+                    "endOffset": 138496
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10978,12 +10999,12 @@
             },
             {
                 "to": {
-                    "startLine": 1878,
+                    "startLine": 1886,
                     "startColumn": 4,
-                    "startOffset": 138090,
-                    "endLine": 1879,
+                    "startOffset": 138501,
+                    "endLine": 1887,
                     "endColumn": 12,
-                    "endOffset": 138225
+                    "endOffset": 138636
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -10999,12 +11020,12 @@
             },
             {
                 "to": {
-                    "startLine": 1880,
+                    "startLine": 1888,
                     "startColumn": 4,
-                    "startOffset": 138230,
-                    "endLine": 1881,
+                    "startOffset": 138641,
+                    "endLine": 1889,
                     "endColumn": 12,
-                    "endOffset": 138359
+                    "endOffset": 138770
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11020,11 +11041,11 @@
             },
             {
                 "to": {
-                    "startLine": 1882,
+                    "startLine": 1890,
                     "startColumn": 4,
-                    "startOffset": 138364,
+                    "startOffset": 138775,
                     "endColumn": 95,
-                    "endOffset": 138455
+                    "endOffset": 138866
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11039,11 +11060,11 @@
             },
             {
                 "to": {
-                    "startLine": 1883,
+                    "startLine": 1891,
                     "startColumn": 4,
-                    "startOffset": 138460,
+                    "startOffset": 138871,
                     "endColumn": 111,
-                    "endOffset": 138567
+                    "endOffset": 138978
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11058,11 +11079,11 @@
             },
             {
                 "to": {
-                    "startLine": 1884,
+                    "startLine": 1892,
                     "startColumn": 4,
-                    "startOffset": 138572,
+                    "startOffset": 138983,
                     "endColumn": 99,
-                    "endOffset": 138667
+                    "endOffset": 139078
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11077,11 +11098,11 @@
             },
             {
                 "to": {
-                    "startLine": 1885,
+                    "startLine": 1893,
                     "startColumn": 4,
-                    "startOffset": 138672,
+                    "startOffset": 139083,
                     "endColumn": 115,
-                    "endOffset": 138783
+                    "endOffset": 139194
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11096,11 +11117,11 @@
             },
             {
                 "to": {
-                    "startLine": 1886,
+                    "startLine": 1894,
                     "startColumn": 4,
-                    "startOffset": 138788,
+                    "startOffset": 139199,
                     "endColumn": 95,
-                    "endOffset": 138879
+                    "endOffset": 139290
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11115,11 +11136,11 @@
             },
             {
                 "to": {
-                    "startLine": 1887,
+                    "startLine": 1895,
                     "startColumn": 4,
-                    "startOffset": 138884,
+                    "startOffset": 139295,
                     "endColumn": 111,
-                    "endOffset": 138991
+                    "endOffset": 139402
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11134,12 +11155,12 @@
             },
             {
                 "to": {
-                    "startLine": 1888,
+                    "startLine": 1896,
                     "startColumn": 4,
-                    "startOffset": 138996,
-                    "endLine": 1889,
+                    "startOffset": 139407,
+                    "endLine": 1897,
                     "endColumn": 12,
-                    "endOffset": 139131
+                    "endOffset": 139542
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11155,11 +11176,11 @@
             },
             {
                 "to": {
-                    "startLine": 1890,
+                    "startLine": 1898,
                     "startColumn": 4,
-                    "startOffset": 139136,
+                    "startOffset": 139547,
                     "endColumn": 135,
-                    "endOffset": 139267
+                    "endOffset": 139678
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11174,12 +11195,12 @@
             },
             {
                 "to": {
-                    "startLine": 1891,
+                    "startLine": 1899,
                     "startColumn": 4,
-                    "startOffset": 139272,
-                    "endLine": 1892,
+                    "startOffset": 139683,
+                    "endLine": 1900,
                     "endColumn": 12,
-                    "endOffset": 139431
+                    "endOffset": 139842
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11195,11 +11216,11 @@
             },
             {
                 "to": {
-                    "startLine": 1893,
+                    "startLine": 1901,
                     "startColumn": 4,
-                    "startOffset": 139436,
+                    "startOffset": 139847,
                     "endColumn": 129,
-                    "endOffset": 139561
+                    "endOffset": 139972
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11214,12 +11235,12 @@
             },
             {
                 "to": {
-                    "startLine": 1894,
+                    "startLine": 1902,
                     "startColumn": 4,
-                    "startOffset": 139566,
-                    "endLine": 1895,
+                    "startOffset": 139977,
+                    "endLine": 1903,
                     "endColumn": 12,
-                    "endOffset": 139719
+                    "endOffset": 140130
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11235,12 +11256,12 @@
             },
             {
                 "to": {
-                    "startLine": 1896,
+                    "startLine": 1904,
                     "startColumn": 4,
-                    "startOffset": 139724,
-                    "endLine": 1897,
+                    "startOffset": 140135,
+                    "endLine": 1905,
                     "endColumn": 12,
-                    "endOffset": 139869
+                    "endOffset": 140280
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11256,11 +11277,11 @@
             },
             {
                 "to": {
-                    "startLine": 1898,
+                    "startLine": 1906,
                     "startColumn": 4,
-                    "startOffset": 139874,
+                    "startOffset": 140285,
                     "endColumn": 140,
-                    "endOffset": 140010
+                    "endOffset": 140421
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11275,12 +11296,12 @@
             },
             {
                 "to": {
-                    "startLine": 1899,
+                    "startLine": 1907,
                     "startColumn": 4,
-                    "startOffset": 140015,
-                    "endLine": 1900,
+                    "startOffset": 140426,
+                    "endLine": 1908,
                     "endColumn": 12,
-                    "endOffset": 140154
+                    "endOffset": 140565
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11296,11 +11317,11 @@
             },
             {
                 "to": {
-                    "startLine": 1901,
+                    "startLine": 1909,
                     "startColumn": 4,
-                    "startOffset": 140159,
+                    "startOffset": 140570,
                     "endColumn": 134,
-                    "endOffset": 140289
+                    "endOffset": 140700
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11315,11 +11336,11 @@
             },
             {
                 "to": {
-                    "startLine": 1902,
+                    "startLine": 1910,
                     "startColumn": 4,
-                    "startOffset": 140294,
+                    "startOffset": 140705,
                     "endColumn": 111,
-                    "endOffset": 140401
+                    "endOffset": 140812
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11334,11 +11355,11 @@
             },
             {
                 "to": {
-                    "startLine": 1903,
+                    "startLine": 1911,
                     "startColumn": 4,
-                    "startOffset": 140406,
+                    "startOffset": 140817,
                     "endColumn": 149,
-                    "endOffset": 140551
+                    "endOffset": 140962
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11353,11 +11374,11 @@
             },
             {
                 "to": {
-                    "startLine": 1904,
+                    "startLine": 1912,
                     "startColumn": 4,
-                    "startOffset": 140556,
+                    "startOffset": 140967,
                     "endColumn": 127,
-                    "endOffset": 140679
+                    "endOffset": 141090
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11372,11 +11393,11 @@
             },
             {
                 "to": {
-                    "startLine": 1905,
+                    "startLine": 1913,
                     "startColumn": 4,
-                    "startOffset": 140684,
+                    "startOffset": 141095,
                     "endColumn": 127,
-                    "endOffset": 140807
+                    "endOffset": 141218
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11391,12 +11412,12 @@
             },
             {
                 "to": {
-                    "startLine": 1906,
+                    "startLine": 1914,
                     "startColumn": 4,
-                    "startOffset": 140812,
-                    "endLine": 1907,
+                    "startOffset": 141223,
+                    "endLine": 1915,
                     "endColumn": 12,
-                    "endOffset": 140943
+                    "endOffset": 141354
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11412,11 +11433,11 @@
             },
             {
                 "to": {
-                    "startLine": 1908,
+                    "startLine": 1916,
                     "startColumn": 4,
-                    "startOffset": 140948,
+                    "startOffset": 141359,
                     "endColumn": 131,
-                    "endOffset": 141075
+                    "endOffset": 141486
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11431,11 +11452,11 @@
             },
             {
                 "to": {
-                    "startLine": 1909,
+                    "startLine": 1917,
                     "startColumn": 4,
-                    "startOffset": 141080,
+                    "startOffset": 141491,
                     "endColumn": 129,
-                    "endOffset": 141205
+                    "endOffset": 141616
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11450,11 +11471,11 @@
             },
             {
                 "to": {
-                    "startLine": 1910,
+                    "startLine": 1918,
                     "startColumn": 4,
-                    "startOffset": 141210,
+                    "startOffset": 141621,
                     "endColumn": 129,
-                    "endOffset": 141335
+                    "endOffset": 141746
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11469,11 +11490,11 @@
             },
             {
                 "to": {
-                    "startLine": 1911,
+                    "startLine": 1919,
                     "startColumn": 4,
-                    "startOffset": 141340,
+                    "startOffset": 141751,
                     "endColumn": 111,
-                    "endOffset": 141447
+                    "endOffset": 141858
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11488,11 +11509,11 @@
             },
             {
                 "to": {
-                    "startLine": 1912,
+                    "startLine": 1920,
                     "startColumn": 4,
-                    "startOffset": 141452,
+                    "startOffset": 141863,
                     "endColumn": 139,
-                    "endOffset": 141587
+                    "endOffset": 141998
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11507,11 +11528,11 @@
             },
             {
                 "to": {
-                    "startLine": 1913,
+                    "startLine": 1921,
                     "startColumn": 4,
-                    "startOffset": 141592,
+                    "startOffset": 142003,
                     "endColumn": 67,
-                    "endOffset": 141655
+                    "endOffset": 142066
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11526,11 +11547,11 @@
             },
             {
                 "to": {
-                    "startLine": 1914,
+                    "startLine": 1922,
                     "startColumn": 4,
-                    "startOffset": 141660,
+                    "startOffset": 142071,
                     "endColumn": 72,
-                    "endOffset": 141728
+                    "endOffset": 142139
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11545,11 +11566,11 @@
             },
             {
                 "to": {
-                    "startLine": 1915,
+                    "startLine": 1923,
                     "startColumn": 4,
-                    "startOffset": 141733,
+                    "startOffset": 142144,
                     "endColumn": 73,
-                    "endOffset": 141802
+                    "endOffset": 142213
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11564,11 +11585,11 @@
             },
             {
                 "to": {
-                    "startLine": 1916,
+                    "startLine": 1924,
                     "startColumn": 4,
-                    "startOffset": 141807,
+                    "startOffset": 142218,
                     "endColumn": 72,
-                    "endOffset": 141875
+                    "endOffset": 142286
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11583,11 +11604,11 @@
             },
             {
                 "to": {
-                    "startLine": 1917,
+                    "startLine": 1925,
                     "startColumn": 4,
-                    "startOffset": 141880,
+                    "startOffset": 142291,
                     "endColumn": 73,
-                    "endOffset": 141949
+                    "endOffset": 142360
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11602,12 +11623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1918,
+                    "startLine": 1926,
                     "startColumn": 4,
-                    "startOffset": 141954,
-                    "endLine": 1919,
+                    "startOffset": 142365,
+                    "endLine": 1927,
                     "endColumn": 12,
-                    "endOffset": 142095
+                    "endOffset": 142506
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11623,12 +11644,12 @@
             },
             {
                 "to": {
-                    "startLine": 1920,
+                    "startLine": 1928,
                     "startColumn": 4,
-                    "startOffset": 142100,
-                    "endLine": 1921,
+                    "startOffset": 142511,
+                    "endLine": 1929,
                     "endColumn": 12,
-                    "endOffset": 142239
+                    "endOffset": 142650
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11644,12 +11665,12 @@
             },
             {
                 "to": {
-                    "startLine": 1922,
+                    "startLine": 1930,
                     "startColumn": 4,
-                    "startOffset": 142244,
-                    "endLine": 1923,
+                    "startOffset": 142655,
+                    "endLine": 1931,
                     "endColumn": 12,
-                    "endOffset": 142377
+                    "endOffset": 142788
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11665,11 +11686,11 @@
             },
             {
                 "to": {
-                    "startLine": 1924,
+                    "startLine": 1932,
                     "startColumn": 4,
-                    "startOffset": 142382,
+                    "startOffset": 142793,
                     "endColumn": 25,
-                    "endOffset": 142403
+                    "endOffset": 142814
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -11684,11 +11705,11 @@
             },
             {
                 "to": {
-                    "startLine": 1925,
+                    "startLine": 1933,
                     "startColumn": 4,
-                    "startOffset": 142408,
+                    "startOffset": 142819,
                     "endColumn": 65,
-                    "endOffset": 142469
+                    "endOffset": 142880
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11703,11 +11724,11 @@
             },
             {
                 "to": {
-                    "startLine": 1926,
+                    "startLine": 1934,
                     "startColumn": 4,
-                    "startOffset": 142474,
+                    "startOffset": 142885,
                     "endColumn": 89,
-                    "endOffset": 142559
+                    "endOffset": 142970
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11722,11 +11743,11 @@
             },
             {
                 "to": {
-                    "startLine": 1927,
+                    "startLine": 1935,
                     "startColumn": 4,
-                    "startOffset": 142564,
+                    "startOffset": 142975,
                     "endColumn": 75,
-                    "endOffset": 142635
+                    "endOffset": 143046
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11741,11 +11762,11 @@
             },
             {
                 "to": {
-                    "startLine": 1928,
+                    "startLine": 1936,
                     "startColumn": 4,
-                    "startOffset": 142640,
+                    "startOffset": 143051,
                     "endColumn": 103,
-                    "endOffset": 142739
+                    "endOffset": 143150
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11760,11 +11781,11 @@
             },
             {
                 "to": {
-                    "startLine": 1929,
+                    "startLine": 1937,
                     "startColumn": 4,
-                    "startOffset": 142744,
+                    "startOffset": 143155,
                     "endColumn": 89,
-                    "endOffset": 142829
+                    "endOffset": 143240
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11779,11 +11800,11 @@
             },
             {
                 "to": {
-                    "startLine": 1930,
+                    "startLine": 1938,
                     "startColumn": 4,
-                    "startOffset": 142834,
+                    "startOffset": 143245,
                     "endColumn": 101,
-                    "endOffset": 142931
+                    "endOffset": 143342
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11798,11 +11819,11 @@
             },
             {
                 "to": {
-                    "startLine": 1931,
+                    "startLine": 1939,
                     "startColumn": 4,
-                    "startOffset": 142936,
+                    "startOffset": 143347,
                     "endColumn": 107,
-                    "endOffset": 143039
+                    "endOffset": 143450
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11817,11 +11838,11 @@
             },
             {
                 "to": {
-                    "startLine": 1932,
+                    "startLine": 1940,
                     "startColumn": 4,
-                    "startOffset": 143044,
+                    "startOffset": 143455,
                     "endColumn": 107,
-                    "endOffset": 143147
+                    "endOffset": 143558
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11836,11 +11857,11 @@
             },
             {
                 "to": {
-                    "startLine": 1933,
+                    "startLine": 1941,
                     "startColumn": 4,
-                    "startOffset": 143152,
+                    "startOffset": 143563,
                     "endColumn": 99,
-                    "endOffset": 143247
+                    "endOffset": 143658
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11855,11 +11876,11 @@
             },
             {
                 "to": {
-                    "startLine": 1934,
+                    "startLine": 1942,
                     "startColumn": 4,
-                    "startOffset": 143252,
+                    "startOffset": 143663,
                     "endColumn": 79,
-                    "endOffset": 143327
+                    "endOffset": 143738
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11874,11 +11895,11 @@
             },
             {
                 "to": {
-                    "startLine": 1935,
+                    "startLine": 1943,
                     "startColumn": 4,
-                    "startOffset": 143332,
+                    "startOffset": 143743,
                     "endColumn": 91,
-                    "endOffset": 143419
+                    "endOffset": 143830
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11893,11 +11914,11 @@
             },
             {
                 "to": {
-                    "startLine": 1936,
+                    "startLine": 1944,
                     "startColumn": 4,
-                    "startOffset": 143424,
+                    "startOffset": 143835,
                     "endColumn": 97,
-                    "endOffset": 143517
+                    "endOffset": 143928
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11912,12 +11933,12 @@
             },
             {
                 "to": {
-                    "startLine": 1937,
+                    "startLine": 1945,
                     "startColumn": 4,
-                    "startOffset": 143522,
-                    "endLine": 1938,
+                    "startOffset": 143933,
+                    "endLine": 1946,
                     "endColumn": 12,
-                    "endOffset": 143627
+                    "endOffset": 144038
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11933,11 +11954,11 @@
             },
             {
                 "to": {
-                    "startLine": 1939,
+                    "startLine": 1947,
                     "startColumn": 4,
-                    "startOffset": 143632,
+                    "startOffset": 144043,
                     "endColumn": 77,
-                    "endOffset": 143705
+                    "endOffset": 144116
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11952,11 +11973,11 @@
             },
             {
                 "to": {
-                    "startLine": 1940,
+                    "startLine": 1948,
                     "startColumn": 4,
-                    "startOffset": 143710,
+                    "startOffset": 144121,
                     "endColumn": 105,
-                    "endOffset": 143811
+                    "endOffset": 144222
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11971,11 +11992,11 @@
             },
             {
                 "to": {
-                    "startLine": 1941,
+                    "startLine": 1949,
                     "startColumn": 4,
-                    "startOffset": 143816,
+                    "startOffset": 144227,
                     "endColumn": 91,
-                    "endOffset": 143903
+                    "endOffset": 144314
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -11990,11 +12011,11 @@
             },
             {
                 "to": {
-                    "startLine": 1942,
+                    "startLine": 1950,
                     "startColumn": 4,
-                    "startOffset": 143908,
+                    "startOffset": 144319,
                     "endColumn": 103,
-                    "endOffset": 144007
+                    "endOffset": 144418
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12009,11 +12030,11 @@
             },
             {
                 "to": {
-                    "startLine": 1943,
+                    "startLine": 1951,
                     "startColumn": 4,
-                    "startOffset": 144012,
+                    "startOffset": 144423,
                     "endColumn": 109,
-                    "endOffset": 144117
+                    "endOffset": 144528
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12028,12 +12049,12 @@
             },
             {
                 "to": {
-                    "startLine": 1944,
+                    "startLine": 1952,
                     "startColumn": 4,
-                    "startOffset": 144122,
-                    "endLine": 1945,
+                    "startOffset": 144533,
+                    "endLine": 1953,
                     "endColumn": 12,
-                    "endOffset": 144239
+                    "endOffset": 144650
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12049,12 +12070,12 @@
             },
             {
                 "to": {
-                    "startLine": 1946,
+                    "startLine": 1954,
                     "startColumn": 4,
-                    "startOffset": 144244,
-                    "endLine": 1949,
+                    "startOffset": 144655,
+                    "endLine": 1957,
                     "endColumn": 12,
-                    "endOffset": 144402
+                    "endOffset": 144813
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12070,12 +12091,12 @@
             },
             {
                 "to": {
-                    "startLine": 1950,
+                    "startLine": 1958,
                     "startColumn": 4,
-                    "startOffset": 144407,
-                    "endLine": 1953,
+                    "startOffset": 144818,
+                    "endLine": 1961,
                     "endColumn": 12,
-                    "endOffset": 144559
+                    "endOffset": 144970
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12091,11 +12112,11 @@
             },
             {
                 "to": {
-                    "startLine": 1954,
+                    "startLine": 1962,
                     "startColumn": 4,
-                    "startOffset": 144564,
+                    "startOffset": 144975,
                     "endColumn": 34,
-                    "endOffset": 144594
+                    "endOffset": 145005
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12110,12 +12131,12 @@
             },
             {
                 "to": {
-                    "startLine": 1955,
+                    "startLine": 1963,
                     "startColumn": 4,
-                    "startOffset": 144599,
-                    "endLine": 1961,
+                    "startOffset": 145010,
+                    "endLine": 1969,
                     "endColumn": 10,
-                    "endOffset": 145060
+                    "endOffset": 145471
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12131,12 +12152,12 @@
             },
             {
                 "to": {
-                    "startLine": 1962,
+                    "startLine": 1970,
                     "startColumn": 4,
-                    "startOffset": 145065,
-                    "endLine": 1967,
+                    "startOffset": 145476,
+                    "endLine": 1975,
                     "endColumn": 10,
-                    "endOffset": 145356
+                    "endOffset": 145767
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12152,12 +12173,12 @@
             },
             {
                 "to": {
-                    "startLine": 1968,
+                    "startLine": 1976,
                     "startColumn": 4,
-                    "startOffset": 145361,
-                    "endLine": 1970,
+                    "startOffset": 145772,
+                    "endLine": 1978,
                     "endColumn": 10,
-                    "endOffset": 145533
+                    "endOffset": 145944
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12173,12 +12194,12 @@
             },
             {
                 "to": {
-                    "startLine": 1971,
+                    "startLine": 1979,
                     "startColumn": 4,
-                    "startOffset": 145538,
-                    "endLine": 1973,
+                    "startOffset": 145949,
+                    "endLine": 1981,
                     "endColumn": 10,
-                    "endOffset": 145712
+                    "endOffset": 146123
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12194,12 +12215,12 @@
             },
             {
                 "to": {
-                    "startLine": 1974,
+                    "startLine": 1982,
                     "startColumn": 4,
-                    "startOffset": 145717,
-                    "endLine": 1976,
+                    "startOffset": 146128,
+                    "endLine": 1984,
                     "endColumn": 12,
-                    "endOffset": 145895
+                    "endOffset": 146306
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12215,12 +12236,12 @@
             },
             {
                 "to": {
-                    "startLine": 1977,
+                    "startLine": 1985,
                     "startColumn": 4,
-                    "startOffset": 145900,
-                    "endLine": 1982,
+                    "startOffset": 146311,
+                    "endLine": 1990,
                     "endColumn": 12,
-                    "endOffset": 146260
+                    "endOffset": 146671
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/values/values.xml",
@@ -12236,11 +12257,11 @@
             },
             {
                 "to": {
-                    "startLine": 1983,
+                    "startLine": 1991,
                     "startColumn": 4,
-                    "startOffset": 146265,
+                    "startOffset": 146676,
                     "endColumn": 79,
-                    "endOffset": 146340
+                    "endOffset": 146751
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12255,11 +12276,11 @@
             },
             {
                 "to": {
-                    "startLine": 1984,
+                    "startLine": 1992,
                     "startColumn": 4,
-                    "startOffset": 146345,
+                    "startOffset": 146756,
                     "endColumn": 99,
-                    "endOffset": 146440
+                    "endOffset": 146851
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12274,11 +12295,11 @@
             },
             {
                 "to": {
-                    "startLine": 1985,
+                    "startLine": 1993,
                     "startColumn": 4,
-                    "startOffset": 146445,
+                    "startOffset": 146856,
                     "endColumn": 89,
-                    "endOffset": 146530
+                    "endOffset": 146941
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12293,11 +12314,11 @@
             },
             {
                 "to": {
-                    "startLine": 1986,
+                    "startLine": 1994,
                     "startColumn": 4,
-                    "startOffset": 146535,
+                    "startOffset": 146946,
                     "endColumn": 109,
-                    "endOffset": 146640
+                    "endOffset": 147051
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12312,11 +12333,11 @@
             },
             {
                 "to": {
-                    "startLine": 1987,
+                    "startLine": 1995,
                     "startColumn": 4,
-                    "startOffset": 146645,
+                    "startOffset": 147056,
                     "endColumn": 93,
-                    "endOffset": 146734
+                    "endOffset": 147145
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12331,11 +12352,11 @@
             },
             {
                 "to": {
-                    "startLine": 1988,
+                    "startLine": 1996,
                     "startColumn": 4,
-                    "startOffset": 146739,
+                    "startOffset": 147150,
                     "endColumn": 105,
-                    "endOffset": 146840
+                    "endOffset": 147251
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12350,11 +12371,11 @@
             },
             {
                 "to": {
-                    "startLine": 1989,
+                    "startLine": 1997,
                     "startColumn": 4,
-                    "startOffset": 146845,
+                    "startOffset": 147256,
                     "endColumn": 91,
-                    "endOffset": 146932
+                    "endOffset": 147343
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12369,12 +12390,12 @@
             },
             {
                 "to": {
-                    "startLine": 1990,
+                    "startLine": 1998,
                     "startColumn": 4,
-                    "startOffset": 146937,
-                    "endLine": 1991,
+                    "startOffset": 147348,
+                    "endLine": 1999,
                     "endColumn": 12,
-                    "endOffset": 147032
+                    "endOffset": 147443
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12390,12 +12411,12 @@
             },
             {
                 "to": {
-                    "startLine": 1992,
+                    "startLine": 2000,
                     "startColumn": 4,
-                    "startOffset": 147037,
-                    "endLine": 1993,
+                    "startOffset": 147448,
+                    "endLine": 2001,
                     "endColumn": 12,
-                    "endOffset": 147144
+                    "endOffset": 147555
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12411,12 +12432,12 @@
             },
             {
                 "to": {
-                    "startLine": 1994,
+                    "startLine": 2002,
                     "startColumn": 4,
-                    "startOffset": 147149,
-                    "endLine": 1995,
+                    "startOffset": 147560,
+                    "endLine": 2003,
                     "endColumn": 12,
-                    "endOffset": 147258
+                    "endOffset": 147669
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12432,12 +12453,12 @@
             },
             {
                 "to": {
-                    "startLine": 1996,
+                    "startLine": 2004,
                     "startColumn": 4,
-                    "startOffset": 147263,
-                    "endLine": 1997,
+                    "startOffset": 147674,
+                    "endLine": 2005,
                     "endColumn": 12,
-                    "endOffset": 147374
+                    "endOffset": 147785
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12453,12 +12474,12 @@
             },
             {
                 "to": {
-                    "startLine": 1998,
+                    "startLine": 2006,
                     "startColumn": 4,
-                    "startOffset": 147379,
-                    "endLine": 1999,
+                    "startOffset": 147790,
+                    "endLine": 2007,
                     "endColumn": 12,
-                    "endOffset": 147490
+                    "endOffset": 147901
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12474,11 +12495,11 @@
             },
             {
                 "to": {
-                    "startLine": 2000,
+                    "startLine": 2008,
                     "startColumn": 4,
-                    "startOffset": 147495,
+                    "startOffset": 147906,
                     "endColumn": 93,
-                    "endOffset": 147584
+                    "endOffset": 147995
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12493,11 +12514,11 @@
             },
             {
                 "to": {
-                    "startLine": 2001,
+                    "startLine": 2009,
                     "startColumn": 4,
-                    "startOffset": 147589,
+                    "startOffset": 148000,
                     "endColumn": 113,
-                    "endOffset": 147698
+                    "endOffset": 148109
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12512,11 +12533,11 @@
             },
             {
                 "to": {
-                    "startLine": 2002,
+                    "startLine": 2010,
                     "startColumn": 4,
-                    "startOffset": 147703,
+                    "startOffset": 148114,
                     "endColumn": 111,
-                    "endOffset": 147810
+                    "endOffset": 148221
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12531,12 +12552,12 @@
             },
             {
                 "to": {
-                    "startLine": 2003,
+                    "startLine": 2011,
                     "startColumn": 4,
-                    "startOffset": 147815,
-                    "endLine": 2004,
+                    "startOffset": 148226,
+                    "endLine": 2012,
                     "endColumn": 12,
-                    "endOffset": 147912
+                    "endOffset": 148323
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12552,12 +12573,12 @@
             },
             {
                 "to": {
-                    "startLine": 2005,
+                    "startLine": 2013,
                     "startColumn": 4,
-                    "startOffset": 147917,
-                    "endLine": 2006,
+                    "startOffset": 148328,
+                    "endLine": 2014,
                     "endColumn": 12,
-                    "endOffset": 148032
+                    "endOffset": 148443
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12573,12 +12594,12 @@
             },
             {
                 "to": {
-                    "startLine": 2007,
+                    "startLine": 2015,
                     "startColumn": 4,
-                    "startOffset": 148037,
-                    "endLine": 2008,
+                    "startOffset": 148448,
+                    "endLine": 2016,
                     "endColumn": 12,
-                    "endOffset": 148154
+                    "endOffset": 148565
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12594,11 +12615,11 @@
             },
             {
                 "to": {
-                    "startLine": 2009,
+                    "startLine": 2017,
                     "startColumn": 4,
-                    "startOffset": 148159,
+                    "startOffset": 148570,
                     "endColumn": 81,
-                    "endOffset": 148236
+                    "endOffset": 148647
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12613,11 +12634,11 @@
             },
             {
                 "to": {
-                    "startLine": 2010,
+                    "startLine": 2018,
                     "startColumn": 4,
-                    "startOffset": 148241,
+                    "startOffset": 148652,
                     "endColumn": 103,
-                    "endOffset": 148340
+                    "endOffset": 148751
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12632,11 +12653,11 @@
             },
             {
                 "to": {
-                    "startLine": 2011,
+                    "startLine": 2019,
                     "startColumn": 4,
-                    "startOffset": 148345,
+                    "startOffset": 148756,
                     "endColumn": 119,
-                    "endOffset": 148460
+                    "endOffset": 148871
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12651,11 +12672,11 @@
             },
             {
                 "to": {
-                    "startLine": 2012,
+                    "startLine": 2020,
                     "startColumn": 4,
-                    "startOffset": 148465,
+                    "startOffset": 148876,
                     "endColumn": 125,
-                    "endOffset": 148586
+                    "endOffset": 148997
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12670,11 +12691,11 @@
             },
             {
                 "to": {
-                    "startLine": 2013,
+                    "startLine": 2021,
                     "startColumn": 4,
-                    "startOffset": 148591,
+                    "startOffset": 149002,
                     "endColumn": 97,
-                    "endOffset": 148684
+                    "endOffset": 149095
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12689,11 +12710,11 @@
             },
             {
                 "to": {
-                    "startLine": 2014,
+                    "startLine": 2022,
                     "startColumn": 4,
-                    "startOffset": 148689,
+                    "startOffset": 149100,
                     "endColumn": 93,
-                    "endOffset": 148778
+                    "endOffset": 149189
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12708,11 +12729,11 @@
             },
             {
                 "to": {
-                    "startLine": 2015,
+                    "startLine": 2023,
                     "startColumn": 4,
-                    "startOffset": 148783,
+                    "startOffset": 149194,
                     "endColumn": 87,
-                    "endOffset": 148866
+                    "endOffset": 149277
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12727,11 +12748,11 @@
             },
             {
                 "to": {
-                    "startLine": 2016,
+                    "startLine": 2024,
                     "startColumn": 4,
-                    "startOffset": 148871,
+                    "startOffset": 149282,
                     "endColumn": 111,
-                    "endOffset": 148978
+                    "endOffset": 149389
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12746,11 +12767,11 @@
             },
             {
                 "to": {
-                    "startLine": 2017,
+                    "startLine": 2025,
                     "startColumn": 4,
-                    "startOffset": 148983,
+                    "startOffset": 149394,
                     "endColumn": 115,
-                    "endOffset": 149094
+                    "endOffset": 149505
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12765,11 +12786,11 @@
             },
             {
                 "to": {
-                    "startLine": 2018,
+                    "startLine": 2026,
                     "startColumn": 4,
-                    "startOffset": 149099,
+                    "startOffset": 149510,
                     "endColumn": 121,
-                    "endOffset": 149216
+                    "endOffset": 149627
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12784,11 +12805,11 @@
             },
             {
                 "to": {
-                    "startLine": 2019,
+                    "startLine": 2027,
                     "startColumn": 4,
-                    "startOffset": 149221,
+                    "startOffset": 149632,
                     "endColumn": 111,
-                    "endOffset": 149328
+                    "endOffset": 149739
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12803,12 +12824,12 @@
             },
             {
                 "to": {
-                    "startLine": 2020,
+                    "startLine": 2028,
                     "startColumn": 4,
-                    "startOffset": 149333,
-                    "endLine": 2022,
+                    "startOffset": 149744,
+                    "endLine": 2030,
                     "endColumn": 12,
-                    "endOffset": 149503
+                    "endOffset": 149914
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12824,11 +12845,11 @@
             },
             {
                 "to": {
-                    "startLine": 2023,
+                    "startLine": 2031,
                     "startColumn": 4,
-                    "startOffset": 149508,
+                    "startOffset": 149919,
                     "endColumn": 115,
-                    "endOffset": 149619
+                    "endOffset": 150030
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12843,11 +12864,11 @@
             },
             {
                 "to": {
-                    "startLine": 2024,
+                    "startLine": 2032,
                     "startColumn": 4,
-                    "startOffset": 149624,
+                    "startOffset": 150035,
                     "endColumn": 85,
-                    "endOffset": 149705
+                    "endOffset": 150116
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12862,11 +12883,11 @@
             },
             {
                 "to": {
-                    "startLine": 2025,
+                    "startLine": 2033,
                     "startColumn": 4,
-                    "startOffset": 149710,
+                    "startOffset": 150121,
                     "endColumn": 91,
-                    "endOffset": 149797
+                    "endOffset": 150208
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12881,12 +12902,12 @@
             },
             {
                 "to": {
-                    "startLine": 2026,
+                    "startLine": 2034,
                     "startColumn": 4,
-                    "startOffset": 149802,
-                    "endLine": 2027,
+                    "startOffset": 150213,
+                    "endLine": 2035,
                     "endColumn": 12,
-                    "endOffset": 149909
+                    "endOffset": 150320
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12902,12 +12923,12 @@
             },
             {
                 "to": {
-                    "startLine": 2028,
+                    "startLine": 2036,
                     "startColumn": 4,
-                    "startOffset": 149914,
-                    "endLine": 2029,
+                    "startOffset": 150325,
+                    "endLine": 2037,
                     "endColumn": 12,
-                    "endOffset": 150033
+                    "endOffset": 150444
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12923,11 +12944,11 @@
             },
             {
                 "to": {
-                    "startLine": 2030,
+                    "startLine": 2038,
                     "startColumn": 4,
-                    "startOffset": 150038,
+                    "startOffset": 150449,
                     "endColumn": 66,
-                    "endOffset": 150100
+                    "endOffset": 150511
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12942,12 +12963,12 @@
             },
             {
                 "to": {
-                    "startLine": 2031,
+                    "startLine": 2039,
                     "startColumn": 4,
-                    "startOffset": 150105,
-                    "endLine": 2032,
+                    "startOffset": 150516,
+                    "endLine": 2040,
                     "endColumn": 12,
-                    "endOffset": 150226
+                    "endOffset": 150637
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12963,11 +12984,11 @@
             },
             {
                 "to": {
-                    "startLine": 2033,
+                    "startLine": 2041,
                     "startColumn": 4,
-                    "startOffset": 150231,
+                    "startOffset": 150642,
                     "endColumn": 67,
-                    "endOffset": 150294
+                    "endOffset": 150705
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -12982,12 +13003,12 @@
             },
             {
                 "to": {
-                    "startLine": 2034,
+                    "startLine": 2042,
                     "startColumn": 4,
-                    "startOffset": 150299,
-                    "endLine": 2035,
+                    "startOffset": 150710,
+                    "endLine": 2043,
                     "endColumn": 12,
-                    "endOffset": 150422
+                    "endOffset": 150833
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13003,12 +13024,12 @@
             },
             {
                 "to": {
-                    "startLine": 2036,
+                    "startLine": 2044,
                     "startColumn": 4,
-                    "startOffset": 150427,
-                    "endLine": 2037,
+                    "startOffset": 150838,
+                    "endLine": 2045,
                     "endColumn": 12,
-                    "endOffset": 150566
+                    "endOffset": 150977
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13024,12 +13045,12 @@
             },
             {
                 "to": {
-                    "startLine": 2038,
+                    "startLine": 2046,
                     "startColumn": 4,
-                    "startOffset": 150571,
-                    "endLine": 2039,
+                    "startOffset": 150982,
+                    "endLine": 2047,
                     "endColumn": 12,
-                    "endOffset": 150694
+                    "endOffset": 151105
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13045,11 +13066,11 @@
             },
             {
                 "to": {
-                    "startLine": 2040,
+                    "startLine": 2048,
                     "startColumn": 4,
-                    "startOffset": 150699,
+                    "startOffset": 151110,
                     "endColumn": 68,
-                    "endOffset": 150763
+                    "endOffset": 151174
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13064,11 +13085,11 @@
             },
             {
                 "to": {
-                    "startLine": 2041,
+                    "startLine": 2049,
                     "startColumn": 4,
-                    "startOffset": 150768,
+                    "startOffset": 151179,
                     "endColumn": 94,
-                    "endOffset": 150858
+                    "endOffset": 151269
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13083,11 +13104,11 @@
             },
             {
                 "to": {
-                    "startLine": 2042,
+                    "startLine": 2050,
                     "startColumn": 4,
-                    "startOffset": 150863,
+                    "startOffset": 151274,
                     "endColumn": 114,
-                    "endOffset": 150973
+                    "endOffset": 151384
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13102,11 +13123,11 @@
             },
             {
                 "to": {
-                    "startLine": 2043,
+                    "startLine": 2051,
                     "startColumn": 4,
-                    "startOffset": 150978,
+                    "startOffset": 151389,
                     "endColumn": 112,
-                    "endOffset": 151086
+                    "endOffset": 151497
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13121,11 +13142,11 @@
             },
             {
                 "to": {
-                    "startLine": 2044,
+                    "startLine": 2052,
                     "startColumn": 4,
-                    "startOffset": 151091,
+                    "startOffset": 151502,
                     "endColumn": 98,
-                    "endOffset": 151185
+                    "endOffset": 151596
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13140,11 +13161,11 @@
             },
             {
                 "to": {
-                    "startLine": 2045,
+                    "startLine": 2053,
                     "startColumn": 4,
-                    "startOffset": 151190,
+                    "startOffset": 151601,
                     "endColumn": 108,
-                    "endOffset": 151294
+                    "endOffset": 151705
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13159,11 +13180,11 @@
             },
             {
                 "to": {
-                    "startLine": 2046,
+                    "startLine": 2054,
                     "startColumn": 4,
-                    "startOffset": 151299,
+                    "startOffset": 151710,
                     "endColumn": 110,
-                    "endOffset": 151405
+                    "endOffset": 151816
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13178,11 +13199,11 @@
             },
             {
                 "to": {
-                    "startLine": 2047,
+                    "startLine": 2055,
                     "startColumn": 4,
-                    "startOffset": 151410,
+                    "startOffset": 151821,
                     "endColumn": 110,
-                    "endOffset": 151516
+                    "endOffset": 151927
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13197,11 +13218,11 @@
             },
             {
                 "to": {
-                    "startLine": 2048,
+                    "startLine": 2056,
                     "startColumn": 4,
-                    "startOffset": 151521,
+                    "startOffset": 151932,
                     "endColumn": 100,
-                    "endOffset": 151617
+                    "endOffset": 152028
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13216,11 +13237,11 @@
             },
             {
                 "to": {
-                    "startLine": 2049,
+                    "startLine": 2057,
                     "startColumn": 4,
-                    "startOffset": 151622,
+                    "startOffset": 152033,
                     "endColumn": 104,
-                    "endOffset": 151722
+                    "endOffset": 152133
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13235,11 +13256,11 @@
             },
             {
                 "to": {
-                    "startLine": 2050,
+                    "startLine": 2058,
                     "startColumn": 4,
-                    "startOffset": 151727,
+                    "startOffset": 152138,
                     "endColumn": 99,
-                    "endOffset": 151822
+                    "endOffset": 152233
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13254,12 +13275,12 @@
             },
             {
                 "to": {
-                    "startLine": 2051,
+                    "startLine": 2059,
                     "startColumn": 4,
-                    "startOffset": 151827,
-                    "endLine": 2052,
+                    "startOffset": 152238,
+                    "endLine": 2060,
                     "endColumn": 12,
-                    "endOffset": 151952
+                    "endOffset": 152363
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13275,11 +13296,11 @@
             },
             {
                 "to": {
-                    "startLine": 2053,
+                    "startLine": 2061,
                     "startColumn": 4,
-                    "startOffset": 151957,
+                    "startOffset": 152368,
                     "endColumn": 90,
-                    "endOffset": 152043
+                    "endOffset": 152454
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13294,11 +13315,11 @@
             },
             {
                 "to": {
-                    "startLine": 2054,
+                    "startLine": 2062,
                     "startColumn": 4,
-                    "startOffset": 152048,
+                    "startOffset": 152459,
                     "endColumn": 122,
-                    "endOffset": 152166
+                    "endOffset": 152577
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13313,11 +13334,11 @@
             },
             {
                 "to": {
-                    "startLine": 2055,
+                    "startLine": 2063,
                     "startColumn": 4,
-                    "startOffset": 152171,
+                    "startOffset": 152582,
                     "endColumn": 93,
-                    "endOffset": 152260
+                    "endOffset": 152671
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13332,12 +13353,12 @@
             },
             {
                 "to": {
-                    "startLine": 2056,
+                    "startLine": 2064,
                     "startColumn": 4,
-                    "startOffset": 152265,
-                    "endLine": 2057,
+                    "startOffset": 152676,
+                    "endLine": 2065,
                     "endColumn": 12,
-                    "endOffset": 152372
+                    "endOffset": 152783
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13353,11 +13374,11 @@
             },
             {
                 "to": {
-                    "startLine": 2058,
+                    "startLine": 2066,
                     "startColumn": 4,
-                    "startOffset": 152377,
+                    "startOffset": 152788,
                     "endColumn": 85,
-                    "endOffset": 152458
+                    "endOffset": 152869
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13372,11 +13393,11 @@
             },
             {
                 "to": {
-                    "startLine": 2059,
+                    "startLine": 2067,
                     "startColumn": 4,
-                    "startOffset": 152463,
+                    "startOffset": 152874,
                     "endColumn": 103,
-                    "endOffset": 152562
+                    "endOffset": 152973
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13391,11 +13412,11 @@
             },
             {
                 "to": {
-                    "startLine": 2060,
+                    "startLine": 2068,
                     "startColumn": 4,
-                    "startOffset": 152567,
+                    "startOffset": 152978,
                     "endColumn": 95,
-                    "endOffset": 152658
+                    "endOffset": 153069
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13410,11 +13431,11 @@
             },
             {
                 "to": {
-                    "startLine": 2061,
+                    "startLine": 2069,
                     "startColumn": 4,
-                    "startOffset": 152663,
+                    "startOffset": 153074,
                     "endColumn": 74,
-                    "endOffset": 152733
+                    "endOffset": 153144
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13429,11 +13450,11 @@
             },
             {
                 "to": {
-                    "startLine": 2062,
+                    "startLine": 2070,
                     "startColumn": 4,
-                    "startOffset": 152738,
+                    "startOffset": 153149,
                     "endColumn": 69,
-                    "endOffset": 152803
+                    "endOffset": 153214
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13448,11 +13469,11 @@
             },
             {
                 "to": {
-                    "startLine": 2063,
+                    "startLine": 2071,
                     "startColumn": 4,
-                    "startOffset": 152808,
+                    "startOffset": 153219,
                     "endColumn": 87,
-                    "endOffset": 152891
+                    "endOffset": 153302
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13467,12 +13488,12 @@
             },
             {
                 "to": {
-                    "startLine": 2064,
+                    "startLine": 2072,
                     "startColumn": 4,
-                    "startOffset": 152896,
-                    "endLine": 2065,
+                    "startOffset": 153307,
+                    "endLine": 2073,
                     "endColumn": 12,
-                    "endOffset": 153009
+                    "endOffset": 153420
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13488,12 +13509,12 @@
             },
             {
                 "to": {
-                    "startLine": 2066,
+                    "startLine": 2074,
                     "startColumn": 4,
-                    "startOffset": 153014,
-                    "endLine": 2067,
+                    "startOffset": 153425,
+                    "endLine": 2075,
                     "endColumn": 12,
-                    "endOffset": 153113
+                    "endOffset": 153524
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13509,12 +13530,12 @@
             },
             {
                 "to": {
-                    "startLine": 2068,
+                    "startLine": 2076,
                     "startColumn": 4,
-                    "startOffset": 153118,
-                    "endLine": 2069,
+                    "startOffset": 153529,
+                    "endLine": 2077,
                     "endColumn": 12,
-                    "endOffset": 153217
+                    "endOffset": 153628
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13530,12 +13551,12 @@
             },
             {
                 "to": {
-                    "startLine": 2070,
+                    "startLine": 2078,
                     "startColumn": 4,
-                    "startOffset": 153222,
-                    "endLine": 2071,
+                    "startOffset": 153633,
+                    "endLine": 2079,
                     "endColumn": 12,
-                    "endOffset": 153343
+                    "endOffset": 153754
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13551,11 +13572,11 @@
             },
             {
                 "to": {
-                    "startLine": 2072,
+                    "startLine": 2080,
                     "startColumn": 4,
-                    "startOffset": 153348,
+                    "startOffset": 153759,
                     "endColumn": 87,
-                    "endOffset": 153431
+                    "endOffset": 153842
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13570,11 +13591,11 @@
             },
             {
                 "to": {
-                    "startLine": 2073,
+                    "startLine": 2081,
                     "startColumn": 4,
-                    "startOffset": 153436,
+                    "startOffset": 153847,
                     "endColumn": 107,
-                    "endOffset": 153539
+                    "endOffset": 153950
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13589,11 +13610,11 @@
             },
             {
                 "to": {
-                    "startLine": 2074,
+                    "startLine": 2082,
                     "startColumn": 4,
-                    "startOffset": 153544,
+                    "startOffset": 153955,
                     "endColumn": 99,
-                    "endOffset": 153639
+                    "endOffset": 154050
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13608,11 +13629,11 @@
             },
             {
                 "to": {
-                    "startLine": 2075,
+                    "startLine": 2083,
                     "startColumn": 4,
-                    "startOffset": 153644,
+                    "startOffset": 154055,
                     "endColumn": 89,
-                    "endOffset": 153729
+                    "endOffset": 154140
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13627,11 +13648,11 @@
             },
             {
                 "to": {
-                    "startLine": 2076,
+                    "startLine": 2084,
                     "startColumn": 4,
-                    "startOffset": 153734,
+                    "startOffset": 154145,
                     "endColumn": 109,
-                    "endOffset": 153839
+                    "endOffset": 154250
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13646,11 +13667,11 @@
             },
             {
                 "to": {
-                    "startLine": 2077,
+                    "startLine": 2085,
                     "startColumn": 4,
-                    "startOffset": 153844,
+                    "startOffset": 154255,
                     "endColumn": 83,
-                    "endOffset": 153923
+                    "endOffset": 154334
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13665,11 +13686,11 @@
             },
             {
                 "to": {
-                    "startLine": 2078,
+                    "startLine": 2086,
                     "startColumn": 4,
-                    "startOffset": 153928,
+                    "startOffset": 154339,
                     "endColumn": 101,
-                    "endOffset": 154025
+                    "endOffset": 154436
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13684,11 +13705,11 @@
             },
             {
                 "to": {
-                    "startLine": 2079,
+                    "startLine": 2087,
                     "startColumn": 4,
-                    "startOffset": 154030,
+                    "startOffset": 154441,
                     "endColumn": 83,
-                    "endOffset": 154109
+                    "endOffset": 154520
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13703,11 +13724,11 @@
             },
             {
                 "to": {
-                    "startLine": 2080,
+                    "startLine": 2088,
                     "startColumn": 4,
-                    "startOffset": 154114,
+                    "startOffset": 154525,
                     "endColumn": 53,
-                    "endOffset": 154163
+                    "endOffset": 154574
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13722,11 +13743,11 @@
             },
             {
                 "to": {
-                    "startLine": 2081,
+                    "startLine": 2089,
                     "startColumn": 4,
-                    "startOffset": 154168,
+                    "startOffset": 154579,
                     "endColumn": 63,
-                    "endOffset": 154227
+                    "endOffset": 154638
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13741,11 +13762,11 @@
             },
             {
                 "to": {
-                    "startLine": 2082,
+                    "startLine": 2090,
                     "startColumn": 4,
-                    "startOffset": 154232,
+                    "startOffset": 154643,
                     "endColumn": 105,
-                    "endOffset": 154333
+                    "endOffset": 154744
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13760,11 +13781,11 @@
             },
             {
                 "to": {
-                    "startLine": 2083,
+                    "startLine": 2091,
                     "startColumn": 4,
-                    "startOffset": 154338,
+                    "startOffset": 154749,
                     "endColumn": 109,
-                    "endOffset": 154443
+                    "endOffset": 154854
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13779,11 +13800,11 @@
             },
             {
                 "to": {
-                    "startLine": 2084,
+                    "startLine": 2092,
                     "startColumn": 4,
-                    "startOffset": 154448,
+                    "startOffset": 154859,
                     "endColumn": 83,
-                    "endOffset": 154527
+                    "endOffset": 154938
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13798,11 +13819,11 @@
             },
             {
                 "to": {
-                    "startLine": 2085,
+                    "startLine": 2093,
                     "startColumn": 4,
-                    "startOffset": 154532,
+                    "startOffset": 154943,
                     "endColumn": 119,
-                    "endOffset": 154647
+                    "endOffset": 155058
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/values/values.xml",
@@ -13817,12 +13838,12 @@
             },
             {
                 "to": {
-                    "startLine": 2086,
+                    "startLine": 2094,
                     "startColumn": 4,
-                    "startOffset": 154652,
-                    "endLine": 2090,
+                    "startOffset": 155063,
+                    "endLine": 2098,
                     "endColumn": 12,
-                    "endOffset": 154947
+                    "endOffset": 155358
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13838,12 +13859,12 @@
             },
             {
                 "to": {
-                    "startLine": 2091,
+                    "startLine": 2099,
                     "startColumn": 4,
-                    "startOffset": 154952,
-                    "endLine": 2096,
+                    "startOffset": 155363,
+                    "endLine": 2104,
                     "endColumn": 12,
-                    "endOffset": 155297
+                    "endOffset": 155708
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13859,12 +13880,12 @@
             },
             {
                 "to": {
-                    "startLine": 2097,
+                    "startLine": 2105,
                     "startColumn": 4,
-                    "startOffset": 155302,
-                    "endLine": 2106,
+                    "startOffset": 155713,
+                    "endLine": 2114,
                     "endColumn": 12,
-                    "endOffset": 155861
+                    "endOffset": 156272
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13880,12 +13901,12 @@
             },
             {
                 "to": {
-                    "startLine": 2107,
+                    "startLine": 2115,
                     "startColumn": 4,
-                    "startOffset": 155866,
-                    "endLine": 2117,
+                    "startOffset": 156277,
+                    "endLine": 2125,
                     "endColumn": 12,
-                    "endOffset": 156492
+                    "endOffset": 156903
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13901,12 +13922,12 @@
             },
             {
                 "to": {
-                    "startLine": 2118,
+                    "startLine": 2126,
                     "startColumn": 4,
-                    "startOffset": 156497,
-                    "endLine": 2120,
+                    "startOffset": 156908,
+                    "endLine": 2128,
                     "endColumn": 12,
-                    "endOffset": 156671
+                    "endOffset": 157082
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13922,12 +13943,12 @@
             },
             {
                 "to": {
-                    "startLine": 2121,
+                    "startLine": 2129,
                     "startColumn": 4,
-                    "startOffset": 156676,
-                    "endLine": 2126,
+                    "startOffset": 157087,
+                    "endLine": 2134,
                     "endColumn": 12,
-                    "endOffset": 157107
+                    "endOffset": 157518
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13943,12 +13964,12 @@
             },
             {
                 "to": {
-                    "startLine": 2127,
+                    "startLine": 2135,
                     "startColumn": 4,
-                    "startOffset": 157112,
-                    "endLine": 2130,
+                    "startOffset": 157523,
+                    "endLine": 2138,
                     "endColumn": 12,
-                    "endOffset": 157358
+                    "endOffset": 157769
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13964,12 +13985,12 @@
             },
             {
                 "to": {
-                    "startLine": 2131,
+                    "startLine": 2139,
                     "startColumn": 4,
-                    "startOffset": 157363,
-                    "endLine": 2137,
+                    "startOffset": 157774,
+                    "endLine": 2145,
                     "endColumn": 12,
-                    "endOffset": 157763
+                    "endOffset": 158174
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -13985,12 +14006,12 @@
             },
             {
                 "to": {
-                    "startLine": 2138,
+                    "startLine": 2146,
                     "startColumn": 4,
-                    "startOffset": 157768,
-                    "endLine": 2142,
+                    "startOffset": 158179,
+                    "endLine": 2150,
                     "endColumn": 12,
-                    "endOffset": 158087
+                    "endOffset": 158498
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
@@ -14006,12 +14027,12 @@
             },
             {
                 "to": {
-                    "startLine": 2143,
+                    "startLine": 2151,
                     "startColumn": 4,
-                    "startOffset": 158092,
-                    "endLine": 2150,
+                    "startOffset": 158503,
+                    "endLine": 2158,
                     "endColumn": 12,
-                    "endOffset": 158465
+                    "endOffset": 158876
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/res/values/values.xml",
