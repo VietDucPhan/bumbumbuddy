@@ -35,7 +35,9 @@ const Tabs = TabNavigator(
   tabsManagement,
   {
     tabBarOptions:tabBarOptions,
-    tabBarPosition:'bottom'
+    tabBarPosition:'bottom',
+    animationEnabled:false,
+    lazy:true
   }
 );
 

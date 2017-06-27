@@ -75,7 +75,7 @@ MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/ducphan/.android/bu
 MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/ducphan/.android/build-cache/af0d1955a1253688d805800be3754026caa0f311/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/ducphan/.android/build-cache/439452a99dfabcf8a8fad3a12966120365e4b6af/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.android/build-cache/124a69603bb7dc8080b28760c076160f52280a4d/output/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ducphan/.android/build-cache/451f7dce18e58bf93f6c57b0e0e5b1832b72805d/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ducphan/.android/build-cache/4cdc8d4abbb86a0c7d7d21473e94dabc0a3cb06c/output/AndroidManifest.xml:20:5-43
@@ -114,7 +114,7 @@ MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/ducphan/.a
 MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.android/build-cache/124a69603bb7dc8080b28760c076160f52280a4d/output/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/ducphan/.android/build-cache/397593b8cf1e4168cc56ad483f700ac519e43180/output/AndroidManifest.xml:2:3-17
-MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:28:5-48:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:28:5-48:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ducphan/.android/build-cache/451f7dce18e58bf93f6c57b0e0e5b1832b72805d/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ducphan/.android/build-cache/4cdc8d4abbb86a0c7d7d21473e94dabc0a3cb06c/output/AndroidManifest.xml:26:5-20
@@ -263,25 +263,25 @@ ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/ducphan/.an
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-43:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:29:9-32:66
+ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:29:9-32:66
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:31:13-96
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:31:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:30:13-57
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:33:19-68
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:44:9-47:40
+ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:44:9-47:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:46:13-72
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:46:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:47:13-37
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /Users/ducphan/.android/build-cache/8a406a073a10de1fb63c31df1bfbc987d60cc3e0/output/AndroidManifest.xml:45:13-70
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] /Users/ducphan/.android/build-cache/344ec0ed238226c45f3d145bd43ea0b3cf097f44/output/AndroidManifest.xml:45:13-70
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ducphan/.android/build-cache/451f7dce18e58bf93f6c57b0e0e5b1832b72805d/output/AndroidManifest.xml:22:5-24:34

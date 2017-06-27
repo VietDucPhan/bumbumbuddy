@@ -22,7 +22,7 @@ var BumsModel = new Bums();
 const ASPECT_RATIO = width / height;
 var LATITUDE = 37.78825;
 var LONGITUDE = -122.4324;
-var LATITUDE_DELTA = 0.0922;
+var LATITUDE_DELTA = 0.0022;
 var LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const SPACE = 0.01;
 
@@ -90,9 +90,9 @@ class Map extends Component {
 
   _locatorOnPress(){
     var self = this;
-    navigator.geolocation.watchPosition (
+    navigator.geolocation.getCurrentPosition (
       (position) => {
-        //console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
+        console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
         self.setState({region:{
           longitude:position.coords.longitude,
           latitude:position.coords.latitude,
@@ -102,8 +102,7 @@ class Map extends Component {
         statusBarHeight:0
       });
       },
-      function(error){console.log('map._locatorOnPress',error)},
-      {enableHighAccuracy: true, timeout: 2000, maximumAge: 1000}
+      function(error){console.log('map._locatorOnPress',error)}
     );
   }
 
@@ -139,8 +138,6 @@ class Map extends Component {
   }
 
   componentWillMount() {
-
-     //Hack to ensure the showsMyLocationButton is shown initially. Idea is to force a repaint
     setTimeout(()=>this.setState({statusBarHeight: 1}),500);
   }
   //
