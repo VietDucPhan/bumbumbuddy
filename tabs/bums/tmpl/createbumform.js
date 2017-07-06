@@ -17,7 +17,6 @@ import {
   Button
  } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import Camera from 'react-native-camera';
 var { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
 var LATITUDE = 37.78825;
@@ -26,12 +25,15 @@ var LATITUDE_DELTA = 0.0022;
 var LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 
+
 class CreateBumForm extends Component {
   constructor(props){
     super(props);
     this.state = {
-      bumNameText:"",
+      bumNameText:this.props.navigation.state.params.bumNameText,
       bumStreetAddressText:"",
+      imageSource:null,
+      bumImage:null,
       bums:[],
       bumZipCodeText:"",
       imCurrentlyHereButton:false,
@@ -59,16 +61,59 @@ class CreateBumForm extends Component {
     headerTitle:'Map',
     title:'Create Bums',
     headerRight:(
-      <Button title={'Create'} onPress={()=>console.log('CreateBumForm.navigationOptions',navigation.state)} />
+      <Button title={'Create'} onPress={()=>navigation.state.params.onCreateClick()} />
     ),}
   };
 
-  takePicture() {
-    const options = {};
-    //options.location = ...
-    this.camera.capture({metadata: options})
-      .then((data) => console.log(data))
-      .catch(err => console.error(err));
+  getImageFromPhone(){
+    var self = this;
+    var options = {
+      title: 'Select Image',
+      customButtons: [],
+      storageOptions: {
+        skipBackup: true,
+        path: 'images'
+      }
+    };
+    if(self.state.imageSource != null){
+      options.customButtons.push({name: 'Remove', title: 'Remove image'});
+    }
+    ImagePicker.showImagePicker(options, (response) => {
+      //console.log('Response = ', response);
+
+      if (response.didCancel) {
+        console.log('User cancelled image picker');
+      }
+      else if (response.error) {
+        console.log('ImagePicker Error: ', response.error);
+      }
+      else if (response.customButton) {
+        self.setState({
+          imageSource:null
+        });
+      }
+      else {
+        let source = { uri: 'data:image/jpeg;base64,' + response.data };
+        self.setState({
+          imageSource:source
+        });
+
+        // You can also display the image using data:
+        // let source = { uri: 'data:image/jpeg;base64,' + response.data };
+      }
+    });
+  }
+
+  _onCreateClick(){
+    //alert('click create');
+    var self = this;
+    const bum = {
+      name:self.state.bumNameText,
+      address:self.state.bumStreetAddressText,
+      zipcode:self.state.bumZipCodeText,
+      image:self.state.imageSource
+    }
+    console.log('CreateBumForm',bum);
   }
 
   _bumNameChangeText(text){
@@ -137,9 +182,14 @@ class CreateBumForm extends Component {
         longitude: region.longitude
       }
     });
+    this.props.navigation.setParams({
+      latitude: region.latitude,
+      longitude: region.longitude
+    });
   }
 
   _updatingDragableMaker(e){
+    var self = this;
     //console.log('CreateBumForm._updatingDragableMaker',e.nativeEvent.coordinate);
     LATITUDE = e.nativeEvent.coordinate.latitude;
     LONGITUDE = e.nativeEvent.coordinate.longitude;
@@ -152,6 +202,10 @@ class CreateBumForm extends Component {
   }
 
   componentDidMount(){
+    var self = this;
+    self.props.navigation.setParams({
+      onCreateClick:self._onCreateClick.bind(this)
+    });
   }
 
   componentWillMount() {
@@ -261,6 +315,14 @@ const styles = StyleSheet.create({
   mapView: {
     flex:1,
     height:202
+  },
+  pictureIcons:{
+    paddingRight:8,
+    paddingLeft:8,
+    paddingTop:5,
+    paddingBottom:5,
+    backgroundColor:'#e8e8e8',
+    borderRadius:15
   }
 });
 module.exports = CreateBumForm;

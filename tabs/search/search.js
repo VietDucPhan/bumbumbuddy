@@ -66,7 +66,7 @@ class commentdetail extends Component {
 
             {this.state.seachText != "" &&
               <View style={styles.addNewBumContainer}>
-                <TouchableOpacity onPress={()=>this.props.navigation.navigate('CreateBumForm',{bumID:1})}>
+                <TouchableOpacity onPress={()=>this.props.navigation.navigate('CreateBumForm',{bumID:0,bumNameText:this.state.seachText})}>
                   <View style={styles.addNewBumContentContainer}>
                     <Icon style={styles.addNewIcon} size={30} name={'ios-add-circle-outline'} />
                     <Text>Add "{this.state.seachText}" to bum collection</Text>
