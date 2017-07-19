@@ -14,9 +14,12 @@ import {
   ListView,
   Switch,
   Platform,
-  Button
+  Button,
+  Alert
  } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import BumsLib from '../../../libs/Bums';
+var BumsModel = new BumsLib();
 var { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
 var LATITUDE = 37.78825;
@@ -32,8 +35,6 @@ class CreateBumForm extends Component {
     this.state = {
       bumNameText:this.props.navigation.state.params.bumNameText,
       bumStreetAddressText:"",
-      imageSource:null,
-      bumImage:null,
       bums:[],
       bumZipCodeText:"",
       imCurrentlyHereButton:false,
@@ -106,14 +107,45 @@ class CreateBumForm extends Component {
 
   _onCreateClick(){
     //alert('click create');
+    //console.log(this.props.screenProps.user);
     var self = this;
-    const bum = {
-      name:self.state.bumNameText,
-      address:self.state.bumStreetAddressText,
-      zipcode:self.state.bumZipCodeText,
-      image:self.state.imageSource
+    if(!self.state.bumNameText || self.state.bumNameText.length == 0){
+      Alert.alert(
+        '',
+        'Enter name to continue',
+        [
+          {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+        ],
+        { cancelable: false }
+      )
+    } else {
+      const bum = {
+        name:self.state.bumNameText,
+        address:self.state.bumStreetAddressText,
+        zipcode:self.state.bumZipCodeText,
+        coordinate:{
+          longitude:self.state.draggableMarker.longitude,
+          latitude:self.state.draggableMarker.latitude
+        },
+        token:self.props.screenProps.user.token
+      }
+      //console.log('createbumform._onCreateClick',bum);
+      BumsModel.createBum(bum,function(result){
+        //console.log('createbumform._onCreateClick','finished');
+        if(result && result.errors){
+          Alert.alert(
+            result.errors[0].title,
+            result.errors[0].detail,
+            [
+              {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+            ],
+            { cancelable: false }
+          )
+        } else {
+          self.props.navigation.navigate('BumDetail',{_id:result.data._id});
+        }
+      });
     }
-    console.log('CreateBumForm',bum);
   }
 
   _bumNameChangeText(text){
@@ -181,10 +213,6 @@ class CreateBumForm extends Component {
         latitude: region.latitude,
         longitude: region.longitude
       }
-    });
-    this.props.navigation.setParams({
-      latitude: region.latitude,
-      longitude: region.longitude
     });
   }
 
@@ -262,7 +290,7 @@ class CreateBumForm extends Component {
           showsPointsOfInterest={true}
           showsBuildings={true}
           region={this.state.region}
-          onPress={this._updatingDragableMaker.bind(this)}
+          onPress={()=>{this._updatingDragableMaker.bind(this)}}
           initialRegion={this.state.region}
         >
           <MapView.Marker draggable

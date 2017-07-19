@@ -11,19 +11,53 @@ import {
   ScrollView,
   Image,
   Alert,
-  Slider
+  Slider,
+  ActivityIndicator,
+  RefreshControl
  } from 'react-native';
  import Icon from 'react-native-vector-icons/Ionicons';
 import AuthLib from '../../libs/Auth';
 import BumsLib from '../../libs/Bums';
+import CacheLib from '../../libs/Cache';
+import DateFormat from '../bums/tmpl/formatdate';
+var BumModel = new BumsLib();
 var Auth = new AuthLib();
+var Cache = new CacheLib();
 
 class comments extends Component {
   constructor(props){
     super(props);
     this.state = {
-      bums:null
-    }
+      comments:[
+        { _id: null,
+	       media:
+	        [ { format: null,
+	            animated: null,
+	            width: null,
+	            height: null,
+	            size: null,
+	            url: null } ],
+	       description: null,
+	       overall_rating: 0,
+	       bum_rating: null,
+	       created_by:
+	        { _id: null,
+	          name: null,
+	          email: null,
+	          profile_picture: null,
+	          type: null },
+	       created_date: null,
+	       total_replies: null,
+	       points: null }
+      ],
+      showActivitiIndicator:true,
+      refreshing:false
+    };
+    this._getBumComments.bind(this);
+  }
+
+  static defaultProps = {
+    finsihedRefreshing:function(){}
   }
 
   static navigationOptions = {
@@ -36,6 +70,26 @@ class comments extends Component {
   };
 
   componentDidMount(){
+    //console.log("comments.componentDidMount");
+    var self = this;
+    if(self.props._id){
+      Cache.getComments(self.props._id,function(flag,result){
+        if(flag){
+          self.setState(result);
+        } else {
+          self._getBumComments();
+        }
+      });
+
+    } else {
+      Cache.getComments("_getBumsComments",function(flag,result){
+        if(flag){
+          self.setState(result);
+        } else {
+          self._getBumsComments();
+        }
+      });
+    }
   }
 
   _calculateImageHeight(imageWidth,dimensionWidth,imageHeight){
@@ -43,12 +97,55 @@ class comments extends Component {
     return {height:height,width:dimensionWidth};
   }
 
-  _getBums(){
+  _getBumsComments(){
     var self = this;
-    BumsLib.getBums(function(response){
-      self.state.setState({
-        bums:response
-      });
+    BumModel.getBumsComments(function(result){
+      if(result && result.errors){
+        Alert.alert(
+          result.errors[0].title,
+          result.errors[0].detail,
+          [
+            {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+          ],
+          { cancelable: false }
+        )
+      } else {
+        console.log("comments._getBumsComments",result);
+        var comments = {
+          comments:result.data,
+          showActivitiIndicator:false,
+          refreshing:false
+        }
+        self.setState(comments);
+        Cache.setComments("_getBumsComments",comments);
+        self.props.finsihedRefreshing();
+      }
+    });
+  }
+
+  _getBumComments(){
+    var self = this;
+    BumModel.getBumComments(self.props._id,function(result){
+      if(result && result.errors){
+        Alert.alert(
+          result.errors[0].title,
+          result.errors[0].detail,
+          [
+            {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+          ],
+          { cancelable: false }
+        )
+      } else {
+        console.log("comments._getBumComments",result);
+        var comments = {
+          comments:result.data,
+          showActivitiIndicator:false,
+          refreshing:false
+        }
+        self.setState(comments);
+        Cache.setComments(self.props._id,comments);
+        self.props.finsihedRefreshing();
+      }
     });
   }
 
@@ -67,162 +164,157 @@ class comments extends Component {
     )
   }
 
+  _onRefresh() {
+    var self = this;
+
+    this.setState({refreshing: true});
+    if(self.props._id){
+      self._getBumComments();
+    } else {
+      console.log("comments._onRefresh");
+      self._getBumsComments();
+
+    }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    var self = this;
+    console.log("comments.componentWillReceiveProps");
+    if(nextProps.showRating){
+      Cache.getRating(self.props._id,function(flag,result){
+        console.log("rating._getBum.componentWillReceiveProps",flag);
+        if(flag){
+          self.setState(result);
+        } else {
+          self._getBum();
+        }
+      });
+    }
+
+    if(nextProps.refreshing){
+      if(self.props._id){
+        self._getBumComments();
+      } else {
+        self._getBumsComments();
+      }
+    }
+  }
+
   render() {
     const {navigate} = this.props.navigation;
-    return(
-      <ScrollView>
-        {/* Start a comment */}
-        <View style={styles.commentContainer}>
-          <View style={styles.commentHeader}>
-            <View style={styles.commentorProfilePictureContainer}>
-              <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-         style={{width: 30, height: 30, borderRadius:15}} />
-            </View>
-            <View style={styles.commentorProfileInfoContainer}>
-              <View>
-                <TouchableOpacity>
-                  <Text>Some guy name</Text>
-                </TouchableOpacity>
-                <TouchableOpacity>
-                  <Text style={styles.commentAtPlace}>The Observatory</Text>
-                </TouchableOpacity>
-              </View>
-              <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" />
-              </TouchableOpacity>
-            </View>
-          </View>
-          <View>
-            <Image resizeMode="contain" source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-       style={this._calculateImageHeight(975,Dimensions.get('window').width,512)} />
-          </View>
-          <View style={styles.commentorCommentContainer}>
-            <View>
-              <Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-               specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-               essentially unchanged.</Text>
-            </View>
-             <View style={styles.commentPointsAndResponseContainer}>
-               <View style={styles.commentPointsAndResponseButtonsContainer}>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-                 </TouchableOpacity>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-                 </TouchableOpacity>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-                 </TouchableOpacity>
-               </View>
-
-               <Text style={styles.commentPointsAndResponseText}>13 points - 25 replies</Text>
-             </View>
-          </View>
+    var self = this;
+    //console.log("comments.render",self.state.comments);
+    if(self.state.showActivitiIndicator){
+      return(
+        <View style={styles.container}>
+          <ActivityIndicator animating={this.state.showActivitiIndicator}></ActivityIndicator>
         </View>
-        {/* End a comment */}
-        {/* Start a comment */}
-        <View style={styles.commentContainer}>
-          <View style={styles.commentHeader}>
-            <View style={styles.commentorProfilePictureContainer}>
-              <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-         style={{width: 30, height: 30, borderRadius:15}} />
-            </View>
-            <View style={styles.commentorProfileInfoContainer}>
-              <View>
-                <TouchableOpacity>
-                  <Text>Some guy name</Text>
-                </TouchableOpacity>
-                <TouchableOpacity>
-                  <Text style={styles.commentAtPlace}>The Observatory</Text>
-                </TouchableOpacity>
-              </View>
-              <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" />
-              </TouchableOpacity>
-            </View>
-          </View>
-          <View>
-            <Image resizeMode="contain" source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-       style={{width: Dimensions.get('window').width, height: 128}} />
-          </View>
-          <View style={styles.commentorCommentContainer}>
-            <View>
-              <Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-               specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-               essentially unchanged.</Text>
-            </View>
-             <View style={styles.commentPointsAndResponseContainer}>
-               <View style={styles.commentPointsAndResponseButtonsContainer}>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-                 </TouchableOpacity>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-                 </TouchableOpacity>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-                 </TouchableOpacity>
-               </View>
+      );
+    } else {
+      return(
+        <ScrollView
+          refreshControl={
+            <RefreshControl
+              refreshing={this.state.refreshing}
+              onRefresh={this._onRefresh.bind(this)}
+            />
+          }
+        >
+          {self.state.comments.map(function(obj, i){
+              //console.log(obj);
+              switch (obj.bum_rating) {
+                case "level1":
+                  obj.bum_rating = "Trickle";
+                  break;
+                case "level2":
+                  obj.bum_rating = "Stream flow";
+                  break;
+                case "level3":
+                  obj.bum_rating = "Garden hose";
+                  break;
+                case "level4":
+                  obj.bum_rating = "Heavy torrent";
+                  break;
+                case "level5":
+                  obj.bum_rating = "Geyser";
+                  break;
 
-               <Text style={styles.commentPointsAndResponseText}>13 points - 25 replies</Text>
-             </View>
-          </View>
-        </View>
-        {/* End a comment */}
-        {/* Start a comment */}
-        <View style={styles.commentContainer}>
-          <View style={styles.commentHeader}>
-            <View style={styles.commentorProfilePictureContainer}>
-              <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-         style={{width: 30, height: 30, borderRadius:15}} />
-            </View>
-            <View style={styles.commentorProfileInfoContainer}>
-              <View>
-                <TouchableOpacity>
-                  <Text>Some guy name</Text>
-                </TouchableOpacity>
-                <TouchableOpacity>
-                  <Text style={styles.commentAtPlace}>The Observatory</Text>
-                </TouchableOpacity>
-              </View>
-              <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={this.alert.bind(this)} size={20} name="ios-more" />
-              </TouchableOpacity>
-            </View>
-          </View>
-          <View>
-            <Image resizeMode="contain" source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-       style={{width: Dimensions.get('window').width, height: 128}} />
-          </View>
-          <View style={styles.commentorCommentContainer}>
-            <View>
-              <Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-               specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-               essentially unchanged.</Text>
-            </View>
-             <View style={styles.commentPointsAndResponseContainer}>
-               <View style={styles.commentPointsAndResponseButtonsContainer}>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-                 </TouchableOpacity>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-                 </TouchableOpacity>
-                 <TouchableOpacity>
-                  <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-                 </TouchableOpacity>
-               </View>
+              }
 
-               <Text style={styles.commentPointsAndResponseText}>13 points - 25 replies</Text>
-             </View>
-          </View>
-        </View>
-        {/* End a comment */}
-      </ScrollView>
-    );
+              if(obj.overall_rating){
+                obj.overall_rating_displayname = obj.overall_rating + " stars";
+              }
+                return (
+                  <View key={i} style={styles.commentContainer}>
+                    <View style={styles.commentHeader}>
+                      <View style={styles.commentorProfilePictureContainer}>
+                        <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
+                   style={{width: 30, height: 30, borderRadius:15}} />
+                      </View>
+                      <View style={styles.commentorProfileInfoContainer}>
+                        <View>
+                          {obj.created_by
+                            ?
+                            <TouchableOpacity>
+                              <Text style={styles.createdBy}>{obj.created_by.name}</Text>
+                            </TouchableOpacity>
+                            :
+                              <Text style={styles.commentAtPlace}></Text>
+                          }
+                          {self.props._id
+                            ?
+                              <DateFormat style={styles.commentAtPlace} created_date={obj.created_date}/>
+                            :
+                            <TouchableOpacity onPress={()=>navigate("BumDetail",{_id:obj.bum_id})}>
+                              <Text style={styles.commentAtPlace}>{obj.name}</Text>
+                            </TouchableOpacity>
+                          }
+
+                        </View>
+                        <TouchableOpacity>
+                          <Icon style={{padding:5}} onPress={()=>{this.alert.bind(this)}} size={20} name="ios-more" />
+                        </TouchableOpacity>
+                      </View>
+                    </View>
+                    <View>
+                      {obj.media && obj.media[0] &&
+                        <Image resizeMode="contain" source={{uri: obj.media[0].secure_url}}
+                 style={self._calculateImageHeight(obj.media[0].width,Dimensions.get('window').width,obj.media[0].height)} />}
+
+                    </View>
+                    <View style={styles.commentorCommentContainer}>
+                      <View>
+                        <Text>{obj.description}</Text>
+                      </View>
+                       <View style={styles.commentPointsAndResponseContainer}>
+                         <View style={styles.commentPointsAndResponseButtonsContainer}>
+                           <TouchableOpacity>
+                            <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
+                           </TouchableOpacity>
+                           <TouchableOpacity>
+                            <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
+                           </TouchableOpacity>
+                           <TouchableOpacity>
+                            <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
+                           </TouchableOpacity>
+                         </View>
+                         <View style={styles.commentPointsResponseAndRatingContainer}>
+                            <Text style={styles.commentPointsAndResponseText}>{obj.overall_rating_displayname} {obj.overall_rating_displayname && <Text>-</Text>} {obj.bum_rating}</Text>
+
+                            <Text style={styles.commentPointsAndResponseText}>{obj.points} points - {obj.total_replies} replies</Text>
+
+                         </View>
+
+                       </View>
+                    </View>
+                  </View>
+                );
+              })
+          }
+        </ScrollView>
+      );
+    }
+
   }
 }
   const styles = StyleSheet.create({
@@ -230,7 +322,7 @@ class comments extends Component {
       flex:1,
       flexDirection: 'column',
       backgroundColor:"#fff",
-      marginBottom:15
+      marginBottom:5
     },
     commentHeader:{
       flex:1,
@@ -250,8 +342,11 @@ class comments extends Component {
       backgroundColor:"#fff",
       padding:5
     },
+    createdBy:{
+      fontWeight:"500"
+    },
     commentAtPlace:{
-      fontSize:10
+      fontSize:12
     },
     commentorCommentContainer:{
       flex:1,
@@ -269,6 +364,9 @@ class comments extends Component {
       flex:1,
       flexDirection:'row',
       alignItems:'center',
+    },
+    commentPointsResponseAndRatingContainer:{
+      flexDirection:'column'
     },
     commentPointsAndResponseButton:{
       borderWidth:StyleSheet.hairlineWidth,

@@ -18,9 +18,13 @@ import RatingView from '../../bums/tmpl/rating';
 class Callout extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      showRating:false
+    }
   }
 
   componentDidMount(){
+
   }
 
   componentWillMount() {
@@ -31,6 +35,9 @@ class Callout extends Component {
     return(
       <MapView.Marker
         coordinate={self.props.bum.coordinate}
+        onPress={() => {
+          this.setState({showRating:true});
+        }}
       >
         <MapView.Callout
           tooltip={false}
@@ -39,7 +46,7 @@ class Callout extends Component {
           }}
         >
           <View style={styles.container}>
-            <RatingView/>
+            <RatingView _id={self.props.bum._id} showRating={self.state.showRating}/>
           </View>
         </MapView.Callout>
       </MapView.Marker>
@@ -49,7 +56,9 @@ class Callout extends Component {
 }
 const styles = StyleSheet.create({
   container:{
-    width:250
+    height:210,
+    width:230,
+    padding:5
   },
   imageContainer:{
     backgroundColor:'#888'
@@ -57,11 +66,18 @@ const styles = StyleSheet.create({
   bumInfoContainer:{
     marginBottom:10,
   },
+  bumDetailInfoHeaderContainer:{
+    flexDirection: 'row',
+    alignItems:'flex-start',
+    justifyContent: 'space-between',
+    paddingBottom:5
+  },
   bumInfoContainerNameText:{
-    fontSize:12
+    fontSize:14,
+    fontWeight:'bold'
   },
   bumInfoContainerAddressText:{
-    fontSize:10
+    fontSize:12
   },
   starRating:{
     flexDirection:'row',

@@ -19,9 +19,11 @@ class LoginView extends Component {
     this.state = {
       showActivitiIndicator:false
     }
+    this.facebookLogin = this.facebookLogin.bind(this);
   }
   facebookLogin(){
     var self = this;
+    console.log("login.facebookLogin");
     self.setState({
       showActivitiIndicator:true
     });
@@ -51,6 +53,7 @@ class LoginView extends Component {
   }
 
   render(){
+    var self = this;
     if(this.state.showActivitiIndicator){
       return (
         <View style={styles.container}>
@@ -61,17 +64,15 @@ class LoginView extends Component {
     } else {
       return (
         <View style={styles.container}>
-          <TouchableOpacity style={styles.loginBtn} >
-            <Icon.Button onPress={()=>this.props.signOut()} name="facebook" backgroundColor="#4267b2">
-              Login with Facebook
-            </Icon.Button>
-          </TouchableOpacity>
+            <View style={styles.loginBtn}>
+              <Icon.Button onPress={()=>self.facebookLogin()} name="facebook" backgroundColor="#4267b2">
+                Login with Facebook
+              </Icon.Button>
+            </View>
 
-          <TouchableOpacity style={styles.loginBtn} >
-            <Icon.Button onPress={this.googleLogin.bind(this)} name="google" backgroundColor="#dd4b39">
+            <Icon.Button onPress={()=>self.googleLogin()} name="google" backgroundColor="#dd4b39">
               Login with Google
             </Icon.Button>
-          </TouchableOpacity>
         </View>
       )
     }

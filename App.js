@@ -10,6 +10,7 @@ import MapTab from './tabs/map/map';
 //Stacks
 import CommentDetailStack from './tabs/comments/tmpl/commentdetail';
 import BumDetailStack from './tabs/bums/tmpl/bumdetail';
+import AddCommentStack from './tabs/bums/tmpl/commentform';
 import CreateBumStack from './tabs/bums/tmpl/createbumform';
 import SearchStack from './tabs/search/search';
 
@@ -46,7 +47,8 @@ const stackMangement = {
   CommentDetail:{screen:CommentDetailStack},
   BumDetail:{screen:BumDetailStack},
   CreateBumForm:{screen:CreateBumStack},
-  SearchPage:{screen:SearchStack}
+  SearchPage:{screen:SearchStack},
+  AddCommentPage:{screen:AddCommentStack}
 }
 const StackPage = StackNavigator(stackMangement);
 

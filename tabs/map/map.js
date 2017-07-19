@@ -61,20 +61,20 @@ class Map extends Component {
     console.log('Map.navigationOptions',navigation);
     return {tabBarLabel: '',
     tabBarIcon: ({ tintColor, focused }) => (
-      <Icon style={{paddingTop:5, paddingBottom:5}} size={30} name={focused ? 'ios-pin' : 'ios-pin-outline'} />
+      <Icon style={{paddingTop:5, paddingBottom:5}} size={35} name={focused ? 'ios-pin' : 'ios-pin-outline'} />
     ),
     headerTitle:'Map',
     title:'Create Bums',
     headerRight:(
-      <TouchableOpacity onPress={()=>navigation.navigate("SearchPage")} >
-        <Icon style={{padding:10,marginTop:5}} size={22} name="ios-add-circle-outline"/>
+      <TouchableOpacity onPress={()=>navigation.state.params._onClickHeaderRight()} >
+        <Icon style={{padding:10,marginTop:5}} size={22} name="md-add-circle"/>
       </TouchableOpacity>
     ),}
   };
 
   _getBums(){
     var self = this;
-    BumsModel.getBums_dev(function(response){
+    BumsModel.getBums(function(response){
       if(response != null){
         //console.log('maps._getBums',response);
         self.setState({
@@ -84,8 +84,8 @@ class Map extends Component {
     });
   }
 
-  goToBumDetail(bumID){
-    this.props.navigation.navigate('BumDetail',{bumID:bumID});
+  goToBumDetail(_id){
+    this.props.navigation.navigate('BumDetail',{_id:_id});
   }
 
   _locatorOnPress(){
@@ -131,9 +131,23 @@ class Map extends Component {
     }});
   }
 
+  _onClickHeaderRight(){
+    var self = this;
+    console.log(self.props.screenProps.user);
+    if(self.props.screenProps.user != null){
+      self.props.navigation.navigate('SearchPage');
+    } else {
+      self.props.navigation.navigate('Profile');
+    }
+  }
+
   componentDidMount(){
+    var self = this;
     this._locatorOnPress();
     this._getBums();
+    self.props.navigation.setParams({
+      _onClickHeaderRight:self._onClickHeaderRight.bind(this)
+    });
 
   }
 
@@ -159,6 +173,7 @@ class Map extends Component {
           initialRegion={this.state.region}
         >
         {self.state.bums.map(function(obj, i){
+          console.log(obj);
             return (
               <Callout goToBumDetail={()=>self.goToBumDetail(obj._id)} key={obj._id} bum={obj} />
             );

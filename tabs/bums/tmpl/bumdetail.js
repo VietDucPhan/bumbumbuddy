@@ -10,81 +10,135 @@ import {
   Text,
   ScrollView,
   Image,
+  RefreshControl
  } from 'react-native';
  import CommentsView from '../../comments/comments';
  import RatingView from '../../bums/tmpl/rating';
+ import CommentFormView from './commentform'
 import Icon from 'react-native-vector-icons/Ionicons';
 
 class bumdetail extends Component {
   constructor(props){
     super(props);
     this.state = {
-      _id: '57a4bb846f33a6110086869b',
-      name: 'The Observatory',
-      address: '4 Nguyen Tat Thanh',
-	    links:
-	     [ { format: 'jpg',
-	         animated: false,
-	         width: 500,
-	         height: 375,
-	         size: 218936,
-	         url: 'http://res.cloudinary.com/dsthiwwp4/image/upload/v1471837083/jswWjYv_cneeia.jpg',
-	         uploaded_by:
-	          { name: 'duc phan',
-	            email: 'joomdaily@gmail.com',
-	            profile_picture: 'https://lh6.googleusercontent.com/-zkNCtidqyL0/AAAAAAAAAAI/AAAAAAAAACY/JOiGoRBOedY/s96-c/photo.jpg',
-	            type: 'google' } } ],
-	    comments:
-	     [ { commentor:
-	          { name: 'duc phan',
-	            email: 'joomdaily@gmail.com',
-	            profile_picture: 'https://lh6.googleusercontent.com/-zkNCtidqyL0/AAAAAAAAAAI/AAAAAAAAACY/JOiGoRBOedY/s96-c/photo.jpg',
-	            type: 'google' },
-	         content: '63 beer shop' } ],
-	    likes:
-	     [ { _id: '57fca5de4ce7a0110064ae6d',
-	         name: 'Duc Viet Phan',
-	         email: 'joomdaily@gmail.com',
-	         profile_picture: 'https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/13315230_10205973406004658_3891134162845750917_n.jpg?oh=19f9ca64ddc5fabef4c0dbfa5c474346&oe=58A9C315',
-	         type: 'facebook' } ],
-	    created_by:
-	     { name: 'duc phan',
-	       email: 'joomdaily@gmail.com',
-	       profile_picture: 'https://lh6.googleusercontent.com/-zkNCtidqyL0/AAAAAAAAAAI/AAAAAAAAACY/JOiGoRBOedY/s96-c/photo.jpg',
-	       type: 'google' },
-	    coordinate: { longitude: 106.70496996228299, latitude: 10.764927787313708 }
+      refreshing:false
     };
     //console.log('bumdetail.constructor',this.props.screenProps);
   }
 
-  _getBumDetail(bumID){
-    console.log('bumdetail._getBumDetail',bumID);
+  _getBumDetail(_id){
+    console.log('bumdetail._getBumDetail',_id);
     //added later
     //this.setState()
   }
 
   componentDidMount(){
-    const {state} = this.props.navigation;
+
     //setTimeout(()=>this.setState({statusBarHeight: 1}),500);
-    this._getBumDetail(state.params.bumID);
+    //this._getBumDetail(state.params._id);
+  }
+  _onRefresh(){
+    var self = this;
+    this.setState({refreshing: true});
   }
 
+  _finishedRefreshing(){
+    this.setState({refreshing: false});
+  }
   render() {
+    const {state} = this.props.navigation;
     var self = this;
     return(
-      <View>
-        <ScrollView>
+      <View style={styles.container}>
+        <ScrollView style={styles.container}
+            refreshControl={
+              <RefreshControl
+                refreshing={this.state.refreshing}
+                onRefresh={this._onRefresh.bind(this)}
+              />
+            }
+        >
           <View style={styles.bumDetailInfoContainer}>
-            <RatingView/>
+            <RatingView refreshing={self.state.refreshing}  showRating={true} _id={state.params._id} />
           </View>
 
-          <CommentsView navigation={this.props.navigation}/>
+          <TouchableOpacity onPress={()=>self.props.navigation.navigate("AddCommentPage",{_id:state.params._id,update:self._onRefresh.bind(this)})} style={styles.containerTextYourBum}>
+            <View style={styles.textInputContainer}>
+              <Text style={[styles.textInput]}>
+                Text your bum
+              </Text>
+            </View>
+            <View style={styles.actionContainer}>
+              <View style={styles.actionLeft}>
+                <View style={styles.button}>
+                  <Icon style={styles.buttonIcon} size={25} name="ios-image" color="#2f8ef9"/>
+                  <Text>Photo</Text>
+                </View>
+
+              </View>
+              <View style={styles.actionRight}>
+                <View style={styles.button}>
+                  <Icon style={styles.buttonIcon} size={25} name="ios-pulse-outline" color="orange"/>
+                  <Text>Rate this bum</Text>
+                </View>
+              </View>
+            </View>
+            <View>
+            </View>
+          </TouchableOpacity>
+
+          <CommentsView finsihedRefreshing={self._finishedRefreshing.bind(this)} refreshing={self.state.refreshing} _id={state.params._id} navigation={this.props.navigation}/>
         </ScrollView>
       </View>
     );
   }
 }
   const styles = StyleSheet.create({
+    container:{
+      flex:1
+    },
+    containerTextYourBum:{
+      padding:5,
+      backgroundColor:"white",
+      marginBottom:5
+    },
+    actionContainer:{
+      flexDirection: 'row',
+      paddingTop:5,
+      borderTopWidth:StyleSheet.hairlineWidth,
+      borderColor:"#ccc"
+    },
+    actionLeft:{
+      flex:1,
+      paddingRight:2
+    },
+    actionRight:{
+      flex:1,
+      paddingLeft:2,
+      borderLeftWidth:StyleSheet.hairlineWidth,
+      borderColor:"#ccc"
+    },
+    button:{
+      flexDirection: 'row',
+      alignItems:"center",
+      padding:5
+    },
+    buttonIcon:{
+      marginRight:10
+    },
+    textInputContainer:{
+      paddingBottom:5,
+      flexDirection:'column',
+      justifyContent:"center",
+      height:40
+    },
+    textInput:{
+      paddingTop:10,
+      paddingBottom:10,
+      paddingLeft:5,
+      backgroundColor:"#f1f1f1",
+      color:"#aaa"
+    },
     bumDetailInfoContainer:{
       backgroundColor:"#fff",
       padding:5,

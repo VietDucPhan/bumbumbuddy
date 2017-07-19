@@ -3,49 +3,6 @@ import {
   AsyncStorage
 } from 'react-native';
 import Sha1 from './Sha1';
-var jsonDefault = {
-
-  "links" : [
-    // {
-    //   "format": null,
-    //   "animated": false,
-    //   "width": null,
-    //   "height": null,
-    //   "size": null,
-    //   "url": null,
-    //   "uploaded_by": {
-    //         "name": null,
-    //         "email": null,
-    //         "profile_picture": null,
-    //         "type": null
-    //     },
-    // }
-  ],
-  "comments":[
-    // {
-    //   "commentor": {
-    //         "name": null,
-    //         "email": null,
-    //         "profile_picture": null,
-    //         "type": null
-    //     },
-    //     "content":null
-    //     "datetime":null
-    // }
-  ],
-  "likes":[],
-  "created_by": {
-        "name": null,
-        "email": null,
-        "profile_picture": null,
-        "type": null
-    },
-    "coordinate": {
-        "longitude": -122.02686333,
-        "latitude": 37.32834322
-    }
-};
-
 class Upload {
   constructor(){
   }
@@ -66,12 +23,12 @@ class Upload {
   	  url: 'http://res.cloudinary.com/dsthiwwp4/image/upload/v1471803488/dbmwb1guio83i7bcionl.jpg',
   	  secure_url: 'https://res.cloudinary.com/dsthiwwp4/image/upload/v1471803488/dbmwb1guio83i7bcionl.jpg' }
   **/
-  imageUploadToCloud(mediaData,userData,content, callback){
+  imageUploadToCloud(mediaData,callback){
     var self = this;
     var timestamp = Date.now();
     var key = "timestamp=" + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
     var signature = Sha1.hash(key);
-
+    //console.log("upload.imageUploadToCloud",mediaData);
     fetch('https://api.cloudinary.com/v1_1/dsthiwwp4/image/upload', {
       method: 'POST',
       headers: {
@@ -79,54 +36,29 @@ class Upload {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        file: 'data:image/jpeg;base64,' + mediaData.uri_raw,
+        file: mediaData.uri,
         api_key: '955818184181287',
         timestamp:timestamp,
         signature:signature
       })
     }).then((response) => response.json())
       .then((responseJson) => {
-        jsonDefault.links.push({
-            "format": responseJson.format,
-            "animated": false,
-            "width": responseJson.width,
-            "height": responseJson.height,
-            "size": responseJson.bytes,
-            "url": responseJson.secure_url,
-            "uploaded_by": userData
-          });
-        jsonDefault.comments.push({
-          "commentor": userData,
-              "content":content
-        });
-        jsonDefault.created_by = userData;
-        jsonDefault.coordinate = mediaData.coordinate;
-        self._uploadToHeroku(jsonDefault,function(err){
-          return callback(err);
-        })
+        return callback(responseJson);
       })
       .catch((error) => {
-        console.error(error);
-        return callback(false);
+        console.log("upload.imageUploadToCloud.error",error);
+        return callback({
+          errors:
+          [
+            {
+              status:'m009',
+              source:{pointer:"libs/upload.imageUploadToCloud"},
+              title:"Could not upload image",
+              detail:error.message
+            }
+          ]
+        });
 
-      });
-  }
-  _uploadToHeroku(data, callback){
-    fetch('https://bumbuddy.herokuapp.com/api/create-bum',
-    {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body:JSON.stringify(data)
-    }).then((response) => response.json())
-      .then((responseJson) => {
-        console.log("_uploadToHeroku",_uploadToHeroku);
-        return callback(true);
-      }).catch((error) => {
-        return callback(false);
-        console.log("_save error",error);
       });
   }
 }

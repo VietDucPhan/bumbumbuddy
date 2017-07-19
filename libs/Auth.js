@@ -13,18 +13,18 @@ class Auth {
   constructor(){
     var self = this;
     GoogleSignin.hasPlayServices({ autoResolve: true }).then(() => {
-        console.log("hasPlayServices");
+        //console.log("hasPlayServices");
         GoogleSignin.configure({
           iosClientId: '315634877630-ffgd1ut04lbg4mktp7asepcqlcf2nlha.apps.googleusercontent.com',
           webClientId: '315634877630-5furs7lto6t9g99eghlnrv0q0cu61mun.apps.googleusercontent.com',
           offlineAccess: false
         }).then(() => {
           // you can now call currentUserAsync()
-          console.log("hasPlayServices.then");
+          //console.log("hasPlayServices.then");
         });
         //
         GoogleSignin.currentUserAsync().then((user) => {
-          console.log('USER', user);
+          //console.log('USER', user);
         }).done();
 
       })
@@ -34,10 +34,10 @@ class Auth {
       //facebook login
       AccessToken.getCurrentAccessToken().then(
         (data) => {
-          console.log(data);
+          //console.log(data);
           if(data && data.accessToken){
             self.getFacebookInfoViaAccessToken(data.accessToken,function(result){
-              console.log("facebook info", result);
+              //console.log("facebook info", result);
             });
           }
       });
@@ -47,7 +47,7 @@ class Auth {
     AsyncStorage.getItem('user',function(error,result){
       var response = JSON.parse(result)
       if(!error && response && response.type){
-        console.log('Auth.isLogedIn',response);
+        //console.log('Auth.isLogedIn',response);
         return callback(response);
       } else {
         return callback(null);;
@@ -71,10 +71,10 @@ class Auth {
           if(responseJson.status){
             AsyncStorage.setItem('user',JSON.stringify(responseJson.content),function(err){
               if(!err){
-                console.log("login to heroku successful",responseJson.content);
+                //console.log("login to heroku successful",responseJson.content);
                 return callback(true,responseJson.content);
               } else{
-                console.log("login to heroku fail","something went wrong while trying to store");
+                //console.log("login to heroku fail","something went wrong while trying to store");
                 return callback(false);
               }
             });
