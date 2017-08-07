@@ -37,6 +37,15 @@ class bumdetail extends Component {
     //setTimeout(()=>this.setState({statusBarHeight: 1}),500);
     //this._getBumDetail(state.params._id);
   }
+
+  _addComment(){
+    var self = this;
+    if(self.props.screenProps.user){
+      self.props.navigation.navigate("AddCommentPage",{_id:self.props.navigation.state.params._id,update:self._onRefresh.bind(this)})
+    } else {
+      self.props.navigation.navigate('Profile');
+    }
+  }
   _onRefresh(){
     var self = this;
     this.setState({refreshing: true});
@@ -62,7 +71,7 @@ class bumdetail extends Component {
             <RatingView refreshing={self.state.refreshing}  showRating={true} _id={state.params._id} />
           </View>
 
-          <TouchableOpacity onPress={()=>self.props.navigation.navigate("AddCommentPage",{_id:state.params._id,update:self._onRefresh.bind(this)})} style={styles.containerTextYourBum}>
+          <TouchableOpacity onPress={()=>self._addComment()} style={styles.containerTextYourBum}>
             <View style={styles.textInputContainer}>
               <Text style={[styles.textInput]}>
                 Text your bum
@@ -87,7 +96,7 @@ class bumdetail extends Component {
             </View>
           </TouchableOpacity>
 
-          <CommentsView finsihedRefreshing={self._finishedRefreshing.bind(this)} refreshing={self.state.refreshing} _id={state.params._id} navigation={this.props.navigation}/>
+          <CommentsView screenProps={{user:self.props.screenProps.user}} finsihedRefreshing={self._finishedRefreshing.bind(this)} refreshing={self.state.refreshing} _id={state.params._id} navigation={this.props.navigation}/>
         </ScrollView>
       </View>
     );

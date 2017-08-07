@@ -161,6 +161,56 @@ class Bums {
     });
   }
 
+  addReply(data,callback){
+    var self = this;
+    fetch('https://bumbuddy.herokuapp.com/api/add-reply',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(data)
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+    }).catch((error) => {
+      return callback({errors:[
+        {
+          status:'m005',
+          source:{pointer:"libs/bums.getComments"},
+          title:"Unknown error",
+          detail:error.message
+        }
+      ]});
+    });
+  }
+
+  getReplies(_id,callback){
+    var self = this;
+    fetch('https://bumbuddy.herokuapp.com/api/get-replies',
+    {
+      method: 'post',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify({_id:_id})
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+    }).catch((error) => {
+      return callback({errors:[
+        {
+          status:'m005',
+          source:{pointer:"libs/bums.getComments"},
+          title:"Unknown error",
+          detail:error.message
+        }
+      ]});
+    });
+  }
+
   getBums(callback){
     var self = this;
     fetch('https://bumbuddy.herokuapp.com/api/get-bums',
@@ -184,6 +234,49 @@ class Bums {
       ]});
     });
   }
+
+  vote(_id, point, token, callback){
+    console.log(_id);
+    if(_id && point && token){
+      var self = this;
+      fetch('https://bumbuddy.herokuapp.com/api/vote-comment',
+      {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({
+          _id:_id,
+          vote:point,
+          token:token
+        })
+      }).then((response) => response.json())
+        .then((responseJson) => {
+          return callback(responseJson);
+      }).catch((error) => {
+        return callback({errors:[
+          {
+            status:'m009',
+            source:{pointer:"libs/bums.vote"},
+            title:"Unknown error",
+            detail:error.message
+          }
+        ]});
+      });
+    } else {
+      return callback({errors:[
+        {
+          status:'m008',
+          source:{pointer:"libs/bums.vote"},
+          title:"Unknown error",
+          detail:"Please try again latter"
+        }
+      ]});
+    }
+
+  }
+
   getBums_dev(callback){
     return callback([
       {

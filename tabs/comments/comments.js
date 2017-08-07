@@ -20,6 +20,7 @@ import AuthLib from '../../libs/Auth';
 import BumsLib from '../../libs/Bums';
 import CacheLib from '../../libs/Cache';
 import DateFormat from '../bums/tmpl/formatdate';
+import Votebtn from './tmpl/votebtn';
 var BumModel = new BumsLib();
 var Auth = new AuthLib();
 var Cache = new CacheLib();
@@ -287,21 +288,11 @@ class comments extends Component {
                         <Text>{obj.description}</Text>
                       </View>
                        <View style={styles.commentPointsAndResponseContainer}>
-                         <View style={styles.commentPointsAndResponseButtonsContainer}>
-                           <TouchableOpacity>
-                            <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-                           </TouchableOpacity>
-                           <TouchableOpacity>
-                            <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-                           </TouchableOpacity>
-                           <TouchableOpacity>
-                            <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-                           </TouchableOpacity>
-                         </View>
+                         <Votebtn navigation={self.props.navigation} _user={self.props.screenProps.user} _id={obj._id} _upVote={obj.upVote} _downVote={obj.downVote} />
                          <View style={styles.commentPointsResponseAndRatingContainer}>
                             <Text style={styles.commentPointsAndResponseText}>{obj.overall_rating_displayname} {obj.overall_rating_displayname && <Text>-</Text>} {obj.bum_rating}</Text>
 
-                            <Text style={styles.commentPointsAndResponseText}>{obj.points} points - {obj.total_replies} replies</Text>
+                            <Text style={styles.commentPointsAndResponseText}>{obj.points} points</Text>
 
                          </View>
 

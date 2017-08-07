@@ -264,11 +264,10 @@ class Auth {
 
   }
 
-
-
  signOutBoth(callback){
    this.signOutWithGoogle();
    this.signOutWithFacebook();
+   AsyncStorage.clear();
    return callback(true);
  }
 }

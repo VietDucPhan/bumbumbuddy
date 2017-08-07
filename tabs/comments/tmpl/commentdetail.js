@@ -10,134 +10,237 @@ import {
   Text,
   ScrollView,
   Image,
+  TextInput,
+  Keyboard,
+  Button,
+  Alert,
+  RefreshControl
  } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import BumsLib from '../../../libs/Bums';
+import FormatDate from '../../bums/tmpl/formatdate';
+var BumModel = new BumsLib();
 
 class commentdetail extends Component {
   constructor(props){
     super(props);
     this.state = {
-      bums:null
+      inputBottomPosition:0,
+      inputText:"",
+      buttonDisable:false,
+      refreshing:false,
+      replies:[]
     }
   }
+
+  static navigationOptions = {
+    tabBarLabel: '',
+    tabBarIcon: ({ tintColor, focused }) => (
+      <Icon style={{paddingTop:5, paddingBottom:5}} size={30} name={focused ? 'ios-chatbubbles' : 'ios-chatbubbles-outline'} />
+    ),
+  };
+
+  componentWillMount() {
+     Keyboard.addListener('keyboardWillShow', this._keyboardWillShow.bind(this));
+     Keyboard.addListener('keyboardWillHide', this._keyboardWillHide.bind(this));
+  }
+
+  _keyboardWillShow(e) {
+    console.log("_keyboardDidShow",e)
+    this.setState({inputBottomPosition: e.endCoordinates.height})
+  }
+
+  _keyboardWillHide(e) {
+    this.setState({inputBottomPosition: 0})
+  }
+
+  _inputChangeText(text){
+    var self = this;
+    //var newText = text.replace('\n', 'b')
+
+    self.setState({
+      inputText:text
+    });
+  }
+
+  _postReply(){
+    var self = this;
+
+    if(self.props.navigation.state.params._id && self.props.screenProps.user && !self.state.buttonDisable){
+      var data = {
+        comment_id:self.props.navigation.state.params._id,
+        description:self.state.inputText,
+        token:self.props.screenProps.user.token
+      }
+      self.setState({
+        buttonDisable:true
+      });
+      BumModel.addReply(data,function(result){
+        if(result && result.errors){
+          Alert.alert(
+            result.errors[0].title,
+            result.errors[0].detail,
+            [
+              {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+            ],
+            { cancelable: false }
+          );
+        } else {
+          console.log("commentdetail._postReply",result);
+          var newComment = self.state.replies;
+          newComment.unshift(result.data)
+          self.setState({
+            buttonDisable:false,
+            inputText:"",
+            replies:newComment
+          });
+        }
+      });
+    }
+  }
+
+  _getReplies(){
+    var self = this;
+    if(self.props.navigation.state.params._id){
+      BumModel.getReplies(self.props.navigation.state.params._id,function(result){
+        if(result && result.errors){
+          Alert.alert(
+            result.errors[0].title,
+            result.errors[0].detail,
+            [
+              {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+            ],
+            { cancelable: false }
+          );
+        } else {
+          self.setState({
+            refreshing: false,
+            replies:result.data
+          });
+        }
+      });
+    } else {
+      Alert.alert(
+        "Error Bum Replies could not find",
+        "Could not find bum id",
+        [
+          {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+        ],
+        { cancelable: false }
+      );
+    }
+
+  }
+
   componentDidMount(){
+    this._onRefresh();
+  }
+
+  _onRefresh() {
+    var self = this;
+
+    self.setState({refreshing: true});
+    self._getReplies();
   }
 
   render() {
-    return(
-      <ScrollView>
-        {/* Start a comment */}
-        <View style={styles.commentContainer}>
-          <View style={styles.commentHeader}>
-            <View style={styles.commentorProfilePictureContainer}>
-              <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-         style={{width: 30, height: 30, borderRadius:15}} />
-            </View>
-            <View style={styles.commentorProfileInfoContainer}>
-              <View>
-                <TouchableOpacity>
-                  <Text>Some guy name</Text>
-                </TouchableOpacity>
-                <TouchableOpacity>
-                  <Text style={styles.commentAtPlace}>The Observatory</Text>
-                </TouchableOpacity>
-              </View>
-              <TouchableOpacity>
-                <Icon style={{padding:5}} onPress={()=> console.log('click on alert')} size={20} name="ios-more" backgroundColor="#4267b2"/>
-              </TouchableOpacity>
-            </View>
-          </View>
-          <View style={styles.commentorCommentContainer}>
-            <View>
-              <Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-               specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-               essentially unchanged.</Text>
-            </View>
+    var self = this;
+    var buttonDisable = true;
+    if(!self.state.inputText){
+      buttonDisable = true;
+    } else if(self.state.buttonDisable){
+      buttonDisable = true;
+    } else {
+      buttonDisable = false;
+    }
 
-             <View style={styles.commentPointsAndResponse}>
-              <TouchableOpacity>
-                <Text style={styles.commentPointsAndResponseText}>1200 points</Text>
-              </TouchableOpacity>
-               <Text style={styles.commentPointsAndResponseText}>-</Text>
-               <TouchableOpacity>
-                <Text style={styles.commentPointsAndResponseText}>600 comments</Text>
-               </TouchableOpacity>
-             </View>
-             <View style={styles.commentPointsAndResponseButtonsContainer}>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-up"/>
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-thumbs-down" />
-              </TouchableOpacity>
-              <TouchableOpacity>
-               <Icon style={styles.commentPointsAndResponseButton} size={20} name="ios-chatbubbles"/>
-              </TouchableOpacity>
-             </View>
-          </View>
+    return(
+      <View style={styles.container}>
+        <ScrollView
+          refreshControl={
+            <RefreshControl
+              refreshing={this.state.refreshing}
+              onRefresh={this._onRefresh.bind(this)}
+            />
+          }
+        >
+        {self.state.replies.map(function(obj, i){
+          return(
+            <View key={i} style={styles.replyContainer}>
+              <View style={styles.replyImageContainer}>
+                <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
+           style={{width: 30, height: 30, borderRadius:15}} />
+              </View>
+              <View style={styles.replyDetailContainer}>
+                <View style={styles.profileInfoContainer}>
+                  <Text style={styles.profileInfoName}>{obj.created_by.name}</Text>
+                  <Text style={{paddingBottom:5}}> . </Text>
+                  <FormatDate created_date={obj.created_date}/>
+                </View>
+                <View>
+                  <Text>{obj.description}</Text>
+                </View>
+              </View>
+            </View>
+          );
+        })
+      }
+        </ScrollView>
+        <View style={[styles.inputContainer,{bottom:self.state.inputBottomPosition}]}>
+          <TextInput
+            blurOnSubmit={true}
+            placeholderTextColor={"#ccc"}
+            placeholder={'Write your comment...'}
+            onChangeText={(text) => this._inputChangeText(text)}
+            value={this.state.inputText}
+            style={styles.inputText}/>
+            <Button disabled={buttonDisable} color="#2196f3" style={{backgroundColor:"#2196f3"}} onPress={()=>self._postReply()} title="Post"/>
         </View>
-        {/* End a comment */}
-      </ScrollView>
+      </View>
+
     );
   }
 }
   const styles = StyleSheet.create({
-    commentContainer:{
+    container:{
+      flex:1
+    },
+    inputContainer:{
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      padding:5,
+      backgroundColor:"#d5d5d5",
+      flexDirection:"row"
+    },
+    inputText:{
       flex:1,
-      flexDirection: 'column',
-      backgroundColor:"#fff",
-      marginBottom:15
-    },
-    commentHeader:{
-      flex:1,
-      flexDirection: 'row',
-      backgroundColor:"#fff",
-
-    },
-    commentorProfilePictureContainer:{
-      backgroundColor:"#fff",
-      padding:5
-    },
-    commentorProfileInfoContainer:{
-      flex:1,
-      flexDirection: 'row',
-      alignItems:'center',
-      justifyContent: 'space-between',
-      backgroundColor:"#fff",
-      padding:5
-    },
-    commentAtPlace:{
-      fontSize:10
-    },
-    commentorCommentContainer:{
-      flex:1,
-      backgroundColor:"#fff",
-      padding:10
-    },
-    commentPointsAndResponse:{
-      flex:1,
-      flexDirection:'row',
-      marginTop:5
-    },
-    commentPointsAndResponseText:{
-      marginRight:2,
-      color:"#888"
-    },
-    commentPointsAndResponseButtonsContainer:{
-      flex:1,
-      flexDirection:'row',
-      marginTop:10
-    },
-    commentPointsAndResponseButton:{
-      borderWidth:StyleSheet.hairlineWidth,
-      color:'#888',
-      borderColor:'#ccc',
-      paddingTop:5,
-      paddingRight:10,
-      paddingBottom:5,
       paddingLeft:10,
-      marginRight:5
+      fontSize:14,
+      color:"#000",
+      backgroundColor:"#fff"
+    },
+    replyContainer:{
+      flexDirection:"row",
+      padding:5,
+      backgroundColor:"#fff",
+      marginBottom:5
+    },
+    replyImageContainer:{
+      //marginRight:5
+    },
+    replyDetailContainer:{
+      padding:5,
+      flexDirection:"column",
+      flex:1
+    },
+    profileInfoContainer:{
+      flexDirection:"row",
+      alignItems:"center",
+      marginBottom:6
+    },
+    profileInfoName:{
+      fontWeight:'bold'
     }
   });
 module.exports = commentdetail;

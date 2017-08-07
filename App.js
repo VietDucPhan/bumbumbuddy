@@ -48,7 +48,8 @@ const stackMangement = {
   BumDetail:{screen:BumDetailStack},
   CreateBumForm:{screen:CreateBumStack},
   SearchPage:{screen:SearchStack},
-  AddCommentPage:{screen:AddCommentStack}
+  AddCommentPage:{screen:AddCommentStack},
+  ProfileStack : { screen: ProfileTab }
 }
 const StackPage = StackNavigator(stackMangement);
 
