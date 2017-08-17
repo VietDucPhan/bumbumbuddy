@@ -28,8 +28,10 @@ const tabBarOptions = {
 
 const tabsManagement = {
   Comments : { screen: CommentsTab },
+  Search : { screen: SearchStack },
   Map:{screen:MapTab},
   Profile : { screen: ProfileTab },
+
 }
 
 const Tabs = TabNavigator(

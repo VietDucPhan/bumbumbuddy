@@ -175,7 +175,7 @@ class Map extends Component {
         {self.state.bums.map(function(obj, i){
           console.log(obj);
             return (
-              <Callout goToBumDetail={()=>self.goToBumDetail(obj._id)} key={obj._id} bum={obj} />
+              <Callout navigation={self.props.navigation} goToBumDetail={()=>self.goToBumDetail(obj._id)} key={obj._id} bum={obj} />
             );
           })}
         </MapView>

@@ -19,6 +19,7 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 import BumsLib from '../../../libs/Bums';
 import FormatDate from '../../bums/tmpl/formatdate';
+import Morebtn from './morebtn';
 var BumModel = new BumsLib();
 
 class commentdetail extends Component {
@@ -46,7 +47,7 @@ class commentdetail extends Component {
   }
 
   _keyboardWillShow(e) {
-    console.log("_keyboardDidShow",e)
+    //console.log("_keyboardDidShow",e)
     this.setState({inputBottomPosition: e.endCoordinates.height})
   }
 
@@ -96,6 +97,8 @@ class commentdetail extends Component {
           });
         }
       });
+    } else {
+      self.props.navigation.navigate("ProfileStack");
     }
   }
 
@@ -172,10 +175,13 @@ class commentdetail extends Component {
            style={{width: 30, height: 30, borderRadius:15}} />
               </View>
               <View style={styles.replyDetailContainer}>
-                <View style={styles.profileInfoContainer}>
-                  <Text style={styles.profileInfoName}>{obj.created_by.name}</Text>
-                  <Text style={{paddingBottom:5}}> . </Text>
-                  <FormatDate created_date={obj.created_date}/>
+                <View style={styles.profileContainer}>
+                  <View style={styles.profileInfoContainer}>
+                    <Text style={styles.profileInfoName}>{obj.created_by.name}</Text>
+                    <Text style={{paddingBottom:5}}> . </Text>
+                    <FormatDate created_date={obj.created_date}/>
+                  </View>
+                  <Morebtn navigation={self.props.navigation} _id={obj._id} _typeOfBtn="reply" _createdBy={obj.created_by.email} _user={self.props.screenProps.user} />
                 </View>
                 <View>
                   <Text>{obj.description}</Text>
@@ -186,16 +192,19 @@ class commentdetail extends Component {
         })
       }
         </ScrollView>
-        <View style={[styles.inputContainer,{bottom:self.state.inputBottomPosition}]}>
-          <TextInput
-            blurOnSubmit={true}
-            placeholderTextColor={"#ccc"}
-            placeholder={'Write your comment...'}
-            onChangeText={(text) => this._inputChangeText(text)}
-            value={this.state.inputText}
-            style={styles.inputText}/>
-            <Button disabled={buttonDisable} color="#2196f3" style={{backgroundColor:"#2196f3"}} onPress={()=>self._postReply()} title="Post"/>
-        </View>
+        {self.props.screenProps.user &&
+          <View style={[styles.inputContainer,{bottom:self.state.inputBottomPosition}]}>
+            <TextInput
+              blurOnSubmit={true}
+              placeholderTextColor={"#ccc"}
+              placeholder={'Write your comment...'}
+              onChangeText={(text) => this._inputChangeText(text)}
+              value={this.state.inputText}
+              style={styles.inputText}/>
+              <Button disabled={buttonDisable} color="#2196f3" style={{backgroundColor:"#2196f3"}} onPress={()=>self._postReply()} title="Post"/>
+          </View>
+        }
+
       </View>
 
     );
@@ -233,6 +242,10 @@ class commentdetail extends Component {
       padding:5,
       flexDirection:"column",
       flex:1
+    },
+    profileContainer:{
+      flexDirection:"row",
+      justifyContent:"space-between"
     },
     profileInfoContainer:{
       flexDirection:"row",

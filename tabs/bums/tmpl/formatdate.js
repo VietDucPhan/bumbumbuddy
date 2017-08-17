@@ -40,8 +40,10 @@ class DateFormat extends Component {
     var minute = Math.floor(seconds/60) ;
     var hours = Math.floor(minute/24);
 
-    if(seconds < 60){
-      renderDate = seconds + " seconds ago";
+    if(seconds < 5){
+      renderDate = "just now";
+    }else if(seconds < 60){
+      renderDate = minute + " minutes ago";
     } else if(minute < 60){
       renderDate = minute + " minutes ago";
     } else if(hours < 24){

@@ -16,6 +16,7 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 import BumsLib from '../../../libs/Bums';
 import CacheLib from '../../../libs/Cache';
+import Morebtn from '../../comments/tmpl/morebtn';
 var BumsModel = new BumsLib();
 var Cache = new CacheLib();
 
@@ -143,9 +144,7 @@ class Rating extends Component {
               <Text style={styles.bumInfoContainerNameText}>{self.state.bum.name}</Text>
               <Text style={styles.bumInfoContainerAddressText}>{self.state.bum.address}</Text>
             </View>
-            <TouchableOpacity onPress={()=>self._getBum()}>
-              <Icon style={{padding:5}} size={20} name="ios-more"/>
-            </TouchableOpacity>
+            <Morebtn navigation={self.props.navigation} _id={self.props._id} _typeOfBtn="bum" _user={self.props._user} />
           </View>
           <View style={styles.overallRating}>
             <Text style={styles.overallRatingText}>Overall:</Text>

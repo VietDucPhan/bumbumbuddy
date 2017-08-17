@@ -10,17 +10,23 @@ import {
   Text,
   ScrollView,
   Image,
-  TextInput
+  TextInput,
+  ActivityIndicator
  } from 'react-native';
  var { width, height } = Dimensions.get('window');
 import Icon from 'react-native-vector-icons/Ionicons';
+import BumsLib from '../../libs/Bums';
+import CacheLib from '../../libs/Cache';
+var BumsModel = new BumsLib();
+var Cache = new CacheLib();
 
 class commentdetail extends Component {
   constructor(props){
     super(props);
     this.state = {
       seachText:"",
-      bums:[]
+      bums:[],
+      showActivitiIndicator:true
     };
     this._searchInputChangeText.bind(this);
   }
@@ -31,6 +37,44 @@ class commentdetail extends Component {
     )
   };
 
+  getSurroundBum(){
+    var self = this;
+    navigator.geolocation.getCurrentPosition (
+      (position) => {
+        console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
+
+
+        Cache.getUserSetting(function(result){
+          var data = {
+            coordinate:[position.coords.longitude, position.coords.latitude],
+            radius:result.radius
+          }
+          console.log("getUserSetting",result);
+          BumsModel.getSurroundBum(data,function(result){
+            if(result && result.errors){
+              Alert.alert(
+                result.errors[0].title,
+                result.errors[0].detail,
+                [
+                  {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+                ],
+                { cancelable: false }
+              )
+            } else {
+              console.log("getSurroundBum",result);
+              self.setState({
+                bums:result.data,
+                showActivitiIndicator:false
+              });
+            }
+          });
+        });
+
+      },
+      function(error){console.log('map._locatorOnPress',error)}
+    );
+  }
+
   _searchInputChangeText(text){
     var self = this;
     self.setState({
@@ -38,9 +82,12 @@ class commentdetail extends Component {
     });
   }
   componentDidMount(){
+    var self = this;
+    self.getSurroundBum();
   }
 
   render() {
+    var self = this;
     return(
       <View style={styles.container}>
         <View style={styles.searchInputContainer}>
@@ -53,17 +100,23 @@ class commentdetail extends Component {
             value={this.state.seachText}
           />
         </View>
+        {this.state.showActivitiIndicator &&
+          <ActivityIndicator animating={this.state.showActivitiIndicator}></ActivityIndicator>
+        }
 
           <ScrollView style={styles.bumsAround}>
-            <View style={styles.addNewBumContainer}>
-              <TouchableOpacity onPress={()=>this.props.navigation.navigate('BumDetail',{bumID:1})}>
-                <View style={styles.addNewBumContentContainer}>
-                  <Icon style={styles.bumIcon} size={30} name={'ios-woman'} />
-                  <Text>The Observatory</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
-
+            {self.state.bums.map(function(obj, i){
+                return (
+                  <View key={i} style={styles.addNewBumContainer}>
+                    <TouchableOpacity onPress={()=>self.props.navigation.navigate('BumDetail',{_id:obj._id})}>
+                      <View style={styles.addNewBumContentContainer}>
+                        <Icon style={styles.bumIcon} size={30} name={'ios-woman'} />
+                        <Text>{obj.name}</Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                );
+              })}
             {this.state.seachText != "" &&
               <View style={styles.addNewBumContainer}>
                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('CreateBumForm',{bumID:0,bumNameText:this.state.seachText})}>

@@ -34,7 +34,10 @@ class Callout extends Component {
     var self = this;
     return(
       <MapView.Marker
-        coordinate={self.props.bum.coordinate}
+        coordinate={{
+          longitude:self.props.bum.coordinate[0],
+          latitude:self.props.bum.coordinate[1]
+        }}
         onPress={() => {
           this.setState({showRating:true});
         }}
@@ -46,7 +49,7 @@ class Callout extends Component {
           }}
         >
           <View style={styles.container}>
-            <RatingView _id={self.props.bum._id} showRating={self.state.showRating}/>
+            <RatingView navigation={self.props.navigation} _id={self.props.bum._id} showRating={self.state.showRating}/>
           </View>
         </MapView.Callout>
       </MapView.Marker>

@@ -32,6 +32,32 @@ class Bums {
     });
   }
 
+  getSurroundBum(data,callback){
+    fetch('https://bumbuddy.herokuapp.com/api/get-surround-bum',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(data)
+    })
+    .then((response) => response.json())
+    .then((responseJson) => {
+      console.log("getSurroundBum",responseJson);
+      return callback(responseJson);
+    }).catch((error) => {
+      return callback({errors:[
+        {
+          status:'m006',
+          source:{pointer:"libs/bums.createBum"},
+          title:"Unknown error",
+          detail:error.message
+        }
+      ]});
+    });
+  }
+
   addComment(data,callback){
     fetch('https://bumbuddy.herokuapp.com/api/comment-bum',
     {
@@ -179,6 +205,56 @@ class Bums {
         {
           status:'m005',
           source:{pointer:"libs/bums.getComments"},
+          title:"Unknown error",
+          detail:error.message
+        }
+      ]});
+    });
+  }
+
+  report(data, callback){
+    var self = this;
+    fetch('https://bumbuddy.herokuapp.com/api/report',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(data)
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+    }).catch((error) => {
+      return callback({errors:[
+        {
+          status:'m005',
+          source:{pointer:"libs/bums.reports"},
+          title:"Unknown error",
+          detail:error.message
+        }
+      ]});
+    });
+  }
+
+  delete(data, callback){
+    var self = this;
+    fetch('https://bumbuddy.herokuapp.com/api/delete',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(data)
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+    }).catch((error) => {
+      return callback({errors:[
+        {
+          status:'m005',
+          source:{pointer:"libs/bums.reports"},
           title:"Unknown error",
           detail:error.message
         }

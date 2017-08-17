@@ -13,7 +13,8 @@ import {
   Alert,
   Slider,
   ActivityIndicator,
-  RefreshControl
+  RefreshControl,
+  FlatList
  } from 'react-native';
  import Icon from 'react-native-vector-icons/Ionicons';
 import AuthLib from '../../libs/Auth';
@@ -21,6 +22,7 @@ import BumsLib from '../../libs/Bums';
 import CacheLib from '../../libs/Cache';
 import DateFormat from '../bums/tmpl/formatdate';
 import Votebtn from './tmpl/votebtn';
+import Morebtn from './tmpl/morebtn';
 var BumModel = new BumsLib();
 var Auth = new AuthLib();
 var Cache = new CacheLib();
@@ -29,28 +31,7 @@ class comments extends Component {
   constructor(props){
     super(props);
     this.state = {
-      comments:[
-        { _id: null,
-	       media:
-	        [ { format: null,
-	            animated: null,
-	            width: null,
-	            height: null,
-	            size: null,
-	            url: null } ],
-	       description: null,
-	       overall_rating: 0,
-	       bum_rating: null,
-	       created_by:
-	        { _id: null,
-	          name: null,
-	          email: null,
-	          profile_picture: null,
-	          type: null },
-	       created_date: null,
-	       total_replies: null,
-	       points: null }
-      ],
+      comments:[],
       showActivitiIndicator:true,
       refreshing:false
     };
@@ -73,19 +54,28 @@ class comments extends Component {
   componentDidMount(){
     //console.log("comments.componentDidMount");
     var self = this;
+
     if(self.props._id){
+      self._getBumComments();
       Cache.getComments(self.props._id,function(flag,result){
         if(flag){
-          self.setState(result);
+          self.setState({
+            comments:result,
+            showActivitiIndicator:false,
+            refreshing:false
+          });
         } else {
           self._getBumComments();
         }
       });
-
     } else {
       Cache.getComments("_getBumsComments",function(flag,result){
         if(flag){
-          self.setState(result);
+          self.setState({
+            comments:result,
+            showActivitiIndicator:false,
+            refreshing:false
+          });
         } else {
           self._getBumsComments();
         }
@@ -118,7 +108,7 @@ class comments extends Component {
           refreshing:false
         }
         self.setState(comments);
-        Cache.setComments("_getBumsComments",comments);
+        Cache.setComments("_getBumsComments",result.data);
         self.props.finsihedRefreshing();
       }
     });
@@ -144,25 +134,10 @@ class comments extends Component {
           refreshing:false
         }
         self.setState(comments);
-        Cache.setComments(self.props._id,comments);
+        Cache.setComments(self.props._id,result.data);
         self.props.finsihedRefreshing();
       }
     });
-  }
-
-  alert(){
-    var self = this;
-    Alert.alert(
-      '',
-      'Please choose option below',
-      [
-        {text: 'Report this', onPress: () => console.log('Ask me later pressed')},
-        {text: 'Rate this bum', onPress: () => this.props.goToUserPage()},
-
-
-      ],
-      { cancelable: true }
-    )
   }
 
   _onRefresh() {
@@ -201,6 +176,86 @@ class comments extends Component {
     }
   }
 
+  // {self.state.comments.map(function(obj, i){
+  //     //console.log(obj);
+  //     switch (obj.bum_rating) {
+  //       case "level1":
+  //         obj.bum_rating = "Trickle";
+  //         break;
+  //       case "level2":
+  //         obj.bum_rating = "Stream flow";
+  //         break;
+  //       case "level3":
+  //         obj.bum_rating = "Garden hose";
+  //         break;
+  //       case "level4":
+  //         obj.bum_rating = "Heavy torrent";
+  //         break;
+  //       case "level5":
+  //         obj.bum_rating = "Geyser";
+  //         break;
+  //
+  //     }
+  //
+  //     if(obj.overall_rating){
+  //       obj.overall_rating_displayname = obj.overall_rating + " stars";
+  //     }
+  //       return (
+  //         <View key={i} style={styles.commentContainer}>
+  //           <View style={styles.commentHeader}>
+  //             <View style={styles.commentorProfilePictureContainer}>
+  //               <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
+  //          style={{width: 30, height: 30, borderRadius:15}} />
+  //             </View>
+  //             <View style={styles.commentorProfileInfoContainer}>
+  //               <View>
+  //                 {obj.created_by
+  //                   ?
+  //                   <TouchableOpacity>
+  //                     <Text style={styles.createdBy}>{obj.created_by.name}</Text>
+  //                   </TouchableOpacity>
+  //                   :
+  //                     <Text style={styles.commentAtPlace}></Text>
+  //                 }
+  //                 {self.props._id
+  //                   ?
+  //                     <DateFormat style={styles.commentAtPlace} created_date={obj.created_date}/>
+  //                   :
+  //                   <TouchableOpacity onPress={()=>navigate("BumDetail",{_id:obj.bum_id})}>
+  //                     <Text style={styles.commentAtPlace}>{obj.name}</Text>
+  //                   </TouchableOpacity>
+  //                 }
+  //
+  //               </View>
+  //               <Morebtn navigation={self.props.navigation} _id={obj._id} _typeOfBtn="comment" _createdBy={obj.created_by.email} _user={self.props.screenProps.user} />
+  //             </View>
+  //           </View>
+  //           <View>
+  //             {obj.media && obj.media[0] &&
+  //               <Image resizeMode="contain" source={{uri: obj.media[0].secure_url}}
+  //        style={self._calculateImageHeight(obj.media[0].width,Dimensions.get('window').width,obj.media[0].height)} />}
+  //
+  //           </View>
+  //           <View style={styles.commentorCommentContainer}>
+  //             <View>
+  //               <Text>{obj.description}</Text>
+  //             </View>
+  //              <View style={styles.commentPointsAndResponseContainer}>
+  //                <Votebtn navigation={self.props.navigation} _user={self.props.screenProps.user} _id={obj._id} _upVote={obj.upVote} _downVote={obj.downVote} />
+  //                <View style={styles.commentPointsResponseAndRatingContainer}>
+  //                   <Text style={styles.commentPointsAndResponseText}>{obj.overall_rating_displayname} {obj.overall_rating_displayname && <Text>-</Text>} {obj.bum_rating}</Text>
+  //
+  //                   <Text style={styles.commentPointsAndResponseText}>{obj.points} points</Text>
+  //
+  //                </View>
+  //
+  //              </View>
+  //           </View>
+  //         </View>
+  //       );
+  //     })
+  // }
+
   render() {
     const {navigate} = this.props.navigation;
     var self = this;
@@ -213,17 +268,14 @@ class comments extends Component {
       );
     } else {
       return(
-        <ScrollView
-          refreshControl={
-            <RefreshControl
-              refreshing={this.state.refreshing}
-              onRefresh={this._onRefresh.bind(this)}
-            />
-          }
-        >
-          {self.state.comments.map(function(obj, i){
-              //console.log(obj);
-              switch (obj.bum_rating) {
+        <FlatList
+        data={this.state.comments}
+        ref={(ref) => { self.list = ref; }}
+        keyExtractor={(item,index)=>item._id}
+        initialNumToRender={5}
+        renderItem={(info)=>{
+          var obj = info.item;
+          switch (obj.bum_rating) {
                 case "level1":
                   obj.bum_rating = "Trickle";
                   break;
@@ -246,7 +298,7 @@ class comments extends Component {
                 obj.overall_rating_displayname = obj.overall_rating + " stars";
               }
                 return (
-                  <View key={i} style={styles.commentContainer}>
+                  <View key={obj._id} style={styles.commentContainer}>
                     <View style={styles.commentHeader}>
                       <View style={styles.commentorProfilePictureContainer}>
                         <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
@@ -272,9 +324,7 @@ class comments extends Component {
                           }
 
                         </View>
-                        <TouchableOpacity>
-                          <Icon style={{padding:5}} onPress={()=>{this.alert.bind(this)}} size={20} name="ios-more" />
-                        </TouchableOpacity>
+                        <Morebtn navigation={self.props.navigation} _id={obj._id} _typeOfBtn="comment" _createdBy={obj.created_by.email} _user={self.props.screenProps.user} />
                       </View>
                     </View>
                     <View>
@@ -300,9 +350,15 @@ class comments extends Component {
                     </View>
                   </View>
                 );
-              })
+        }}
+
+          refreshControl={
+            <RefreshControl
+              refreshing={this.state.refreshing}
+              onRefresh={this._onRefresh.bind(this)}
+            />
           }
-        </ScrollView>
+        />
       );
     }
 

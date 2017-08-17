@@ -43,7 +43,7 @@ class bumdetail extends Component {
     if(self.props.screenProps.user){
       self.props.navigation.navigate("AddCommentPage",{_id:self.props.navigation.state.params._id,update:self._onRefresh.bind(this)})
     } else {
-      self.props.navigation.navigate('Profile');
+      self.props.navigation.navigate('ProfileStack');
     }
   }
   _onRefresh(){
@@ -68,7 +68,7 @@ class bumdetail extends Component {
             }
         >
           <View style={styles.bumDetailInfoContainer}>
-            <RatingView refreshing={self.state.refreshing}  showRating={true} _id={state.params._id} />
+            <RatingView navigation={self.props.navigation} _user={self.props.screenProps.user} refreshing={self.state.refreshing}  showRating={true} _id={state.params._id} />
           </View>
 
           <TouchableOpacity onPress={()=>self._addComment()} style={styles.containerTextYourBum}>

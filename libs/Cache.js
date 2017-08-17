@@ -7,6 +7,46 @@ class Cache {
     var self = this;
   }
 
+  setUserSetting(data){
+    var self = this;
+    if(data){
+      data.store_date = new Date();
+      AsyncStorage.setItem("userSetting",JSON.stringify(data),function(err){
+        //console.log('cache.set.err',err);
+        if(!err){
+          //console.log('cache.set',data);
+          return true;
+        } else{
+          return false;
+        }
+      });
+    } else {
+      AsyncStorage.setItem("userSetting",JSON.stringify({
+        radius:5
+      }),function(err){
+        //console.log('cache.set.err',err);
+        if(!err){
+          //console.log('cache.set',data);
+          return true;
+        } else{
+          return false;
+        }
+      });
+    }
+  }
+
+  getUserSetting(callback){
+    AsyncStorage.getItem("userSetting",function(err,result){
+      //console.log('getRating',err);
+      var response = JSON.parse(result)
+      if(result){
+        return callback(response);
+      } else{
+        return callback({radius:5});
+      }
+    });
+  }
+
   setRating(_id, data){
     var self = this;
     if(data && _id){

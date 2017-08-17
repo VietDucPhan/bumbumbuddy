@@ -123,10 +123,10 @@ class CreateBumForm extends Component {
         name:self.state.bumNameText,
         address:self.state.bumStreetAddressText,
         zipcode:self.state.bumZipCodeText,
-        coordinate:{
-          longitude:self.state.draggableMarker.longitude,
-          latitude:self.state.draggableMarker.latitude
-        },
+        coordinate:[
+          self.state.draggableMarker.longitude,
+          self.state.draggableMarker.latitude
+        ],
         token:self.props.screenProps.user.token
       }
       //console.log('createbumform._onCreateClick',bum);
