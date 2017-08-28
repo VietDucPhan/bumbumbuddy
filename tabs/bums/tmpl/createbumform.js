@@ -19,6 +19,7 @@ import {
  } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import BumsLib from '../../../libs/Bums';
+import Loading from '../../../commons/loading';
 var BumsModel = new BumsLib();
 var { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
@@ -48,7 +49,9 @@ class CreateBumForm extends Component {
         latitude: LATITUDE,
         longitude: LONGITUDE,
       },
-      statusBarHeight:199
+      statusBarHeight:199,
+      visible:false,
+      loadingName:"loading"
     };
     this._bumNameChangeText.bind(this);
     this._bumStreetAddressChangeText.bind(this);
@@ -105,19 +108,32 @@ class CreateBumForm extends Component {
     });
   }
 
+  _closeBtn(){
+    var self = this;
+    self.setState({
+      visible:!self.state.visible
+    });
+  }
+
   _onCreateClick(){
     //alert('click create');
     //console.log(this.props.screenProps.user);
     var self = this;
+    self.setState({
+      visible:true
+    });
     if(!self.state.bumNameText || self.state.bumNameText.length == 0){
-      Alert.alert(
-        '',
-        'Enter name to continue',
-        [
-          {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-        ],
-        { cancelable: false }
-      )
+      self.setState({
+        loadingName:"error"
+      });
+      // Alert.alert(
+      //   '',
+      //   'Enter name to continue',
+      //   [
+      //     {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+      //   ],
+      //   { cancelable: false }
+      // )
     } else {
       const bum = {
         name:self.state.bumNameText,
@@ -133,15 +149,22 @@ class CreateBumForm extends Component {
       BumsModel.createBum(bum,function(result){
         //console.log('createbumform._onCreateClick','finished');
         if(result && result.errors){
-          Alert.alert(
-            result.errors[0].title,
-            result.errors[0].detail,
-            [
-              {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-            ],
-            { cancelable: false }
-          )
+          self.setState({
+            loadingName:"error"
+          });
+          // Alert.alert(
+          //   result.errors[0].title,
+          //   result.errors[0].detail,
+          //   [
+          //     {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+          //   ],
+          //   { cancelable: false }
+          // )
         } else {
+          self.setState({
+            loadingName:"done",
+            visible:false
+          });
           self.props.navigation.navigate('BumDetail',{_id:result.data._id});
         }
       });
@@ -245,6 +268,7 @@ class CreateBumForm extends Component {
 
     return(
       <ScrollView style={styles.container}>
+        <Loading close={self._closeBtn.bind(this)} name={self.state.loadingName} visible={self.state.visible}/>
         <Text style={styles.sessionContainerText}>Basic Info</Text>
         <View style={styles.sessionContainer}>
           <View style={[styles.bumCreateInputContainer]}>

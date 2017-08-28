@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {GoogleSignin, GoogleSigninButton} from 'react-native-google-signin';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import AuthLib from '../../../libs/Auth';
+import Loading from '../../../commons/loading';
 import {
   StyleSheet,
   View,
@@ -29,9 +30,10 @@ class LoginView extends Component {
     });
     Auth.signInWithFacebook(function(err,res){
       if(err){
-        self.props.signIn();
-        self.setState({
-          showActivitiIndicator:false
+        self.props.signIn(function(err){
+          self.setState({
+            showActivitiIndicator:false
+          });
         });
       }
     });
@@ -44,26 +46,27 @@ class LoginView extends Component {
     Auth.signInWithGoogle(function(err,res){
       if(err){
         console.log('login.googleLogin', err);
-        self.props.signIn();
-        self.setState({
-          showActivitiIndicator:false
+        self.props.signIn(function(err){
+          self.setState({
+            showActivitiIndicator:false
+          });
         });
       }
     });
   }
 
+  _closeBtn(){
+    var self = this;
+    self.setState({
+      showActivitiIndicator: !self.state.showActivitiIndicator
+    });
+  }
+
   render(){
     var self = this;
-    if(this.state.showActivitiIndicator){
       return (
         <View style={styles.container}>
-          <ActivityIndicator animating={this.state.showActivitiIndicator}></ActivityIndicator>
-        </View>
-
-      );
-    } else {
-      return (
-        <View style={styles.container}>
+          <Loading close={self._closeBtn.bind(this)} visible={self.state.showActivitiIndicator} />
             <View style={styles.loginBtn}>
               <Icon.Button onPress={()=>self.facebookLogin()} name="facebook" backgroundColor="#4267b2">
                 Login with Facebook
@@ -75,7 +78,6 @@ class LoginView extends Component {
             </Icon.Button>
         </View>
       )
-    }
 
   }
 }

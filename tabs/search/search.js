@@ -11,7 +11,9 @@ import {
   ScrollView,
   Image,
   TextInput,
-  ActivityIndicator
+  ActivityIndicator,
+  Alert,
+  RefreshControl
  } from 'react-native';
  var { width, height } = Dimensions.get('window');
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -26,7 +28,9 @@ class commentdetail extends Component {
     this.state = {
       seachText:"",
       bums:[],
-      showActivitiIndicator:true
+      bumsSearchByText:[],
+      showActivitiIndicator:true,
+      refreshing:false
     };
     this._searchInputChangeText.bind(this);
   }
@@ -48,7 +52,7 @@ class commentdetail extends Component {
           var data = {
             coordinate:[position.coords.longitude, position.coords.latitude],
             radius:result.radius
-          }
+          };
           console.log("getUserSetting",result);
           BumsModel.getSurroundBum(data,function(result){
             if(result && result.errors){
@@ -64,7 +68,8 @@ class commentdetail extends Component {
               console.log("getSurroundBum",result);
               self.setState({
                 bums:result.data,
-                showActivitiIndicator:false
+                showActivitiIndicator:false,
+                refreshing:false
               });
             }
           });
@@ -75,12 +80,55 @@ class commentdetail extends Component {
     );
   }
 
+  _onRefresh(){
+    this.setState({
+      refreshing:true
+    });
+    this.getSurroundBum();
+  }
+
   _searchInputChangeText(text){
     var self = this;
     self.setState({
-      seachText:text
+      seachText:text,
+      showActivitiIndicator:true
     });
+    if(text && text !== ""){
+      BumsModel.searchBumByName(text,function(result){
+        if(result && result.errors){
+          Alert.alert(
+            result.errors[0].title,
+            result.errors[0].detail,
+            [
+              {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+            ],
+            { cancelable: false }
+          )
+        } else {
+          self.setState({
+            bumsSearchByText:result.data,
+            showActivitiIndicator:false
+          });
+        }
+      });
+    } else {
+      self.setState({
+        showActivitiIndicator:false
+      });
+    }
+
   }
+
+  _addNewBum(){
+    var self = this;
+    if(self.props.screenProps.user){
+      self.props.navigation.navigate('CreateBumForm',{bumID:0,bumNameText:self.state.seachText});
+    } else {
+      self.props.navigation.navigate('ProfileStack');
+    }
+
+  }
+
   componentDidMount(){
     var self = this;
     self.getSurroundBum();
@@ -104,7 +152,33 @@ class commentdetail extends Component {
           <ActivityIndicator animating={this.state.showActivitiIndicator}></ActivityIndicator>
         }
 
-          <ScrollView style={styles.bumsAround}>
+          <ScrollView style={styles.bumsAround}
+            refreshControl={
+              <RefreshControl
+                refreshing={this.state.refreshing}
+                onRefresh={this._onRefresh.bind(this)}
+              />
+            }
+          >
+          {self.state.bumsSearchByText && self.state.bumsSearchByText[0] &&
+            self.state.bumsSearchByText.map(function(obj, i){
+                return (
+                  <View key={i} style={styles.addNewBumContainer}>
+                    <TouchableOpacity onPress={()=>self.props.navigation.navigate('BumDetail',{_id:obj._id})}>
+                      <View style={styles.addNewBumContentContainer}>
+                        <Icon style={styles.bumIcon} size={30} name={'ios-woman'} />
+                        <Text>{obj.name}</Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                );
+              })
+          }
+            {self.state.bums && self.state.bums[0] &&
+              <View style={styles.bumsNearYouContainer}>
+                <Text style={styles.bumsNearYouText}>Bums near you</Text>
+              </View>
+            }
             {self.state.bums.map(function(obj, i){
                 return (
                   <View key={i} style={styles.addNewBumContainer}>
@@ -119,7 +193,7 @@ class commentdetail extends Component {
               })}
             {this.state.seachText != "" &&
               <View style={styles.addNewBumContainer}>
-                <TouchableOpacity onPress={()=>this.props.navigation.navigate('CreateBumForm',{bumID:0,bumNameText:this.state.seachText})}>
+                <TouchableOpacity onPress={()=>self._addNewBum()}>
                   <View style={styles.addNewBumContentContainer}>
                     <Icon style={styles.addNewIcon} size={30} name={'ios-add-circle-outline'} />
                     <Text>Add "{this.state.seachText}" to bum collection</Text>
@@ -150,6 +224,14 @@ const styles = StyleSheet.create({
     paddingLeft:5,
     paddingRight:5,
     width:width
+  },
+  bumsNearYouContainer:{
+    padding:2,
+    borderBottomWidth:StyleSheet.hairlineWidth,
+    borderBottomColor:'#ccc',
+  },
+  bumsNearYouText:{
+    color:"#ccc"
   },
   addNewBumContainer:{
     flex:1,

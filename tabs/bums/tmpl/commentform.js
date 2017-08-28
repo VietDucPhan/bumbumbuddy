@@ -25,6 +25,7 @@ var ImagePicker = require('react-native-image-picker');
 import BumsLib from '../../../libs/Bums';
 import UploadLib from '../../../libs/Upload';
 import CacheLib from '../../../libs/Cache';
+import Loading from '../../../commons/loading';
 var UploadModel = new UploadLib();
 var BumsModel = new BumsLib();
 var Cache = new CacheLib();
@@ -245,10 +246,7 @@ class CommentForm extends Component {
     }();
     return(
       <ScrollView style={styles.container}>
-        {this.state.showActivitiIndicator &&
-          <View style={styles.loadingContainer}>
-          <ActivityIndicator animating={this.state.showActivitiIndicator}></ActivityIndicator>
-        </View>}
+        <Loading visible={this.state.showActivitiIndicator} />
         <View style={styles.textInputContainer}>
           <TextInput
             placeholder={'Text your bum'}

@@ -77,13 +77,14 @@ export default class App extends React.Component {
     });
   }
 
-  _signIn(){
+  _signIn(callback){
     var self = this;
     Auth.isLogedIn(function(response){
       console.log('App._signIn');
       self.setState({
         user:response
       });
+      return callback(true);
     });
   }
 

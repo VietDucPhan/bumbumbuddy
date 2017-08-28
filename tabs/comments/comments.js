@@ -54,13 +54,13 @@ class comments extends Component {
   componentDidMount(){
     //console.log("comments.componentDidMount");
     var self = this;
-
+    console.log("comments.componentDidMount");
     if(self.props._id){
       self._getBumComments();
       Cache.getComments(self.props._id,function(flag,result){
         if(flag){
           self.setState({
-            comments:result,
+            comments:result.data,
             showActivitiIndicator:false,
             refreshing:false
           });
@@ -72,11 +72,12 @@ class comments extends Component {
       Cache.getComments("_getBumsComments",function(flag,result){
         if(flag){
           self.setState({
-            comments:result,
+            comments:result.data,
             showActivitiIndicator:false,
             refreshing:false
           });
         } else {
+
           self._getBumsComments();
         }
       });
@@ -101,14 +102,14 @@ class comments extends Component {
           { cancelable: false }
         )
       } else {
-        console.log("comments._getBumsComments",result);
+        //console.log("comments._getBumsComments",result);
         var comments = {
           comments:result.data,
           showActivitiIndicator:false,
           refreshing:false
         }
         self.setState(comments);
-        Cache.setComments("_getBumsComments",result.data);
+        Cache.setComments("_getBumsComments",result);
         self.props.finsihedRefreshing();
       }
     });
@@ -127,14 +128,14 @@ class comments extends Component {
           { cancelable: false }
         )
       } else {
-        console.log("comments._getBumComments",result);
+        //console.log("comments._getBumComments",result);
         var comments = {
           comments:result.data,
           showActivitiIndicator:false,
           refreshing:false
         }
         self.setState(comments);
-        Cache.setComments(self.props._id,result.data);
+        Cache.setComments(self.props._id,result);
         self.props.finsihedRefreshing();
       }
     });
@@ -147,7 +148,7 @@ class comments extends Component {
     if(self.props._id){
       self._getBumComments();
     } else {
-      console.log("comments._onRefresh");
+      //console.log("comments._onRefresh");
       self._getBumsComments();
 
     }
@@ -155,10 +156,10 @@ class comments extends Component {
 
   componentWillReceiveProps(nextProps) {
     var self = this;
-    console.log("comments.componentWillReceiveProps");
+    //console.log("comments.componentWillReceiveProps");
     if(nextProps.showRating){
       Cache.getRating(self.props._id,function(flag,result){
-        console.log("rating._getBum.componentWillReceiveProps",flag);
+        //console.log("rating._getBum.componentWillReceiveProps",flag);
         if(flag){
           self.setState(result);
         } else {
@@ -297,6 +298,8 @@ class comments extends Component {
               if(obj.overall_rating){
                 obj.overall_rating_displayname = obj.overall_rating + " stars";
               }
+
+              if(obj && obj._id && obj.created_by){
                 return (
                   <View key={obj._id} style={styles.commentContainer}>
                     <View style={styles.commentHeader}>
@@ -350,6 +353,13 @@ class comments extends Component {
                     </View>
                   </View>
                 );
+              } else {
+                return(
+                  <View style={styles.beTheFirstContainer}>
+                    <Text style={styles.beTheFirstContainerText}>Be the first to comment</Text>
+                  </View>
+                );
+              }
         }}
 
           refreshControl={
@@ -427,6 +437,13 @@ class comments extends Component {
     },
     commentPointsAndResponseText:{
       color:'#888'
+    },
+    beTheFirstContainer:{
+      alignItems:'center',
+      marginTop:10
+    },
+    beTheFirstContainerText:{
+      color:"#ccc"
     }
   });
 module.exports = comments;

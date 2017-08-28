@@ -42,8 +42,8 @@ class DateFormat extends Component {
 
     if(seconds < 5){
       renderDate = "just now";
-    }else if(seconds < 60){
-      renderDate = minute + " minutes ago";
+    }else if(seconds >= 5 && seconds < 60){
+      renderDate = seconds + " seconds ago";
     } else if(minute < 60){
       renderDate = minute + " minutes ago";
     } else if(hours < 24){

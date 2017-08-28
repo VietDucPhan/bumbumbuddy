@@ -7,6 +7,17 @@ class Cache {
     var self = this;
   }
 
+  isExpired(numberMinute, date, callback){
+    var seconds = Math.floor((new Date() - new Date(date))/1000);
+    var minute = Math.floor(seconds/60) ;
+    console.log("minute",minute);
+    if(numberMinute > minute){
+      return callback(false);
+    } else {
+      return callback(true);
+    }
+  }
+
   setUserSetting(data){
     var self = this;
     if(data){
@@ -66,12 +77,20 @@ class Cache {
   }
 
   getRating(_id,callback){
+    var self = this;
     if(_id && _id != null){
       AsyncStorage.getItem("rating-"+_id,function(err,result){
         //console.log('getRating',err);
         var response = JSON.parse(result)
         if(result){
-          return callback(true,response);
+          self.isExpired(1,response.store_date,function(flag){
+            if(flag){
+              return callback(false,null);
+            } else {
+              return callback(true,response);
+            }
+          })
+
         } else{
           return callback(false,null);
         }
@@ -84,9 +103,9 @@ class Cache {
     if(data && _id){
       data.store_date = new Date();
       AsyncStorage.setItem("comment-"+_id,JSON.stringify(data),function(err){
-        //console.log('cache.set.err',err);
+        console.log('cache.setComments',_id);
         if(!err){
-          console.log('cache.set',data);
+          //console.log('cache.set',data);
           return true;
         } else{
           return false;
@@ -98,11 +117,20 @@ class Cache {
   }
 
   getComments(_id,callback){
+    var self = this;
     if(_id && _id != null){
       AsyncStorage.getItem("comment-"+_id,function(err,result){
-        var response = JSON.parse(result)
+        var response = JSON.parse(result);
+        console.log("getComments",response)
         if(result){
-          return callback(true,response);
+          self.isExpired(1,response.store_date,function(flag){
+            //console.log("getComments",flag)
+            if(flag){
+              return callback(false,null);
+            } else {
+              return callback(true,response);
+            }
+          })
         } else{
           return callback(false,null);
         }

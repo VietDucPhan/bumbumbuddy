@@ -10,18 +10,22 @@ import {
   Text,
   ScrollView,
   Image,
-  Button
+  Button,
+  Alert
  } from 'react-native';
 import Bums from '../../libs/Bums';
+import CacheLib from '../../libs/Cache';
 import Callout from './tmpl/callout';
+ import LoadingView from '../../commons/loading';
 import Icon from 'react-native-vector-icons/Ionicons';
 var ImagePicker = require('react-native-image-picker');
 var { width, height } = Dimensions.get('window');
 var BumsModel = new Bums();
+var Cache = new CacheLib();
 
 const ASPECT_RATIO = width / height;
-var LATITUDE = 37.78825;
-var LONGITUDE = -122.4324;
+var LATITUDE = 10.769261;
+var LONGITUDE = 106.694670;
 var LATITUDE_DELTA = 0.0022;
 var LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 const SPACE = 0.01;
@@ -49,6 +53,7 @@ class Map extends Component {
         latitudeDelta: LATITUDE_DELTA,
         longitudeDelta: LONGITUDE_DELTA
       },
+      loadingVisible:false,
       mapViewHeight:300,
       bums:[]
     }
@@ -74,14 +79,14 @@ class Map extends Component {
 
   _getBums(){
     var self = this;
-    BumsModel.getBums(function(response){
-      if(response != null){
-        //console.log('maps._getBums',response);
-        self.setState({
-          bums:response
-        });
-      }
-    });
+    // BumsModel.getBums(function(response){
+    //   if(response != null){
+    //     //console.log('maps._getBums',response);
+    //     self.setState({
+    //       bums:response
+    //     });
+    //   }
+    // });
   }
 
   goToBumDetail(_id){
@@ -92,7 +97,7 @@ class Map extends Component {
     var self = this;
     navigator.geolocation.getCurrentPosition (
       (position) => {
-        console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
+        //console.log("Lat: " + position.coords.latitude + "\nLon: " + position.coords.longitude);
         self.setState({region:{
           longitude:position.coords.longitude,
           latitude:position.coords.latitude,
@@ -100,10 +105,52 @@ class Map extends Component {
           longitudeDelta: LONGITUDE_DELTA
         },
         statusBarHeight:0
+
+      });
+      Cache.getUserSetting(function(result){
+        var data = {
+          coordinate:[position.coords.longitude, position.coords.latitude],
+          radius:result.radius
+        };
+        self._loadBums(data);
+        //console.log("getUserSetting",result);
+
       });
       },
       function(error){console.log('map._locatorOnPress',error)}
     );
+  }
+
+  _loadBumsAtCurrentLocation(){
+    var self = this;
+    Cache.getUserSetting(function(result){
+      var data = {
+        coordinate:[self.state.region.longitude, self.state.region.latitude],
+        radius:result.radius
+      };
+      self._loadBums(data);
+      //console.log("getUserSetting",result);
+
+    });
+  }
+
+  _loadBums(data){
+    var self = this;
+    self.setState({
+      loadingVisible:true
+    });
+    BumsModel.getSurroundBum(data,function(result){
+      if(result && result.errors){
+        self.setState({
+          loadingName:"error",
+        });
+      } else {
+        self.setState({
+          bums:result.data,
+          loadingVisible:false
+        });
+      }
+    });
   }
 
   _getCurrentPostion(callback){
@@ -116,10 +163,31 @@ class Map extends Component {
 
   }
 
+  _arrayUnique(array) {
+    var a = array.concat();
+    for(var i=0; i<a.length; ++i) {
+        for(var j=i+1; j<a.length; ++j) {
+            if(a[i] === a[j])
+                a.splice(j--, 1);
+        }
+    }
+
+    return a;
+  }
+
   onRegionChangeComplete(region){
     //console.log('map.componentWillMount',width);
+    var self = this;
+    //console.log("onRegionChangeComplete", region);
     LATITUDE_DELTA = region.latitudeDelta;
-    LONGITUDE_DELTA = region.longitudeDelta;
+    //LONGITUDE_DELTA = region.longitudeDelta;
+    self.setState({region:{
+      longitude:region.longitude,
+      latitude:region.latitude,
+      latitudeDelta: LATITUDE_DELTA,
+      longitudeDelta: LATITUDE_DELTA*ASPECT_RATIO
+    }});
+
   }
 
   moveToThisRegion(region){
@@ -144,7 +212,7 @@ class Map extends Component {
   componentDidMount(){
     var self = this;
     this._locatorOnPress();
-    this._getBums();
+    //this._getBums();
     self.props.navigation.setParams({
       _onClickHeaderRight:self._onClickHeaderRight.bind(this)
     });
@@ -155,11 +223,19 @@ class Map extends Component {
     setTimeout(()=>this.setState({statusBarHeight: 1}),500);
   }
   //
+
+  _closeBtn(){
+    this.setState({
+      loadingVisible:!this.state.loadingVisible
+    });
+  }
   render() {
     var self = this;
-    console.log(this.props.screenProps.user);
+    //console.log(this.props.screenProps.user);
     return(
       <View style={[styles.mapContainer,{paddingTop: this.state.statusBarHeight }]}>
+
+
         <MapView
           style={[styles.mapView]}
           onRegionChangeComplete={this.onRegionChangeComplete.bind(this)}
@@ -173,12 +249,16 @@ class Map extends Component {
           initialRegion={this.state.region}
         >
         {self.state.bums.map(function(obj, i){
-          console.log(obj);
+          //console.log(obj);
             return (
-              <Callout navigation={self.props.navigation} goToBumDetail={()=>self.goToBumDetail(obj._id)} key={obj._id} bum={obj} />
+              <Callout navigation={self.props.navigation} goToBumDetail={()=>self.goToBumDetail(obj._id)} key={i} bum={obj} />
             );
           })}
         </MapView>
+        <LoadingView close={self._closeBtn.bind(this)} name={self.state.loadingName} visible={self.state.loadingVisible}/>
+          <TouchableOpacity onPress={()=>self._loadBumsAtCurrentLocation()} style={styles.refreshBums}>
+            <Icon style={styles.iconRefresh} name="ios-refresh" size={25} />
+          </TouchableOpacity>
       </View>
 
     );
@@ -190,6 +270,19 @@ class Map extends Component {
       justifyContent: 'flex-end',
       alignItems: 'center',
 
+    },
+    refreshBums:{
+      position:"absolute",
+      bottom:10,
+      right:10,
+      justifyContent:"center",
+      alignItems:"center",
+      backgroundColor:'rgba(241,242,243,0.9)'
+    },
+    iconRefresh:{
+      paddingRight:7,
+      paddingLeft:7,
+      paddingTop:2
     },
     mapView:{
       flex:1,

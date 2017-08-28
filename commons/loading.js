@@ -30,6 +30,8 @@ class loading extends Component {
 
   static propTypes = {
     visible: PropTypes.bool.isRequired,
+    close:function(){
+    },
     loadingAnimation: PropTypes.bool.isRequired,
     name: PropTypes.oneOf(['loading', 'done',"error"])
   }
@@ -38,9 +40,7 @@ class loading extends Component {
 
   close(){
     var self = this;
-    self.setState({
-      closeBtn:false
-    })
+    self.props.close()
   }
 
   viewContent(){
@@ -49,7 +49,7 @@ class loading extends Component {
       case "loading":
         return(
           <View style={styles.middleBox}>
-            <ActivityIndicator animating={self.props.loadingAnimation}/>
+            <ActivityIndicator animating={true}/>
             <Text style={styles.message}>Loading</Text>
           </View>
         );
@@ -79,7 +79,7 @@ class loading extends Component {
       <Modal
         animationType="fade"
         transparent={true}
-        visible={self.props.visible && self.state.closeBtn}
+        visible={self.props.visible}
       >
         <View style={styles.modalContainer}>
           <View style={styles.middleBoxContainer}>

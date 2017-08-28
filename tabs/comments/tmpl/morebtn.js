@@ -139,6 +139,9 @@ class morebtn extends Component {
 
   _report(description){
     var self = this;
+    self.setState({
+      loadingVisible:true
+    });
     if(self.props._user && self.props._user.email && self.props._user.token){
       var data = {
         _id:self.props._id,
@@ -147,23 +150,28 @@ class morebtn extends Component {
         description:description
       };
 
+
       BumModel.report(data,function(result){
         if(result && result.errors){
-          Alert.alert(
-            result.errors[0].title,
-            result.errors[0].detail,
-            [
-              {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-            ],
-            { cancelable: false }
-          )
+          self.setState({
+            loadingName:"error"
+          });
         } else {
+          self.setState({
+            loadingName:"done"
+          });
           console.log("morebtn._report",result);
         }
       })
     } else {
       self.props.navigation.navigate("ProfileStack");
     }
+  }
+
+  _closeBtn(){
+    this.setState({
+      loadingVisible:!this.state.loadingVisible
+    });
   }
 
   render(){
@@ -173,7 +181,7 @@ class morebtn extends Component {
         <TouchableOpacity onPress={()=>{self.more()}}>
           <Icon style={{padding:5}} size={20} name="ios-more" />
         </TouchableOpacity>
-        <LoadingView name={self.state.loadingName} visible={self.state.loadingVisible} loadingAnimation={self.state.loadingAnimation} />
+        <LoadingView close={self._closeBtn.bind(this)} name={self.state.loadingName} visible={self.state.loadingVisible} loadingAnimation={self.state.loadingAnimation} />
       </View>
     );
   }

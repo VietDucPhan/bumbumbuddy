@@ -32,6 +32,32 @@ class Bums {
     });
   }
 
+  searchBumByName(text,callback){
+    fetch('https://bumbuddy.herokuapp.com/api/find-bum-name',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify({name:text})
+    })
+    .then((response) => response.json())
+    .then((responseJson) => {
+      console.log("Bums._uploadToHeroku.then",responseJson);
+      return callback(responseJson);
+    }).catch((error) => {
+      return callback({errors:[
+        {
+          status:'m002',
+          source:{pointer:"libs/bums.createBum"},
+          title:"Unknown error",
+          detail:error.message
+        }
+      ]});
+    });
+  }
+
   getSurroundBum(data,callback){
     fetch('https://bumbuddy.herokuapp.com/api/get-surround-bum',
     {
