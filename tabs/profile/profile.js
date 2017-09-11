@@ -89,7 +89,7 @@ class profile extends Component {
 
 
             <View style={styles.profileNavigatorContainer}>
-              <TouchableOpacity style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
+              <TouchableOpacity onPress={()=>this.props.navigation.navigate("SettingsStack")} style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
                 <Text>Settings</Text>
                 <Icon size={20} name="ios-arrow-forward" backgroundColor="#4267b2"/>
               </TouchableOpacity>
@@ -119,6 +119,7 @@ class profile extends Component {
     },
     profileNavigatorContainer:{
       borderTopWidth: StyleSheet.hairlineWidth,
+      borderBottomWidth: StyleSheet.hairlineWidth,
       borderColor: '#ccc',
       marginTop:10,
       paddingTop:10,

@@ -264,7 +264,15 @@ class CommentForm extends Component {
         <View style={styles.actionContainer}>
           <View style={styles.actionLeft}>
             <TouchableOpacity onPress={()=>self._getImageFromPhone()} style={styles.button}>
-              <Icon style={styles.buttonIcon} size={25} name="ios-image" color="#4267b2"/>
+              {self.state.imageSource ?
+                (
+                  <Image style={{width:25,height:25,marginRight:10,borderRadius:10}}  source={self.state.imageSource} />
+                ) : (
+                  <Icon style={styles.buttonIcon} size={25} name="ios-image" color="#4267b2"/>
+                )
+
+              }
+
               <Text>Photo</Text>
             </TouchableOpacity>
           </View>

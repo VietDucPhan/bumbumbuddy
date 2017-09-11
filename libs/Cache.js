@@ -49,11 +49,11 @@ class Cache {
   getUserSetting(callback){
     AsyncStorage.getItem("userSetting",function(err,result){
       //console.log('getRating',err);
-      var response = JSON.parse(result)
+      var response = JSON.parse(result);
       if(result){
         return callback(response);
       } else{
-        return callback({radius:5});
+        return callback({radius:2});
       }
     });
   }
@@ -83,7 +83,7 @@ class Cache {
         //console.log('getRating',err);
         var response = JSON.parse(result)
         if(result){
-          self.isExpired(1,response.store_date,function(flag){
+          self.isExpired(5,response.store_date,function(flag){
             if(flag){
               return callback(false,null);
             } else {

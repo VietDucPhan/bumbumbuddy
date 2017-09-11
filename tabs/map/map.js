@@ -11,7 +11,8 @@ import {
   ScrollView,
   Image,
   Button,
-  Alert
+  Alert,
+  Platform
  } from 'react-native';
 import Bums from '../../libs/Bums';
 import CacheLib from '../../libs/Cache';
@@ -242,9 +243,9 @@ class Map extends Component {
           showsUserLocation={true}
           showsMyLocationButton={true}
           showsScale={true}
-          showsCompass={true}
-          showsPointsOfInterest={true}
-          showsBuildings={true}
+          showsCompass={false}
+          showsPointsOfInterest={false}
+          showsBuildings={false}
           region={this.state.region}
           initialRegion={this.state.region}
         >
@@ -256,8 +257,12 @@ class Map extends Component {
           })}
         </MapView>
         <LoadingView close={self._closeBtn.bind(this)} name={self.state.loadingName} visible={self.state.loadingVisible}/>
+          <TouchableOpacity onPress={()=>self._locatorOnPress()} style={styles.locatorOnPressIcon}>
+            <Icon style={styles.iconOnLocator} name="ios-locate" size={27} />
+          </TouchableOpacity>
+
           <TouchableOpacity onPress={()=>self._loadBumsAtCurrentLocation()} style={styles.refreshBums}>
-            <Icon style={styles.iconRefresh} name="ios-refresh" size={25} />
+            <Icon style={styles.iconRefresh} name="ios-refresh" size={35} />
           </TouchableOpacity>
       </View>
 
@@ -273,16 +278,38 @@ class Map extends Component {
     },
     refreshBums:{
       position:"absolute",
-      bottom:10,
-      right:10,
+      top:60,
+      right:12,
       justifyContent:"center",
       alignItems:"center",
-      backgroundColor:'rgba(241,242,243,0.9)'
+      backgroundColor:'rgba(255,255,255,0.7)'
+    },
+    locatorOnPressIcon:{
+      position:"absolute",
+      top:15,
+      ...Platform.select({
+      ios: {
+
+      },
+      android: {
+        display:"none",
+      },
+      }),
+      right:12,
+      justifyContent:"center",
+      alignItems:"center",
+      backgroundColor:'rgba(255,255,255,0.7)'
     },
     iconRefresh:{
+      paddingRight:10,
+      paddingLeft:10,
+      paddingTop:2
+    },
+    iconOnLocator:{
       paddingRight:7,
       paddingLeft:7,
-      paddingTop:2
+      paddingTop:5,
+      paddingBottom:5
     },
     mapView:{
       flex:1,

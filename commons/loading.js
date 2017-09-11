@@ -80,6 +80,7 @@ class loading extends Component {
         animationType="fade"
         transparent={true}
         visible={self.props.visible}
+        onRequestClose={() => {self.close()}}
       >
         <View style={styles.modalContainer}>
           <View style={styles.middleBoxContainer}>

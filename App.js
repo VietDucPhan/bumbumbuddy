@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, NetInfo } from 'react-native';
+import { StyleSheet, Text, View, NetInfo, Platform } from 'react-native';
 
 import AuthLib from './libs/Auth';
 import { StackNavigator, TabNavigator } from 'react-navigation';
@@ -13,6 +13,7 @@ import BumDetailStack from './tabs/bums/tmpl/bumdetail';
 import AddCommentStack from './tabs/bums/tmpl/commentform';
 import CreateBumStack from './tabs/bums/tmpl/createbumform';
 import SearchStack from './tabs/search/search';
+import SettingsStack from './tabs/profile/tmpl/settings';
 
 
 const tabBarOptions = {
@@ -34,14 +35,20 @@ const tabsManagement = {
 
 }
 
+var tabNavigatorOptions = {
+  tabBarOptions:tabBarOptions,
+  tabBarPosition:'bottom',
+  animationEnabled:false,
+  lazy:false
+}
+
+if(Platform.OS === "ios"){
+  tabNavigatorOptions.lazy = true;
+}
+
 const Tabs = TabNavigator(
   tabsManagement,
-  {
-    tabBarOptions:tabBarOptions,
-    tabBarPosition:'bottom',
-    animationEnabled:false,
-    lazy:true
-  }
+  tabNavigatorOptions
 );
 
 const stackMangement = {
@@ -51,7 +58,8 @@ const stackMangement = {
   CreateBumForm:{screen:CreateBumStack},
   SearchPage:{screen:SearchStack},
   AddCommentPage:{screen:AddCommentStack},
-  ProfileStack : { screen: ProfileTab }
+  ProfileStack : { screen: ProfileTab },
+  SettingsStack:{ screen:SettingsStack }
 }
 const StackPage = StackNavigator(stackMangement);
 
