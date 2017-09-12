@@ -312,7 +312,7 @@ class comments extends Component {
                           {obj.created_by
                             ?
                             <TouchableOpacity>
-                              <Text style={styles.createdBy}>{obj.created_by.name}</Text>
+                              <Text style={styles.createdBy}>{obj.created_by.username}</Text>
                             </TouchableOpacity>
                             :
                               <Text style={styles.commentAtPlace}></Text>

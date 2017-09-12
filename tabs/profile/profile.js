@@ -35,6 +35,21 @@ class profile extends Component {
     title:'Profile'
   };
 
+  _calculateImageHeight(imageWidth,imageHeight){
+    var width = 128;
+    var height = 128;
+    if(imageWidth<=128){
+      width = imageWidth;
+    }
+
+    if(imageHeight <= 128){
+      height = imageHeight;
+    } else {
+      height = imageWidth/width*imageHeight;
+    }
+    return {height:height,width:width,borderRadius:Math.floor(width/2)};
+  }
+
   componentDidMount(){
 
   }
@@ -50,12 +65,15 @@ class profile extends Component {
           <ScrollView style={{backgroundColor:"#e8e8e8"}}>
             <View style={styles.profileContainer}>
               <View>
-              <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-         style={{width: 128, height: 128, borderRadius:64}} />
+              {
+                this.props.screenProps.user.profile_picture && this.props.screenProps.user.profile_picture.width && this.props.screenProps.user.profile_picture.height &&
+                <Image source={{uri: this.props.screenProps.user.profile_picture.secure_url}}
+           style={[this._calculateImageHeight(this.props.screenProps.user.profile_picture.width,this.props.screenProps.user.profile_picture.height), {marginTop:10}]} />
+              }
               </View>
 
               <View style={styles.profileName}>
-                <Text>{this.props.screenProps.user.name}</Text>
+                <Text>{this.props.screenProps.user.username}</Text>
               </View>
 
             </View>

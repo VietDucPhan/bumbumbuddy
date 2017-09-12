@@ -9,6 +9,9 @@ const {
   AccessToken
 } = FBSDK;
 
+ import UploadLib from './Upload';
+ var Upload = new UploadLib();
+
 class Auth {
   constructor(){
     var self = this;
@@ -43,6 +46,8 @@ class Auth {
       });
   }
 
+
+
   isLogedIn(callback){
     AsyncStorage.getItem('user',function(error,result){
       var response = JSON.parse(result)
@@ -55,7 +60,26 @@ class Auth {
     });
   }
 
+  updateProfile(token,data,callback){
+    fetch('https://bumbuddy.herokuapp.com/api/update-profile',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify({
+        token:token,
+        data:data
+      })
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+      });
+  }
+
   storeUserInfo(userInfo,callback){
+    var self = this;
     if(typeof userInfo != "object"){return false;}
     if(userInfo && userInfo.name && userInfo.email){
       fetch('https://bumbuddy.herokuapp.com/api/login',
@@ -69,15 +93,40 @@ class Auth {
       }).then((response) => response.json())
         .then((responseJson) => {
           if(responseJson.status){
-            AsyncStorage.setItem('user',JSON.stringify(responseJson.content),function(err){
-              if(!err){
-                //console.log("login to heroku successful",responseJson.content);
-                return callback(true,responseJson.content);
-              } else{
-                //console.log("login to heroku fail","something went wrong while trying to store");
-                return callback(false);
-              }
-            });
+            var content = responseJson.content;
+            if(responseJson.content && responseJson.content.profile_picture && responseJson.content.profile_picture.secure_url && responseJson.content.profile_picture.secure_url.search(responseJson.content._id) == -1){
+              Upload.uploadProfilePictureUsingUrl(responseJson.content.profile_picture.secure_url,responseJson.content._id,function(response){
+                console.log("storeUserInfo1",response);
+                self.updateProfile(responseJson.content.token,{profile_picture:response},function(respond){
+
+                  if(respond.error){
+                    return callback(false);
+                  } else {
+                    console.log("updateProfile",respond);
+                    AsyncStorage.setItem('user',JSON.stringify(respond.data[0]),function(err){
+                      if(!err){
+                        //console.log("login to heroku successful",responseJson.content);
+                        return callback(true,respond.data[0]);
+                      } else{
+                        //console.log("login to heroku fail","something went wrong while trying to store");
+                        return callback(false);
+                      }
+                    });
+                  }
+                })
+              });
+            } else {
+              console.log("profile picture already exist continue login");
+              AsyncStorage.setItem('user',JSON.stringify(responseJson.content),function(err){
+                if(!err){
+                  //console.log("login to heroku successful",responseJson.content);
+                  return callback(true,responseJson.content);
+                } else{
+                  //console.log("login to heroku fail","something went wrong while trying to store");
+                  return callback(false);
+                }
+              });
+            }
           } else {
             console.log("login to heroku fail","something went wrong while trying to loggin");
             return callback(false);
@@ -102,7 +151,7 @@ class Auth {
               return callback({
                 name:responseJson.name,
                 email:responseJson.email,
-                profile_picture:responseJson.picture,
+                profile_picture:{secure_url:responseJson.picture},
                 type:"google"
               });
             } else {
@@ -189,7 +238,7 @@ class Auth {
               return callback({
                 name:responseJson.name,
                 email:responseJson.email,
-                profile_picture:responseJson.picture.data.url,
+                profile_picture:{secure_url:responseJson.picture.data.url},
                 type:"facebook"
               });
             } else {

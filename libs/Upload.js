@@ -61,6 +61,47 @@ class Upload {
 
       });
   }
+
+
+  uploadProfilePictureUsingUrl(url,public_id,callback){
+    var self = this;
+    var timestamp = Date.now();
+    var key = 'public_id='+public_id+'&timestamp=' + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
+    var signature = Sha1.hash(key);
+    //console.log("upload.imageUploadToCloud",mediaData);
+    fetch('https://api.cloudinary.com/v1_1/dsthiwwp4/image/upload', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        file: url,
+        api_key: '955818184181287',
+        timestamp:timestamp,
+        signature:signature,
+        public_id:public_id
+      })
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+      })
+      .catch((error) => {
+        console.log("upload.imageUploadToCloud.error",error);
+        return callback({
+          errors:
+          [
+            {
+              status:'m009',
+              source:{pointer:"libs/upload.imageUploadToCloud"},
+              title:"Could not upload image",
+              detail:error.message
+            }
+          ]
+        });
+
+      });
+  }
 }
 
 module.exports = Upload;

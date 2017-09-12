@@ -13,7 +13,8 @@ import {
   Slider,
   Text,
   ScrollView,
-  Button
+  Button,
+  TextInput
 } from 'react-native';
 
 var Auth = new AuthLib();
@@ -22,7 +23,8 @@ class SettingView extends Component {
   constructor(props){
     super(props);
     this.state = {
-      radius:2
+      radius:2,
+      username:this.props.screenProps.user.username
     }
   }
 
@@ -47,10 +49,32 @@ class SettingView extends Component {
     });
   }
 
+  _inputChangeText(text){
+    var self = this;
+    //var newText = text.replace('\n', 'b')
+    var newText = text.replace(/[^a-z0-9._-]/gi, '_').replace(/_{2,}/g, '_').replace(/-{2,}/g, '_').toLowerCase();
+    self.setState({
+      username:newText
+    });
+  }
+
   render(){
     var self = this;
       return (
         <ScrollView style={styles.container}>
+
+          <Text style={styles.settingLable}>Profile</Text>
+          <View style={styles.settingSessionContainer}>
+            {self.props.screenProps.user &&
+              <TextInput
+                style={[styles.textInput]}
+                onChangeText={(text) => self._inputChangeText(text)}
+                value={self.state.username}
+                returnKeyType={"done"}
+                placeholderTextColor={"#ccc"}
+              />
+            }
+          </View>
 
           <Text style={styles.settingLable}>Bums radius</Text>
           <View style={styles.settingSessionContainer}>
@@ -93,6 +117,9 @@ const styles = StyleSheet.create({
   },
   loginBtn:{
     marginBottom:10
+  },
+  textInput:{
+    height:25,
   }
 });
 module.exports = SettingView;
