@@ -239,7 +239,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+yFwe5vd2IK+GJM+2iaE+Grt1CU=
+		hlNC8zhM2c3TzS6kXoV0jVjy12k=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -271,15 +271,15 @@
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest/Info.plist</key>
 		<data>
-		iEGtQ9eqfvBSATHhqkOH+sU9af4=
+		zp/ECft0m/vraaKcJARfvrnnDvA=
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		Ba0b9nZAeytTapIpR06WlgSQjMs=
+		DRpYRIIX1AHRFZr7giFppNoIKZE=
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest/bumbumbuddyTests</key>
 		<data>
-		BZCNmAq93WsyelkZMZIV6N5FHKg=
+		M2Q85iXBo4lqZ7iNj588R3GH8hA=
 		</data>
 		<key>QBImagePicker.bundle/Info.plist</key>
 		<data>
@@ -1489,33 +1489,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iEGtQ9eqfvBSATHhqkOH+sU9af4=
+			zp/ECft0m/vraaKcJARfvrnnDvA=
 			</data>
 			<key>hash2</key>
 			<data>
-			W7XA/KutxGx8qhvA3Iq7Sz/sLEYEEQjRg2waefB9VxY=
+			5hHwy1rZ0ZwFMEOtdporUu8JJCfZ5o/JHLNehCt2PVw=
 			</data>
 		</dict>
 		<key>PlugIns/bumbumbuddyTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ba0b9nZAeytTapIpR06WlgSQjMs=
+			DRpYRIIX1AHRFZr7giFppNoIKZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3bF1aDrx6WHvGtemEX+qYMf9ALRTBpfrxT/Z4t9Wxng=
+			yGh+VvEuufmimM7SWT37o3uaXYKXKA8Pi9nse92pm7E=
 			</data>
 		</dict>
 		<key>PlugIns/bumbumbuddyTests.xctest/bumbumbuddyTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BZCNmAq93WsyelkZMZIV6N5FHKg=
+			M2Q85iXBo4lqZ7iNj588R3GH8hA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wZjisgbZtYbpQ+6g5f5zdszktT2KxGx2Gt7ku8Xy7XI=
+			ZBv2fWImZPOGDG6uAnuWZZ8xHSIwRuALAnaccXC2wOg=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/Info.plist</key>

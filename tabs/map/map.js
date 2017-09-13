@@ -114,7 +114,7 @@ class Map extends Component {
           radius:result.radius
         };
         self._loadBums(data);
-        //console.log("getUserSetting",result);
+        console.log("getUserSetting",result);
 
       });
       },

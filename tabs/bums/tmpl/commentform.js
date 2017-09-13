@@ -121,6 +121,9 @@ class CommentForm extends Component {
         } else if(self.state.inputText){
           BumsModel.addComment(commentData,function(result){
             if(result && result.errors){
+              self.setState({
+                showActivitiIndicator:false
+              });
               Alert.alert(
                 result.errors[0].title,
                 result.errors[0].detail,

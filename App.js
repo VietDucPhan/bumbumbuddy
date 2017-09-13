@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, NetInfo, Platform } from 'react-native';
 
 import AuthLib from './libs/Auth';
+import CacheLib from './libs/Cache';
 import { StackNavigator, TabNavigator } from 'react-navigation';
 //Tabs
 import ProfileTab from './tabs/profile/profile';
@@ -64,6 +65,7 @@ const stackMangement = {
 const StackPage = StackNavigator(stackMangement);
 
 var Auth = new AuthLib();
+var Cache = new CacheLib();
 
 export default class App extends React.Component {
   constructor(props) {
@@ -92,8 +94,13 @@ export default class App extends React.Component {
       self.setState({
         user:response
       });
+      Cache.setUserSetting(response.settings);
       return callback(true);
     });
+  }
+
+  refreshingApp(){
+
   }
 
   componentWillMount(){

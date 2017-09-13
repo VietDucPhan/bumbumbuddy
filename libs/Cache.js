@@ -33,7 +33,7 @@ class Cache {
       });
     } else {
       AsyncStorage.setItem("userSetting",JSON.stringify({
-        radius:5
+        radius:2
       }),function(err){
         //console.log('cache.set.err',err);
         if(!err){
