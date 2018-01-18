@@ -7,14 +7,14 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/android" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/android/app" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android" />
-            <option value="$PROJECT_DIR$/../../../xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-camera/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-fbsdk/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-google-signin/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-image-picker/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

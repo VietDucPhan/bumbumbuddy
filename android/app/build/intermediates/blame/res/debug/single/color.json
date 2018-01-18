@@ -1,102 +1,98 @@
 [
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_secondary_text_material_dark.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_switch_track.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_tint_switch_track.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_hint_foreground_material_dark.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_btn_checkable.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_edittext.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/switch_thumb_material_dark.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_default.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_tint_default.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_primary_text_material_dark.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_hint_foreground_material_light.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/com_facebook_send_button_text_color.xml",
-        "source": "/Users/ducphan/.android/build-cache/fa7e6cbbd4324d8e0a8a3f53a0688fbad965a90e/output/res/color/com_facebook_send_button_text_color.xml"
+        "source": "/Users/ducphan/.android/build-cache/bfe0ffe5f179b797618944466ba16ad01545f804/output/res/color/com_facebook_send_button_text_color.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_secondary_text_material_light.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/color/common_google_signin_btn_tint.xml"
+        "source": "/Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_btn_colored_text_material.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_spinner.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
-        "source": "/Users/ducphan/.android/build-cache/fa7e6cbbd4324d8e0a8a3f53a0688fbad965a90e/output/res/color/com_facebook_button_text_color.xml"
+        "source": "/Users/ducphan/.android/build-cache/cd08864814a5718325d2ebfe5d3996e91b157830/output/res/color/com_facebook_button_text_color.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/switch_thumb_material_light.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_switch_thumb.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/b8f4941166064931f121fdacb287d3895ec2e75d/output/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_primary_text_material_light.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_search_url_text.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/ducphan/.android/build-cache/dc0ecc8e9122b471d2c6dd25dc625c03e23088b4/output/res/color/abc_tint_seek_thumb.xml"
+        "source": "/Users/ducphan/.android/build-cache/fcaf797741f7d55721846a2d37bab01786833cf6/output/res/color/abc_tint_seek_thumb.xml"
     }
 ]

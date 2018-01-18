@@ -32,10 +32,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.googleusercontent.apps.315634877630-ffgd1ut04lbg4mktp7asepcqlcf2nlha</string>
+			<string>com.googleusercontent.apps.315634877630-isklnqj79dtsf1oaoml9big6eq90jrtv</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.315634877630-ffgd1ut04lbg4mktp7asepcqlcf2nlha</string>
+				<string>com.googleusercontent.apps.315634877630-isklnqj79dtsf1oaoml9big6eq90jrtv</string>
 			</array>
 		</dict>
 		<dict>
@@ -76,9 +76,9 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Access photo for Bum Buddy profile</string>
 	<key>UIAppFonts</key>

@@ -65,7 +65,7 @@ class Map extends Component {
 
   static navigationOptions = ({navigation}) => {
     console.log('Map.navigationOptions',navigation);
-    return {tabBarLabel: '',
+    return {tabBarLabel: 'Locations',
     tabBarIcon: ({ tintColor, focused }) => (
       <Icon style={{paddingTop:5, paddingBottom:5}} size={35} name={focused ? 'ios-pin' : 'ios-pin-outline'} />
     ),
@@ -212,7 +212,10 @@ class Map extends Component {
 
   componentDidMount(){
     var self = this;
-    this._locatorOnPress();
+    if(Platform.OS === "ios"){
+      this._locatorOnPress();
+    }
+
     //this._getBums();
     self.props.navigation.setParams({
       _onClickHeaderRight:self._onClickHeaderRight.bind(this)

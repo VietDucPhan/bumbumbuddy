@@ -18,8 +18,8 @@ class Auth {
     GoogleSignin.hasPlayServices({ autoResolve: true }).then(() => {
         //console.log("hasPlayServices");
         GoogleSignin.configure({
-          iosClientId: '315634877630-ffgd1ut04lbg4mktp7asepcqlcf2nlha.apps.googleusercontent.com',
-          webClientId: '315634877630-5furs7lto6t9g99eghlnrv0q0cu61mun.apps.googleusercontent.com',
+          iosClientId: '315634877630-isklnqj79dtsf1oaoml9big6eq90jrtv.apps.googleusercontent.com',
+          webClientId: '315634877630-gfoq4ovb7to7jh67j216017urb0eu7gj.apps.googleusercontent.com',
           offlineAccess: false
         }).then(() => {
           // you can now call currentUserAsync()
