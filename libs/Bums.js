@@ -162,6 +162,33 @@ class Bums {
     });
   }
 
+  getComment(_id,callback){
+    var self = this;
+    console.log("Bums.getComments",_id);
+    fetch('https://bumbuddy.herokuapp.com/api/get-comment',
+    {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify({_id:_id})
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+    }).catch((error) => {
+        console.log('Bums.getComments',error);
+        return callback({errors:[
+          {
+            status:'m004',
+            source:{pointer:"libs/bums.getComments"},
+            title:"Unknown error",
+            detail:error.message
+          }
+        ]});
+    });
+  }
+
   getBumsComments(callback){
     var self = this;
     //console.log("Bums.getComments",_id);

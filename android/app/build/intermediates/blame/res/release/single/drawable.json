@@ -16,10 +16,6 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable/tooltip_frame_dark.xml",
-        "source": "/Users/ducphan/.android/build-cache/c988649eee20de2e5ae3aab295f83d51acbbd03e/output/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
         "source": "/Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
@@ -46,10 +42,6 @@
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable/tooltip_frame_light.xml",
-        "source": "/Users/ducphan/.android/build-cache/c988649eee20de2e5ae3aab295f83d51acbbd03e/output/res/drawable/tooltip_frame_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",

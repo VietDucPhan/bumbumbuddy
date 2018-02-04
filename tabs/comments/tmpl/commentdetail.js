@@ -30,7 +30,8 @@ class commentdetail extends Component {
       inputText:"",
       buttonDisable:false,
       refreshing:false,
-      replies:[]
+      replies:[],
+      displayCommentInput:false
     }
   }
 
@@ -66,11 +67,22 @@ class commentdetail extends Component {
 
   _postReply(){
     var self = this;
+    var commentID = self.props.navigation.state.params._id ? self.props.navigation.state.params._id : self.props.commentID;
+    if(commentID && self.props.screenProps.user && !self.state.buttonDisable){
+      var mentioned = [];
+      var regex = /([@])\w+/g;
+      var matched;
+      do{
+        matched = regex.exec(self.state.inputText);
+        if(matched){
+          mentioned.push(matched[0])
+        }
 
-    if(self.props.navigation.state.params._id && self.props.screenProps.user && !self.state.buttonDisable){
+      }while(matched)
       var data = {
-        comment_id:self.props.navigation.state.params._id,
+        comment_id:commentID,
         description:self.state.inputText,
+        mentioned:mentioned,
         token:self.props.screenProps.user.token
       }
       self.setState({
@@ -104,8 +116,9 @@ class commentdetail extends Component {
 
   _getReplies(){
     var self = this;
-    if(self.props.navigation.state.params._id){
-      BumModel.getReplies(self.props.navigation.state.params._id,function(result){
+    var commentID = self.props.navigation.state.params._id ? self.props.navigation.state.params._id : self.props.commentID;
+    if(commentID){
+      BumModel.getReplies(commentID,function(result){
         if(result && result.errors){
           Alert.alert(
             result.errors[0].title,
@@ -136,7 +149,11 @@ class commentdetail extends Component {
   }
 
   componentDidMount(){
-    this._onRefresh();
+    var self = this;
+    self._onRefresh();
+    if(self.props.screenProps.user && !self.props.commentID){
+      self.setState({displayCommentInput:true})
+    }
   }
 
   _onRefresh() {
@@ -171,14 +188,14 @@ class commentdetail extends Component {
           return(
             <View key={i} style={styles.replyContainer}>
               <View style={styles.replyImageContainer}>
-                <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
+                <Image source={{uri: obj.created_by.profile_picture.secure_url}}
            style={{width: 30, height: 30, borderRadius:15}} />
               </View>
               <View style={styles.replyDetailContainer}>
                 <View style={styles.profileContainer}>
                   <View style={styles.profileInfoContainer}>
-                    <Text style={styles.profileInfoName}>{obj.created_by.name}</Text>
-                    <Text style={{paddingBottom:5}}> . </Text>
+                    <Text style={styles.profileInfoName}>{obj.created_by.username}</Text>
+
                     <FormatDate created_date={obj.created_date}/>
                   </View>
                   <Morebtn navigation={self.props.navigation} _id={obj._id} _typeOfBtn="reply" _createdBy={obj.created_by.email} _user={self.props.screenProps.user} />
@@ -186,13 +203,20 @@ class commentdetail extends Component {
                 <View>
                   <Text>{obj.description}</Text>
                 </View>
+                <View style={styles.actionContainer}>
+                  <TouchableOpacity onPress={()=>{
+
+                    var newInput = "@" + obj.created_by.username + " ";
+                    self.setState({inputText:newInput});
+                  }}><Text style={styles.actionContainerText}>Reply</Text></TouchableOpacity>
+                </View>
               </View>
             </View>
           );
         })
       }
         </ScrollView>
-        {self.props.screenProps.user &&
+        {self.state.displayCommentInput &&
           <View style={[styles.inputContainer,{bottom:self.state.inputBottomPosition}]}>
             <TextInput
               blurOnSubmit={true}
@@ -248,12 +272,18 @@ class commentdetail extends Component {
       justifyContent:"space-between"
     },
     profileInfoContainer:{
-      flexDirection:"row",
-      alignItems:"center",
       marginBottom:6
     },
     profileInfoName:{
       fontWeight:'bold'
+    },
+    actionContainer:{
+      marginTop:5
+    },
+    actionContainerText:{
+      fontWeight:'bold',
+      color:"#898f9c",
+      fontSize:12
     }
   });
 module.exports = commentdetail;

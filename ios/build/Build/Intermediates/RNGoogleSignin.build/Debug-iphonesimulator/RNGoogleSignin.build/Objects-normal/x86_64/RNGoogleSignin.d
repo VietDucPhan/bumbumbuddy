@@ -19,6 +19,8 @@ dependencies: \
   GoogleSdk/GoogleSignIn.framework/Headers/GIDSignIn.h \
   GoogleSdk/GoogleSignIn.framework/Headers/GIDProfileData.h \
   GoogleSdk/GoogleSignIn.framework/Headers/GIDGoogleUser.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/ios/../../../ios/build/Build/Intermediates/RSKImageCropper.build/Debug-iphonesimulator/RSKImageCropper.build/module.modulemap \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/ios/../../../ios/build/Build/Intermediates/QBImagePicker.build/Debug-iphonesimulator/QBImagePicker.build/module.modulemap \
   GoogleSdk/GoogleSignIn.framework/Headers/GIDAuthentication.h \
   GoogleSdk/GoogleSignIn.framework/Headers/GoogleSignIn.h \
   ../../react-native/React/Base/RCTEventDispatcher.h \

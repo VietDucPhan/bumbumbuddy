@@ -343,6 +343,25 @@
                         "endOffset": 2748
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2842,
+                    "endColumn": 106,
+                    "endOffset": 2944
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/res/values-az/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 241,
+                        "endColumn": 102,
+                        "endOffset": 343
+                    }
+                }
             }
         ]
     }

@@ -67,4 +67,6 @@ dependencies: \
   /Users/ducphan/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h \
   /Users/ducphan/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCopying.h \
   /Users/ducphan/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h \
-  /Users/ducphan/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h
+  /Users/ducphan/Documents/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPushNotificationManager.h \
+  /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h

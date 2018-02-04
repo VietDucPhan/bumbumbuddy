@@ -1128,8 +1128,27 @@
                     "startLine": 61,
                     "startColumn": 4,
                     "startOffset": 5966,
+                    "endColumn": 100,
+                    "endOffset": 6062
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/res/values-zh-rTW/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 245,
+                        "endColumn": 96,
+                        "endOffset": 341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6067,
                     "endColumn": 57,
-                    "endOffset": 6019
+                    "endOffset": 6120
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/values-zh-rTW/values-zh-rTW.xml",
@@ -1144,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 6024,
+                    "startOffset": 6125,
                     "endColumn": 77,
-                    "endOffset": 6097
+                    "endOffset": 6198
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-zh-rTW/values-zh-rTW.xml",
@@ -1163,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 6102,
+                    "startOffset": 6203,
                     "endColumn": 100,
-                    "endOffset": 6198
+                    "endOffset": 6299
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-zh-rTW/values-zh-rTW.xml",

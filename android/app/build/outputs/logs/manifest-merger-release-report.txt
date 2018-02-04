@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-43:12
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
 	package
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:2:5-30
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
@@ -36,7 +36,6 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/mai
 uses-permission#android.permission.CAMERA
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:9:5-65
 MERGED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:11:5-65
-MERGED from [com.github.react-native-community:cameraview:df60b07573] /Users/ducphan/.android/build-cache/951cba00d40c59593c33c17ba9269acee7d277ed/output/AndroidManifest.xml:21:5-65
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.RECORD_AUDIO
@@ -55,17 +54,23 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:16:22-63
 uses-sdk
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:15:5-17:41
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
 MERGED from [com.android.support:multidex:1.0.1] /Users/ducphan/.android/build-cache/f894a2e4c23006534248e887a6bcd3c6f7cdd925/output/AndroidManifest.xml:18:5-42
+MERGED from [bumbumbuddy:react-native-fcm:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/ducphan/.android/build-cache/a49ee71870ec2fb9cb1ca2f6c446a0ebe6b02a87/output/AndroidManifest.xml:4:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:7:5-9:41
 MERGED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 MERGED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-vision:11.8.0] /Users/ducphan/.android/build-cache/b641e74c0ca75b70540934b657f83e4a3b057cda/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] /Users/ducphan/.android/build-cache/13848c7c03f6ef308407b1b8303667b015de110c/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] /Users/ducphan/.android/build-cache/8ddef9fb4876938cfd55804e57cc86ac6bdf656d/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] /Users/ducphan/.android/build-cache/0f6cd2b17d55ae51d2adf72ede0c64975e17d6ff/output/AndroidManifest.xml:4:5-43
-MERGED from [com.android.support:exifinterface:25.3.0] /Users/ducphan/.android/build-cache/b01075389a8d9a155ad24aaf82bf33e3ae70afa2/output/AndroidManifest.xml:20:5-43
-MERGED from [com.github.react-native-community:cameraview:df60b07573] /Users/ducphan/.android/build-cache/951cba00d40c59593c33c17ba9269acee7d277ed/output/AndroidManifest.xml:17:5-19:41
 MERGED from [bumbumbuddy:react-native-maps:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/AndroidManifest.xml:5:5-7:41
 MERGED from [bumbumbuddy:react-native-fbsdk:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/AndroidManifest.xml:24:5-26:41
 MERGED from [bumbumbuddy:react-native-google-signin:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
@@ -116,22 +121,18 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/ducph
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:17:9-38
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:20:9-38
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:19:9-35
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 application
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:19:5-41:19
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:23:5-68:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/ducphan/.android/build-cache/a49ee71870ec2fb9cb1ca2f6c446a0ebe6b02a87/output/AndroidManifest.xml:5:5-20
 MERGED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:11:5-21:19
-MERGED from [com.google.android.gms:play-services-vision:11.8.0] /Users/ducphan/.android/build-cache/b641e74c0ca75b70540934b657f83e4a3b057cda/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] /Users/ducphan/.android/build-cache/13848c7c03f6ef308407b1b8303667b015de110c/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] /Users/ducphan/.android/build-cache/8ddef9fb4876938cfd55804e57cc86ac6bdf656d/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] /Users/ducphan/.android/build-cache/0f6cd2b17d55ae51d2adf72ede0c64975e17d6ff/output/AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:exifinterface:25.3.0] /Users/ducphan/.android/build-cache/b01075389a8d9a155ad24aaf82bf33e3ae70afa2/output/AndroidManifest.xml:26:5-20
-MERGED from [com.github.react-native-community:cameraview:df60b07573] /Users/ducphan/.android/build-cache/951cba00d40c59593c33c17ba9269acee7d277ed/output/AndroidManifest.xml:28:5-20
 MERGED from [bumbumbuddy:react-native-fbsdk:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/AndroidManifest.xml:28:5-20
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/ducphan/.android/build-cache/4abd56d15b7280e938dc0216c61211eab9997bf7/output/AndroidManifest.xml:5:5-20
@@ -169,61 +170,195 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/d
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/ducphan/.android/build-cache/bed9dc005cb6fbdb9dea9dfce81ef5a453c21667/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/ducphan/.android/build-cache/05572ac9eb37e40ec4a8c178a89cf1aeac804b91/output/AndroidManifest.xml:5:5-20
 	android:label
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:22:7-39
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:26:7-39
 	android:allowBackup
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:21:7-33
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:25:7-33
 	android:icon
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:23:7-41
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:27:7-41
 	android:theme
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:28:7-38
+	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:24:7-38
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:29:9-128
+	android:resource
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:29:91-126
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:20:7-38
-meta-data#com.google.android.geo.API_KEY
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:25:9-123
-	android:value
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:25:66-121
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:29:20-90
+receiver#com.evollu.react.fcm.FIRLocalMessagingPublisher
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:30:9-83
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:25:20-65
-meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:26:9-107
-	android:value
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:26:66-105
-	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:26:20-65
-provider#com.facebook.FacebookContentProvider
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:27:9-29:39
-	android:authorities
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:27:19-97
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:30:19-81
+receiver#com.evollu.react.fcm.FIRSystemBootEventReceiver
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:31:9-38:20
+	android:enabled
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:31:19-41
 	android:exported
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:29:13-36
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:31:42-65
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:28:13-64
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:31:67-129
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.DEFAULT+com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:32:9-37:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:33:21-72
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:34:13-77
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:34:21-75
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:35:13-77
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:35:21-75
+category#android.intent.category.DEFAULT
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:36:13-72
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:36:23-69
+service#com.evollu.react.fcm.MessagingService
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:39:9-43:26
+	android:enabled
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:39:71-93
+	android:exported
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:39:94-117
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:39:18-70
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:40:18-42:34
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:41:20-80
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:41:28-78
+service#com.evollu.react.fcm.InstanceIdService
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:45:12-49:19
+	android:exported
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:45:75-99
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:45:21-74
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:46:14-48:30
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:47:16-78
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:47:24-76
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:50:9-123
+	android:value
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:50:66-121
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:50:20-65
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:51:9-107
+	android:value
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:51:66-105
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:51:20-65
+provider#com.facebook.FacebookContentProvider
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:52:9-54:39
+	android:authorities
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:52:19-97
+	android:exported
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:53:13-64
 activity#com.bumbumbuddy.MainActivity
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:30:7-39:18
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:56:7-66:18
 	android:screenOrientation
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:34:52-88
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:61:52-88
 	android:label
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:32:9-41
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:58:9-41
+	android:launchMode
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:59:11-41
 	android:windowSoftInputMode
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:34:9-51
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:61:9-51
 	android:configChanges
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:33:9-79
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:60:9-79
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:31:9-37
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:57:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:35:9-38:25
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:62:9-65:25
 action#android.intent.action.MAIN
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:36:13-65
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:63:13-65
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:36:21-62
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:63:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:37:13-73
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:64:13-73
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:37:23-70
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:64:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:40:7-84
+ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:67:7-84
 	android:name
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:40:17-81
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:67:17-81
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:29:13-82
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:50:22-86
 provider#android.support.v4.content.FileProvider
 ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:12:9-20:20
 	android:authorities
@@ -242,36 +377,16 @@ ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAM
 		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:18:17-67
 uses-feature#android.hardware.camera
 ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:13:5-15:36
-MERGED from [com.github.react-native-community:cameraview:df60b07573] /Users/ducphan/.android/build-cache/951cba00d40c59593c33c17ba9269acee7d277ed/output/AndroidManifest.xml:23:5-60
 	android:required
 		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:15:9-33
-		MERGED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:13:5-15:36
 	android:name
 		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:14:9-47
 uses-feature#android.hardware.camera.autofocus
 ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:16:5-18:36
-MERGED from [com.github.react-native-community:cameraview:df60b07573] /Users/ducphan/.android/build-cache/951cba00d40c59593c33c17ba9269acee7d277ed/output/AndroidManifest.xml:24:5-26:36
 	android:required
 		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:18:9-33
 	android:name
 		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:17:9-57
-meta-data#android.support.VERSION
-ADDED from [com.android.support:exifinterface:25.3.0] /Users/ducphan/.android/build-cache/b01075389a8d9a155ad24aaf82bf33e3ae70afa2/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a7384a376360fa6350d73458871e709d9876bc21/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a267c04371da52c28bbc6b45c7029cc274bf98ab/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.android/build-cache/ef28bcac6f9e7a3dd73dcffbc2d641d6dee2a826/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.android/build-cache/37b70ae287f8870f79f5200e048b83d96e919170/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.android/build-cache/1d4f46675e7e29f47e1c3c8f5a47e04d4a20f7de/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.android/build-cache/88858eb30776b2da16d06a764bfe033cb5cbc98d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.android/build-cache/21ad52bcad870fce6a49199f5a22c8a3b062c0c0/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.android/build-cache/098c9069dda1fee831a683df71527f3db1567048/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.android/build-cache/6b7f4f58cb626ad157e5e466e16db05ea48611cf/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.android/build-cache/35fbae5d16ea0149b36bcece929b936ff3c96e02/output/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:exifinterface:25.3.0] /Users/ducphan/.android/build-cache/b01075389a8d9a155ad24aaf82bf33e3ae70afa2/output/AndroidManifest.xml:24:9-31
-	android:name
-		ADDED from [com.android.support:exifinterface:25.3.0] /Users/ducphan/.android/build-cache/b01075389a8d9a155ad24aaf82bf33e3ae70afa2/output/AndroidManifest.xml:23:9-47
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [bumbumbuddy:react-native-maps:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/AndroidManifest.xml:10:5-81
 	android:name
@@ -316,7 +431,7 @@ ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.an
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:24:13-79
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-43:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 activity#com.facebook.FacebookActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:29:9-32:66
 	android:configChanges
@@ -337,6 +452,22 @@ ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.an
 		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a7384a376360fa6350d73458871e709d9876bc21/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a267c04371da52c28bbc6b45c7029cc274bf98ab/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.android/build-cache/ef28bcac6f9e7a3dd73dcffbc2d641d6dee2a826/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.android/build-cache/37b70ae287f8870f79f5200e048b83d96e919170/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.android/build-cache/1d4f46675e7e29f47e1c3c8f5a47e04d4a20f7de/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.android/build-cache/88858eb30776b2da16d06a764bfe033cb5cbc98d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.android/build-cache/21ad52bcad870fce6a49199f5a22c8a3b062c0c0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.android/build-cache/098c9069dda1fee831a683df71527f3db1567048/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.android/build-cache/6b7f4f58cb626ad157e5e466e16db05ea48611cf/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.android/build-cache/35fbae5d16ea0149b36bcece929b936ff3c96e02/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:25:5-68
 MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:25:5-68
@@ -425,14 +556,6 @@ ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/bui
 		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:52:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:51:13-77
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:53:13-55:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:53:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:54:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:8:9-12:39
 	android:authorities

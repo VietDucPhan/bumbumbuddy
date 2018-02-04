@@ -56,7 +56,6 @@ class comments extends Component {
     var self = this;
     console.log("comments.componentDidMount");
     if(self.props._id){
-      self._getBumComments();
       Cache.getComments(self.props._id,function(flag,result){
         if(flag){
           self.setState({
@@ -68,6 +67,8 @@ class comments extends Component {
           self._getBumComments();
         }
       });
+    } else if(self.props.commentID){
+      self._getComment();
     } else {
       Cache.getComments("_getBumsComments",function(flag,result){
         if(flag){
@@ -141,12 +142,40 @@ class comments extends Component {
     });
   }
 
+  _getComment(){
+    var self = this;
+    console.log("self.props.commentID",self.props.commentID);
+    BumModel.getComment(self.props.commentID,function(result){
+      if(result && result.errors){
+        Alert.alert(
+          result.errors[0].title,
+          result.errors[0].detail,
+          [
+            {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+          ],
+          { cancelable: false }
+        )
+      } else {
+        console.log("comments._getComment",result);
+        var comments = {
+          comments:result.data,
+          showActivitiIndicator:false,
+          refreshing:false
+        }
+        self.setState(comments);
+        self.props.finsihedRefreshing();
+      }
+    });
+  }
+
   _onRefresh() {
     var self = this;
 
     this.setState({refreshing: true});
     if(self.props._id){
       self._getBumComments();
+    } else if(self.props.commentID){
+      self._getComment();
     } else {
       //console.log("comments._onRefresh");
       self._getBumsComments();
@@ -269,106 +298,109 @@ class comments extends Component {
       );
     } else {
       return(
-        <FlatList
-        data={this.state.comments}
-        ref={(ref) => { self.list = ref; }}
-        keyExtractor={(item,index)=>item._id}
-        initialNumToRender={5}
-        renderItem={(info)=>{
-          var obj = info.item;
-          switch (obj.bum_rating) {
-                case "level1":
-                  obj.bum_rating = "Trickle";
-                  break;
-                case "level2":
-                  obj.bum_rating = "Stream flow";
-                  break;
-                case "level3":
-                  obj.bum_rating = "Garden hose";
-                  break;
-                case "level4":
-                  obj.bum_rating = "Heavy torrent";
-                  break;
-                case "level5":
-                  obj.bum_rating = "Geyser";
-                  break;
+        <View>
+          <FlatList
+          data={this.state.comments}
+          ref={(ref) => { self.list = ref; }}
+          keyExtractor={(item,index)=>item._id}
+          initialNumToRender={5}
+          renderItem={(info)=>{
+            var obj = info.item;
+            switch (obj.bum_rating) {
+                  case "level1":
+                    obj.bum_rating = "Trickle";
+                    break;
+                  case "level2":
+                    obj.bum_rating = "Stream flow";
+                    break;
+                  case "level3":
+                    obj.bum_rating = "Garden hose";
+                    break;
+                  case "level4":
+                    obj.bum_rating = "Heavy torrent";
+                    break;
+                  case "level5":
+                    obj.bum_rating = "Geyser";
+                    break;
 
-              }
+                }
 
-              if(obj.overall_rating){
-                obj.overall_rating_displayname = obj.overall_rating + " stars";
-              }
+                if(obj.overall_rating){
+                  obj.overall_rating_displayname = obj.overall_rating + " stars";
+                }
 
-              if(obj && obj._id && obj.created_by){
-                return (
-                  <View key={obj._id} style={styles.commentContainer}>
-                    <View style={styles.commentHeader}>
-                      <View style={styles.commentorProfilePictureContainer}>
-                        <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-                   style={{width: 30, height: 30, borderRadius:15}} />
-                      </View>
-                      <View style={styles.commentorProfileInfoContainer}>
-                        <View>
-                          {obj.created_by
-                            ?
-                            <TouchableOpacity>
-                              <Text style={styles.createdBy}>{obj.created_by.username}</Text>
-                            </TouchableOpacity>
-                            :
-                              <Text style={styles.commentAtPlace}></Text>
-                          }
-                          {self.props._id
-                            ?
-                              <DateFormat style={styles.commentAtPlace} created_date={obj.created_date}/>
-                            :
-                            <TouchableOpacity onPress={()=>navigate("BumDetail",{_id:obj.bum_id})}>
-                              <Text style={styles.commentAtPlace}>{obj.name}</Text>
-                            </TouchableOpacity>
-                          }
+                if(obj && obj._id && obj.created_by){
+                  return (
+                    <View key={obj._id} style={styles.commentContainer}>
+                      <View style={styles.commentHeader}>
+                        <View style={styles.commentorProfilePictureContainer}>
+                          <Image source={{uri: obj.created_by.profile_picture.secure_url}}
+                     style={{width: 30, height: 30, borderRadius:15}} />
 
                         </View>
-                        <Morebtn navigation={self.props.navigation} _id={obj._id} _typeOfBtn="comment" _createdBy={obj.created_by.email} _user={self.props.screenProps.user} />
-                      </View>
-                    </View>
-                    <View>
-                      {obj.media && obj.media[0] &&
-                        <Image resizeMode="contain" source={{uri: obj.media[0].secure_url}}
-                 style={self._calculateImageHeight(obj.media[0].width,Dimensions.get('window').width,obj.media[0].height)} />}
+                        <View style={styles.commentorProfileInfoContainer}>
+                          <View>
+                            {obj.created_by
+                              ?
+                              <TouchableOpacity>
+                                <Text style={styles.createdBy}>{obj.created_by.username}</Text>
+                              </TouchableOpacity>
+                              :
+                                <Text style={styles.commentAtPlace}></Text>
+                            }
+                            {self.props._id
+                              ?
+                                <DateFormat style={styles.commentAtPlace} created_date={obj.created_date}/>
+                              :
+                              <TouchableOpacity onPress={()=>navigate("BumDetail",{_id:obj.bum_id})}>
+                                <Text style={styles.commentAtPlace}>{obj.name}</Text>
+                              </TouchableOpacity>
+                            }
 
-                    </View>
-                    <View style={styles.commentorCommentContainer}>
+                          </View>
+                          <Morebtn navigation={self.props.navigation} _id={obj._id} _typeOfBtn="comment" _createdBy={obj.created_by.email} _user={self.props.screenProps.user} />
+                        </View>
+                      </View>
                       <View>
-                        <Text>{obj.description}</Text>
-                      </View>
-                       <View style={styles.commentPointsAndResponseContainer}>
-                         <Votebtn navigation={self.props.navigation} _user={self.props.screenProps.user} _id={obj._id} _upVote={obj.upVote} _downVote={obj.downVote} />
-                         <View style={styles.commentPointsResponseAndRatingContainer}>
-                            <Text style={styles.commentPointsAndResponseText}>{obj.overall_rating_displayname} {obj.overall_rating_displayname && <Text>-</Text>} {obj.bum_rating}</Text>
+                        {obj.media && obj.media[0] &&
+                          <Image resizeMode="contain" source={{uri: obj.media[0].secure_url}}
+                   style={self._calculateImageHeight(obj.media[0].width,Dimensions.get('window').width,obj.media[0].height)} />}
 
-                            <Text style={styles.commentPointsAndResponseText}>{obj.points} points</Text>
+                      </View>
+                      <View style={styles.commentorCommentContainer}>
+                        <View>
+                          <Text>{obj.description}</Text>
+                        </View>
+                         <View style={styles.commentPointsAndResponseContainer}>
+                           <Votebtn navigation={self.props.navigation} _user={self.props.screenProps.user} _id={obj._id} _upVote={obj.upVote} _downVote={obj.downVote} />
+                           <View style={styles.commentPointsResponseAndRatingContainer}>
+                              <Text style={styles.commentPointsAndResponseText}>{obj.overall_rating_displayname} {obj.overall_rating_displayname && <Text>-</Text>} {obj.bum_rating}</Text>
+
+                              <Text style={styles.commentPointsAndResponseText}>{obj.points} points</Text>
+
+                           </View>
 
                          </View>
-
-                       </View>
+                      </View>
                     </View>
-                  </View>
-                );
-              } else {
-                return(
-                  <View style={styles.beTheFirstContainer}>
-                    <Text style={styles.beTheFirstContainerText}>Be the first to comment</Text>
-                  </View>
-                );
-              }
-        }}
+                  );
+                } else {
+                  return(
+                    <View style={styles.beTheFirstContainer}>
+                      <Text style={styles.beTheFirstContainerText}>Be the first to comment</Text>
+                    </View>
+                  );
+                }
+          }}
 
-          refreshControl={
-            <RefreshControl
-              refreshing={this.state.refreshing}
-              onRefresh={this._onRefresh.bind(this)}
-            />
-          }
-        />
+            refreshControl={
+              <RefreshControl
+                refreshing={this.state.refreshing}
+                onRefresh={this._onRefresh.bind(this)}
+              />
+            }
+          />
+        </View>
       );
     }
 

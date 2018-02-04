@@ -18,6 +18,28 @@ class Cache {
     }
   }
 
+  setDeviceToken(token){
+    var self = this;
+    if(token){
+      token.store_date = new Date();
+      AsyncStorage.setItem("deviceToken",JSON.stringify(token),function(err){
+        if(!err){
+          return true;
+        } else{
+          return false;
+        }
+      });
+    }
+  }
+
+  getDeviceToken(callback){
+    AsyncStorage.getItem("deviceToken",function(err,result){
+      //console.log('getRating',err);
+      var response = JSON.parse(result);
+      return callback(response);
+    });
+  }
+
   setUserSetting(data){
     var self = this;
     if(data){

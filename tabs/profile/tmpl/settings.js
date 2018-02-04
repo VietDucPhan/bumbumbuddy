@@ -48,6 +48,11 @@ class SettingView extends Component {
     self.props.navigation.setParams({
       onSaveClick:self._onSaveClick.bind(this)
     });
+    Cache.getUserSetting(function(data){
+      self.setState({
+        radius:data.radius
+      });
+    })
   }
 
   _onSaveClick(){
@@ -118,11 +123,7 @@ class SettingView extends Component {
 
   render(){
     var self = this;
-    Cache.getUserSetting(function(data){
-      self.setState({
-        radius:data.radius
-      });
-    })
+
       return (
         <ScrollView style={styles.container}>
           <Loading visible={this.state.showActivitiIndicator} />

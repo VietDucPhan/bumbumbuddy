@@ -16,10 +16,6 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/anim/tooltip_enter.xml",
-        "source": "/Users/ducphan/.android/build-cache/c988649eee20de2e5ae3aab295f83d51acbbd03e/output/res/anim/tooltip_enter.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/anim/fade_in.xml",
         "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/fade_in.xml"
     },
@@ -58,10 +54,6 @@
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/anim/fade_out.xml",
         "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/fade_out.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/anim/tooltip_exit.xml",
-        "source": "/Users/ducphan/.android/build-cache/c988649eee20de2e5ae3aab295f83d51acbbd03e/output/res/anim/tooltip_exit.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",

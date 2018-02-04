@@ -50,7 +50,7 @@ class Auth {
 
   isLogedIn(callback){
     AsyncStorage.getItem('user',function(error,result){
-      var response = JSON.parse(result)
+      var response = JSON.parse(result);
       if(!error && response && response.type){
         //console.log('Auth.isLogedIn',response);
         return callback(response);
@@ -82,62 +82,69 @@ class Auth {
     var self = this;
     if(typeof userInfo != "object"){return false;}
     if(userInfo && userInfo.name && userInfo.email){
-      fetch('https://bumbuddy.herokuapp.com/api/login',
-      {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-        body:JSON.stringify(userInfo)
-      }).then((response) => response.json())
-        .then((responseJson) => {
-          if(responseJson.status){
-            var content = responseJson.content;
-            if(responseJson.content && responseJson.content.profile_picture && responseJson.content.profile_picture.secure_url && responseJson.content.profile_picture.secure_url.search(responseJson.content._id) == -1){
-              Upload.uploadProfilePictureUsingUrl(responseJson.content.profile_picture.secure_url,responseJson.content._id,function(response){
-                console.log("storeUserInfo1",response);
-                self.updateProfile(responseJson.content.token,{profile_picture:response},function(respond){
+      AsyncStorage.getItem("deviceToken",function(err,result){
+        //console.log('getRating',err);
+        var response = JSON.parse(result);
+        userInfo.device_token = response;
 
-                  if(respond.error){
+        fetch('https://bumbuddy.herokuapp.com/api/login',
+        {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body:JSON.stringify(userInfo)
+        }).then((response) => response.json())
+          .then((responseJson) => {
+            if(responseJson.status){
+              var content = responseJson.content;
+              if(responseJson.content && responseJson.content.profile_picture && responseJson.content.profile_picture.secure_url && responseJson.content.profile_picture.secure_url.search(responseJson.content._id) == -1){
+                Upload.uploadProfilePictureUsingUrl(responseJson.content.profile_picture.secure_url,responseJson.content._id,function(response){
+                  console.log("storeUserInfo1",response);
+                  self.updateProfile(responseJson.content.token,{profile_picture:response},function(respond){
+
+                    if(respond.error){
+                      return callback(false);
+                    } else {
+                      console.log("updateProfile",respond);
+                      AsyncStorage.setItem('user',JSON.stringify(respond.data[0]),function(err){
+                        if(!err){
+                          //console.log("login to heroku successful",responseJson.content);
+                          return callback(true,respond.data[0]);
+                        } else{
+                          //console.log("login to heroku fail","something went wrong while trying to store");
+                          return callback(false);
+                        }
+                      });
+                    }
+                  })
+                });
+              } else {
+                console.log("profile picture already exist continue login");
+                AsyncStorage.setItem('user',JSON.stringify(responseJson.content),function(err){
+                  if(!err){
+                    //console.log("login to heroku successful",responseJson.content);
+                    return callback(true,responseJson.content);
+                  } else{
+                    //console.log("login to heroku fail","something went wrong while trying to store");
                     return callback(false);
-                  } else {
-                    console.log("updateProfile",respond);
-                    AsyncStorage.setItem('user',JSON.stringify(respond.data[0]),function(err){
-                      if(!err){
-                        //console.log("login to heroku successful",responseJson.content);
-                        return callback(true,respond.data[0]);
-                      } else{
-                        //console.log("login to heroku fail","something went wrong while trying to store");
-                        return callback(false);
-                      }
-                    });
                   }
-                })
-              });
+                });
+              }
             } else {
-              console.log("profile picture already exist continue login");
-              AsyncStorage.setItem('user',JSON.stringify(responseJson.content),function(err){
-                if(!err){
-                  //console.log("login to heroku successful",responseJson.content);
-                  return callback(true,responseJson.content);
-                } else{
-                  //console.log("login to heroku fail","something went wrong while trying to store");
-                  return callback(false);
-                }
-              });
+              console.log("login to heroku fail","something went wrong while trying to loggin");
+              return callback(false);
             }
-          } else {
-            console.log("login to heroku fail","something went wrong while trying to loggin");
+          }).catch((error) => {
             return callback(false);
-          }
-        }).catch((error) => {
-          return callback(false);
-          console.error("_save error",error);
+            console.error("_save error",error);
+          });
         });
-    } else {
-      console.log("wrong user info","there is no email and name");
-    }
+      } else {
+        console.log("wrong user info","there is no email and name");
+      }
+
   }
 
   getGoogleInfoViaIDToken(IDToken,callback){
@@ -229,7 +236,7 @@ class Auth {
 
   getFacebookInfoViaAccessToken(accessToken,callback){
     if(accessToken){
-      fetch('https://graph.facebook.com/v2.7/me?access_token='+accessToken+'&fields=id,name,email,picture')
+      fetch('https://graph.facebook.com/v2.11/me?access_token='+accessToken+'&fields=id,name,email,picture')
       .then((response) => response.json())
       .then((responseJson) => {
         if(responseJson && responseJson.id && responseJson.name && responseJson.email){
@@ -310,14 +317,32 @@ class Auth {
       LoginManager.logOut();
       return true;
     });
-
   }
 
  signOutBoth(callback){
-   this.signOutWithGoogle();
-   this.signOutWithFacebook();
-   AsyncStorage.clear();
-   return callback(true);
+   var self = this;
+   AsyncStorage.getItem("user",function(err,result){
+     var response = JSON.parse(result);
+     self.signOutWithGoogle();
+     self.signOutWithFacebook();
+     AsyncStorage.getItem("deviceToken",function(err,resultDeviceToken){
+       var parsedResultDeviceToken = JSON.parse(resultDeviceToken);
+       response.device_token = parsedResultDeviceToken;
+       fetch('https://bumbuddy.herokuapp.com/api/logout',
+       {
+         method: 'POST',
+         headers: {
+           'Accept': 'application/json',
+           'Content-Type': 'application/json'
+         },
+         body:JSON.stringify(response)
+       }).then((responseServer) => responseServer.json())
+         .then((responseJson) => {
+           
+           return callback(true);
+         });
+     });
+   });
  }
 }
 

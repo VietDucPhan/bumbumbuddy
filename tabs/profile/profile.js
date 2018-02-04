@@ -51,7 +51,6 @@ class profile extends Component {
   }
 
   componentDidMount(){
-
   }
   //
   render() {

@@ -710,8 +710,27 @@
                     "startLine": 39,
                     "startColumn": 4,
                     "startOffset": 4849,
+                    "endColumn": 106,
+                    "endOffset": 4951
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 245,
+                        "endColumn": 102,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4956,
                     "endColumn": 84,
-                    "endOffset": 4929
+                    "endOffset": 5036
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-pt-rBR/values-pt-rBR.xml",
@@ -726,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4934,
+                    "startOffset": 5041,
                     "endColumn": 100,
-                    "endOffset": 5030
+                    "endOffset": 5137
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-pt-rBR/values-pt-rBR.xml",

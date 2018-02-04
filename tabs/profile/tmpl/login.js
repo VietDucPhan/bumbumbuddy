@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {GoogleSignin, GoogleSigninButton} from 'react-native-google-signin';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import AuthLib from '../../../libs/Auth';
+import CacheLib from '../../../libs/Cache';
 import Loading from '../../../commons/loading';
 import {
   StyleSheet,
@@ -13,6 +14,7 @@ import {
 } from 'react-native';
 
 var Auth = new AuthLib();
+var Cache = new CacheLib();
 
 class LoginView extends Component {
   constructor(props){
@@ -55,6 +57,14 @@ class LoginView extends Component {
     });
   }
 
+  sendNotification(){
+    Cache.getDeviceToken(function(token){
+      console.log("getDeviceToken",token);
+      var tokenString = JSON.stringify(token);
+      alert("token: "+tokenString);
+    });
+  }
+
   _closeBtn(){
     var self = this;
     self.setState({
@@ -75,6 +85,10 @@ class LoginView extends Component {
 
             <Icon.Button onPress={()=>self.googleLogin()} name="google" backgroundColor="#dd4b39">
               Login with Google
+            </Icon.Button>
+
+            <Icon.Button onPress={()=>self.sendNotification()} name="google" backgroundColor="#dd4b39">
+              Send notification
             </Icon.Button>
         </View>
       )

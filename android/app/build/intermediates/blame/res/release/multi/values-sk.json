@@ -1128,8 +1128,27 @@
                     "startLine": 61,
                     "startColumn": 4,
                     "startOffset": 6948,
+                    "endColumn": 103,
+                    "endOffset": 7047
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/res/values-sk/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 241,
+                        "endColumn": 99,
+                        "endOffset": 340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 7052,
                     "endColumn": 87,
-                    "endOffset": 7031
+                    "endOffset": 7135
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-sk/values-sk.xml",
@@ -1144,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 7036,
+                    "startOffset": 7140,
                     "endColumn": 100,
-                    "endOffset": 7132
+                    "endOffset": 7236
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-sk/values-sk.xml",

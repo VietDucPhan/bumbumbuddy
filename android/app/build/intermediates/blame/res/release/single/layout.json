@@ -36,12 +36,12 @@
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_large.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_blue_large.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_item_title.xml",
         "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/redbox_item_title.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_large.xml",
+        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_blue_large.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
@@ -50,10 +50,6 @@
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media_custom.xml",
-        "source": "/Users/ducphan/.android/build-cache/12cf4ccfcd1377f3d7ab6d92c7de77b8009f3fba/output/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
@@ -70,14 +66,6 @@
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
-        "source": "/Users/ducphan/.android/build-cache/12cf4ccfcd1377f3d7ab6d92c7de77b8009f3fba/output/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
-        "source": "/Users/ducphan/.android/build-cache/12cf4ccfcd1377f3d7ab6d92c7de77b8009f3fba/output/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
@@ -100,12 +88,12 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/dev_loading_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/dev_loading_view.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/dev_loading_view.xml",
+        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_view.xml",
@@ -136,10 +124,6 @@
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_white_round.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/ducphan/.android/build-cache/12cf4ccfcd1377f3d7ab6d92c7de77b8009f3fba/output/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_activity_layout.xml",
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_activity_layout.xml"
     },
@@ -160,24 +144,12 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/ducphan/.android/build-cache/12cf4ccfcd1377f3d7ab6d92c7de77b8009f3fba/output/res/layout/notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_smart_device_dialog_fragment.xml",
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_smart_device_dialog_fragment.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/surface_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/951cba00d40c59593c33c17ba9269acee7d277ed/output/res/layout/surface_view.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_media_action.xml",
-        "source": "/Users/ducphan/.android/build-cache/12cf4ccfcd1377f3d7ab6d92c7de77b8009f3fba/output/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_small.xml",
@@ -198,10 +170,6 @@
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/tooltip.xml",
-        "source": "/Users/ducphan/.android/build-cache/c988649eee20de2e5ae3aab295f83d51acbbd03e/output/res/layout/tooltip.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",

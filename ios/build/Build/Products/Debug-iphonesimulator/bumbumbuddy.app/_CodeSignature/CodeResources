@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		Bqhuza63wDA/pe3Kq40LNgV6nUg=
+		C4BB174eIlP8+mLY5UWbGvOWcNE=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hlNC8zhM2c3TzS6kXoV0jVjy12k=
+		NHkrLHmH+QpyGZDfLxyQmy9ZWks=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -267,19 +267,19 @@
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest.dSYM/Contents/Resources/DWARF/bumbumbuddyTests</key>
 		<data>
-		DIYxHh/HISzXnOxBFPz4rhb9ti8=
+		8sImySfBRkpAj1b7TaaB6q73E2I=
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest/Info.plist</key>
 		<data>
-		zp/ECft0m/vraaKcJARfvrnnDvA=
+		iEGtQ9eqfvBSATHhqkOH+sU9af4=
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		DRpYRIIX1AHRFZr7giFppNoIKZE=
+		Ba0b9nZAeytTapIpR06WlgSQjMs=
 		</data>
 		<key>PlugIns/bumbumbuddyTests.xctest/bumbumbuddyTests</key>
 		<data>
-		M2Q85iXBo4lqZ7iNj588R3GH8hA=
+		snpygmzYC3asuJvhKJ7JB/zRRSI=
 		</data>
 		<key>QBImagePicker.bundle/Info.plist</key>
 		<data>
@@ -794,11 +794,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bqhuza63wDA/pe3Kq40LNgV6nUg=
+			C4BB174eIlP8+mLY5UWbGvOWcNE=
 			</data>
 			<key>hash2</key>
 			<data>
-			f+6+GDtrEMcmxZyi/zX6Lr3qZF4ZMerLYQ9GPndddnU=
+			YuQdj/87A4SmyP1CoXy13KQ+YOxCj+9cxaAS8mULCV0=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -1478,44 +1478,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DIYxHh/HISzXnOxBFPz4rhb9ti8=
+			8sImySfBRkpAj1b7TaaB6q73E2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			X9kjyKYKtIknOmRDfadVDptl/LhUypYjus44EDr4VCc=
+			glUaANMK0jEiYZgZI2lfbrSj21GC6vuF6pu6QnXUhCk=
 			</data>
 		</dict>
 		<key>PlugIns/bumbumbuddyTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zp/ECft0m/vraaKcJARfvrnnDvA=
+			iEGtQ9eqfvBSATHhqkOH+sU9af4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5hHwy1rZ0ZwFMEOtdporUu8JJCfZ5o/JHLNehCt2PVw=
+			W7XA/KutxGx8qhvA3Iq7Sz/sLEYEEQjRg2waefB9VxY=
 			</data>
 		</dict>
 		<key>PlugIns/bumbumbuddyTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DRpYRIIX1AHRFZr7giFppNoIKZE=
+			Ba0b9nZAeytTapIpR06WlgSQjMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			yGh+VvEuufmimM7SWT37o3uaXYKXKA8Pi9nse92pm7E=
+			3bF1aDrx6WHvGtemEX+qYMf9ALRTBpfrxT/Z4t9Wxng=
 			</data>
 		</dict>
 		<key>PlugIns/bumbumbuddyTests.xctest/bumbumbuddyTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M2Q85iXBo4lqZ7iNj588R3GH8hA=
+			snpygmzYC3asuJvhKJ7JB/zRRSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZBv2fWImZPOGDG6uAnuWZZ8xHSIwRuALAnaccXC2wOg=
+			jlGUxipUqKEGLE+5ESRW2ya9P21PmS9w6vUuTD7qlNI=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/Info.plist</key>

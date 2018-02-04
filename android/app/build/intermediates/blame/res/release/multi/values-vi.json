@@ -1128,8 +1128,27 @@
                     "startLine": 61,
                     "startColumn": 4,
                     "startOffset": 6839,
+                    "endColumn": 102,
+                    "endOffset": 6937
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 241,
+                        "endColumn": 98,
+                        "endOffset": 339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6942,
                     "endColumn": 58,
-                    "endOffset": 6893
+                    "endOffset": 6996
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/values-vi/values-vi.xml",
@@ -1144,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 6898,
+                    "startOffset": 7001,
                     "endColumn": 83,
-                    "endOffset": 6977
+                    "endOffset": 7080
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-vi/values-vi.xml",
@@ -1163,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 6982,
+                    "startOffset": 7085,
                     "endColumn": 100,
-                    "endOffset": 7078
+                    "endOffset": 7181
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-vi/values-vi.xml",

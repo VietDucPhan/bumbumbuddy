@@ -65,9 +65,9 @@ class Map extends Component {
 
   static navigationOptions = ({navigation}) => {
     console.log('Map.navigationOptions',navigation);
-    return {tabBarLabel: 'Locations',
+    return {tabBarLabel: '',
     tabBarIcon: ({ tintColor, focused }) => (
-      <Icon style={{paddingTop:5, paddingBottom:5}} size={35} name={focused ? 'ios-pin' : 'ios-pin-outline'} />
+      <Icon style={{paddingTop:5, paddingBottom:5}} size={30} name={focused ? 'ios-search' : 'ios-search-outline'} />
     ),
     headerTitle:'Map',
     title:'Create Bums',
@@ -212,10 +212,7 @@ class Map extends Component {
 
   componentDidMount(){
     var self = this;
-    if(Platform.OS === "ios"){
-      this._locatorOnPress();
-    }
-
+    this._locatorOnPress();
     //this._getBums();
     self.props.navigation.setParams({
       _onClickHeaderRight:self._onClickHeaderRight.bind(this)
@@ -238,8 +235,6 @@ class Map extends Component {
     //console.log(this.props.screenProps.user);
     return(
       <View style={[styles.mapContainer,{paddingTop: this.state.statusBarHeight }]}>
-
-
         <MapView
           style={[styles.mapView]}
           onRegionChangeComplete={this.onRegionChangeComplete.bind(this)}
