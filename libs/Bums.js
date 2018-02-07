@@ -135,9 +135,9 @@ class Bums {
     });
   }
 
-  getBumComments(_id,callback){
+  getBumComments(data,callback){
     var self = this;
-    console.log("Bums.getComments",_id);
+    //console.log("Bums.getComments",_id);
     fetch('https://bumbuddy.herokuapp.com/api/get-bum-comments',
     {
       method: 'POST',
@@ -145,7 +145,7 @@ class Bums {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
-      body:JSON.stringify({_id:_id})
+      body:JSON.stringify({data:data})
     }).then((response) => response.json())
       .then((responseJson) => {
         return callback(responseJson);
@@ -189,21 +189,22 @@ class Bums {
     });
   }
 
-  getBumsComments(callback){
+  getBumsComments(data, callback){
     var self = this;
-    //console.log("Bums.getComments",_id);
+    //console.log("Bums.getBumsComments",data);
     fetch('https://bumbuddy.herokuapp.com/api/get-bums-comments',
     {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
-      }
+      },
+      body:JSON.stringify({data:data})
     }).then((response) => response.json())
       .then((responseJson) => {
         return callback(responseJson);
     }).catch((error) => {
-        console.log('Bums.getComments',error);
+        console.log('Bums.getBumsComments',error);
         return callback({errors:[
           {
             status:'m005',

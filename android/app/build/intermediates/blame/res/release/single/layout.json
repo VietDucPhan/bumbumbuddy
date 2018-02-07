@@ -36,12 +36,12 @@
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_item_title.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/redbox_item_title.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_large.xml",
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_item_title.xml",
+        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
@@ -52,16 +52,16 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
@@ -88,12 +88,12 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/dev_loading_view.xml",
         "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/dev_loading_view.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_view.xml",

@@ -86,10 +86,6 @@ class LoginView extends Component {
             <Icon.Button onPress={()=>self.googleLogin()} name="google" backgroundColor="#dd4b39">
               Login with Google
             </Icon.Button>
-
-            <Icon.Button onPress={()=>self.sendNotification()} name="google" backgroundColor="#dd4b39">
-              Send notification
-            </Icon.Button>
         </View>
       )
 

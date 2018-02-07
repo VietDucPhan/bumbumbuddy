@@ -14,7 +14,9 @@ import {
   Slider,
   ActivityIndicator,
   RefreshControl,
-  FlatList
+  FlatList,
+  SectionList,
+  Button
  } from 'react-native';
  import Icon from 'react-native-vector-icons/Ionicons';
 import AuthLib from '../../libs/Auth';
@@ -23,6 +25,7 @@ import CacheLib from '../../libs/Cache';
 import DateFormat from '../bums/tmpl/formatdate';
 import Votebtn from './tmpl/votebtn';
 import Morebtn from './tmpl/morebtn';
+import RatingView from '../bums/tmpl/rating';
 var BumModel = new BumsLib();
 var Auth = new AuthLib();
 var Cache = new CacheLib();
@@ -33,7 +36,11 @@ class comments extends Component {
     this.state = {
       comments:[],
       showActivitiIndicator:true,
-      refreshing:false
+      refreshing:false,
+      skip:0,
+      limit:5,
+      infiniteLoading:true,
+      bottomRefreshing:false
     };
     this._getBumComments.bind(this);
   }
@@ -55,6 +62,7 @@ class comments extends Component {
     //console.log("comments.componentDidMount");
     var self = this;
     console.log("comments.componentDidMount");
+    self.setState({skip:0,limit:5});
     if(self.props._id){
       Cache.getComments(self.props._id,function(flag,result){
         if(flag){
@@ -92,7 +100,8 @@ class comments extends Component {
 
   _getBumsComments(){
     var self = this;
-    BumModel.getBumsComments(function(result){
+    console.log("_getBumsComments",self.state.skip);
+    BumModel.getBumsComments({skip:self.state.skip,limit:self.state.limit},function(result){
       if(result && result.errors){
         Alert.alert(
           result.errors[0].title,
@@ -105,12 +114,22 @@ class comments extends Component {
       } else {
         //console.log("comments._getBumsComments",result);
         var comments = {
-          comments:result.data,
           showActivitiIndicator:false,
-          refreshing:false
+          refreshing:false,
+          skip:self.state.skip + self.state.limit,
+          bottomRefreshing:true
+        };
+
+        if(self.state.comments && self.state.comments[0] && result.data[0] && !self.state.refreshing){
+          comments.comments = self.state.comments.concat(result.data);
+        } else if(result.data && !result.data[0]){
+          self.setState({infiniteLoading:false});
+        } else {
+          comments.comments = result.data;
         }
+
         self.setState(comments);
-        Cache.setComments("_getBumsComments",result);
+        Cache.setComments("_getBumsComments",{data:self.state.comments});
         self.props.finsihedRefreshing();
       }
     });
@@ -118,7 +137,7 @@ class comments extends Component {
 
   _getBumComments(){
     var self = this;
-    BumModel.getBumComments(self.props._id,function(result){
+    BumModel.getBumComments({_id:self.props._id, skip:self.state.skip, limit:self.state.limit},function(result){
       if(result && result.errors){
         Alert.alert(
           result.errors[0].title,
@@ -131,12 +150,20 @@ class comments extends Component {
       } else {
         //console.log("comments._getBumComments",result);
         var comments = {
-          comments:result.data,
           showActivitiIndicator:false,
-          refreshing:false
+          refreshing:false,
+          skip:self.state.skip + self.state.limit,
+          bottomRefreshing:true
+        }
+        if(self.state.comments && self.state.comments[0] && result.data[0] && !self.state.refreshing){
+          comments.comments = self.state.comments.concat(result.data);
+        } else if(result.data && !result.data[0]){
+          self.setState({infiniteLoading:false});
+        } else {
+          comments.comments = result.data;
         }
         self.setState(comments);
-        Cache.setComments(self.props._id,result);
+        Cache.setComments(self.props._id,{data:self.state.comments});
         self.props.finsihedRefreshing();
       }
     });
@@ -171,7 +198,7 @@ class comments extends Component {
   _onRefresh() {
     var self = this;
 
-    this.setState({refreshing: true});
+    self.setState({refreshing: true,skip:0,limit:5,infiniteLoading:true});
     if(self.props._id){
       self._getBumComments();
     } else if(self.props.commentID){
@@ -204,6 +231,25 @@ class comments extends Component {
         self._getBumsComments();
       }
     }
+  }
+
+  onEndReached(info){
+    var self = this;
+    console.log("onEndReached",self.state.infiniteLoading);
+    if(self.state.infiniteLoading && self.state.bottomRefreshing){
+      self.setState({bottomRefreshing:false});
+      setTimeout(function(){
+        if(self.props._id){
+          self._getBumComments();
+
+        } else {
+          //console.log("onEndReached","leaked");
+          self._getBumsComments();
+        }
+      }, 1500);
+
+    }
+
   }
 
   // {self.state.comments.map(function(obj, i){
@@ -285,6 +331,14 @@ class comments extends Component {
   //       );
   //     })
   // }
+  _addComment(){
+    var self = this;
+    if(self.props.screenProps.user){
+      self.props.navigation.navigate("AddCommentPage",{_id:self.props.navigation.state.params._id,update:self._onRefresh.bind(this)})
+    } else {
+      self.props.navigation.navigate('ProfileStack');
+    }
+  }
 
   render() {
     const {navigate} = this.props.navigation;
@@ -293,17 +347,64 @@ class comments extends Component {
     if(self.state.showActivitiIndicator){
       return(
         <View style={styles.container}>
-          <ActivityIndicator animating={this.state.showActivitiIndicator}></ActivityIndicator>
+          <ActivityIndicator animating={self.state.showActivitiIndicator}></ActivityIndicator>
         </View>
       );
     } else {
       return(
         <View>
-          <FlatList
-          data={this.state.comments}
-          ref={(ref) => { self.list = ref; }}
+          <SectionList
+          sections={[{data:self.state.comments}]}
+          //style={styles.sectionContainer}
+          //ref={(ref) => { self.list = ref; }}
+          stickySectionHeadersEnabled={false}
+          renderSectionHeader={()=>{
+            if(self.props._id){
+              return(
+                <View>
+                <View style={styles.bumDetailInfoContainer}>
+                  <RatingView navigation={self.props.navigation} _user={self.props.screenProps.user} refreshing={self.state.refreshing}  showRating={true} _id={self.props._id} />
+                </View>
+
+                <TouchableOpacity onPress={()=>self._addComment()} style={styles.containerTextYourBum}>
+                  <View style={styles.textInputContainer}>
+                    <Text style={[styles.textInput]}>
+                      Text your bum
+                    </Text>
+                  </View>
+                  <View style={styles.actionContainer}>
+                    <View style={styles.actionLeft}>
+                      <View style={styles.button}>
+                        <Icon style={styles.buttonIcon} size={25} name="ios-image" color="#2f8ef9"/>
+                        <Text>Photo</Text>
+                      </View>
+
+                    </View>
+                    <View style={styles.actionRight}>
+                      <View style={styles.button}>
+                        <Icon style={styles.buttonIcon} size={25} name="ios-pulse-outline" color="orange"/>
+                        <Text>Rate this bum gun</Text>
+                      </View>
+                    </View>
+                  </View>
+                </TouchableOpacity>
+                </View>
+              );
+            }
+          }}
+          renderSectionFooter={()=>{
+            return(
+              <View style={{height:20,flex:1,}}>
+                <Button style={{height:10,width:20}} title="Load more" onPress={self.onEndReached.bind(this)}/>
+              </View>
+
+            );
+          }}
           keyExtractor={(item,index)=>item._id}
           initialNumToRender={5}
+          onEndReached={self.onEndReached.bind(this)}
+          onEndReachedThreshold={0.5}
+          extraData={self.state.comments}
           renderItem={(info)=>{
             var obj = info.item;
             switch (obj.bum_rating) {
@@ -476,6 +577,56 @@ class comments extends Component {
     },
     beTheFirstContainerText:{
       color:"#ccc"
+    },
+    bumDetailInfoContainer:{
+      backgroundColor:"#fff",
+      padding:5,
+      marginBottom:5
+    },
+    containerTextYourBum:{
+      padding:5,
+      backgroundColor:"white",
+      marginBottom:5
+    },
+    textInputContainer:{
+      paddingBottom:5,
+      flexDirection:'column',
+      justifyContent:"center",
+      height:40
+    },
+    textInput:{
+      paddingTop:10,
+      paddingBottom:10,
+      paddingLeft:5,
+      backgroundColor:"#f1f1f1",
+      color:"#aaa"
+    },
+    actionContainer:{
+      flexDirection: 'row',
+      paddingTop:5,
+      borderTopWidth:StyleSheet.hairlineWidth,
+      borderColor:"#ccc"
+    },
+    actionLeft:{
+      flex:1,
+      paddingRight:2
+    },
+    actionRight:{
+      flex:1,
+      paddingLeft:2,
+      borderLeftWidth:StyleSheet.hairlineWidth,
+      borderColor:"#ccc"
+    },
+    button:{
+      flexDirection: 'row',
+      alignItems:"center",
+      padding:5
+    },
+    buttonIcon:{
+      marginRight:10
+    },
+    sectionContainer:{
+      marginBottom:20
     }
   });
 module.exports = comments;

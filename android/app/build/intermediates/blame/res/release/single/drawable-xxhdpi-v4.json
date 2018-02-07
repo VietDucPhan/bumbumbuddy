@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png",
         "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
@@ -48,16 +48,16 @@
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/messenger_bubble_large_blue.png",
+        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/drawable-xxhdpi-v4/messenger_bubble_large_blue.png"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
         "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/messenger_bubble_large_blue.png",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/drawable-xxhdpi-v4/messenger_bubble_large_blue.png"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
