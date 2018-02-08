@@ -18,6 +18,7 @@ import CreateBumStack from './tabs/bums/tmpl/createbumform';
 import SearchStack from './tabs/search/search';
 import SettingsStack from './tabs/profile/tmpl/settings';
 import CommentStack from './tabs/comment/comment';
+import UserDetailStack from './tabs/profile/tmpl/userdetail';
 
 
 const tabBarOptions = {
@@ -63,7 +64,8 @@ const stackMangement = {
   AddCommentPage:{screen:AddCommentStack},
   ProfileStack : { screen: ProfileTab },
   SettingsStack:{ screen:SettingsStack },
-  CommentStack:{screen:CommentStack}
+  CommentStack:{screen:CommentStack},
+  UserDetailStack:{screen:UserDetailStack}
 }
 const StackPage = StackNavigator(stackMangement);
 

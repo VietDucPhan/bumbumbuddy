@@ -66,7 +66,9 @@ class CommentForm extends Component {
         });
         var commentData = {
           token:self.props.screenProps.user.token,
-          _id:this.props.navigation.state.params._id,
+          bum:{
+            _id:this.props.navigation.state.params._id
+          },
           description:self.state.inputText,
           media:[]
         };
