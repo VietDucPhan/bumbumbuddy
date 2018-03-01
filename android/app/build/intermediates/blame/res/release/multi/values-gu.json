@@ -799,6 +799,139 @@
                         "endOffset": 2182
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5006,
+                    "endColumn": 69,
+                    "endOffset": 5071
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 235,
+                        "endColumn": 65,
+                        "endOffset": 300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5076,
+                    "endColumn": 119,
+                    "endOffset": 5191
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 301,
+                        "endColumn": 115,
+                        "endOffset": 416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5196,
+                    "endColumn": 69,
+                    "endOffset": 5261
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 417,
+                        "endColumn": 65,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5266,
+                    "endColumn": 66,
+                    "endOffset": 5328
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 483,
+                        "endColumn": 62,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5333,
+                    "endColumn": 82,
+                    "endOffset": 5411
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 546,
+                        "endColumn": 78,
+                        "endOffset": 624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5416,
+                    "endColumn": 108,
+                    "endOffset": 5520
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 625,
+                        "endColumn": 104,
+                        "endOffset": 729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5525,
+                    "endColumn": 78,
+                    "endOffset": 5599
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 730,
+                        "endColumn": 74,
+                        "endOffset": 804
+                    }
+                }
             }
         ]
     }

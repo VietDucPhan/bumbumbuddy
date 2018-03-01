@@ -1166,8 +1166,141 @@
                     "startLine": 63,
                     "startColumn": 4,
                     "startOffset": 6971,
+                    "endColumn": 72,
+                    "endOffset": 7039
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 235,
+                        "endColumn": 68,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 7044,
+                    "endColumn": 124,
+                    "endOffset": 7164
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 304,
+                        "endColumn": 120,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 7169,
+                    "endColumn": 69,
+                    "endOffset": 7234
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 425,
+                        "endColumn": 65,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 7239,
+                    "endColumn": 67,
+                    "endOffset": 7302
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 491,
+                        "endColumn": 63,
+                        "endOffset": 554
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 7307,
+                    "endColumn": 85,
+                    "endOffset": 7388
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 555,
+                        "endColumn": 81,
+                        "endOffset": 636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 7393,
+                    "endColumn": 119,
+                    "endOffset": 7508
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 637,
+                        "endColumn": 115,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 7513,
+                    "endColumn": 73,
+                    "endOffset": 7582
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 753,
+                        "endColumn": 69,
+                        "endOffset": 822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7587,
                     "endColumn": 78,
-                    "endOffset": 7045
+                    "endOffset": 7661
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-tr/values-tr.xml",
@@ -1182,11 +1315,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 7050,
+                    "startOffset": 7666,
                     "endColumn": 100,
-                    "endOffset": 7146
+                    "endOffset": 7762
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-tr/values-tr.xml",

@@ -207,6 +207,9 @@ class commentdetail extends Component {
                   <TouchableOpacity onPress={()=>{
 
                     var newInput = "@" + obj.created_by.username + " ";
+                    if(obj.created_by.username == self.props.screenProps.user.username){
+                      newInput = "";
+                    }
                     self.setState({inputText:newInput});
                   }}><Text style={styles.actionContainerText}>Reply</Text></TouchableOpacity>
                 </View>

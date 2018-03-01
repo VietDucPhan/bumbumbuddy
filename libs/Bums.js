@@ -243,6 +243,7 @@ class Bums {
 
   addReply(data,callback){
     var self = this;
+    console.log("addReply data",data);
     fetch('https://bumbuddy.herokuapp.com/api/add-reply',
     {
       method: 'POST',
@@ -363,6 +364,76 @@ class Bums {
         }
       ]});
     });
+  }
+
+  getUserNotifications(_id,callback){
+    if(_id){
+      fetch('https://bumbuddy.herokuapp.com/api/get-user-notifications',
+      {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({_id:_id})
+      }).then((response) => response.json())
+        .then((responseJson) => {
+          return callback(responseJson);
+      }).catch((error) => {
+        return callback({errors:[
+          {
+            status:'m005',
+            source:{pointer:"libs/bums.getComments"},
+            title:"Unknown error",
+            detail:error.message
+          }
+        ]});
+      });
+    } else {
+      return callback({errors:[
+        {
+          status:'m005',
+          source:{pointer:"libs/bums.getNotifications"},
+          title:"No user was selected",
+          detail:"No user was selected"
+        }
+      ]});
+    }
+  }
+
+  getUserProfileInfo(_id,callback){
+    if(_id){
+      fetch('https://bumbuddy.herokuapp.com/api/get-user-profile',
+      {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({_id:_id})
+      }).then((response) => response.json())
+        .then((responseJson) => {
+          return callback(responseJson);
+      }).catch((error) => {
+        return callback({errors:[
+          {
+            status:'m005',
+            source:{pointer:"libs/bums.getComments"},
+            title:"Unknown error",
+            detail:error.message
+          }
+        ]});
+      });
+    } else {
+      return callback({errors:[
+        {
+          status:'m005',
+          source:{pointer:"libs/bums.getNotifications"},
+          title:"No user was selected",
+          detail:"No user was selected"
+        }
+      ]});
+    }
   }
 
   vote(_id, point, token, callback){

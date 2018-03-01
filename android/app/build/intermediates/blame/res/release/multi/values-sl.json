@@ -729,8 +729,141 @@
                     "startLine": 40,
                     "startColumn": 4,
                     "startOffset": 4892,
+                    "endColumn": 78,
+                    "endOffset": 4966
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 235,
+                        "endColumn": 74,
+                        "endOffset": 309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4971,
+                    "endColumn": 113,
+                    "endOffset": 5080
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 310,
+                        "endColumn": 109,
+                        "endOffset": 419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5085,
+                    "endColumn": 68,
+                    "endOffset": 5149
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 420,
+                        "endColumn": 64,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5154,
+                    "endColumn": 67,
+                    "endOffset": 5217
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 485,
+                        "endColumn": 63,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5222,
+                    "endColumn": 93,
+                    "endOffset": 5311
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 549,
+                        "endColumn": 89,
+                        "endOffset": 638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5316,
+                    "endColumn": 111,
+                    "endOffset": 5423
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 639,
+                        "endColumn": 107,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5428,
+                    "endColumn": 77,
+                    "endOffset": 5501
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-sl/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 747,
+                        "endColumn": 73,
+                        "endOffset": 820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5506,
                     "endColumn": 82,
-                    "endOffset": 4970
+                    "endOffset": 5584
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-sl/values-sl.xml",
@@ -745,11 +878,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4975,
+                    "startOffset": 5589,
                     "endColumn": 100,
-                    "endOffset": 5071
+                    "endOffset": 5685
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-sl/values-sl.xml",

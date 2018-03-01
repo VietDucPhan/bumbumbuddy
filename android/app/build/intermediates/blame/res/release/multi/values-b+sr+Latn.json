@@ -729,8 +729,141 @@
                     "startLine": 40,
                     "startColumn": 4,
                     "startOffset": 4831,
+                    "endColumn": 73,
+                    "endOffset": 4900
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 242,
+                        "endColumn": 69,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4905,
+                    "endColumn": 123,
+                    "endOffset": 5024
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 312,
+                        "endColumn": 119,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5029,
+                    "endColumn": 69,
+                    "endOffset": 5094
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 432,
+                        "endColumn": 65,
+                        "endOffset": 497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5099,
+                    "endColumn": 66,
+                    "endOffset": 5161
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 498,
+                        "endColumn": 62,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5166,
+                    "endColumn": 92,
+                    "endOffset": 5254
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 561,
+                        "endColumn": 88,
+                        "endOffset": 649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5259,
+                    "endColumn": 121,
+                    "endOffset": 5376
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 650,
+                        "endColumn": 117,
+                        "endOffset": 767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5381,
+                    "endColumn": 73,
+                    "endOffset": 5450
+                },
+                "from": {
+                    "file": "/Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 768,
+                        "endColumn": 69,
+                        "endOffset": 837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5455,
                     "endColumn": 83,
-                    "endOffset": 4910
+                    "endOffset": 5534
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -745,11 +878,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4915,
+                    "startOffset": 5539,
                     "endColumn": 100,
-                    "endOffset": 5011
+                    "endOffset": 5635
                 },
                 "from": {
                     "file": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",

@@ -143,6 +143,8 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-admob')
+    compile project(':RNAdMob')
     compile project(':react-native-fcm')
     compile project(':react-native-image-picker')
     compile project(':react-native-camera')

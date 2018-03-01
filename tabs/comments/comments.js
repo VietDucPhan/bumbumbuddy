@@ -18,7 +18,7 @@ import {
   SectionList,
   Button
  } from 'react-native';
- import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 import AuthLib from '../../libs/Auth';
 import BumsLib from '../../libs/Bums';
 import CacheLib from '../../libs/Cache';
@@ -26,6 +26,8 @@ import DateFormat from '../bums/tmpl/formatdate';
 import Votebtn from './tmpl/votebtn';
 import Morebtn from './tmpl/morebtn';
 import RatingView from '../bums/tmpl/rating';
+import Admob from '../../commons/admob';
+
 var BumModel = new BumsLib();
 var Auth = new AuthLib();
 var Cache = new CacheLib();
@@ -246,6 +248,7 @@ class comments extends Component {
             if(self.props._id){
               return(
                 <View style={styles.bumDetailInfoContainer}>
+                  <Admob/>
                   <RatingView navigation={self.props.navigation} _onRefresh={self._onRefresh.bind(this)} _user={self.props.screenProps.user} refreshing={self.state.refreshing} showButton={true} showRating={true} _id={self.props._id} />
                 </View>
               );
