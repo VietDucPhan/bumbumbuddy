@@ -1,226 +1,238 @@
 [
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_bar_up_container.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/fps_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/fps_view.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/res/layout/fps_view.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/support_simple_spinner_dropdown_item.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_item_frame.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/redbox_item_frame.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/res/layout/redbox_item_frame.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_mode_bar.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_tooltip_bubble.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_tooltip_bubble.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_large.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_blue_large.xml"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_item_title.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/redbox_item_title.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/res/layout/redbox_item_title.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_large.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/messenger_button_send_blue_large.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_template_lines_media.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_content_include.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_activity_chooser_view_list_item.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_alert_dialog_title_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_select_dialog_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_list_menu_item_checkbox.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_search_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_search_view.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/amu_webview.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/ad0408a4cd74b96aba6fb3b9981974f8/res/layout/amu_webview.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/amu_info_window.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/ad0408a4cd74b96aba6fb3b9981974f8/res/layout/amu_info_window.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_list_menu_item_layout.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/dev_loading_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/dev_loading_view.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/select_dialog_item_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/redbox_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/layout/redbox_view.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_template_media.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_screen_toolbar.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_list_menu_item_radio.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/amu_text_bubble.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/ad0408a4cd74b96aba6fb3b9981974f8/res/layout/amu_text_bubble.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_round.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_white_round.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_activity_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_activity_layout.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/com_facebook_activity_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_round.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_blue_round.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/messenger_button_send_blue_round.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_login_fragment.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_login_fragment.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/com_facebook_login_fragment.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_menu_item_layout.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_bar_title_item.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_smart_device_dialog_fragment.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_smart_device_dialog_fragment.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/com_facebook_smart_device_dialog_fragment.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_popup_menu_header_item_layout.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_small.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_white_small.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/messenger_button_send_white_small.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_alert_dialog_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_dialog_title_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_popup_menu_item_layout.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_action_tombstone.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/select_dialog_singlechoice_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_action_mode_close_item_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_activity_chooser_view.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/list_item.xml",
-        "source": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/res/layout/list_item.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_template_media_custom.xml"
+        "source": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/release/res/layout/list_item.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/com_facebook_device_auth_dialog_fragment.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/com_facebook_device_auth_dialog_fragment.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_template_part_chronometer.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_blue_small.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_blue_small.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/messenger_button_send_blue_small.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/messenger_button_send_white_large.xml",
-        "source": "/Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/res/layout/messenger_button_send_white_large.xml"
-    },
-    {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/select_dialog_multichoice_material.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/layout/messenger_button_send_white_large.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/notification_action.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/notification_action.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/notification_action.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/layout/abc_list_menu_item_icon.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/layout/select_dialog_multichoice_material.xml"
     }
 ]

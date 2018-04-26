@@ -1,6 +1,59 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+MERGED from [:react-native-fcm] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-fbsdk] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/manifests/full/release/AndroidManifest.xml:21:1-30:12
+MERGED from [:react-native-google-signin] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:21:1-50:12
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1746212de91528df48b2c2fda942b1c6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:17:1-37:12
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.0.aar/b88f653b6a372f06aed0541923f937e1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/b586791d7c555904ca80bccd618f5e02/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:17:1-29:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/5ca909726d0658a1ec7472b9fab89f86/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7d20e7a68866052508639e83f6fa37ae/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/4b4cf3257b6e4f91200885ef22bb8acf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/6f2242119788f78f5dddb927c086c02b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fresco-1.0.1.aar/5ddbbdbe5abd61c70536ebe0ce6e34ac/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/2b1e4e53fc1b9b6a4a23c2a99fc3aa88/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/0f560a0c51a05ded13871edade30f2a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/c61c069d58eba0b0918ea68112b1b95f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/023bb5da8a9ed7836026cda9a831e8b0/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9149813b48a56cbc8b8d83760bf5fa33/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/57e009098c859804322a708a94f19466/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/6b2c07f28c3ade0a8ef8b4262b3c94ad/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fbcore-1.0.1.aar/eae97095693c3a0d3fef5922817f7be6/AndroidManifest.xml:2:1-9:12
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
 	package
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:2:5-30
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
@@ -9,25 +62,30 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/mai
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:4:5-30
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:11-69
 	android:versionCode
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:23:5-67
-MERGED from [bumbumbuddy:react-native-maps:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:23:5-67
+MERGED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -36,7 +94,8 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/mai
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.CAMERA
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:9:5-65
-MERGED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:11:5-65
+MERGED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-65
+MERGED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.RECORD_AUDIO
@@ -65,70 +124,104 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/mai
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:16:22-63
 uses-sdk
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
-MERGED from [com.android.support:multidex:1.0.1] /Users/ducphan/.android/build-cache/f894a2e4c23006534248e887a6bcd3c6f7cdd925/output/AndroidManifest.xml:18:5-42
-MERGED from [bumbumbuddy:react-native-admob:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-admob/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [bumbumbuddy:RNAdMob:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-admob/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-ads:11.8.0] /Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/ducphan/.android/build-cache/5af737b5338d6607e679e986e17275fafc949b96/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/ducphan/.android/build-cache/cea07c07386dbbf4ea3d3fb10be893cc8fb5c030/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/ducphan/.android/build-cache/be66385878615ebfbc3e791115aaae4357522269/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/ducphan/.android/build-cache/b639be41178204d41c4c8f33bc2e3600ca66b3e6/output/AndroidManifest.xml:4:5-43
-MERGED from [bumbumbuddy:react-native-fcm:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/ducphan/.android/build-cache/a49ee71870ec2fb9cb1ca2f6c446a0ebe6b02a87/output/AndroidManifest.xml:4:5-43
-MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:7:5-9:41
-MERGED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [bumbumbuddy:react-native-maps:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/AndroidManifest.xml:5:5-7:41
-MERGED from [bumbumbuddy:react-native-fbsdk:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/AndroidManifest.xml:24:5-26:41
-MERGED from [bumbumbuddy:react-native-google-signin:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [bumbumbuddy:react-native-vector-icons:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/ducphan/.android/build-cache/4abd56d15b7280e938dc0216c61211eab9997bf7/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /Users/ducphan/.android/build-cache/b837ce0596ca110d6a533f4c23369877002966d6/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/ducphan/.android/build-cache/8ada073ebe95884e9317feb4466ab944d6e20a2b/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /Users/ducphan/.android/build-cache/2c5841e1225daea218a0aa3cc8ecce51d88ece16/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/ducphan/.android/build-cache/838a7e37ca85401ca60a499975bfb8206ae57257/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/ducphan/.android/build-cache/03d153d1b62c5a56024200e080a9a1dee20683e8/output/AndroidManifest.xml:4:5-43
-MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ducphan/.android/build-cache/4f0b789cacd1555743aca8beb66a1ed4ccf1ce63/output/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/ducphan/.android/build-cache/f5b4c2431b642076dd98f1b528324afd4109c9d5/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/ducphan/.android/build-cache/b989072f89e03c7a7569afe23b0716b01fe3fb62/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/ducphan/.android/build-cache/c06d2ecf63a80b456d1079ccec8fbc68039b44b1/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/ducphan/.android/build-cache/1233b779073d81533bb6e908f3afb5f3c2937755/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/ducphan/.android/build-cache/af0d1955a1253688d805800be3754026caa0f311/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/ducphan/.android/build-cache/439452a99dfabcf8a8fad3a12966120365e4b6af/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.android/build-cache/124a69603bb7dc8080b28760c076160f52280a4d/output/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a7384a376360fa6350d73458871e709d9876bc21/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a267c04371da52c28bbc6b45c7029cc274bf98ab/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.android/build-cache/ef28bcac6f9e7a3dd73dcffbc2d641d6dee2a826/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.android/build-cache/37b70ae287f8870f79f5200e048b83d96e919170/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/ducphan/.android/build-cache/aabc64c7e46936e655630c39e9e05ab888b49ef5/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/ducphan/.android/build-cache/fc504fdc7bb5059597e80385524cf438ad6a572e/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/ducphan/.android/build-cache/7cb12f7d69c820206e1e7843e2a02e433a106965/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/ducphan/.android/build-cache/bb3bd32c46ed09352334bc987c127f52c163c4c6/output/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ducphan/.android/build-cache/530a93e8e0f1dcdb5bb1de755c4c69abca1af1a6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.android/build-cache/1d4f46675e7e29f47e1c3c8f5a47e04d4a20f7de/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.android/build-cache/88858eb30776b2da16d06a764bfe033cb5cbc98d/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.android/build-cache/21ad52bcad870fce6a49199f5a22c8a3b062c0c0/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.android/build-cache/098c9069dda1fee831a683df71527f3db1567048/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.android/build-cache/6b7f4f58cb626ad157e5e466e16db05ea48611cf/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.android/build-cache/35fbae5d16ea0149b36bcece929b936ff3c96e02/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/ducphan/.android/build-cache/d0969ddebc8166055851bcf71f08fb290ddbe828/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/ducphan/.android/build-cache/0ee8c58d7f96b9df1489a7ba5ab76f09dcc047e0/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/ducphan/.android/build-cache/bed9dc005cb6fbdb9dea9dfce81ef5a453c21667/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/ducphan/.android/build-cache/05572ac9eb37e40ec4a8c178a89cf1aeac804b91/output/AndroidManifest.xml:4:5-43
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
+MERGED from [:react-native-fcm] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fcm] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fbsdk] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/manifests/full/release/AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-fbsdk] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/manifests/full/release/AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-google-signin] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-google-signin] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1746212de91528df48b2c2fda942b1c6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1746212de91528df48b2c2fda942b1c6/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:multidex:1.0.2] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.0.aar/b88f653b6a372f06aed0541923f937e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.0.aar/b88f653b6a372f06aed0541923f937e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/b586791d7c555904ca80bccd618f5e02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/b586791d7c555904ca80bccd618f5e02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/5ca909726d0658a1ec7472b9fab89f86/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/5ca909726d0658a1ec7472b9fab89f86/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7d20e7a68866052508639e83f6fa37ae/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7d20e7a68866052508639e83f6fa37ae/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/4b4cf3257b6e4f91200885ef22bb8acf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/4b4cf3257b6e4f91200885ef22bb8acf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/6f2242119788f78f5dddb927c086c02b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/6f2242119788f78f5dddb927c086c02b/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fresco-1.0.1.aar/5ddbbdbe5abd61c70536ebe0ce6e34ac/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fresco-1.0.1.aar/5ddbbdbe5abd61c70536ebe0ce6e34ac/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/2b1e4e53fc1b9b6a4a23c2a99fc3aa88/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/2b1e4e53fc1b9b6a4a23c2a99fc3aa88/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/0f560a0c51a05ded13871edade30f2a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/0f560a0c51a05ded13871edade30f2a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/c61c069d58eba0b0918ea68112b1b95f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/c61c069d58eba0b0918ea68112b1b95f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/023bb5da8a9ed7836026cda9a831e8b0/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/023bb5da8a9ed7836026cda9a831e8b0/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9149813b48a56cbc8b8d83760bf5fa33/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9149813b48a56cbc8b8d83760bf5fa33/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/6b2c07f28c3ade0a8ef8b4262b3c94ad/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/6b2c07f28c3ade0a8ef8b4262b3c94ad/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fbcore-1.0.1.aar/eae97095693c3a0d3fef5922817f7be6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fbcore-1.0.1.aar/eae97095693c3a0d3fef5922817f7be6/AndroidManifest.xml:5:5-7:41
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
+INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:11.8.0] /Users/ducphan/.android/build-cache/92c0e979261c8f434e87ff09bb32dc5ff5090463/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:20:9-38
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
@@ -139,56 +232,74 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/ducph
 		INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:23:5-68:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/ducphan/.android/build-cache/5af737b5338d6607e679e986e17275fafc949b96/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/ducphan/.android/build-cache/cea07c07386dbbf4ea3d3fb10be893cc8fb5c030/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/ducphan/.android/build-cache/be66385878615ebfbc3e791115aaae4357522269/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/ducphan/.android/build-cache/b639be41178204d41c4c8f33bc2e3600ca66b3e6/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/ducphan/.android/build-cache/a49ee71870ec2fb9cb1ca2f6c446a0ebe6b02a87/output/AndroidManifest.xml:5:5-20
-MERGED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:11:5-21:19
-MERGED from [bumbumbuddy:react-native-fbsdk:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/AndroidManifest.xml:28:5-20
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/ducphan/.android/build-cache/4abd56d15b7280e938dc0216c61211eab9997bf7/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /Users/ducphan/.android/build-cache/8ada073ebe95884e9317feb4466ab944d6e20a2b/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /Users/ducphan/.android/build-cache/838a7e37ca85401ca60a499975bfb8206ae57257/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/ducphan/.android/build-cache/03d153d1b62c5a56024200e080a9a1dee20683e8/output/AndroidManifest.xml:5:5-20
-MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.android/build-cache/124a69603bb7dc8080b28760c076160f52280a4d/output/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/ducphan/.android/build-cache/397593b8cf1e4168cc56ad483f700ac519e43180/output/AndroidManifest.xml:2:3-17
-MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a7384a376360fa6350d73458871e709d9876bc21/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a267c04371da52c28bbc6b45c7029cc274bf98ab/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.android/build-cache/ef28bcac6f9e7a3dd73dcffbc2d641d6dee2a826/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.android/build-cache/37b70ae287f8870f79f5200e048b83d96e919170/output/AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/ducphan/.android/build-cache/aabc64c7e46936e655630c39e9e05ab888b49ef5/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:27:5-52:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:27:5-38:19
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/ducphan/.android/build-cache/fc504fdc7bb5059597e80385524cf438ad6a572e/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/ducphan/.android/build-cache/7cb12f7d69c820206e1e7843e2a02e433a106965/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/ducphan/.android/build-cache/bb3bd32c46ed09352334bc987c127f52c163c4c6/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ducphan/.android/build-cache/530a93e8e0f1dcdb5bb1de755c4c69abca1af1a6/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.android/build-cache/1d4f46675e7e29f47e1c3c8f5a47e04d4a20f7de/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.android/build-cache/88858eb30776b2da16d06a764bfe033cb5cbc98d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.android/build-cache/21ad52bcad870fce6a49199f5a22c8a3b062c0c0/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.android/build-cache/098c9069dda1fee831a683df71527f3db1567048/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.android/build-cache/6b7f4f58cb626ad157e5e466e16db05ea48611cf/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.android/build-cache/35fbae5d16ea0149b36bcece929b936ff3c96e02/output/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/ducphan/.android/build-cache/d0969ddebc8166055851bcf71f08fb290ddbe828/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/ducphan/.android/build-cache/0ee8c58d7f96b9df1489a7ba5ab76f09dcc047e0/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/ducphan/.android/build-cache/bed9dc005cb6fbdb9dea9dfce81ef5a453c21667/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/ducphan/.android/build-cache/05572ac9eb37e40ec4a8c178a89cf1aeac804b91/output/AndroidManifest.xml:5:5-20
+MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-fbsdk] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/manifests/full/release/AndroidManifest.xml:28:5-20
+MERGED from [:react-native-fbsdk] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/manifests/full/release/AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:28:5-48:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:28:5-48:19
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.44.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1746212de91528df48b2c2fda942b1c6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1746212de91528df48b2c2fda942b1c6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:22:5-27:19
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/5ca909726d0658a1ec7472b9fab89f86/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/5ca909726d0658a1ec7472b9fab89f86/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7d20e7a68866052508639e83f6fa37ae/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7d20e7a68866052508639e83f6fa37ae/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/4b4cf3257b6e4f91200885ef22bb8acf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/4b4cf3257b6e4f91200885ef22bb8acf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/6f2242119788f78f5dddb927c086c02b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/6f2242119788f78f5dddb927c086c02b/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9149813b48a56cbc8b8d83760bf5fa33/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9149813b48a56cbc8b8d83760bf5fa33/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/57e009098c859804322a708a94f19466/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/57e009098c859804322a708a94f19466/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:26:7-39
-	android:allowBackup
-		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:25:7-33
 	android:icon
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:27:7-41
+	android:allowBackup
+		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:25:7-33
 	android:theme
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:28:7-38
 	android:name
@@ -303,297 +414,325 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:67:7-84
 	android:name
 		ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:67:17-81
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:24:22-76
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:29:9-33:64
-	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:32:13-37
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:31:13-122
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:33:13-61
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/ducphan/.android/build-cache/cbfce131f3beb88755d6414f2a0ade3977e504cf/output/AndroidManifest.xml:30:13-65
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:28:9-34:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:30:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/ducphan/.android/build-cache/8132b79b463f82748defed4f2f1e0c65c96fdbb9/output/AndroidManifest.xml:29:13-82
-uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:19:5-86
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:19:22-83
-uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:20:5-87
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:20:22-84
-uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:23:5-81
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:23:22-78
-uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:24:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:24:22-80
-uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:27:5-88
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:27:22-85
-uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:28:5-92
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:28:22-89
-uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:31:5-84
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:31:22-81
-uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:34:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:34:22-80
-uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:37:5-91
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:37:22-88
-uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:38:5-92
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:38:22-89
-uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:39:5-93
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:39:22-90
-uses-permission#android.permission.READ_APP_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:42:5-73
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:42:22-70
-uses-permission#com.oppo.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:45:5-82
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:45:22-79
-uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:46:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:46:22-80
-uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:49:5-88
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:49:22-85
-uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:50:5-89
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.android/build-cache/32b77d7418717abe4f92642400e59fdf9543fd71/output/AndroidManifest.xml:50:22-86
 provider#android.support.v4.content.FileProvider
-ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:12:9-20:20
-	android:authorities
-		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:14:13-60
+ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:14:13-60
 	android:exported
-		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:13:13-67
+		ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:13:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:17:13-19:58
+ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:17:13-19:58
 	android:resource
-		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:19:17-55
+		ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:19:17-55
 	android:name
-		ADDED from [bumbumbuddy:react-native-image-picker:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/bundles/default/AndroidManifest.xml:18:17-67
+		ADDED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:18:17-67
 uses-feature#android.hardware.camera
-ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:13:5-15:36
+ADDED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-15:36
 	android:required
-		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:15:9-33
+		ADDED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:15:9-33
 	android:name
-		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:14:9-47
+		ADDED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:14:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:16:5-18:36
+ADDED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:16:5-18:36
 	android:required
-		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:18:9-33
+		ADDED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:18:9-33
 	android:name
-		ADDED from [bumbumbuddy:react-native-camera:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/bundles/default/AndroidManifest.xml:17:9-57
+		ADDED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:17:9-57
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [bumbumbuddy:react-native-maps:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/AndroidManifest.xml:10:5-81
+ADDED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from [bumbumbuddy:react-native-maps:unspecified] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/AndroidManifest.xml:10:22-78
+		ADDED from [:react-native-maps] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:10:22-78
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ducphan/.android/build-cache/de5c7642278abfee0c14fa37e6b6dc359eb27088/output/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.0.aar/5dda1bffd65a14b876cfc78c20ad0bdf/AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /Users/ducphan/.android/build-cache/574ccc6e00a60f003872ea43e2d45740d1b3b7ed/output/AndroidManifest.xml:34:13-89
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:23:9-26:75
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/AndroidManifest.xml:34:13-89
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ducphan/.android/build-cache/4b1cd50be2ae9944fd924e747b2a0dde9318a9ea/output/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.firebase:firebase-messaging:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/AndroidManifest.xml:29:13-82
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:50:22-86
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:29:9-63
+permission#com.bumbumbuddy.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:32:22-76
+uses-permission#com.bumbumbuddy.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:36:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:39:13-43:29
+intent-filter#com.bumbumbuddy+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:42:27-58
+category#com.bumbumbuddy
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:29:9-32:66
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:31:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:32:13-63
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:30:13-57
-activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:33:9-71
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:33:19-68
-provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:44:9-47:40
-	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:46:13-72
-	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.22.1] /Users/ducphan/.android/build-cache/6bd2fdd78b5c1ee5cbb40bebc330e32672d30f1d/output/AndroidManifest.xml:45:13-70
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a7384a376360fa6350d73458871e709d9876bc21/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ducphan/.android/build-cache/a267c04371da52c28bbc6b45c7029cc274bf98ab/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ducphan/.android/build-cache/ef28bcac6f9e7a3dd73dcffbc2d641d6dee2a826/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:customtabs:25.3.0] /Users/ducphan/.android/build-cache/37b70ae287f8870f79f5200e048b83d96e919170/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ducphan/.android/build-cache/1d4f46675e7e29f47e1c3c8f5a47e04d4a20f7de/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ducphan/.android/build-cache/88858eb30776b2da16d06a764bfe033cb5cbc98d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ducphan/.android/build-cache/21ad52bcad870fce6a49199f5a22c8a3b062c0c0/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ducphan/.android/build-cache/098c9069dda1fee831a683df71527f3db1567048/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ducphan/.android/build-cache/6b7f4f58cb626ad157e5e466e16db05ea48611cf/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ducphan/.android/build-cache/35fbae5d16ea0149b36bcece929b936ff3c96e02/output/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/AndroidManifest.xml:26:9-47
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:24:5-68
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:25:22-65
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:28:9-32:20
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:28:9-32:20
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:30:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:29:13-85
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:33:9-41:20
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:35:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:36:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:37:13-69
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:34:13-100
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:38:13-40:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:39:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:39:25-76
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:43:9-46:40
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/ducphan/.android/build-cache/819096148adf9cd5f2f4ee1206491084ed355ad0/output/AndroidManifest.xml:34:9-37:40
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:45:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:44:13-84
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:47:9-51:72
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:49:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:50:13-37
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:51:13-69
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/ducphan/.android/build-cache/9e66d021a53a179f57e7de8c8b2672049fc6e214/output/AndroidManifest.xml:48:13-87
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:26:22-79
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:28:5-30:47
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:30:9-44
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:29:9-63
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:32:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:32:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:35:9-44:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:37:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:38:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:36:13-78
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:39:13-43:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:40:17-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:40:25-78
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:42:17-61
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:42:27-58
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:50:9-56:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:52:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/ducphan/.android/build-cache/0b9df4b086c8feabbd1792705a3fc9752f4360cf/output/AndroidManifest.xml:51:13-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:8:9-12:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:10:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:11:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:12:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/ducphan/.android/build-cache/8b47dcdf55e3435aae4647b4bed01923e7e04941/output/AndroidManifest.xml:9:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ducphan/.android/build-cache/530a93e8e0f1dcdb5bb1de755c4c69abca1af1a6/output/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ducphan/.android/build-cache/530a93e8e0f1dcdb5bb1de755c4c69abca1af1a6/output/AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ducphan/.android/build-cache/530a93e8e0f1dcdb5bb1de755c4c69abca1af1a6/output/AndroidManifest.xml:24:13-58

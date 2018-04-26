@@ -2,10 +2,8 @@ package com.bumbumbuddy;
 
 import android.app.Application;
 
-import com.sbugert.rnadmob.RNAdMobPackage;
 import com.facebook.BuildConfig;
 import com.facebook.react.ReactApplication;
-import com.sbugert.rnadmob.RNAdMobPackage;
 import com.evollu.react.fcm.FIRMessagingPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
@@ -44,7 +42,6 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNAdMobPackage(),
             new FIRMessagingPackage(),
             new ImagePickerPackage(),
             new RCTCameraPackage(),

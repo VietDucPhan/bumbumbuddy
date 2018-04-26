@@ -39,18 +39,18 @@ public final class R {
     }
     public static final class styleable {
         public static final int[] CardView = { 0x0101013f, 0x01010140, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab };
-        public static final int CardView_android_minHeight = 1;
         public static final int CardView_android_minWidth = 0;
+        public static final int CardView_android_minHeight = 1;
         public static final int CardView_cardBackgroundColor = 2;
         public static final int CardView_cardCornerRadius = 3;
         public static final int CardView_cardElevation = 4;
         public static final int CardView_cardMaxElevation = 5;
-        public static final int CardView_cardPreventCornerOverlap = 7;
         public static final int CardView_cardUseCompatPadding = 6;
+        public static final int CardView_cardPreventCornerOverlap = 7;
         public static final int CardView_contentPadding = 8;
-        public static final int CardView_contentPaddingBottom = 12;
         public static final int CardView_contentPaddingLeft = 9;
         public static final int CardView_contentPaddingRight = 10;
         public static final int CardView_contentPaddingTop = 11;
+        public static final int CardView_contentPaddingBottom = 12;
     }
 }

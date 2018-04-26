@@ -1,66 +1,66 @@
 [
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_fade_in.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_popup_exit.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_slide_in_bottom.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_popup_enter.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_slide_out_top.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/catalyst_push_up_out.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/444d6670264b7b608b27ddd5a21dd193/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/fade_in.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/444d6670264b7b608b27ddd5a21dd193/res/anim/fade_in.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/slide_up.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/444d6670264b7b608b27ddd5a21dd193/res/anim/slide_up.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/fade_out.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/444d6670264b7b608b27ddd5a21dd193/res/anim/fade_out.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_slide_out_bottom.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_slide_in_top.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/ducphan/.android/build-cache/79e5c89ad27e3f520cfe6ecca26b07885107fda2/output/res/anim/abc_fade_out.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/8ea561dcb2e8ced472c848d900b48105/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/slide_down.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/444d6670264b7b608b27ddd5a21dd193/res/anim/slide_down.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
-        "source": "/Users/ducphan/.android/build-cache/5463555f912b4f24392c5cb89542f4df9cda9cfd/output/res/anim/catalyst_push_up_in.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/444d6670264b7b608b27ddd5a21dd193/res/anim/catalyst_push_up_in.xml"
     }
 ]

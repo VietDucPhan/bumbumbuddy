@@ -26,7 +26,7 @@ import DateFormat from '../bums/tmpl/formatdate';
 import Votebtn from './tmpl/votebtn';
 import Morebtn from './tmpl/morebtn';
 import RatingView from '../bums/tmpl/rating';
-import Admob from '../../commons/admob';
+//import Admob from '../../commons/admob';
 
 var BumModel = new BumsLib();
 var Auth = new AuthLib();
@@ -248,7 +248,6 @@ class comments extends Component {
             if(self.props._id){
               return(
                 <View style={styles.bumDetailInfoContainer}>
-                  <Admob/>
                   <RatingView navigation={self.props.navigation} _onRefresh={self._onRefresh.bind(this)} _user={self.props.screenProps.user} refreshing={self.state.refreshing} showButton={true} showRating={true} _id={self.props._id} />
                 </View>
               );

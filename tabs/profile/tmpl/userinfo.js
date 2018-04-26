@@ -2,7 +2,10 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  View
+  View,
+  Image,
+  Text,
+  ActivityIndicator
  } from 'react-native';
 
  import BumsLib from '../../../libs/Bums';
@@ -12,7 +15,7 @@ class userinfo extends Component {
   constructor(props){
     super(props);
     this.state = {
-      refreshing:false,
+      showActivitiIndicator:true,
       userInfo:null
     };
     //console.log('bumdetail.constructor',this.props.screenProps);
@@ -34,7 +37,8 @@ class userinfo extends Component {
           )
         } else {
           self.setState({
-            userInfo:result.data
+            userInfo:result.data[0],
+            showActivitiIndicator:false
           });
         }
       });
@@ -43,6 +47,7 @@ class userinfo extends Component {
 
   componentDidMount(){
     var self = this;
+    self._getUserInfo();
     //navigationOptions.headerTitle = self.props.navigation.state.params.username
     //setTimeout(()=>this.setState({statusBarHeight: 1}),500);
     //this._getBumDetail(state.params._id);
@@ -51,16 +56,51 @@ class userinfo extends Component {
   render() {
     const {state} = this.props.navigation;
     var self = this;
-    return(
-      <View style={styles.container}>
+    if(self.state.userInfo){
+      return(
+        <View style={styles.profileNavigatorContainer}>
+          <View>
+          {
+            self.state.userInfo && self.state.userInfo.profile_picture &&
+            <Image source={{uri: self.state.userInfo.profile_picture.secure_url}}
+       style={[{width:50,height:50}]} />
+          }
+          </View>
 
-      </View>
-    );
+          <View style={styles.profileName}>
+            <Text>{self.state.userInfo.username}</Text>
+          </View>
+        </View>
+      );
+    } else {
+      return(
+        <View>
+          <ActivityIndicator animating={self.state.showActivitiIndicator}></ActivityIndicator>
+        </View>
+      );
+
+    }
+
   }
 }
   const styles = StyleSheet.create({
     container:{
       flex:1
-    }
+    },
+    profileNavigatorContainer:{
+      borderTopWidth: StyleSheet.hairlineWidth,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderColor: '#ccc',
+      //marginTop:10,
+      paddingTop:10,
+      paddingBottom:10,
+      paddingLeft:5,
+      paddingRight:5,
+      backgroundColor:"#fff",
+      flexDirection: 'row'
+    },
+    profileName:{
+      marginLeft:10
+    },
   });
 module.exports = userinfo;

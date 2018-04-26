@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="com.facebook.react:react-native-0.19.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/9f14d5d2782ea02066d06208196fd204c3d2bb7d/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/9f14d5d2782ea02066d06208196fd204c3d2bb7d/output/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/9f14d5d2782ea02066d06208196fd204c3d2bb7d/output/jars/libs/infer-annotations-1.5.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.19.1.aar/43ebd4b37ad556984acbb3fa7fc71c8a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.19.1.aar/43ebd4b37ad556984acbb3fa7fc71c8a/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.19.1.aar/43ebd4b37ad556984acbb3fa7fc71c8a/jars/libs/infer-annotations-1.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

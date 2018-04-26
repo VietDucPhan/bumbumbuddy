@@ -403,7 +403,7 @@ class Bums {
 
   getUserProfileInfo(_id,callback){
     if(_id){
-      fetch('https://bumbuddy.herokuapp.com/api/get-user-profile',
+      fetch('https://bumbuddy.herokuapp.com/api/get-userprofile',
       {
         method: 'POST',
         headers: {

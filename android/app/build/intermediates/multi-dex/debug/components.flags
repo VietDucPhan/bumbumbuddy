@@ -1,0 +1,113 @@
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/react-native-0.44.0.aar/c494df6584b2f93e66f10fe82b4326fb/jars/libs/infer-annotations-1.5.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/3309092a8264f45373105c4840555a27/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/56ea015fb4d5b6ab5ea20ca3bb10f34e/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1746212de91528df48b2c2fda942b1c6/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.8.0.aar/a635b0c7db59bbed7076ddee0dee79b3/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.0.aar/01086233736bfc7bbf4c1fc4c68f5ca7/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.9.1/53fdf22be10c9d426ec63431c7342895bc642261/metadata-extractor-2.9.1.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.0.aar/b88f653b6a372f06aed0541923f937e1/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/b586791d7c555904ca80bccd618f5e02/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/5b14f6f0e953966998b15f3865bc7d50/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/ad0408a4cd74b96aba6fb3b9981974f8/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/c5d171b588923e76ed158b2be5bbc550/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/6e6bd44c38cf2bf65ce633a02dfaa2f0/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.0.aar/d8cea79656f750d1b153efb86b3b3c52/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.8.0.aar/f4780a14918fefd496d0cba4ccb7b9e7/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.8.0.aar/9bc68e4376d38f49a37f872450e55810/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.0.aar/5db5f50c483e9caa7938c60819fb5fea/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.0.aar/c852adb99dd866e682de1490e3f4cffd/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.0.0.aar/551ec0e54c44c1c0759949a33de9176c/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.0.aar/be72d6bac9949ef99b3d59a6edd19fae/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.0.aar/4b4cf3257b6e4f91200885ef22bb8acf/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.0.aar/7d20e7a68866052508639e83f6fa37ae/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.0.aar/5ca909726d0658a1ec7472b9fab89f86/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0735838e8d1906bcca5ed99d6d9bcad7/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/a7ab08cbd3f5f42c2fdc25922b38ccee/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/c4186f2f48516c19aefca65caf1832fd/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/8e40e84f57aa1e22fd3ce13df3513c0e/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/a7270ec1815409930e94661758bdb26b/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/89338c2377f5431a2724f8aca54b0e1c/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/65a429d531e5bf09a1bff7fe55a40980/jars/classes.jar(**.class)
+-injars /Users/ducphan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/d9a69997153b59c9ba9810eb930a8c45/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.4.0/cc174c559b5177982887bf6e1b76003aebad9516/bolts-android-1.4.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.8.0.aar/4be9c25e9ae8a7918812af59e4e8f839/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/6f2242119788f78f5dddb927c086c02b/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fresco-1.0.1.aar/5ddbbdbe5abd61c70536ebe0ce6e34ac/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/2b1e4e53fc1b9b6a4a23c2a99fc3aa88/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/0f560a0c51a05ded13871edade30f2a1/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/c61c069d58eba0b0918ea68112b1b95f/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.8.0.aar/d08cb862cc624af1990c4dd5b9cef3e9/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.8.0.aar/3fc4ee54ef36dde62a08066daa085d13/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/023bb5da8a9ed7836026cda9a831e8b0/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9149813b48a56cbc8b8d83760bf5fa33/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/57e009098c859804322a708a94f19466/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/6b2c07f28c3ade0a8ef8b4262b3c94ad/jars/classes.jar(**.class)
+-injars /Users/ducphan/.gradle/caches/transforms-1/files-1.1/fbcore-1.0.1.aar/eae97095693c3a0d3fef5922817f7be6/jars/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-admob/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-maps/lib/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fbsdk/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-google-signin/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-vector-icons/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/classes/debug(**.class)
+-outjars /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/ducphan/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/multi-dex/debug/components.flags
+
+
+# Referenced at /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:71
+-keep class com.bumbumbuddy.MainApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

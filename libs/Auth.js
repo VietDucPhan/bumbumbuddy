@@ -236,7 +236,7 @@ class Auth {
 
   getFacebookInfoViaAccessToken(accessToken,callback){
     if(accessToken){
-      fetch('https://graph.facebook.com/v2.11/me?access_token='+accessToken+'&fields=id,name,email,picture')
+      fetch('https://graph.facebook.com/v2.9/me?access_token='+accessToken+'&fields=id,name,email,picture')
       .then((response) => response.json())
       .then((responseJson) => {
         if(responseJson && responseJson.id && responseJson.name && responseJson.email){
@@ -338,7 +338,7 @@ class Auth {
          body:JSON.stringify(response)
        }).then((responseServer) => responseServer.json())
          .then((responseJson) => {
-           
+
            return callback(true);
          });
      });

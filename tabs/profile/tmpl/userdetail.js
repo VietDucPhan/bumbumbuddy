@@ -2,10 +2,11 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  View
+  View,
+  ScrollView
  } from 'react-native';
 import CommentsView from '../../comments/comments';
-import UserDetailView from './userdetail';
+import UserInfoView from './userinfo';
 
 class userdetail extends Component {
   constructor(props){
@@ -34,10 +35,10 @@ class userdetail extends Component {
     const {state} = this.props.navigation;
     var self = this;
     return(
-      <View style={styles.container}>
-        <UserDetailView user_id={state.params.user_id} navigation={self.props.navigation} />
+      <ScrollView style={styles.container}>
+        <UserInfoView user_id={state.params.user_id} navigation={self.props.navigation} />
         <CommentsView screenProps={{user:self.props.screenProps.user}} user_id={state.params.user_id} navigation={self.props.navigation}/>
-      </View>
+      </ScrollView>
     );
   }
 }

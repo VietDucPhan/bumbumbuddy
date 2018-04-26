@@ -48,31 +48,31 @@ public final class R {
     }
     public static final class styleable {
         public static final int[] GenericDraweeHierarchy = { 0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf };
-        public static final int GenericDraweeHierarchy_actualImageScaleType = 11;
-        public static final int GenericDraweeHierarchy_backgroundImage = 12;
         public static final int GenericDraweeHierarchy_fadeDuration = 0;
-        public static final int GenericDraweeHierarchy_failureImage = 6;
-        public static final int GenericDraweeHierarchy_failureImageScaleType = 7;
-        public static final int GenericDraweeHierarchy_overlayImage = 13;
+        public static final int GenericDraweeHierarchy_viewAspectRatio = 1;
         public static final int GenericDraweeHierarchy_placeholderImage = 2;
         public static final int GenericDraweeHierarchy_placeholderImageScaleType = 3;
-        public static final int GenericDraweeHierarchy_pressedStateOverlayImage = 14;
-        public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval = 10;
-        public static final int GenericDraweeHierarchy_progressBarImage = 8;
-        public static final int GenericDraweeHierarchy_progressBarImageScaleType = 9;
         public static final int GenericDraweeHierarchy_retryImage = 4;
         public static final int GenericDraweeHierarchy_retryImageScaleType = 5;
+        public static final int GenericDraweeHierarchy_failureImage = 6;
+        public static final int GenericDraweeHierarchy_failureImageScaleType = 7;
+        public static final int GenericDraweeHierarchy_progressBarImage = 8;
+        public static final int GenericDraweeHierarchy_progressBarImageScaleType = 9;
+        public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval = 10;
+        public static final int GenericDraweeHierarchy_actualImageScaleType = 11;
+        public static final int GenericDraweeHierarchy_backgroundImage = 12;
+        public static final int GenericDraweeHierarchy_overlayImage = 13;
+        public static final int GenericDraweeHierarchy_pressedStateOverlayImage = 14;
         public static final int GenericDraweeHierarchy_roundAsCircle = 15;
-        public static final int GenericDraweeHierarchy_roundBottomLeft = 20;
-        public static final int GenericDraweeHierarchy_roundBottomRight = 19;
+        public static final int GenericDraweeHierarchy_roundedCornerRadius = 16;
         public static final int GenericDraweeHierarchy_roundTopLeft = 17;
         public static final int GenericDraweeHierarchy_roundTopRight = 18;
+        public static final int GenericDraweeHierarchy_roundBottomRight = 19;
+        public static final int GenericDraweeHierarchy_roundBottomLeft = 20;
         public static final int GenericDraweeHierarchy_roundWithOverlayColor = 21;
-        public static final int GenericDraweeHierarchy_roundedCornerRadius = 16;
+        public static final int GenericDraweeHierarchy_roundingBorderWidth = 22;
         public static final int GenericDraweeHierarchy_roundingBorderColor = 23;
         public static final int GenericDraweeHierarchy_roundingBorderPadding = 24;
-        public static final int GenericDraweeHierarchy_roundingBorderWidth = 22;
-        public static final int GenericDraweeHierarchy_viewAspectRatio = 1;
         public static final int[] SimpleDraweeView = { 0x7f010107 };
         public static final int SimpleDraweeView_actualImageUri = 0;
     }
