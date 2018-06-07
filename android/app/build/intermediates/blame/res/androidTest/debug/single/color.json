@@ -61,11 +61,11 @@
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/1326f38eec79dc4dcb5fd94a6d1190a9/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cd82cf7e8cbf9c3f8194d7fbedb5e331/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/1326f38eec79dc4dcb5fd94a6d1190a9/res/color/common_google_signin_btn_tint.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cd82cf7e8cbf9c3f8194d7fbedb5e331/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
@@ -73,7 +73,7 @@
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.0.aar/1326f38eec79dc4dcb5fd94a6d1190a9/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cd82cf7e8cbf9c3f8194d7fbedb5e331/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/androidTest/debug/color/abc_btn_colored_borderless_text_material.xml",

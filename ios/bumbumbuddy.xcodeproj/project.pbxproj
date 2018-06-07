@@ -49,6 +49,7 @@
 		3D0DB3C01EF194820081E78C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DB3BC1EF194820081E78C /* FBSDKCoreKit.framework */; };
 		3D0DB3C11EF194820081E78C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DB3BD1EF194820081E78C /* FBSDKLoginKit.framework */; };
 		3D0DB3C21EF194820081E78C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DB3BE1EF194820081E78C /* FBSDKShareKit.framework */; };
+		3D24C47D20A9B337004593D5 /* no-trans-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D24C47C20A9B337004593D5 /* no-trans-1024.png */; };
 		3D38CD54204407B00006D3B5 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38CD4A204407B00006D3B5 /* 29.png */; };
 		3D38CD55204407B00006D3B5 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38CD4B204407B00006D3B5 /* 40.png */; };
 		3D38CD56204407B00006D3B5 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38CD4C204407B00006D3B5 /* 57.png */; };
@@ -369,6 +370,7 @@
 		3D0DB3BC1EF194820081E78C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../../Users/ducphan/Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		3D0DB3BD1EF194820081E78C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../../Users/ducphan/Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		3D0DB3BE1EF194820081E78C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../../Users/ducphan/Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		3D24C47C20A9B337004593D5 /* no-trans-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-trans-1024.png"; sourceTree = "<group>"; };
 		3D38CCB52043DF9B0006D3B5 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		3D38CD4A204407B00006D3B5 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
 		3D38CD4B204407B00006D3B5 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
@@ -608,6 +610,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				3D38CD4A204407B00006D3B5 /* 29.png */,
+				3D24C47C20A9B337004593D5 /* no-trans-1024.png */,
 				3D38CD4B204407B00006D3B5 /* 40.png */,
 				3D38CD4C204407B00006D3B5 /* 57.png */,
 				3D38CD4D204407B00006D3B5 /* 58.png */,
@@ -1305,6 +1308,7 @@
 			files = (
 				3D38CD5A204407B00006D3B5 /* 87.png in Resources */,
 				3D38CD5C204407B00006D3B5 /* 120.png in Resources */,
+				3D24C47D20A9B337004593D5 /* no-trans-1024.png in Resources */,
 				3D7A167A201A16D00019345A /* GoogleService-Info.plist in Resources */,
 				3D38CD57204407B00006D3B5 /* 58.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,

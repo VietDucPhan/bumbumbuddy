@@ -54,6 +54,8 @@ class profile extends Component {
   }
   //
   render() {
+    var self = this;
+    const {navigate} = self.props.navigation;
     if(this.props.screenProps.user == null){
       return (
         <LoginView signOut={this.props.screenProps.signOut} signIn={this.props.screenProps.signIn}/>
@@ -77,11 +79,7 @@ class profile extends Component {
 
             </View>
             <View style={styles.profileNavigatorContainer}>
-              <TouchableOpacity style={styles.profileButtonNavigator} >
-                <Text>Bums</Text>
-                <Icon size={20} name="ios-arrow-forward" backgroundColor="#4267b2"/>
-              </TouchableOpacity>
-              <TouchableOpacity style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
+              <TouchableOpacity  onPress={()=>navigate("UserDetailStack",{user_id:self.props.screenProps.user._id,username:self.props.screenProps.user.username})} style={[styles.profileButtonNavigator,styles.profileButtonNavigatorLastChild]} >
                 <Text>Comments</Text>
                 <Icon size={20} name="ios-arrow-forward" backgroundColor="#4267b2"/>
               </TouchableOpacity>

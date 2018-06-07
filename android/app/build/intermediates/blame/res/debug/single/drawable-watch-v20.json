@@ -1,14 +1,14 @@
 [
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/61335792a2f3d34982239c7eb19e6ef4/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/88d401390b03585762a1ba585ab59000/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/61335792a2f3d34982239c7eb19e6ef4/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/88d401390b03585762a1ba585ab59000/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/61335792a2f3d34982239c7eb19e6ef4/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/88d401390b03585762a1ba585ab59000/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
     }
 ]

@@ -111,73 +111,58 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.android.support:multidex-1.0.2" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:okhttp-ws:3.4.1@jar" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-analytics-15.0.0" level="project" />
+    <orderEntry type="library" name="com.drewnoakes:metadata-extractor:2.9.1@jar" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:imagepipeline-base-1.0.1" level="project" />
+    <orderEntry type="library" name="com.google.zxing:core:3.2.1@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-base-10.2.4" level="project" />
     <orderEntry type="library" name="com.adobe.xmp:xmpcore:5.1.2@jar" level="project" />
+    <orderEntry type="library" name="javax.inject:javax.inject:1@jar" level="project" />
     <orderEntry type="library" name="com.android.support:cardview-v7-25.3.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-25.3.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-25.3.0" level="project" />
     <orderEntry type="library" name="com.facebook.react:react-native-0.44.0" level="project" />
     <orderEntry type="library" name="com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-media-compat-25.3.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-auth-base-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-stats-15.0.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-25.3.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-auth-api-phone-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-basement-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-maps-15.0.0" level="project" />
-    <orderEntry type="library" name="com.facebook.fresco:imagepipeline-1.0.1" level="project" />
-    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.4.1@jar" level="project" />
-    <orderEntry type="library" name="com.facebook.fresco:fbcore-1.0.1" level="project" />
-    <orderEntry type="library" name="com.facebook.fresco:drawee-1.0.1" level="project" />
-    <orderEntry type="library" name="me.leolin:ShortcutBadger-1.1.17" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-ads-11.8.0" level="project" />
-    <orderEntry type="library" name="com.facebook.fbui.textlayoutbuilder:staticlayout-proxy:1.0@jar" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-ads-lite-11.8.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-ads-lite-license-11.8.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.2" level="project" />
-    <orderEntry type="library" name="com.android.support:support-vector-drawable-25.3.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-messaging-15.0.0" level="project" />
-    <orderEntry type="library" name="com.android.support:customtabs-25.3.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-iid-15.0.0" level="project" />
-    <orderEntry type="library" name="com.drewnoakes:metadata-extractor:2.9.1@jar" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-base-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.zxing:core:3.2.1@jar" level="project" />
-    <orderEntry type="library" name="javax.inject:javax.inject:1@jar" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-gass-license-11.8.0" level="project" />
     <orderEntry type="library" name="com.parse.bolts:bolts-applinks:1.4.0@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-basement-11.0.4" level="project" />
     <orderEntry type="library" name="com.google.code.findbugs:jsr305:3.0.0@jar" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:okhttp-urlconnection:3.4.1@jar" level="project" />
     <orderEntry type="library" name="com.facebook.soloader:soloader-0.1.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-iid-11.0.4" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-25.3.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-25.3.0" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:fresco-1.0.1" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-ads-license-11.8.0" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:imagepipeline-okhttp3-1.0.1" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-tasks-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-measurement-base-15.0.0" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-maps-15.0.0" level="project" />
+    <orderEntry type="library" name="com.facebook.fresco:imagepipeline-1.0.1" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.4.1@jar" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.3.0" level="project" />
+    <orderEntry type="library" name="com.facebook.fresco:fbcore-1.0.1" level="project" />
     <orderEntry type="library" name="com.parse.bolts:bolts-android:1.4.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-25.3.0" level="project" />
+    <orderEntry type="library" name="com.facebook.fresco:drawee-1.0.1" level="project" />
+    <orderEntry type="library" name="me.leolin:ShortcutBadger-1.1.17" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-tasks-11.0.4" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-25.3.0" level="project" />
+    <orderEntry type="library" name="com.facebook.fbui.textlayoutbuilder:staticlayout-proxy:1.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-annotations:25.3.0@jar" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-core-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-ads-identifier-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-gass-11.8.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-messaging-11.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-common-11.0.4" level="project" />
+    <orderEntry type="library" name="com.android.support:support-vector-drawable-25.3.0" level="project" />
     <orderEntry type="library" name="com.facebook.fbui.textlayoutbuilder:textlayoutbuilder-1.0.0" level="project" />
     <orderEntry type="library" name="org.webkit:android-jsc-r174650" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-auth-15.0.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-common-15.0.0" level="project" />
     <orderEntry type="library" name="com.facebook.android:facebook-android-sdk-4.22.1" level="project" />
     <orderEntry type="library" name="com.squareup.okio:okio:1.9.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:customtabs-25.3.0" level="project" />
     <orderEntry type="module" module-name="react-native-camera" />
     <orderEntry type="module" module-name="react-native-fbsdk" />
-    <orderEntry type="module" module-name="RNAdMob" />
     <orderEntry type="module" module-name="react-native-maps" />
     <orderEntry type="module" module-name="react-native-vector-icons" />
     <orderEntry type="module" module-name="react-native-google-signin" />
     <orderEntry type="module" module-name="react-native-image-picker" />
-    <orderEntry type="module" module-name="react-native-admob" />
     <orderEntry type="module" module-name="react-native-fcm" />
   </component>
 </module>

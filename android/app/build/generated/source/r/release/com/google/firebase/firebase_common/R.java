@@ -7,4 +7,101 @@
 package com.google.firebase.firebase_common;
 
 public final class R {
+    public static final class bool {
+        public static final int abc_action_bar_embed_tabs = 0x7f0a0000;
+    }
+    public static final class color {
+        public static final int notification_action_color_filter = 0x7f0b0000;
+        public static final int notification_icon_bg_color = 0x7f0b0048;
+        public static final int notification_material_background_media_default_color = 0x7f0b0049;
+        public static final int primary_text_default_material_dark = 0x7f0b004e;
+        public static final int ripple_material_light = 0x7f0b0053;
+        public static final int secondary_text_default_material_dark = 0x7f0b0054;
+        public static final int secondary_text_default_material_light = 0x7f0b0055;
+    }
+    public static final class dimen {
+        public static final int notification_action_icon_size = 0x7f080071;
+        public static final int notification_action_text_size = 0x7f080072;
+        public static final int notification_big_circle_margin = 0x7f080073;
+        public static final int notification_content_margin_start = 0x7f080012;
+        public static final int notification_large_icon_height = 0x7f080074;
+        public static final int notification_large_icon_width = 0x7f080075;
+        public static final int notification_main_column_padding_top = 0x7f080013;
+        public static final int notification_media_narrow_margin = 0x7f080014;
+        public static final int notification_right_icon_size = 0x7f080076;
+        public static final int notification_right_side_padding_top = 0x7f080010;
+        public static final int notification_small_icon_background_padding = 0x7f080077;
+        public static final int notification_small_icon_size_as_large = 0x7f080078;
+        public static final int notification_subtext_size = 0x7f080079;
+        public static final int notification_top_pad = 0x7f08007a;
+        public static final int notification_top_pad_large_text = 0x7f08007b;
+    }
+    public static final class drawable {
+        public static final int notification_action_background = 0x7f02008e;
+        public static final int notification_bg = 0x7f02008f;
+        public static final int notification_bg_low = 0x7f020090;
+        public static final int notification_bg_low_normal = 0x7f020091;
+        public static final int notification_bg_low_pressed = 0x7f020092;
+        public static final int notification_bg_normal = 0x7f020093;
+        public static final int notification_bg_normal_pressed = 0x7f020094;
+        public static final int notification_icon_background = 0x7f020095;
+        public static final int notification_template_icon_bg = 0x7f020098;
+        public static final int notification_template_icon_low_bg = 0x7f020099;
+        public static final int notification_tile_bg = 0x7f020096;
+        public static final int notify_panel_notification_icon_bg = 0x7f020097;
+    }
+    public static final class id {
+        public static final int action0 = 0x7f0c0088;
+        public static final int action_container = 0x7f0c0085;
+        public static final int action_divider = 0x7f0c008c;
+        public static final int action_image = 0x7f0c0086;
+        public static final int action_text = 0x7f0c0087;
+        public static final int actions = 0x7f0c0095;
+        public static final int cancel_action = 0x7f0c0089;
+        public static final int chronometer = 0x7f0c0091;
+        public static final int end_padder = 0x7f0c009b;
+        public static final int icon = 0x7f0c004c;
+        public static final int icon_group = 0x7f0c0096;
+        public static final int info = 0x7f0c0092;
+        public static final int line1 = 0x7f0c0097;
+        public static final int line3 = 0x7f0c0099;
+        public static final int media_actions = 0x7f0c008b;
+        public static final int normal = 0x7f0c000a;
+        public static final int notification_background = 0x7f0c0093;
+        public static final int notification_main_column = 0x7f0c008e;
+        public static final int notification_main_column_container = 0x7f0c008d;
+        public static final int right_icon = 0x7f0c0094;
+        public static final int right_side = 0x7f0c008f;
+        public static final int status_bar_latest_event_content = 0x7f0c008a;
+        public static final int text = 0x7f0c009a;
+        public static final int text2 = 0x7f0c0098;
+        public static final int time = 0x7f0c0090;
+        public static final int title = 0x7f0c004d;
+    }
+    public static final class integer {
+        public static final int cancel_button_image_alpha = 0x7f0d0002;
+        public static final int google_play_services_version = 0x7f0d0003;
+        public static final int status_bar_notification_info_maxnum = 0x7f0d0004;
+    }
+    public static final class layout {
+        public static final int notification_action = 0x7f040029;
+        public static final int notification_action_tombstone = 0x7f04002a;
+        public static final int notification_media_action = 0x7f04002b;
+        public static final int notification_media_cancel_action = 0x7f04002c;
+        public static final int notification_template_big_media = 0x7f04002d;
+        public static final int notification_template_big_media_custom = 0x7f04002e;
+        public static final int notification_template_big_media_narrow = 0x7f04002f;
+        public static final int notification_template_big_media_narrow_custom = 0x7f040030;
+        public static final int notification_template_custom_big = 0x7f040031;
+        public static final int notification_template_icon_group = 0x7f040032;
+        public static final int notification_template_lines_media = 0x7f040033;
+        public static final int notification_template_media = 0x7f040034;
+        public static final int notification_template_media_custom = 0x7f040035;
+        public static final int notification_template_part_chronometer = 0x7f040036;
+        public static final int notification_template_part_time = 0x7f040037;
+    }
+    public static final class string {
+        public static final int common_google_play_services_unknown_issue = 0x7f070031;
+        public static final int status_bar_notification_info_overflow = 0x7f07003e;
+    }
 }

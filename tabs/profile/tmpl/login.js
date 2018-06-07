@@ -77,7 +77,7 @@ class LoginView extends Component {
       return (
         <View style={styles.container}>
           <Loading close={self._closeBtn.bind(this)} visible={self.state.showActivitiIndicator} />
-            <View style={styles.loginBtn}>
+          <View style={styles.loginBtn}>
               <Icon.Button onPress={()=>self.facebookLogin()} name="facebook" backgroundColor="#4267b2">
                 Login with Facebook
               </Icon.Button>
