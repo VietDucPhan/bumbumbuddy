@@ -1,6 +1,7 @@
 android/support/customtabs/CustomTabsIntent$Builder.class
 com/facebook/react/views/imagehelper/ResourceDrawableIdHelper.class
 com/facebook/react/uimanager/ViewManagersPropertyCache$PropSetter.class
+com/google/android/gms/internal/clearcut/zzge$zzq$zzb.class
 android/support/annotation/VisibleForTesting.class
 com/facebook/react/modules/camera/CameraRollManager$GetPhotosTask.class
 com/google/android/gms/common/wrappers/Wrappers.class
@@ -15,8 +16,10 @@ com/facebook/react/flat/FontStylingSpan.class
 com/facebook/imagepipeline/producers/BaseNetworkFetcher.class
 com/facebook/imagepipeline/datasource/SettableDataSource.class
 com/facebook/common/internal/Objects.class
+com/google/android/cameraview/CameraView$Flash.class
 javax/annotation/WillCloseWhenClosed.class
 javax/annotation/meta/TypeQualifierValidator.class
+android/support/media/ExifInterface$ByteOrderedDataInputStream.class
 com/facebook/react/animated/AnimatedNode.class
 com/facebook/react/modules/statusbar/StatusBarModule.class
 com/airbnb/android/react/maps/AirMapMarkerManager.class
@@ -27,10 +30,11 @@ android/support/multidex/MultiDexExtractor.class
 android/support/v4/media/MediaBrowserCompat$Subscription.class
 android/support/v4/app/NotificationCompatBase$UnreadConversation.class
 com/google/android/gms/common/annotation/KeepForSdkWithMembers.class
-com/drew/metadata/exif/ExifThumbnailDirectory.class
 com/google/android/gms/common/internal/BaseGmsClient.class
+com/drew/metadata/exif/ExifThumbnailDirectory.class
 com/facebook/react/modules/timepicker/TimePickerDialogModule.class
 com/facebook/react/cxxbridge/CatalystInstanceImpl$Builder.class
+org/reactnative/camera/CameraModule.class
 com/facebook/react/flat/PipelineRequestHelper.class
 android/support/v4/net/ConnectivityManagerCompat$JellyBeanConnectivityManagerCompatImpl.class
 com/facebook/appevents/AppEventsConstants.class
@@ -97,8 +101,8 @@ android/support/annotation/Nullable.class
 com/facebook/react/modules/dialog/AlertFragment.class
 android/support/v4/view/ViewCompat$Api24ViewCompatImpl.class
 com/facebook/reactnative/androidsdk/FBLoginButtonManager.class
-com/facebook/share/widget/JoinAppGroupDialog.class
 com/facebook/react/bridge/DynamicFromArray.class
+com/facebook/share/widget/JoinAppGroupDialog.class
 com/google/android/gms/common/server/BaseApi.class
 com/facebook/reactnative/androidsdk/FBAppEventsLoggerModule.class
 com/facebook/react/modules/core/DeviceEventManagerModule.class
@@ -109,6 +113,7 @@ android/support/v7/app/AppCompatCallback.class
 android/support/v4/app/NotificationCompatBase$Action.class
 com/facebook/react/flat/FlatUIViewOperationQueue$ViewManagerCommand.class
 com/google/android/gms/common/util/DbUtils.class
+android/support/media/ExifInterface$ExifTag.class
 com/facebook/react/uimanager/UIViewOperationQueue.class
 android/support/v7/view/menu/MenuPresenter$Callback.class
 android/support/v4/widget/SlidingPaneLayout.class
@@ -148,10 +153,12 @@ com/facebook/react/uimanager/SizeMonitoringFrameLayout.class
 com/facebook/drawee/drawable/ScalingUtils.class
 android/support/v4/view/AccessibilityDelegateCompat.class
 com/facebook/react/modules/core/JSTimersExecution.class
+com/google/android/gms/phenotype/PhenotypeFlag.class
 com/airbnb/android/react/maps/AirMapPolygonManager.class
 android/support/annotation/StringRes.class
 android/support/v4/app/NotificationCompatBase$UnreadConversation$Factory.class
 com/google/android/gms/common/GoogleApiAvailabilityLight.class
+com/google/android/gms/flags/FlagSource.class
 android/support/v4/app/NotificationCompatKitKat$Builder.class
 android/support/annotation/AnyRes.class
 android/support/v4/view/ViewCompat$BaseViewCompatImpl.class
@@ -173,6 +180,7 @@ android/support/v4/view/NestedScrollingChild.class
 android/support/v4/view/animation/LookupTableInterpolator.class
 com/facebook/react/bridge/BaseJavaModule.class
 com/facebook/react/flat/FlatUIViewOperationQueue$UpdateClippingMountState.class
+org/reactnative/camera/RNCameraPackage.class
 com/google/zxing/EncodeHintType.class
 com/facebook/imagepipeline/producers/MediaVariationsIndexDatabase$LazyIndexDbOpenHelper.class
 android/support/v4/media/session/MediaSessionCompat$2.class
@@ -181,6 +189,7 @@ android/support/v4/app/NotificationBuilderWithBuilderAccessor.class
 com/google/android/gms/common/GooglePlayServicesUtil.class
 com/facebook/react/uimanager/UIViewOperationQueue$CreateViewOperation.class
 com/facebook/imagepipeline/memory/Bucket.class
+com/google/android/gms/internal/clearcut/zzbn.class
 com/facebook/react/uimanager/UIImplementationProvider.class
 android/support/v7/widget/LinearLayoutCompat$DividerMode.class
 com/facebook/imagepipeline/image/EncodedImage.class
@@ -202,6 +211,8 @@ android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
 com/facebook/react/bridge/CatalystInstance.class
 com/facebook/yoga/YogaNode.class
 com/lwansbrough/RCTCamera/RCTCameraViewManager.class
+org/reactnative/camera/CameraViewManager.class
+com/google/android/cameraview/DisplayOrientationDetector.class
 android/support/v7/app/ActionBarActivity.class
 com/facebook/react/flat/FlatUIViewOperationQueue$UpdateMountState.class
 android/support/v4/net/ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl.class
@@ -239,6 +250,7 @@ android/support/v4/app/ServiceCompat.class
 android/support/annotation/FloatRange.class
 android/support/v4/view/ViewPager$MyAccessibilityDelegate.class
 android/support/v4/app/NotificationCompat$MessagingStyle.class
+com/google/android/cameraview/Camera1.class
 android/support/annotation/StringDef.class
 com/facebook/react/flat/TextNodeRegion.class
 android/support/v4/media/RatingCompatKitkat.class
@@ -279,6 +291,7 @@ com/facebook/react/modules/dialog/DialogModule$FragmentManagerHelper.class
 com/facebook/react/animated/ValueAnimatedNode.class
 android/support/v4/view/PagerAdapter.class
 android/support/v4/app/NotificationCompatApi21.class
+com/google/android/cameraview/TextureViewPreview.class
 com/facebook/react/flat/FlatARTSurfaceViewShadowNode.class
 com/google/android/gms/common/util/RetainForClient.class
 android/support/v4/view/ViewPager$3.class
@@ -296,6 +309,7 @@ com/facebook/react/animated/NativeAnimatedModule.class
 com/facebook/react/modules/core/DeviceEventManagerModule$RCTDeviceEventEmitter.class
 android/support/annotation/BoolRes.class
 com/facebook/react/bridge/ReactMarker.class
+org/reactnative/facedetector/FaceDetectorModule.class
 android/support/v4/media/MediaMetadataCompat.class
 me/leolin/shortcutbadger/impl/LGHomeBadger.class
 android/support/v4/media/RatingCompat$1.class
@@ -304,6 +318,7 @@ com/facebook/drawee/view/DraweeHolder.class
 android/support/v7/view/menu/MenuAdapter.class
 android/support/v4/media/MediaMetadataCompatApi21.class
 com/facebook/react/views/drawer/ReactDrawerLayoutManager.class
+com/google/android/cameraview/Constants.class
 com/facebook/react/views/art/ARTSurfaceViewManager.class
 android/support/annotation/IntegerRes.class
 com/facebook/react/flat/RCTTextInlineImage.class
@@ -325,6 +340,7 @@ com/facebook/react/modules/debug/SourceCodeModule.class
 android/support/v4/app/NotificationCompat$WearableExtender.class
 com/google/android/gms/common/annotation/KeepName.class
 com/facebook/react/devsupport/DevSupportManagerImpl.class
+android/support/media/ExifInterface.class
 javax/annotation/WillNotClose.class
 com/google/android/gms/common/Feature.class
 android/support/v4/app/NotificationCompatJellybean.class
@@ -337,6 +353,7 @@ com/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable.class
 android/support/v4/view/ViewCompatJB.class
 javax/inject/Named.class
 com/facebook/react/cxxbridge/ProxyJavaScriptExecutor.class
+com/google/android/cameraview/CameraView$Facing.class
 com/google/android/gms/common/GoogleApiAvailability.class
 android/support/v7/app/ActionBar$NavigationMode.class
 com/facebook/imagepipeline/producers/PostprocessorProducer$RepeatedPostprocessorConsumer.class
@@ -351,7 +368,9 @@ android/support/annotation/RequiresPermission.class
 com/google/android/gms/common/config/GservicesValue.class
 com/facebook/imagepipeline/core/ImagePipelineConfig.class
 com/facebook/react/modules/datepicker/DatePickerDialogModule.class
+com/google/android/cameraview/CameraView$CallbackBridge.class
 com/facebook/react/bridge/BaseJavaModule$ArgumentExtractor.class
+com/google/android/cameraview/CameraView$Callback.class
 android/support/v4/app/NotificationCompat$Action.class
 android/support/v4/widget/MaterialProgressDrawable$Ring.class
 com/facebook/drawee/backends/pipeline/DraweeConfig.class
@@ -390,6 +409,7 @@ android/support/annotation/RestrictTo.class
 android/support/v4/view/ViewConfigurationCompat.class
 com/facebook/react/views/view/ReactViewManager.class
 com/facebook/datasource/AbstractDataSource.class
+android/support/media/ExifInterface$1.class
 android/support/v4/view/ViewCompat$FocusDirection.class
 com/google/android/gms/common/util/Strings.class
 com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.class
@@ -411,6 +431,7 @@ android/support/v4/media/session/MediaSessionCompat$SessionFlags.class
 android/support/v4/app/NotificationCompat$MessagingStyle$Message.class
 android/support/v4/view/ViewCompat$ICSMr1ViewCompatImpl.class
 android/support/v4/app/NotificationCompat$Builder.class
+com/google/android/gms/internal/clearcut/zzae.class
 android/support/v4/net/ConnectivityManagerCompat$RestrictBackgroundStatus.class
 android/support/v4/content/PermissionChecker.class
 android/support/v7/app/AppCompatDelegateImplV11.class
@@ -431,6 +452,7 @@ com/facebook/react/views/textinput/ReactEditText.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImpl.class
 android/support/multidex/MultiDex$V14.class
 com/imagepicker/ImagePickerModule.class
+android/support/media/ExifInterface$IfdType.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImpl.class
 com/facebook/react/views/image/ImageLoadEvent.class
 com/google/android/gms/internal/auth/zzbr.class
@@ -460,9 +482,11 @@ com/facebook/infer/annotation/SuppressReturnOverAnnotated.class
 com/facebook/react/modules/i18nmanager/I18nManagerModule.class
 android/support/v4/app/NotificationCompat$NotificationCompatImplJellybean.class
 com/facebook/react/flat/FlatUIImplementation.class
+com/google/android/gms/vision/CameraSource$zze.class
 com/facebook/react/views/scroll/ReactScrollView.class
 com/google/android/gms/auth/account/WorkAccount.class
 com/facebook/drawee/generic/RootDrawable.class
+com/google/android/gms/phenotype/zzm.class
 android/support/v4/app/RemoteInput.class
 com/google/android/gms/common/internal/safeparcel/SafeParcelable.class
 com/facebook/react/cxxbridge/CatalystInstanceImpl.class
@@ -512,6 +536,7 @@ com/facebook/internal/CallbackManagerImpl$RequestCodeOffset.class
 android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 com/facebook/react/modules/dialog/DialogModule.class
 android/support/v4/widget/MaterialProgressDrawable.class
+com/google/android/cameraview/CameraViewImpl$Callback.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
 android/support/v4/media/MediaMetadataCompat$Builder.class
 com/facebook/react/modules/permissions/PermissionsModule.class
@@ -521,7 +546,6 @@ android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
 com/facebook/imagepipeline/cache/MemoryCache.class
 com/google/android/gms/auth/api/signin/SignInAccount.class
 com/facebook/react/uimanager/ReactStylesDiffMap.class
-com/lwansbrough/RCTCamera/RCTCameraPackage.class
 com/facebook/react/uimanager/TouchTargetHelper.class
 android/support/v4/text/TextDirectionHeuristicCompat.class
 com/facebook/react/modules/toast/ToastModule.class
@@ -541,6 +565,7 @@ android/support/v4/view/AbsSavedState.class
 android/support/v4/app/NotificationCompatApi20$Builder.class
 android/support/v4/util/LruCache.class
 android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper.class
+com/google/android/cameraview/PreviewImpl.class
 android/support/v4/app/TaskStackBuilder.class
 com/facebook/reactnative/androidsdk/FBMessageDialogModule.class
 com/facebook/react/modules/camera/ImageEditingManager.class
@@ -558,6 +583,7 @@ android/support/v4/view/ViewCompatICS.class
 com/facebook/react/uimanager/events/EventDispatcher.class
 com/facebook/react/common/futures/SimpleSettableFuture.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
+com/google/android/gms/internal/clearcut/zzfr.class
 android/support/v4/media/RatingCompat$StarStyle.class
 com/facebook/reactnative/androidsdk/FBGraphRequestModule.class
 com/facebook/react/uimanager/DisplayMetricsHolder.class
@@ -584,6 +610,7 @@ com/facebook/react/bridge/BaseJavaModule$JavaMethod.class
 android/support/v4/app/RemoteInputCompatBase$RemoteInput.class
 com/google/android/gms/auth/api/credentials/zzf.class
 com/google/android/gms/common/ConnectionResult.class
+com/google/android/cameraview/AspectRatio.class
 com/facebook/react/module/annotations/ReactModuleList.class
 android/support/v7/view/menu/CascadingMenuPopup$HorizPosition.class
 com/google/android/gms/common/internal/safeparcel/SafeParcelReader.class
@@ -622,11 +649,13 @@ com/facebook/react/bridge/queue/ReactQueueConfigurationSpec$Builder.class
 com/facebook/react/ReactNativeHost.class
 com/facebook/react/flat/StateBuilder.class
 com/google/firebase/messaging/RemoteMessage$Builder.class
+com/google/android/cameraview/SurfaceViewPreview.class
 com/facebook/infer/annotation/Assertions.class
 android/support/v4/content/PermissionChecker$PermissionResult.class
 android/support/v7/app/AppCompatDelegateImplV9.class
 android/support/v4/view/ViewCompatJellybeanMr1.class
 com/facebook/react/flat/InlineImageSpanWithPipeline.class
+com/google/android/cameraview/Camera2Api23.class
 com/google/android/gms/measurement/AppMeasurement.class
 com/google/android/gms/common/api/internal/TaskUtil.class
 android/support/v7/appcompat/R$styleable.class
@@ -637,8 +666,8 @@ android/support/multidex/MultiDexApplication.class
 javax/annotation/Nullable.class
 com/facebook/imageformat/ImageFormatChecker.class
 com/facebook/react/devsupport/RedBoxDialog.class
-com/facebook/imagepipeline/datasource/ListDataSource.class
 com/facebook/drawee/drawable/RoundedBitmapDrawable.class
+com/facebook/imagepipeline/datasource/ListDataSource.class
 com/facebook/react/bridge/ReactContext.class
 com/google/android/gms/auth/api/Auth$AuthCredentialsOptions$Builder.class
 com/google/android/gms/common/GoogleCertificatesQuery.class
@@ -654,6 +683,7 @@ android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 android/support/v4/widget/SearchViewCompat$OnCloseListenerCompat.class
 com/facebook/react/uimanager/ViewManagersPropertyCache$BoxedIntPropSetter.class
 com/facebook/react/animated/NativeAnimatedNodesManager.class
+com/google/android/gms/phenotype/Phenotype.class
 android/support/v4/app/NotificationCompat$NotificationCompatImplBase.class
 android/support/v7/view/menu/CascadingMenuPopup$CascadingMenuInfo.class
 com/facebook/react/common/LifecycleState.class
@@ -667,6 +697,7 @@ com/google/zxing/common/BitMatrix.class
 com/facebook/drawee/generic/WrappingUtils.class
 com/facebook/BuildConfig.class
 com/facebook/react/modules/network/ForwardingCookieHandler.class
+com/google/android/cameraview/CameraViewImpl.class
 com/facebook/datasource/DataSource.class
 android/support/v4/util/ContainerHelpers.class
 android/support/annotation/NonNull.class
@@ -686,6 +717,7 @@ com/facebook/infer/annotation/Present.class
 android/support/v4/view/ViewPager$DecorView.class
 com/facebook/react/modules/datepicker/SupportDatePickerDialogFragment.class
 android/support/v7/widget/TintTypedArray.class
+com/google/android/cameraview/Camera2.class
 com/facebook/imagepipeline/request/Postprocessor.class
 com/oblador/vectoricons/VectorIconsModule.class
 android/support/v4/view/ViewCompat$LollipopViewCompatImpl$1.class
@@ -720,6 +752,7 @@ com/bumbumbuddy/MainApplication.class
 android/support/v4/view/ViewCompatLollipop.class
 android/support/v4/widget/CursorAdapter.class
 com/facebook/react/modules/network/NetworkingModule.class
+com/google/android/cameraview/CameraView$1.class
 com/google/android/gms/common/data/ConcatenatedDataBuffer.class
 com/facebook/react/devsupport/interfaces/DevSupportManager.class
 com/facebook/imagepipeline/producers/BaseProducerContext.class
@@ -795,6 +828,7 @@ android/support/multidex/MultiDex$V4.class
 android/support/v4/view/OnApplyWindowInsetsListener.class
 com/facebook/react/views/art/ARTTextViewManager.class
 com/facebook/react/views/text/frescosupport/FrescoBasedReactTextInlineImageShadowNode.class
+com/google/android/cameraview/CameraView$SavedState.class
 com/facebook/react/modules/core/ExceptionsManagerModule.class
 javax/annotation/Signed.class
 com/facebook/react/common/ApplicationHolder.class
@@ -814,6 +848,7 @@ com/facebook/react/packagerconnection/PackagerConnectionSettings.class
 android/support/v4/app/RemoteInputCompatBase$RemoteInput$Factory.class
 android/support/v4/media/session/PlaybackStateCompat.class
 javax/annotation/Untainted.class
+android/support/media/ExifInterface$Rational.class
 android/support/v4/view/ViewCompat$FocusRelativeDirection.class
 com/google/android/gms/common/internal/safeparcel/SafeParcelable$Constructor.class
 com/facebook/imagepipeline/common/ResizeOptions.class
@@ -855,8 +890,8 @@ com/facebook/react/modules/clipboard/ClipboardModule.class
 com/google/android/gms/stats/CodePackage.class
 android/support/v4/view/ViewCompatICSMr1.class
 com/facebook/react/modules/debug/FpsDebugFrameCallback.class
-com/facebook/share/model/ShareMedia.class
 com/facebook/react/modules/fresco/FrescoModule.class
+com/facebook/share/model/ShareMedia.class
 com/facebook/react/flat/RCTTextInput.class
 android/support/v7/appcompat/R$dimen.class
 android/support/v4/app/FragmentManager.class
@@ -874,6 +909,7 @@ android/support/v7/app/ActionBar$DisplayOptions.class
 android/support/v4/app/NotificationCompat$CarExtender.class
 com/facebook/react/devsupport/WebsocketJavaScriptExecutor$JSExecutorCallbackFuture.class
 com/facebook/infer/annotation/SuppressFieldNotInitialized.class
+com/google/android/cameraview/CameraView.class
 android/support/v4/media/RatingCompat.class
 android/support/v4/view/accessibility/AccessibilityNodeInfoCompat.class
 com/facebook/react/uimanager/ThemedReactContext.class
@@ -904,6 +940,7 @@ com/facebook/infer/annotation/SuppressParameterNotNullable.class
 android/support/v4/widget/SwipeRefreshLayout.class
 android/support/v4/media/session/PlaybackStateCompatApi22.class
 android/support/v4/content/ContextCompat.class
+android/support/media/ExifInterface$ByteOrderedDataOutputStream.class
 com/facebook/react/flat/FlatShadowNode.class
 com/facebook/drawee/drawable/ScalingUtils$InterpolatingScaleType.class
 com/facebook/react/views/imagehelper/ImageSource.class
@@ -917,6 +954,8 @@ com/facebook/react/views/view/ReactViewBackgroundDrawable.class
 com/facebook/react/flat/ClippingDrawCommandManager.class
 com/google/android/gms/ads/identifier/AdvertisingIdClient.class
 android/support/v4/net/ConnectivityManagerCompatJellyBean.class
+com/google/android/cameraview/Size.class
+android/support/media/ExifInterface$ExifAttribute.class
 com/facebook/react/uimanager/ReactShadowNode.class
 com/facebook/react/flat/RCTText.class
 com/facebook/react/modules/network/ReactCookieJarContainer.class
@@ -935,6 +974,7 @@ android/support/v4/view/MotionEventCompat.class
 com/facebook/share/widget/JoinAppGroupDialog$Result.class
 android/support/v4/app/ServiceCompatApi24.class
 android/support/v4/util/PatternsCompat.class
+com/google/android/gms/clearcut/ClearcutLogger.class
 com/facebook/react/ReactInstanceManager.class
 android/support/v4/media/VolumeProviderCompat$Callback.class
 com/google/android/gms/common/api/CommonStatusCodes.class
