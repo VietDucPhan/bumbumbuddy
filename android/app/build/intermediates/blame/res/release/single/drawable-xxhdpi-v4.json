@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
         "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.22.1.aar/58bae967933ec9fd98f0ecc64151c7e6/res/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",

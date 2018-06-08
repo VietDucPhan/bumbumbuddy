@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/81b98e6f233f7ac400b2e36c195beea5/res/values-pl/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "98",
-                        "endOffsets": "303"
-                    },
-                    "to": {
-                        "startLines": "61",
-                        "startColumns": "4",
-                        "startOffsets": "6904",
-                        "endColumns": "102",
-                        "endOffsets": "7002"
-                    }
-                },
-                {
                     "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4f2bb1f00792832c0558a8b8f56f6271/res/values-pl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -86,6 +69,23 @@
                         "startOffsets": "2077,2223,2339,2478,2573,2642,2715,2775,2847,2924,3035,3133,3211,3289,3375,3478,3543,3613,3774,3852,3936,4028,7007",
                         "endColumns": "145,115,138,94,68,72,59,71,76,110,97,77,77,85,102,64,69,160,77,83,91,134,61",
                         "endOffsets": "2218,2334,2473,2568,2637,2710,2770,2842,2919,3030,3128,3206,3284,3370,3473,3538,3608,3769,3847,3931,4023,4158,7064"
+                    }
+                },
+                {
+                    "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/res/values-pl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "98",
+                        "endOffsets": "303"
+                    },
+                    "to": {
+                        "startLines": "61",
+                        "startColumns": "4",
+                        "startOffsets": "6904",
+                        "endColumns": "102",
+                        "endOffsets": "7002"
                     }
                 }
             ]
@@ -111,23 +111,6 @@
                     }
                 },
                 {
-                    "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/81b98e6f233f7ac400b2e36c195beea5/res/values-pl/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "98",
-                        "endOffsets": "303"
-                    },
-                    "to": {
-                        "startLines": "61",
-                        "startColumns": "4",
-                        "startOffsets": "6904",
-                        "endColumns": "102",
-                        "endOffsets": "7002"
-                    }
-                },
-                {
                     "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4f2bb1f00792832c0558a8b8f56f6271/res/values-pl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -176,6 +159,23 @@
                         "startOffsets": "2077,2223,2339,2478,2573,2642,2715,2775,2847,2924,3035,3133,3211,3289,3375,3478,3543,3613,3774,3852,3936,4028,7007",
                         "endColumns": "145,115,138,94,68,72,59,71,76,110,97,77,77,85,102,64,69,160,77,83,91,134,61",
                         "endOffsets": "2218,2334,2473,2568,2637,2710,2770,2842,2919,3030,3128,3206,3284,3370,3473,3538,3608,3769,3847,3931,4023,4158,7064"
+                    }
+                },
+                {
+                    "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/res/values-pl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "98",
+                        "endOffsets": "303"
+                    },
+                    "to": {
+                        "startLines": "61",
+                        "startColumns": "4",
+                        "startOffsets": "6904",
+                        "endColumns": "102",
+                        "endOffsets": "7002"
                     }
                 }
             ]

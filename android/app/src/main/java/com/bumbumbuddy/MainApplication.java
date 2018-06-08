@@ -2,26 +2,26 @@ package com.bumbumbuddy;
 
 import android.app.Application;
 
-import com.facebook.BuildConfig;
-import com.facebook.react.ReactApplication;
-import com.evollu.react.fcm.FIRMessagingPackage;
-import com.imagepicker.ImagePickerPackage;
-import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.airbnb.android.react.maps.MapsPackage;
-import com.facebook.reactnative.androidsdk.FBSDKPackage;
-import co.apptailor.googlesignin.RNGoogleSigninPackage;
-import com.oblador.vectoricons.VectorIconsPackage;
+import com.evollu.react.fcm.FIRMessagingPackage;
+import com.facebook.BuildConfig;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookSdk;
+import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
-import com.facebook.soloader.SoLoader;
-import com.facebook.CallbackManager;
-import com.facebook.FacebookSdk;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
-import com.facebook.appevents.AppEventsLogger;
+import com.facebook.soloader.SoLoader;
+import com.imagepicker.ImagePickerPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
+
+import org.reactnative.camera.RNCameraPackage;
 
 import java.util.Arrays;
 import java.util.List;
+
+import co.apptailor.googlesignin.RNGoogleSigninPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -41,14 +41,14 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new FIRMessagingPackage(),
-            new ImagePickerPackage(),
-            new RCTCameraPackage(),
-            new MapsPackage(),
-            new FBSDKPackage(mCallbackManager),
-            new RNGoogleSigninPackage(),
-            new VectorIconsPackage()
+              new MainReactPackage(),
+              new FIRMessagingPackage(),
+              new ImagePickerPackage(),
+              new RNCameraPackage(),
+              new MapsPackage(),
+              new FBSDKPackage(mCallbackManager),
+              new RNGoogleSigninPackage(),
+              new VectorIconsPackage()
       );
     }
   };
