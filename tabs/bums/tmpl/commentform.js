@@ -18,6 +18,7 @@ import {
   Button,
   Alert,
   Picker,
+  Modal,
   ActivityIndicator
  } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -26,6 +27,7 @@ import BumsLib from '../../../libs/Bums';
 import UploadLib from '../../../libs/Upload';
 import CacheLib from '../../../libs/Cache';
 import Loading from '../../../commons/loading';
+import MediaMeta from 'react-native-media-meta';
 var UploadModel = new UploadLib();
 var BumsModel = new BumsLib();
 var Cache = new CacheLib();
@@ -166,7 +168,10 @@ class CommentForm extends Component {
       quality: 1.0,
       maxWidth: 800,
       maxHeight: 800,
-      customButtons: [],
+      mediaType:"video",
+      customButtons: [
+        {name:'recordVideo',title:'Record video'}
+      ],
       storageOptions: {
         skipBackup: true,
         path: 'images'
@@ -176,7 +181,7 @@ class CommentForm extends Component {
       options.customButtons.push({name: 'Remove', title: 'Remove image'});
     }
     ImagePicker.showImagePicker(options, (response) => {
-      //console.log('Response = ', response);
+      console.log('Response = ', response);
 
       if (response.didCancel) {
         console.log('User cancelled image picker');
@@ -188,12 +193,25 @@ class CommentForm extends Component {
         self.setState({
           imageSource:null
         });
-      }
-      else {
+
+        //console.log("customButton",response.customButton);
+        if(response.customButton == "recordVideo"){
+          self.props.navigation.navigate("CameraStack");
+        }
+        
+
+      } else {
         let source = { uri: 'data:image/jpeg;base64,' + response.data };
         self.setState({
           imageSource:source
         });
+
+        MediaMeta.get(response.path)
+          .then(metadata => {
+            metadata.thumb = null;
+            console.log(metadata)
+          })
+          .catch(err => console.error(err));
 
         // You can also display the image using data:
         // let source = { uri: 'data:image/jpeg;base64,' + response.data };

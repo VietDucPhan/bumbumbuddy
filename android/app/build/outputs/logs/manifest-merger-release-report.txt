@@ -4,6 +4,7 @@ ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/mai
 INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
 INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
 INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:1:1-70:12
+MERGED from [:react-native-media-meta] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-media-meta/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-fcm] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-camera] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-20:12
@@ -20,6 +21,7 @@ MERGED from [com.google.android.gms:play-services-maps:15.0.0] /Users/ducphan/.g
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e6e60751d00f58e654cf268da19684dd/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/63a6eb6809d56bc666e10b397a93d7e3/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/21a29f6d20fd6d7c081dce0c8bdb0d22/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-messaging:17.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/AndroidManifest.xml:17:1-37:12
 MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:2:1-52:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:17:1-28:12
@@ -137,6 +139,8 @@ uses-sdk
 ADDED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
 INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
 INJECTED from /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/src/main/AndroidManifest.xml:18:5-20:41
+MERGED from [:react-native-media-meta] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-media-meta/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-media-meta] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-media-meta/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fcm] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fcm] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-fcm/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] /Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
@@ -169,6 +173,8 @@ MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/ducphan/.gradle/ca
 MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/63a6eb6809d56bc666e10b397a93d7e3/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:multidex:1.0.2] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c4e3fa6cf87560917ba49a6de68d928d/AndroidManifest.xml:20:5-43
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/21a29f6d20fd6d7c081dce0c8bdb0d22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/21a29f6d20fd6d7c081dce0c8bdb0d22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-messaging:17.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/AndroidManifest.xml:20:5-44
 MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/30447ce8a9a2402b95c2ed06ad929194/AndroidManifest.xml:7:5-9:41
@@ -281,6 +287,8 @@ MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/ducphan/.g
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e6e60751d00f58e654cf268da19684dd/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/63a6eb6809d56bc666e10b397a93d7e3/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/63a6eb6809d56bc666e10b397a93d7e3/AndroidManifest.xml:7:5-20
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/21a29f6d20fd6d7c081dce0c8bdb0d22/AndroidManifest.xml:11:5-20
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/21a29f6d20fd6d7c081dce0c8bdb0d22/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-messaging:17.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.0.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1455cbaddbbb287fd4057b911dc5a0c7/AndroidManifest.xml:22:5-35:19
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ducphan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/9b4d079e8d088fd42d5e3765ef844914/AndroidManifest.xml:26:5-20

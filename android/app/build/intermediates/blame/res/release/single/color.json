@@ -8,12 +8,12 @@
         "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4f2bb1f00792832c0558a8b8f56f6271/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
         "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/88c5667232d5cdded6eef0696ef3a10f/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ducphan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4f2bb1f00792832c0558a8b8f56f6271/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Applications/XAMPP/xamppfiles/htdocs/bumbumbuddy/android/app/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",

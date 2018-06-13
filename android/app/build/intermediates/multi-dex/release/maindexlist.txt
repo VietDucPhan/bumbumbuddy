@@ -678,6 +678,7 @@ com/facebook/react/modules/timepicker/TimePickerDialogFragment.class
 com/google/android/gms/auth/api/credentials/CredentialPickerConfig$Prompt.class
 com/google/android/gms/auth/api/signin/GoogleSignInOptionsExtension.class
 bolts/AggregateException.class
+com/mybigday/rnmediameta/RNMediaMeta.class
 android/support/v7/widget/LinearLayoutCompat.class
 android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 android/support/v4/widget/SearchViewCompat$OnCloseListenerCompat.class
@@ -791,6 +792,7 @@ javax/inject/Singleton.class
 com/google/android/gms/common/data/FilteredDataBuffer.class
 com/facebook/drawee/interfaces/DraweeController.class
 android/support/v7/app/ActionBar$Tab.class
+com/mybigday/rnmediameta/RNMediaMetaPackage.class
 android/support/v7/view/menu/CascadingMenuPopup$2.class
 com/facebook/react/views/modal/ReactModalHostManager.class
 android/support/v4/view/ViewCompatKitKat.class

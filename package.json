@@ -24,6 +24,7 @@
     "react-native-google-signin": "0.10.0",
     "react-native-image-picker": "^0.26.3",
     "react-native-maps": "0.15.2",
+    "react-native-media-meta": "0.0.10",
     "react-native-vector-icons": "4.2.0",
     "react-navigation": "1.0.0-beta.11"
   }

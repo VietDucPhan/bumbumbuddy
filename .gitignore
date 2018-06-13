@@ -1,6 +1,4 @@
-.expo/
-npm-debug.*
-android/.gradle
+
 # Xcode
 !**/*.xcodeproj
 !**/*.pbxproj
