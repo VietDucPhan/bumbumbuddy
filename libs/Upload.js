@@ -3,6 +3,7 @@ import {
   AsyncStorage
 } from 'react-native';
 import Sha1 from './Sha1';
+import RNFetchBlob from 'react-native-fetch-blob';
 class Upload {
   constructor(){
   }
@@ -29,25 +30,19 @@ class Upload {
     var key = "timestamp=" + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
     var signature = Sha1.hash(key);
     //console.log("upload.imageUploadToCloud",mediaData);
-    fetch('https://api.cloudinary.com/v1_1/dsthiwwp4/image/upload', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        file: mediaData.uri,
-        api_key: '955818184181287',
-        timestamp:timestamp,
-        signature:signature
-      })
-    }).then((response) => response.json())
-      .then((responseJson) => {
-        return callback(responseJson);
-      })
-      .catch((error) => {
-        console.log("upload.imageUploadToCloud.error",error);
-        return callback({
+    RNFetchBlob.fetch('POST', 'https://api.cloudinary.com/v1_1/dsthiwwp4/image/upload',
+    {
+      'Content-Type': 'multipart/form-data',
+    },
+    [
+      { name: 'file', data: mediaData.uri },
+      {name: 'api_key', data: '955818184181287'},
+      {name: 'timestamp', data: timestamp.toString()},
+      {name: 'signature', data: signature}
+    ]).then((res) => {
+      return callback(responseJson);
+    }).catch((err) => {
+      return callback({
           errors:
           [
             {
@@ -58,8 +53,64 @@ class Upload {
             }
           ]
         });
+    });
+    // fetch('https://api.cloudinary.com/v1_1/dsthiwwp4/image/upload', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Accept': 'application/json',
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify({
+    //     file: mediaData.uri,
+    //     api_key: '955818184181287',
+    //     timestamp:timestamp,
+    //     signature:signature
+    //   })
+    // }).then((response) => response.json())
+    //   .then((responseJson) => {
+    //     return callback(responseJson);
+    //   })
+    //   .catch((error) => {
+    //     console.log("upload.imageUploadToCloud.error",error);
+    //     return callback({
+    //       errors:
+    //       [
+    //         {
+    //           status:'m009',
+    //           source:{pointer:"libs/upload.imageUploadToCloud"},
+    //           title:"Could not upload image",
+    //           detail:error.message
+    //         }
+    //       ]
+    //     });
 
-      });
+    //   });
+  }
+
+  videoUploadToCloud(mediaData,callback){
+    var self = this;
+    var timestamp = Date.now();
+    var key = "timestamp=" + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
+    var signature = Sha1.hash(key);
+    var uriArr = mediaData.uri.split("/");
+    var lastIndex = uriArr.length - 1;
+    console.log("upload.imageUploadToCloud",mediaData);
+    RNFetchBlob.fetch('POST', 'https://api.cloudinary.com/v1_1/dsthiwwp4/video/upload',
+    {
+      'Content-Type': 'multipart/form-data',
+    },
+    [
+      { name: 'file', filename: uriArr[lastIndex], data: RNFetchBlob.wrap(mediaData.uri) },
+      {name: 'api_key', data: '955818184181287'},
+      {name: 'timestamp', data: timestamp.toString()},
+      {name: 'signature', data: signature}
+    ]).then((res) => {
+      console.log(res);
+      return callback(true);
+    }).catch((err) => {
+      console.log(err);
+      return callback(false);
+    });
   }
 
   uploadProfilePictureUsingUrl(url,public_id,callback){

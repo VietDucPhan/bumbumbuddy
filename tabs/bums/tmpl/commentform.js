@@ -167,6 +167,9 @@ class CommentForm extends Component {
       quality: 1.0,
       maxWidth: 800,
       maxHeight: 800,
+      customButtons: [
+        {name: 'takingVideo', title: 'Taking video'},
+      ],
       storageOptions: {
         skipBackup: true,
         path: 'images'
@@ -185,6 +188,9 @@ class CommentForm extends Component {
         console.log('ImagePicker Error: ', response.error);
       }
       else if (response.customButton) {
+        if(response.customButton == "takingVideo"){
+          self.props.navigation.navigate("CameraStack");
+        }
         self.setState({
           imageSource:null
         });

@@ -30,16 +30,16 @@ class Camera extends Component {
 
   recordVideo = async function() {
     if (this.camera) {
+      console.log("start recording");
       const options = {
         maxDuration:7,
         mute:true
 
       };
       this.camera.recordAsync(options).then(data => {
-        console.log(data);
-        MediaMeta.get(data.uri)
-          .then(metadata => console.log(metadata))
-          .catch(err => console.error(err));
+        UploadModel.videoUploadToCloud(data,function(err){
+
+        })
       });
     }
   }
