@@ -18,7 +18,6 @@ import CreateBumStack from './tabs/bums/tmpl/createbumform';
 import SearchStack from './tabs/search/search';
 import SettingsStack from './tabs/profile/tmpl/settings';
 import CommentStack from './tabs/comment/comment';
-import CameraStack from './commons/camera';
 import UserDetailStack from './tabs/profile/tmpl/userdetail';
 
 
@@ -66,8 +65,7 @@ const stackMangement = {
   ProfileStack : { screen: ProfileTab },
   SettingsStack:{ screen:SettingsStack },
   CommentStack:{screen:CommentStack},
-  UserDetailStack:{screen:UserDetailStack},
-  CameraStack:{screen:CameraStack}
+  UserDetailStack:{screen:UserDetailStack}
 }
 const StackPage = StackNavigator(stackMangement);
 
@@ -219,26 +217,43 @@ export default class App extends React.Component {
         user:response
       });
     });
-    NetInfo.isConnected.addEventListener(
-      'change',
+    NetInfo.isConnected.fetch().then(self._handleConnectivityChange);
+    NetInfo.addEventListener(
+      'connectionChange',
       self._handleConnectivityChange
     );
-    NetInfo.isConnected.fetch().done(
-      (isConnected) => { self.setState({isConnected});
-    });
+    
   }
+
   componentWillUnmount() {
     var self = this;
-    NetInfo.isConnected.removeEventListener(
-        'change',
+    NetInfo.removeEventListener(
+        'connectionChange',
         self._handleConnectivityChange
     );
   }
-  _handleConnectivityChange(isConnected) {
-    console.log("_handleConnectivityChange", isConnected);
+
+  async _handleConnectivityChange(isConnected) {
+    const { type } = isConnected;
+    console.log("isConnected",isConnected);
+    let probablyHasInternet;
+    try {
+      const googleCall = await fetch('https://google.com', {
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': 0
+        }
+      });
+      probablyHasInternet = googleCall.status === 200;
+    } catch (e) {
+      probablyHasInternet = false;
+    }
+
     this.setState({
-      isConnected,
+      isConnected:probablyHasInternet
     });
+    console.log("isConnected",probablyHasInternet);
   }
 
   render() {

@@ -62,50 +62,6 @@ class Upload {
       });
   }
 
-  videoUploadToCloud(mediaData,callback){
-    var self = this;
-    var timestamp = Date.now();
-    var key = "timestamp=" + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
-    var signature = Sha1.hash(key);
-    var body = new FormData();
-    body.append('file',{
-      uri:mediaData.uri,
-      name:'',
-      type:'video/MPEG-4'
-    });
-    body.append('api_key','955818184181287');
-    body.append('timestamp',timestamp);
-    body.append('signature',signature);
-
-    //console.log("upload.imageUploadToCloud",mediaData);
-    fetch('https://api.cloudinary.com/v1_1/dsthiwwp4/video/upload', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'multipart/form-data'
-      },
-      body: body
-    }).then((response) => response.json())
-      .then((responseJson) => {
-        return callback(responseJson);
-      })
-      .catch((error) => {
-        console.log("upload.imageUploadToCloud.error",error);
-        return callback({
-          errors:
-          [
-            {
-              status:'m009',
-              source:{pointer:"libs/upload.imageUploadToCloud"},
-              title:"Could not upload image",
-              detail:error.message
-            }
-          ]
-        });
-
-      });
-  }
-
-
   uploadProfilePictureUsingUrl(url,public_id,callback){
     var self = this;
     var timestamp = Date.now();

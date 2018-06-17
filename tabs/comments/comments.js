@@ -63,7 +63,7 @@ class comments extends Component {
   componentDidMount(){
     //console.log("comments.componentDidMount");
     var self = this;
-    console.log("comments.componentDidMount");
+    //console.log("comments.componentDidMount");
     self.setState({skip:0,limit:5});
     var cacheName = "_getBumsComments";
     if(self.props.commentID){
@@ -97,7 +97,7 @@ class comments extends Component {
 
   _getBumsComments(){
     var self = this;
-    console.log("_getBumsComments",self.state.skip);
+    //console.log("_getBumsComments",self.state.skip);
     var data = {
       skip:self.state.skip,
       limit:self.state.limit
@@ -155,7 +155,7 @@ class comments extends Component {
 
   _getComment(){
     var self = this;
-    console.log("self.props.commentID",self.props.commentID);
+    //console.log("self.props.commentID",self.props.commentID);
     BumModel.getComment(self.props.commentID,function(result){
       if(result && result.errors){
         Alert.alert(
@@ -167,7 +167,7 @@ class comments extends Component {
           { cancelable: false }
         )
       } else {
-        console.log("comments._getComment",result);
+        //console.log("comments._getComment",result);
         var comments = {
           comments:result.data,
           showActivitiIndicator:false,
@@ -213,7 +213,7 @@ class comments extends Component {
 
   onEndReached(info){
     var self = this;
-    console.log("onEndReached",self.state.infiniteLoading);
+    //console.log("onEndReached",self.state.infiniteLoading);
     if(self.state.infiniteLoading && self.state.bottomRefreshing){
       self.setState({bottomRefreshing:false});
       setTimeout(function(){
@@ -248,13 +248,18 @@ class comments extends Component {
             if(self.props._id){
               return(
                 <View style={styles.bumDetailInfoContainer}>
-                  <RatingView navigation={self.props.navigation} _onRefresh={self._onRefresh.bind(this)} _user={self.props.screenProps.user} refreshing={self.state.refreshing} showButton={true} showRating={true} _id={self.props._id} />
+                  <RatingView 
+                    navigation={self.props.navigation} 
+                    _onRefresh={self._onRefresh.bind(this)} 
+                    _user={self.props.screenProps.user} 
+                    refreshing={self.state.refreshing} 
+                    showButton={true} showRating={true} 
+                    _id={self.props._id} />
                 </View>
               );
             }
           }}
           renderSectionFooter={({section}) => {
-            //console.log("",section);
             return(<Button title="Load More" onPress={()=>{
               self.onEndReached();
             }}/>);

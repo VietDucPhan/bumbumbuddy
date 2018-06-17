@@ -1,3 +1,0 @@
-# view AndroidManifest.xml #generated:71
--keep class com.bumbumbuddy.MainApplication { <init>(...); }
-

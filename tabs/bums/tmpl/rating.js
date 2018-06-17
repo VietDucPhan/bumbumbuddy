@@ -104,7 +104,7 @@ class Rating extends Component {
     var self = this;
     if(nextProps.showRating){
       Cache.getRating(self.props._id,function(flag,result){
-        console.log("rating._getBum.componentWillReceiveProps",flag);
+        //console.log("rating._getBum.componentWillReceiveProps",flag);
         if(flag){
           self.setState(result);
         } else {

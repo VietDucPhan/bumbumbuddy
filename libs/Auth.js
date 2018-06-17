@@ -15,35 +15,6 @@ const {
 class Auth {
   constructor(){
     var self = this;
-    GoogleSignin.hasPlayServices({ autoResolve: true }).then(() => {
-        //console.log("hasPlayServices");
-        GoogleSignin.configure({
-          iosClientId: '315634877630-isklnqj79dtsf1oaoml9big6eq90jrtv.apps.googleusercontent.com',
-          webClientId: '315634877630-gfoq4ovb7to7jh67j216017urb0eu7gj.apps.googleusercontent.com',
-          offlineAccess: false
-        }).then(() => {
-          // you can now call currentUserAsync()
-          //console.log("hasPlayServices.then");
-        });
-        //
-        GoogleSignin.currentUserAsync().then((user) => {
-          //console.log('USER', user);
-        }).done();
-
-      })
-      .catch((err) => {
-        console.log("Play services error", err.code, err.message);
-      });
-      //facebook login
-      AccessToken.getCurrentAccessToken().then(
-        (data) => {
-          //console.log(data);
-          if(data && data.accessToken){
-            self.getFacebookInfoViaAccessToken(data.accessToken,function(result){
-              //console.log("facebook info", result);
-            });
-          }
-      });
   }
 
 
@@ -193,29 +164,43 @@ class Auth {
     console.log('signInWithGoogle 1');
     var self = this;
     try{
-      GoogleSignin.signIn()
-      .then((user) => {
-        //https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=
-        console.log('GoogleSignin.signIn');
-        if(user && user.idToken){
-          self.getGoogleInfoViaIDToken(user.idToken, function(result){
-            self.storeUserInfo(result,function(responseObj){
-              if(responseObj){
-                console.log('Login google was successful');
-                return callback(true,responseObj);
+      GoogleSignin.hasPlayServices({ autoResolve: true }).then(() => {
+        //console.log("hasPlayServices");
+        GoogleSignin.configure({
+          iosClientId: '315634877630-isklnqj79dtsf1oaoml9big6eq90jrtv.apps.googleusercontent.com',
+          webClientId: '315634877630-gfoq4ovb7to7jh67j216017urb0eu7gj.apps.googleusercontent.com',
+          offlineAccess: false
+        }).then(() => {
+          GoogleSignin.signIn()
+            .then((user) => {
+              //https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=
+              console.log('GoogleSignin.signIn');
+              if(user && user.idToken){
+                self.getGoogleInfoViaIDToken(user.idToken, function(result){
+                  self.storeUserInfo(result,function(responseObj){
+                    if(responseObj){
+                      console.log('Login google was successful');
+                      return callback(true,responseObj);
+                    } else {
+                      console.log('Login google was failed');
+                      return callback(false,responseObj);
+                    }
+                  })
+                });
               } else {
-                console.log('Login google was failed');
-                return callback(false,responseObj);
+                console.log('GoogleSignin.signIn callback false');
+                return callback(false);
               }
+             console.log('GoogleSignin.signIn.then');
             })
-          });
-        } else {
-          console.log('GoogleSignin.signIn callback false');
-          return callback(false);
-        }
-       console.log('GoogleSignin.signIn.then');
+            .done();
+        });
+
       })
-      .done();
+      .catch((err) => {
+        console.log("Play services error", err.code, err.message);
+      });
+      
     } catch(err){
       console.log('WRONG SIGNIN',err);
     }

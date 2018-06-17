@@ -50,7 +50,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>4</string>
+	<string>5</string>
 	<key>FacebookAppID</key>
 	<string>1723184451313762</string>
 	<key>FacebookDisplayName</key>
@@ -80,9 +80,9 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Bum Buddy requires access to your phone’s camera.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>We use your location to determine bum gun location around you. We do not collect your location</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Access photo for Bum Buddy profile</string>
+	<string>Allow you to share photo in our service</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
