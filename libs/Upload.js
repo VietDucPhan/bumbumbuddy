@@ -1,11 +1,14 @@
 
 import {
-  AsyncStorage
+  AsyncStorage,
+  Platform
 } from 'react-native';
 import Sha1 from './Sha1';
 import RNFetchBlob from 'react-native-fetch-blob';
 class Upload {
   constructor(){
+    this.api_key = '955818184181287';
+    this.appendix_key = '7YWoy9IjOttmpg7pNm-ejOjIg-s';
   }
 
   /**
@@ -27,21 +30,21 @@ class Upload {
   imageUploadToCloud(mediaData,callback){
     var self = this;
     var timestamp = Date.now();
-    var key = "timestamp=" + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
-    var signature = Sha1.hash(key);
-    //console.log("upload.imageUploadToCloud",mediaData);
+    var signature = Sha1.hash("timestamp=" + timestamp + self.appendix_key);
     RNFetchBlob.fetch('POST', 'https://api.cloudinary.com/v1_1/dsthiwwp4/image/upload',
     {
       'Content-Type': 'multipart/form-data',
     },
     [
       { name: 'file', data: mediaData.uri },
-      {name: 'api_key', data: '955818184181287'},
+      {name: 'api_key', data: self.api_key},
       {name: 'timestamp', data: timestamp.toString()},
       {name: 'signature', data: signature}
-    ]).then((res) => {
-      return callback(responseJson);
-    }).catch((err) => {
+    ]).then((response) => response.json())
+      .then((responseJson) => {
+        return callback(responseJson);
+      })
+      .catch((err) => {
       return callback({
           errors:
           [
@@ -87,29 +90,32 @@ class Upload {
     //   });
   }
 
-  videoUploadToCloud(mediaData,callback){
+  async videoUploadToCloud(mediaData,callback){
     var self = this;
     var timestamp = Date.now();
-    var key = "timestamp=" + timestamp + '7YWoy9IjOttmpg7pNm-ejOjIg-s';
-    var signature = Sha1.hash(key);
+    var signature = Sha1.hash("timestamp=" + timestamp + self.appendix_key);
     var uriArr = mediaData.uri.split("/");
     var lastIndex = uriArr.length - 1;
-    console.log("upload.imageUploadToCloud",mediaData);
+
+    if(Platform.OS === "ios"){
+      mediaData.uri = mediaData.uri.replace("file://","");
+    }
     RNFetchBlob.fetch('POST', 'https://api.cloudinary.com/v1_1/dsthiwwp4/video/upload',
     {
       'Content-Type': 'multipart/form-data',
     },
     [
-      { name: 'file', filename: uriArr[lastIndex], data: RNFetchBlob.wrap(mediaData.uri) },
-      {name: 'api_key', data: '955818184181287'},
+      {name: 'file', filename: uriArr[lastIndex], data: RNFetchBlob.wrap(mediaData.uri)},
+      {name: 'api_key', data: self.api_key},
       {name: 'timestamp', data: timestamp.toString()},
       {name: 'signature', data: signature}
-    ]).then((res) => {
-      console.log(res);
-      return callback(true);
-    }).catch((err) => {
+    ]).then((response) => response.json())
+      .then((responseJson) => {
+        console.log(responseJson);
+        return callback(responseJson);
+      }).catch((err) => {
       console.log(err);
-      return callback(false);
+      return callback(false,err);
     });
   }
 

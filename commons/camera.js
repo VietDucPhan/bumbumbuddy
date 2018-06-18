@@ -30,15 +30,15 @@ class Camera extends Component {
 
   recordVideo = async function() {
     if (this.camera) {
-      console.log("start recording");
       const options = {
-        maxDuration:7,
-        mute:true
+        maxDuration:3,
+        mute:true,
+        quality:RNCamera.Constants.VideoQuality['480p']
 
       };
       this.camera.recordAsync(options).then(data => {
         UploadModel.videoUploadToCloud(data,function(err){
-
+          alert(JSON.stringify(err));
         })
       });
     }
