@@ -41,6 +41,7 @@ class CommentForm extends Component {
       modalVisible:false,
       inputText:"",
       imageSource:null,
+      videoSource:null,
       level:null,
       ratingThisBum:false,
       overall_rating:0,
@@ -57,11 +58,15 @@ class CommentForm extends Component {
     ),}
   };
 
+  setVideoSource(source){
+    this.setState({videoSource:source});
+  }
+
   _onCreateClick(){
     var self = this;
 
     if(!self.state.showActivitiIndicator){
-      if(self.state.inputText || self.state.imageSource){
+      if(self.state.inputText || self.state.imageSource || self.state.videoSource){
         self.setState({
           showActivitiIndicator:true
         });
@@ -121,6 +126,42 @@ class CommentForm extends Component {
               //self.props.navigation.navigate('BumDetail',{_id:result.data._id});
             }
           });
+        } else if (self.state.videoSource) {
+          console.log(self.state.videoSource)
+          UploadModel.videoUploadToCloud(self.state.videoSource,function(response){
+            if(response && response.errors){
+              Alert.alert(
+                result.errors[0].title,
+                result.errors[0].detail,
+                [
+                  {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+                ],
+                { cancelable: false }
+              )
+            } else {
+              commentData.media.push(response);
+              //alert("finished upload image");
+              BumsModel.addComment(commentData,function(result){
+                if(result && result.errors){
+                  Alert.alert(
+                    result.errors[0].title,
+                    result.errors[0].detail,
+                    [
+                      {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+                    ],
+                    { cancelable: false }
+                  )
+                } else {
+                  self.setState({
+                    showActivitiIndicator:false
+                  });
+                  self.props.navigation.state.params.update();
+                  self.props.navigation.goBack();
+                }
+              })
+              self.props.navigation.navigate('BumDetail',{_id:result.data._id});
+            }
+          });
         } else if(self.state.inputText){
           BumsModel.addComment(commentData,function(result){
             if(result && result.errors){
@@ -176,7 +217,7 @@ class CommentForm extends Component {
       }
     };
     if(self.state.imageSource != null){
-      options.customButtons.push({name: 'Remove', title: 'Remove image'});
+      options.customButtons.push({name: 'Remove', title: 'Remove media'});
     }
     ImagePicker.showImagePicker(options, (response) => {
       //console.log('Response = ', response);
@@ -189,13 +230,15 @@ class CommentForm extends Component {
       }
       else if (response.customButton) {
         if(response.customButton == "takingVideo"){
-          self.props.navigation.navigate("CameraStack");
+          self.props.navigation.navigate("CameraStack",{setVideoSource:self.setVideoSource.bind(this)});
         }
-        self.setState({
-          imageSource:null
-        });
-        
 
+        if(response.customButton == "Remove"){
+          self.setState({
+            imageSource:null,
+            videoSource:null
+          });
+        }
       } else {
         let source = { uri: 'data:image/jpeg;base64,' + response.data };
         self.setState({

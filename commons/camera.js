@@ -29,6 +29,7 @@ class Camera extends Component {
   componentDidMount(){}
 
   recordVideo = async function() {
+    var self = this;
     if (this.camera) {
       const options = {
         maxDuration:3,
@@ -37,9 +38,8 @@ class Camera extends Component {
 
       };
       this.camera.recordAsync(options).then(data => {
-        UploadModel.videoUploadToCloud(data,function(err){
-          alert(JSON.stringify(err));
-        })
+        self.props.navigation.state.params.setVideoSource(data);
+        self.props.navigation.goBack();
       });
     }
   }

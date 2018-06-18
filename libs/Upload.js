@@ -9,6 +9,7 @@ class Upload {
   constructor(){
     this.api_key = '955818184181287';
     this.appendix_key = '7YWoy9IjOttmpg7pNm-ejOjIg-s';
+    this.prependix_url = 'https://api.cloudinary.com/v1_1/dsthiwwp4/';
   }
 
   /**
@@ -111,7 +112,7 @@ class Upload {
       {name: 'signature', data: signature}
     ]).then((response) => response.json())
       .then((responseJson) => {
-        console.log(responseJson);
+        responseJson.secure_url = "https://res.cloudinary.com/dsthiwwp4/video/upload/e_loop/" + responseJson.public_id + ".gif";
         return callback(responseJson);
       }).catch((err) => {
       console.log(err);
